@@ -2,3 +2,5 @@ cloudflared.exe
 *.log
 .system_generated/
 node_modules/
+scratch/
+.env
