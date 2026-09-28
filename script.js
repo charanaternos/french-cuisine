@@ -357,12 +357,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const dict = UI_TRANSLATIONS[state.currentLang] || UI_TRANSLATIONS.en;
 
     let filtered = RECIPES_DATA.filter(r => {
-      // Category Filter
+      // Category Filter (supports tags + categories for perfect course classification)
       if (state.activeCategory !== 'all') {
-        if (state.activeCategory === 'breakfast' && r.category !== 'breakfast' && r.category !== 'pastry') return false;
-        if (state.activeCategory === 'main-course' && r.category !== 'main-course') return false;
-        if (state.activeCategory === 'dessert' && r.category !== 'dessert') return false;
-        if (state.activeCategory === 'pastry' && r.category !== 'pastry') return false;
+        const isBreakfast = r.category === 'breakfast' || (r.tags && (r.tags.includes('Breakfast') || r.tags.includes('Bakery')));
+        const isMain = r.category === 'main-course' || (r.tags && (r.tags.includes('Main Course') || r.tags.includes('Dinner')));
+        const isDessert = r.category === 'dessert' || (r.tags && r.tags.includes('Dessert'));
+        const isPastry = r.category === 'pastry' || (r.tags && r.tags.includes('Pastry'));
+
+        if (state.activeCategory === 'breakfast' && !isBreakfast && !isPastry) return false;
+        if (state.activeCategory === 'main-course' && !isMain) return false;
+        if (state.activeCategory === 'dessert' && !isDessert) return false;
+        if (state.activeCategory === 'pastry' && !isPastry) return false;
       }
 
       // Region Filter
@@ -383,8 +388,34 @@ document.addEventListener('DOMContentLoaded', () => {
       return true;
     });
 
-    // If not showing all, show top 4 popular recipes
-    const displayList = state.showAllRecipes ? filtered : filtered.slice(0, 4);
+    // Course hierarchy mapping for authentic French service order:
+    // 1. Breakfast & Viennoiserie -> 2. Main Courses -> 3. Pastries -> 4. Desserts
+    const COURSE_ORDER = {
+      'breakfast': 1,
+      'main-course': 2,
+      'pastry': 3,
+      'dessert': 4
+    };
+
+    let displayList;
+    if (!state.showAllRecipes) {
+      // Top 4 iconic staple cards strictly preserved (Ratatouille, Croissant, Crêpes, Coq au Vin)
+      displayList = filtered.slice(0, 4);
+    } else if (state.activeCategory === 'all') {
+      // When viewing full menu in 'All', preserve top 4 signature staples first,
+      // and sort the remainder in exquisite French dining course order
+      const top4 = filtered.slice(0, 4);
+      const remainder = filtered.slice(4).sort((a, b) => {
+        const orderA = COURSE_ORDER[a.category] || 99;
+        const orderB = COURSE_ORDER[b.category] || 99;
+        if (orderA !== orderB) return orderA - orderB;
+        return (b.rating || 0) - (a.rating || 0);
+      });
+      displayList = [...top4, ...remainder];
+    } else {
+      // Inside a specific course tab, display in order of highest rated
+      displayList = [...filtered].sort((a, b) => (b.rating || 0) - (a.rating || 0));
+    }
 
     recipesGrid.innerHTML = '';
     displayList.forEach(recipe => {
