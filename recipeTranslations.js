@@ -4044,6 +4044,171 @@ const RECIPE_TRANSLATIONS = {
         }
       }
     ]
+  },
+  "gourmandise_saint_honore": {
+    "title": {
+      "fr": "Gâteau Saint-Honoré Parisien",
+      "en": "Parisian Saint-Honoré Pastry Crown",
+      "te": "గెటో సెయింట్-హానోరే (పారిసియన్ రాయల్ పేస్ట్రీ)",
+      "hi": "गेटू सेंट-ऑनोरे (पेरिस की पारंपरिक शाही पेस्ट्री)"
+    },
+    "subtitle": {
+      "fr": "Feuilletage pur beurre, choux glacés au caramel croquant et crème Chiboust à la vanille bourbon.",
+      "en": "Puff pastry ring crowned with amber caramelized choux puffs & silky Chiboust cream.",
+      "te": "కారమెల్ క్రీమ్ పఫ్స్ మరియు పఫ్ పేస్ట్రీతో చేసిన ప్రసిద్ధ పారిస్ పేస్ట్రీ.",
+      "hi": "कैरामेल लगे छोटे क्रीम पफ्स और रेशमी क्रीम से बनी पेरिस की सबसे प्रसिद्ध पेस्ट्री।"
+    },
+    "categoryLabel": {
+      "fr": "Haute Pâtisserie Parisienne",
+      "en": "Haute Pâtisserie",
+      "te": "హాట్ పాటిస్సేరి",
+      "hi": "शाही पेस्ट्री"
+    },
+    "description": {
+      "fr": "Le chef-d'œuvre de la pâtisserie française : un disque de feuilletage surmonté de choux garnis plongés dans un caramel ambré miroitant, couronné de vagues de crème Chiboust dressées à la douille Saint-Honoré.",
+      "en": "Named after the French patron saint of bakers: a crisp puff pastry round ringed with golden choux puffs dipped in crackling hard amber caramel, filled with airy Crème Chiboust piped through the classic notched Saint-Honoré tip.",
+      "te": "ఫ్రెంచ్ బేకర్ల రక్షకుడి పేరు మీదుగా పిలువబడే రాజ పేస్ట్రీ. కరకరలాడే కారమెల్ పఫ్స్ మరియు వెనిల్లా క్రీమ్‌తో చేసిన అద్భుత డెసర్ట్.",
+      "hi": "फ्रेंच बेकर्स के संरक्षक संत के नाम पर बनी यह ऐतिहासिक पेस्ट्री कुरकुरी पफ पेस्ट्री, कैरामेल लगे शू पफ्स और वैनिला क्रीम का संगम है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Champagne Demi-Sec ou Sauternes",
+        "en": "Champagne Demi-Sec or Sauternes",
+        "te": "షాంపైన్ డెమి-సెక్ లేదా సాటర్నెస్",
+        "hi": "शैम्पेन या सॉटर्नेस"
+      },
+      "notes": {
+        "fr": "La fraîcheur effervescente du champagne équilibre la richesse gourmande du caramel croquant.",
+        "en": "The delicate fine bubbles and honeyed stone-fruit aromatics elevate the crackling caramel and cloud-like vanilla custard cream.",
+        "te": "క్యారమెల్ మరియు వెనిల్లా క్రీమ్ రుచికి తగ్గ షాంపైన్.",
+        "hi": "कैरामेल के क्रंच और कस्टर्ड क्रीम के साथ शैम्पेन के बुलबुले बेजोड़ स्वाद देते हैं।"
+      }
+    },
+    "chefTip": {
+      "fr": "Posez les choux caramélisés face vers le bas sur un tapis silicone pour obtenir un dôme de caramel parfaitement plat et brillant.",
+      "en": "Dip the hot caramel-coated choux into silicone mini-half-sphere molds to achieve perfectly smooth, glass-like dome tops.",
+      "te": "కారమెల్‌లో ముంచిన పఫ్స్‌ను సిలికాన్ మ్యాట్‌పై బోర్లించండి, పైభాగం అద్దంలా మెరుస్తుంది.",
+      "hi": "कैरामेल में डूबे हुए पफ्स को सिलिकॉन मैट पर उल्टा रखें जिससे सतह शीशे जैसी चमकदार बने।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Pâte feuilletée pur beurre",
+          "en": "All-butter puff pastry sheet (Pâte Feuilletée)",
+          "te": "పఫ్ పేస్ట్రీ షీట్",
+          "hi": "पफ पेस्ट्री शीट"
+        },
+        "amount": 1,
+        "unit": "roll"
+      },
+      {
+        "name": {
+          "fr": "Pâte à choux fraîche",
+          "en": "Choux pastry batter (Flour, butter, eggs, milk)",
+          "te": "షూ పేస్ట్రీ పిండి",
+          "hi": "शू पेस्ट्री का घोल"
+        },
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre cristal pour caramel",
+          "en": "Granulated sugar for glass caramel",
+          "te": "కారమెల్ కోసం చక్కెర",
+          "hi": "कैरामेल के लिए चीनी"
+        },
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Lait entier infusé à la vanille",
+          "en": "Milk infused with Madagascar vanilla bean",
+          "te": "వెనిల్లా పాలు",
+          "hi": "वैनिला वाला दूध"
+        },
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Jaunes d'œufs frais",
+          "en": "Egg yolks and whole eggs",
+          "te": "కోడిగుడ్డు సొనలు",
+          "hi": "अंडे की जर्दी"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Feuilles de gélatine",
+          "en": "Gelatin sheet soaked in ice water",
+          "te": "జిలాటిన్ షీట్లు",
+          "hi": "जिलेटिन शीट्स"
+        },
+        "amount": 2,
+        "unit": "sheets"
+      },
+      {
+        "name": {
+          "fr": "Crème liquide 35% bien froide",
+          "en": "Heavy whipping cream 35% chilled",
+          "te": "హెవీ విప్పింగ్ క్రీమ్",
+          "hi": "हैवी व्हिपिंग क्रीम"
+        },
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Cuisson pâte et choux",
+          "en": "Bake Base and Choux Puffs",
+          "te": "బేస్ మరియు పఫ్స్ బేక్ చేయండి",
+          "hi": "बेस और पफ्स बेक करें"
+        },
+        "instruction": {
+          "fr": "Piquez le disque de feuilletage, dressez la bordure et 16 petits choux. Cuisez 25 minutes à 190°C.",
+          "en": "Prick puff pastry circle with a fork. Pipe a border ring and 16 mini choux puffs. Bake at 190°C (375°F) for 25 minutes until golden and hollow.",
+          "te": "పేస్ట్రీ సర్కిల్‌పై రంధ్రాలు చేసి, 16 చిన్న షూ పఫ్స్ పెట్టి 190°C వద్ద 25 నిమిషాలు బేక్ చేయండి.",
+          "hi": "पेस्ट्री बेस पर कांटे से छेद करें और 16 छोटे पफ्स बनाकर 190°C पर 25 मिनट बेक करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Glacer au caramel",
+          "en": "Glaze Glass Caramel",
+          "te": "క్యారమెల్ కోటింగ్ వేయండి",
+          "hi": "कैरामेल कोटिंग लगाएं"
+        },
+        "instruction": {
+          "fr": "Cuisez le sucre au caramel blond. Trempez le dessus des choux et posez-les sur papier sulfurisé.",
+          "en": "Cook sugar to deep amber caramel (165°C / 330°F). Dip the tops of choux puffs into caramel and invert onto parchment to set like shiny jewels.",
+          "te": "చక్కెరను కరిగించి క్యారమెల్ చేయండి. పఫ్స్ పైభాగాన్ని క్యారమెల్‌లో ముంచి ఆరనివ్వండి.",
+          "hi": "चीनी का कैरामेल बनाएं और पफ्स के ऊपरी हिस्से को डुबोकर चमकदार बनने के लिए रख दें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Dresser la crème Chiboust",
+          "en": "Pipe Chiboust and Assemble",
+          "te": "క్రీమ్ నింపి డెకరేట్ చేయండి",
+          "hi": "क्रीम भरकर सजाएं"
+        },
+        "instruction": {
+          "fr": "Garnissez les choux de crème, collez-les autour du fond et dressez la crème Chiboust au centre en vagues régulières.",
+          "en": "Fill choux puffs with vanilla cream. Dip bottoms in caramel to glue around pastry rim. Pipe luscious wavy ribbons of Chiboust cream in the center.",
+          "te": "పఫ్స్‌లో వెనిల్లా క్రీమ్ నింపి అంచులకు అతికించండి. మధ్యలో అందమైన క్రీమ్ వేవ్స్ వేయండి.",
+          "hi": "पफ्स में क्रीम भरें, किनारों पर चिपकाएं और बीच में लहरदार क्रीम सजाकर परोसें।"
+        }
+      }
+    ]
   }
 };
 

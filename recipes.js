@@ -1902,6 +1902,104 @@ const RECIPES_DATA = [
         "timerSeconds": 180
       }
     ]
+  },
+  {
+    "id": "gourmandise_saint_honore",
+    "title": "Gâteau Saint-Honoré",
+    "titleEn": "Parisian Saint-Honoré Pastry Crown",
+    "titleTe": "గెటో సెయింట్-హానోరే (పారిసియన్ రాయల్ పేస్ట్రీ)",
+    "titleHi": "गेटू सेंट-ऑनोरे (पेरिस की पारंपरिक शाही पेस्ट्री)",
+    "region": "Paris",
+    "category": "pastry",
+    "categoryLabel": "Haute Pâtisserie",
+    "difficulty": "Advanced",
+    "rating": 5,
+    "reviews": "3.1k",
+    "prepTime": 60,
+    "cookTime": 35,
+    "calories": 460,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Paris",
+      "Pastry",
+      "Caramel",
+      "Choux",
+      "Dessert"
+    ],
+    "subtitle": "Puff pastry ring crowned with amber caramelized choux puffs & silky Chiboust cream.",
+    "subtitleEn": "Puff pastry ring crowned with amber caramelized choux puffs & silky Chiboust cream.",
+    "subtitleTe": "కారమెల్ క్రీమ్ పఫ్స్ మరియు పఫ్ పేస్ట్రీతో చేసిన ప్రసిద్ధ పారిస్ పేస్ట్రీ.",
+    "subtitleHi": "कैरामेल लगे छोटे क्रीम पफ्स और रेशमी क्रीम से बनी पेरिस की सबसे प्रसिद्ध पेस्ट्री।",
+    "description": "Named after the French patron saint of bakers: a crisp puff pastry round ringed with golden choux puffs dipped in crackling hard amber caramel, filled with airy Crème Chiboust piped through the classic notched Saint-Honoré tip.",
+    "winePairing": {
+      "wine": "Champagne Demi-Sec or Sauternes",
+      "notes": "The delicate fine bubbles and honeyed stone-fruit aromatics elevate the crackling caramel and cloud-like vanilla custard cream."
+    },
+    "chefTip": "Dip the hot caramel-coated choux into silicone mini-half-sphere molds to achieve perfectly smooth, glass-like dome tops.",
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "48g",
+      "fat": "26g",
+      "fiber": "1g"
+    },
+    "ingredients": [
+      {
+        "name": "All-butter puff pastry sheet (Pâte Feuilletée)",
+        "amount": 1,
+        "unit": "roll"
+      },
+      {
+        "name": "Choux pastry batter (Flour, butter, eggs, milk)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Granulated sugar for glass caramel",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Milk infused with Madagascar vanilla bean",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Egg yolks and whole eggs",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Gelatin sheet soaked in ice water",
+        "amount": 2,
+        "unit": "sheets"
+      },
+      {
+        "name": "Heavy whipping cream 35% chilled",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Bake Base and Choux Puffs",
+        "instruction": "Prick puff pastry circle with a fork. Pipe a border ring and 16 mini choux puffs. Bake at 190°C (375°F) for 25 minutes until golden and hollow.",
+        "timerSeconds": 1500
+      },
+      {
+        "step": 2,
+        "title": "Glaze Glass Caramel",
+        "instruction": "Cook sugar to deep amber caramel (165°C / 330°F). Dip the tops of choux puffs into caramel and invert onto parchment to set like shiny jewels.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Pipe Chiboust and Assemble",
+        "instruction": "Fill choux puffs with vanilla cream. Dip bottoms in caramel to glue around pastry rim. Pipe luscious wavy ribbons of Chiboust cream in the center.",
+        "timerSeconds": 900
+      }
+    ]
   }
 ];
 
