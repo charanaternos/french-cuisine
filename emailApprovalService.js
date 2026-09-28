@@ -299,8 +299,9 @@ async function sendApprovalEmail(dish, token, baseUrl) {
     }
   });
 
-  const approveUrl = `${baseUrl}/approve?token=${token}`;
-  const rejectUrl = `${baseUrl}/reject?token=${token}`;
+  const effectiveBaseUrl = process.env.APPROVAL_BASE_URL || baseUrl;
+  const approveUrl = `${effectiveBaseUrl}/approve?token=${token}`;
+  const rejectUrl = `${effectiveBaseUrl}/reject?token=${token}`;
 
   const mailOptions = {
     from: `"Chef Auguste • La Table Française" <${smtpUser}>`,
@@ -337,9 +338,9 @@ async function sendApprovalEmail(dish, token, baseUrl) {
 // ============================================================================
 function startApprovalServer(port = 3005, onApprovedCallback) {
   const server = http.createServer(async (req, res) => {
-    const parsed = url.parse(req.url, true);
+    const parsed = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
     const pathname = parsed.pathname;
-    const token = parsed.query.token;
+    const token = parsed.searchParams.get('token');
 
     // Set CORS headers
     res.setHeader('Access-Control-Allow-Origin', '*');
