@@ -2077,6 +2077,1653 @@ const RECIPE_TRANSLATIONS = {
         }
       }
     ]
+  },
+  // Recipe: salade_nicoise
+  "salade_nicoise": {
+    "title": {
+      "fr": "Salade Niçoise Authentique",
+      "en": "Classic Niçoise Salad",
+      "te": "సలాడ్ నిస్వోయిస్ (రివేరా ఫ్రెష్ సలాడ్)",
+      "hi": "सलाद निकोइस (क्लासिक फ्रेंच रिवेरा सलाद)"
+    },
+    "subtitle": {
+      "fr": "Thon frais poêlé, haricots verts croquants, olives de Nice et œuf mollet.",
+      "en": "Fresh seared tuna, haricots verts, Niçoise olives, tomatoes & soft eggs.",
+      "te": "తాజా ట్యూనా, ఆలివ్‌లు మరియు ఉడికించిన గుడ్లతో చేసిన ఫ్రెంచ్ రివేరా సలాడ్.",
+      "hi": "ताजा टूना, बीन्स, जैतून और उबले अंडे वाला क्लासिक फ्रेंच रिवेरा सलाद।"
+    },
+    "categoryLabel": {
+      "fr": "Spécialité de la Riviera",
+      "en": "Riviera Classic",
+      "te": "రివేరా సంప్రదాయ వంటకం",
+      "hi": "रिवेरा का क्लासिक व्यंजन"
+    },
+    "description": {
+      "fr": "La fierté de Nice et de la Côte d'Azur : mesclun frais, haricots verts croquants blanchis, pommes de terre grenailles, tomates gorgées de soleil, petites olives cailletiers de Nice, filets d'anchois et pavé de thon rouge juste saisi, arrosés d'une vinaigrette citronnée aux herbes fraîches.",
+      "en": "The pride of Nice and the Côte d'Azur: crisp mixed greens, tender blanched haricots verts, baby potatoes, sun-ripened tomatoes, tiny black Niçoise cailletier olives, anchovy fillets, and seared rare ahi tuna drizzled with a bright lemon-herb vinaigrette.",
+      "te": "ఫ్రాన్స్‌లోని నీస్ నగరపు ప్రసిద్ధ వంటకం: తాజా ఆకుకూరలు, బంగాళాదుంపలు, టమోటాలు, నల్ల ఆలివ్‌లు మరియు సన్నగా కాల్చిన ట్యూనా చేపతో తయారు చేసిన పోషకభరిత సలాడ్.",
+      "hi": "फ्रांस के नीस शहर का गौरव: ताजी हरी पत्तियां, उबली बीन्स, आलू, धूप में पके टमाटर, काले जैतून और हल्के भुने टूना फिश के साथ तैयार किया गया पौष्टिक सलाद।"
+    },
+    "wine": {
+      "fr": "Côtes de Provence Rosé ou Bandol Blanc",
+      "en": "Côtes de Provence Rosé or Bandol Blanc",
+      "te": "కోట్స్ డి ప్రోవెన్స్ రోస్",
+      "hi": "कोट्स डी प्रोवेंस रोसे"
+    },
+    "wineNotes": {
+      "fr": "Un rosé pâle et minéral de Provence qui équilibre à merveille la chair savoureuse du thon et le sel fin des olives cailletiers.",
+      "en": "A pale, dry Provencal rosé with crisp minerality cuts through the rich tuna and anchors the salty, savory olives and anchovies.",
+      "te": "తాజా ప్రోవెన్సల్ రోస్ వైన్ ట్యూనా చేప మరియు ఆలివ్‌ల రుచిని అద్భుతంగా పెంచుతుంది.",
+      "hi": "एक कुरकुरी सूखी रोसे वाइन जो टूना और नमकीन जैतून के स्वाद को बेहतरीन संतुलन देती है।"
+    },
+    "chefTip": {
+      "fr": "Privilégiez d'authentiques petites olives cailletiers de Nice. Saisissez le pavé de thon sur feu très vif pendant 45 secondes seulement par face pour conserver un cœur rubis ultra-fondant.",
+      "en": "Use authentic tiny black Niçoise olives (cailletier). Sear the tuna on scorching heat for just 45 seconds per side to leave a delicate ruby center.",
+      "te": "అసలైన నిస్వోయిస్ నల్ల ఆలివ్‌లను ఉపయోగించండి. ట్యూనా చేపను కేవలం 45 సెకన్ల పాటు మాత్రమే వేయించండి.",
+      "hi": "हमेशा असली नीस के काले जैतून का उपयोग करें और टूना को केवल 45 सेकंड के लिए तेज आंच पर भूनें ताकि बीच का हिस्सा रसीला रहे।"
+    },
+    "ingredients": [
+      {
+        "fr": "Pavé de thon frais de ligne",
+        "en": "Fresh yellowfin or ahi tuna steak",
+        "te": "తాజా ట్యూనా చేప ముక్క",
+        "hi": "ताजा टूना मछली"
+      },
+      {
+        "fr": "Haricots verts fins du potager",
+        "en": "Tender French green beans (haricots verts)",
+        "te": "తాజా ఫ్రెంచ్ బీన్స్",
+        "hi": "ताजी हरी बीन्स"
+      },
+      {
+        "fr": "Pommes de terre grenailles cuites",
+        "en": "Baby new potatoes, boiled and halved",
+        "te": "చిన్న బంగాళాదుంపలు",
+        "hi": "छोटे उबले आलू"
+      },
+      {
+        "fr": "Tomates mûres en quartiers",
+        "en": "Ripe vine-ripened tomatoes, wedged",
+        "te": "పండిన టమోటాలు",
+        "hi": "पके हुए टमाटर"
+      },
+      {
+        "fr": "Œufs frais de ferme mollets (6 min 30)",
+        "en": "Farm-fresh eggs, soft-boiled (6.5 min)",
+        "te": "ఉడికించిన గుడ్లు",
+        "hi": "उबले हुए अंडे"
+      },
+      {
+        "fr": "Olives noires cailletiers de Nice AOP",
+        "en": "Authentic Niçoise black olives",
+        "te": "నల్ల ఆలివ్‌లు",
+        "hi": "काले जैतून"
+      },
+      {
+        "fr": "Filets d'anchois marinés",
+        "en": "Salt-cured Mediterranean anchovy fillets",
+        "te": "ఆంకోవి ఫిల్లెట్లు",
+        "hi": "एंकोवी मछली"
+      },
+      {
+        "fr": "Huile d'olive vierge extra de Provence",
+        "en": "Extra virgin Provencal olive oil",
+        "te": "ఆలివ్ ఆయిల్",
+        "hi": "जैतून का तेल"
+      },
+      {
+        "fr": "Jus de citron frais et moutarde de Dijon",
+        "en": "Fresh lemon juice & Dijon mustard",
+        "te": "నిమ్మరసం మరియు ఆవాల పేస్ట్",
+        "hi": "नींबू का रस और सरसों"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Cuire légumes et œufs",
+          "en": "Boil Vegetables and Eggs",
+          "te": "కూరగాయలు మరియు గుడ్లు ఉడకబెట్టండి",
+          "hi": "सब्जियां और अंडे उबालें"
+        },
+        "instruction": {
+          "fr": "Cuisez les pommes de terre à l'eau bouillante salée. Blanchissez les haricots verts 3 minutes et plongez-les dans l'eau glacée. Cuisez les œufs mollets 6 min 30.",
+          "en": "Boil baby potatoes until tender (12 min). Blanch haricots verts for 3 minutes and shock in ice water. Soft-boil eggs for 6.5 minutes and peel.",
+          "te": "బంగాళాదుంపలు మరియు బీన్స్ ఉడకబెట్టండి. గుడ్లను 6.5 నిమిషాలు ఉడికించి పెంకు తీయండి.",
+          "hi": "आलू और बीन्स को उबालें। अंडों को 6.5 मिनट तक उबालकर छील लें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Émulsionner la vinaigrette",
+          "en": "Whisk Vinaigrette",
+          "te": "వినైగ్రేట్ కలపండి",
+          "hi": "ड्रेसिंग तैयार करें"
+        },
+        "instruction": {
+          "fr": "Fouettez l'huile d'olive, le jus de citron, la moutarde de Dijon, l'échalote hachée, sel et poivre du moulin.",
+          "en": "Whisk extra virgin olive oil, lemon juice, Dijon mustard, minced shallot, sea salt, and black pepper until emulsified.",
+          "te": "ఆలివ్ ఆయిల్, నిమ్మరసం, ఆవాలు, ఉప్పు మరియు మిరియాల పొడిని బాగా కలపండి.",
+          "hi": "जैतून का तेल, नींबू का रस, सरसों, नमक और काली मिर्च को एक साथ फेंट लें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Saisir le thon",
+          "en": "Flash-Sear Tuna",
+          "te": "చేపను వేయించండి",
+          "hi": "मछली को हल्का भूनें"
+        },
+        "instruction": {
+          "fr": "Badigeonnez le thon d'huile d'olive. Saisissez dans une poêle brûlante 45 secondes par face. Tranchez en beaux médaillons.",
+          "en": "Rub tuna steaks with olive oil, salt, and pepper. Sear in a screaming-hot skillet for 45 seconds per side. Slice into thick medallions.",
+          "te": "ట్యూనా చేపకు ఆయిల్ రాసి, వేడి పాన్‌పై రెండు వైపులా 45 సెకన్లు వేయించి ముక్కలుగా కోయండి.",
+          "hi": "टूना पर तेल लगाकर तेज आंच पर दोनों तरफ 45 सेकंड भूनें और स्लाइस काट लें।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Dresser l'assiette",
+          "en": "Compose and Dress",
+          "te": "ప్లేట్‌లో సర్వ్ చేయండి",
+          "hi": "सजाकर परोसें"
+        },
+        "instruction": {
+          "fr": "Disposez harmonieusement légumes, olives, anchois et œufs sur un grand plat. Déposez le thon et nappez de vinaigrette.",
+          "en": "Arrange crisp greens, potatoes, beans, tomatoes, halved soft-boiled eggs, olives, and anchovies on a wide platter. Crown with sliced tuna and drizzle vinaigrette.",
+          "te": "ప్లేట్‌లో కూరగాయలు, గుడ్లు, ఆలివ్‌లు మరియు చేప ముక్కలను చక్కగా అమర్చి డ్రెస్సింగ్ చల్లండి.",
+          "hi": "प्लेट में सब्जियां, अंडे, जैतून और टूना सजाकर ऊपर से ड्रेसिंग डालें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: pissaladiere
+  "pissaladiere": {
+    "title": {
+      "fr": "Pissaladière Provençale",
+      "en": "Riviera Onion & Anchovy Tart",
+      "te": "పిస్సాలదియర్ (ఉల్లిపాయ మరియు ఆలివ్ టార్ట్)",
+      "hi": "पिसालादिएर (कारमेलाइज्ड प्याज और जैतून वाली टार्ट)"
+    },
+    "subtitle": {
+      "fr": "Pâte à l'huile d'olive, compotée d'oignons fondants, anchois et olives noires.",
+      "en": "Olive oil dough topped with caramelized onions, black olives & anchovy lattice.",
+      "te": "నెమ్మదిగా వేయించిన ఉల్లిపాయలు మరియు ఆలివ్‌లతో చేసిన ఫ్రెంచ్ టార్ట్.",
+      "hi": "धीमी आंच पर भूने मीठे प्याज और काले जैतून से बनी क्लासिक फ्रेंच टार्ट।"
+    },
+    "categoryLabel": {
+      "fr": "Spécialité Niçoise",
+      "en": "Riviera Specialty",
+      "te": "రివేరా స్పెషాలిటీ",
+      "hi": "रिवेरा की खास डिश"
+    },
+    "description": {
+      "fr": "La reine des tartes salées du Midi : une pâte moelleuse parfumée à l'huile d'olive, généreusement recouverte d'une compotée d'oignons lentement confits au thym frais, parée de filets d'anchois en croisillons et de petites olives noires de Nice.",
+      "en": "Nice's legendary savory tart: a fragrant olive-oil-scented bread dough blanketed with sweet, jammy slow-caramelized onions infused with thyme, arranged in a signature diamond lattice of salted anchovies and plump Niçoise olives.",
+      "te": "ఫ్రెంచ్ తీరప్రాంత ప్రసిద్ధ బేక్డ్ టార్ట్: మెత్తని పిండిపై మగ్గించిన ఉల్లిపాయలు, ఆలివ్‌లు మరియు చేపలను అందమైన డైమండ్ ఆకారంలో అలంకరిస్తారు.",
+      "hi": "फ्रांस की प्रसिद्ध नमकीन टार्ट: जैतून के तेल से गुंथे आटे पर धीमी आंच में पके मीठे प्याज, स्वादिष्ट काले जैतून और एंकोवी मछली सजाकर बेक की जाती है।"
+    },
+    "wine": {
+      "fr": "Bellet Blanc ou Cassis Blanc",
+      "en": "Bellet Blanc or Cassis Blanc",
+      "te": "బెల్లెట్ బ్లాంక్ వైన్",
+      "hi": "बेलेट ब्लैंक वाइन"
+    },
+    "wineNotes": {
+      "fr": "Un blanc minéral et parfumé des coteaux maritimes qui tranche élégamment avec la douceur confite des oignons.",
+      "en": "Crisp white wines from the Riviera coastal limestone hills deliver citrus zest that contrasts the deep natural sweetness of caramelized onions.",
+      "te": "తీరప్రాంత వైట్ వైన్ ఉల్లిపాయల తీపిదనాన్ని మరియు ఆలివ్‌ల రుచిని అద్భుతంగా సమతుల్యం చేస్తుంది.",
+      "hi": "एक ताजी सफेद वाइन जो कैरेमेलाइज्ड प्याज के मीठेपन और जैतून के नमकीन स्वाद को संतुलित करती है।"
+    },
+    "chefTip": {
+      "fr": "Faites compoter les oignons à feu très doux avec un bon filet d'huile d'olive et du thym pendant 45 minutes sans les laisser brunir : ils doivent être doux et translucides.",
+      "en": "Cook the onions very slowly over low heat with olive oil and thyme for at least 45 minutes without rushing. They should melt into sweet golden jam without browning.",
+      "te": "ఉల్లిపాయలను తక్కువ మంటపై నెమ్మదిగా 45 నిమిషాలు వేయించండి. అవి మాడకుండా బంగారు రంగులోకి రావాలి.",
+      "hi": "प्याज को धीमी आंच पर कम से कम 45 मिनट तक पकाएं ताकि वे बिना जले बिल्कुल मीठे और पारदर्शी हो जाएं।"
+    },
+    "ingredients": [
+      {
+        "fr": "Farine de blé pour pâte levée",
+        "en": "Unbleached flour for olive oil dough",
+        "te": "గోధుమ పిండి",
+        "hi": "गेहूं का आटा"
+      },
+      {
+        "fr": "Oignons jaunes émincés finement",
+        "en": "Sweet yellow onions, thinly sliced",
+        "te": "సన్నగా తరిగిన ఉల్లిపాయలు",
+        "hi": "बारीक कटे प्याज"
+      },
+      {
+        "fr": "Huile d'olive vierge extra",
+        "en": "Extra virgin olive oil",
+        "te": "ఆలివ్ ఆయిల్",
+        "hi": "जैतून का तेल"
+      },
+      {
+        "fr": "Branches de thym frais et laurier",
+        "en": "Fresh thyme sprigs and bay leaf",
+        "te": "థైమ్ మరియు బిర్యానీ ఆకు",
+        "hi": "ताजा थाइम और तेजपत्ता"
+      },
+      {
+        "fr": "Filets d'anchois salés à l'huile",
+        "en": "Mediterranean salted anchovy fillets",
+        "te": "ఆంకోవి చేపలు",
+        "hi": "एंकोवी मछली"
+      },
+      {
+        "fr": "Olives noires de Nice AOP",
+        "en": "Small black Niçoise cailletier olives",
+        "te": "నల్ల ఆలివ్‌లు",
+        "hi": "काले जैतून"
+      },
+      {
+        "fr": "Levure boulangère active",
+        "en": "Fresh active dry yeast",
+        "te": "ఈస్ట్",
+        "hi": "यीस्ट"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Pétrir la pâte",
+          "en": "Prepare Dough",
+          "te": "పిండి కలపండి",
+          "hi": "आटा गूंथें"
+        },
+        "instruction": {
+          "fr": "Mélangez farine, levure, eau tiède, sel et huile d'olive. Pétrissez 8 minutes et laissez lever 1 heure.",
+          "en": "Mix flour, yeast, warm water, salt, and 2 tbsp olive oil into a supple dough. Knead 8 minutes and let rise for 1 hour until doubled.",
+          "te": "పిండి, ఈస్ట్, నీరు, ఉప్పు మరియు ఆయిల్ కలిపి పిండి ముద్ద చేసి 1 గంట నానబెట్టండి.",
+          "hi": "आटा, यीस्ट, पानी और तेल मिलाकर नरम आटा गूंथ लें और 1 घंटे के लिए फूलने दें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Confire les oignons",
+          "en": "Slow-Melt Onions",
+          "te": "ఉల్లిపాయలు వేయించండి",
+          "hi": "प्याज भूनें"
+        },
+        "instruction": {
+          "fr": "Faites suer les oignons émincés dans l'huile d'olive avec le thym pendant 45 minutes à feu très doux.",
+          "en": "Heat remaining olive oil in a wide pan over low heat. Add sliced onions, thyme, and bay leaf. Cook gently for 45 minutes until soft and caramelized.",
+          "te": "ఉల్లిపాయలను ఆలివ్ ఆయిల్‌లో తక్కువ మంటపై 45 నిమిషాలు వేయించండి.",
+          "hi": "धीमी आंच पर प्याज को थाइम के साथ 45 मिनट तक पकाएं जब तक वे पूरी तरह से नरम न हो जाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Garnir la tarte",
+          "en": "Roll and Top",
+          "te": "టాపింగ్స్ వేయండి",
+          "hi": "टॉपिंग्स सजाएं"
+        },
+        "instruction": {
+          "fr": "Étalez la pâte, recouvrez de compotée d'oignons. Disposez les anchois en losanges et déposez une olive au centre de chaque losange.",
+          "en": "Roll dough into a 1/4-inch rectangle on a baking sheet. Spread cooled onions evenly to the edges. Arrange anchovies in a crisscross diamond lattice and place an olive in each center.",
+          "te": "పిండిని రోల్ చేసి ఉల్లిపాయల మిశ్రమం పూయండి. చేపలు మరియు ఆలివ్‌లతో డైమండ్ ఆకారంలో అలంకరించండి.",
+          "hi": "आटे को बेलकर प्याज फैलाएं। ऊपर से मछली और जैतून से सुंदर डिजाइन बनाएं।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Cuire au four",
+          "en": "Bake Golden",
+          "te": "బేక్ చేయండి",
+          "hi": "बेक करें"
+        },
+        "instruction": {
+          "fr": "Enfournez à 220°C pendant 20 à 25 minutes jusqu'à ce que la pâte soit bien dorée et croustillante.",
+          "en": "Bake at 220°C (425°F) for 20-25 minutes until the crust is deeply golden and blistered underneath.",
+          "te": "220°C వద్ద 20-25 నిమిషాలు కరకరలాడే వరకు బేక్ చేయండి.",
+          "hi": "220 डिग्री सेल्सियस पर 20-25 मिनट तक सुनहरा और कुरकुरा होने तक बेक करें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: socca_nicoise
+  "socca_nicoise": {
+    "title": {
+      "fr": "Socca Niçoise Authentique",
+      "en": "Crisp Chickpea Street Flatbread",
+      "te": "సొక్కా నిస్వోయిస్ (శనగపిండి క్రిస్పీ బ్రెడ్)",
+      "hi": "सोका निकोइस (कुरकुरी बेसन फ्रेंच ब्रेड)"
+    },
+    "subtitle": {
+      "fr": "Galette dorée de pois chiches cuite à très haute température, poivre noir et fleur de sel.",
+      "en": "Blistered, paper-thin chickpea flatbread with sea salt & crushed pepper.",
+      "te": "కరకరలాడే ఫ్రెంచ్ రివేరా శనగపిండి ఫ్లాట్‌బ్రెడ్.",
+      "hi": "फ्रांस के नीस शहर की मशहूर कुरकुरी और गरमा-गरम बेसन ब्रेड।"
+    },
+    "categoryLabel": {
+      "fr": "Cuisine de Rue Provençale",
+      "en": "Riviera Street Food",
+      "te": "స్ట్రీట్ ఫుడ్",
+      "hi": "फ्रेंच स्ट्रीट फूड"
+    },
+    "description": {
+      "fr": "L'incontournable délice des ruelles du Vieux-Nice : préparée simplement avec de la farine de pois chiches, de l'eau, de l'huile d'olive fruitée et du sel, coulée sur une plaque de cuivre brûlante et cuite au four à bois jusqu'à obtenir des bords croustillants et un cœur moelleux.",
+      "en": "The iconic street food of Old Nice: made from simply chickpea flour, water, fruity olive oil, and rosemary, poured into a blisteringly hot pan and baked until the edges are shattered-crisp and the center remains soft and creamy.",
+      "te": "నీస్ పాత నగరపు ప్రత్యేకమైన వీధి ఆహారం: శనగపిండి, నీరు మరియు ఆలివ్ ఆయిల్‌తో తయారు చేసి అత్యంత వేడి పాన్‌పై కాల్చే కరకరలాడే అల్పాహారం.",
+      "hi": "पुराने नीस शहर का मशहूर स्ट्रीट फूड: केवल बेसन, पानी और जैतून के तेल से बना पतला बैटर, जिसे बेहद तेज आंच पर बेक करके कुरकुरा बनाया जाता है।"
+    },
+    "wine": {
+      "fr": "Pastis de Marseille bien glacé ou Rosé de Provence",
+      "en": "Chilled Pastis de Marseille or Bandol Rosé",
+      "te": "పాస్టిస్ లేదా ప్రోవెన్స్ రోస్ వైన్",
+      "hi": "पास्टिस या प्रोवेंस रोसे वाइन"
+    },
+    "wineNotes": {
+      "fr": "Un pastis allongé d'eau très fraîche ou un rosé sec souligne les notes grillées du pois chiche et le poivre fraîchement moulu.",
+      "en": "An anise-scented Pastis with cold water or a mineral-driven Rosé matches the earthy nuttiness of roasted chickpea and peppery olive oil.",
+      "te": "చల్లని పాస్టిస్ లేదా రోస్ వైన్ శనగపిండి మరియు మిరియాల ఘాటుతో పరిపూర్ణంగా సరిపోతుంది.",
+      "hi": "सौंफ की सुगंध वाला पास्टिस या सूखी रोसे वाइन बेसन के सोंधेपन को शानदार स्वाद देती है।"
+    },
+    "chefTip": {
+      "fr": "Chauffez préalablement votre poêle en fonte sous le grill du four jusqu'à ce qu'elle soit fumante avant de verser la pâte. C'est le secret pour obtenir les fameuses cloques dorées.",
+      "en": "Preheat your cast iron skillet under the oven broiler until smoking hot before pouring in the batter. This ensures rapid blistering and authentic charred crust.",
+      "te": "పిండి పోయడానికి ముందు పాన్‌ను ఓవెన్‌లో బాగా వేడి చేయండి. ఇది కరకరలాడే అంచులను అందిస్తుంది.",
+      "hi": "बैटर डालने से पहले लोहे के तवे को ओवन में खूब गरम कर लें ताकि ऊपर से सुंदर और कुरकुरी परत बने।"
+    },
+    "ingredients": [
+      {
+        "fr": "Farine fine de pois chiches",
+        "en": "Fine chickpea flour (farine de pois chiches)",
+        "te": "శనగపిండి",
+        "hi": "बारीक बेसन"
+      },
+      {
+        "fr": "Eau tiède filtrée",
+        "en": "Lukewarm filtered water",
+        "te": "గోరువెచ్చని నీరు",
+        "hi": "गुनगुना पानी"
+      },
+      {
+        "fr": "Huile d'olive vierge extra de Provence",
+        "en": "Extra virgin Provencal olive oil",
+        "te": "ఆలివ్ ఆయిల్",
+        "hi": "जैतून का तेल"
+      },
+      {
+        "fr": "Fleur de sel de Camargue",
+        "en": "Flaky fleur de sel sea salt",
+        "te": "సముద్రపు ఉప్పు",
+        "hi": "सेंधा नमक"
+      },
+      {
+        "fr": "Poivre noir fraîchement concassé",
+        "en": "Coarsely ground black pepper",
+        "te": "నల్ల మిరియాల పొడి",
+        "hi": "कुटी हुई काली मिर्च"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Préparer la pâte",
+          "en": "Whisk Batter",
+          "te": "పిండి కలపండి",
+          "hi": "बैटर बनाएं"
+        },
+        "instruction": {
+          "fr": "Fouettez la farine de pois chiches et l'eau jusqu'à consistance fluide et sans grumeaux. Ajoutez l'huile d'olive et le sel. Reposez 1 heure.",
+          "en": "Whisk chickpea flour and water until completely lump-free. Stir in 2 tbsp olive oil and salt. Let rest at room temperature for 1 hour.",
+          "te": "శనగపిండి మరియు నీటిని ఉండలు లేకుండా కలపండి. ఆయిల్ మరియు ఉప్పు చేర్చి 1 గంట పక్కన పెట్టండి.",
+          "hi": "बेसन और पानी को बिना गांठ के फेंट लें। तेल और नमक डालकर 1 घंटे रख दें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Préchauffer la poêle",
+          "en": "Preheat Skillet",
+          "te": "పాన్ వేడి చేయండి",
+          "hi": "तवा गरम करें"
+        },
+        "instruction": {
+          "fr": "Placez une grande poêle en fonte sous le grill à puissance maximale pendant 10 minutes.",
+          "en": "Place a 12-inch cast iron skillet on the highest rack of your oven and turn broiler to MAX for 10 minutes until sizzling hot.",
+          "te": "కాస్ట్ ఐరన్ పాన్‌ను ఓవెన్‌లో అత్యధిక వేడి వద్ద 10 నిమిషాలు వేడి చేయండి.",
+          "hi": "तवे को ओवन में 10 मिनट के लिए सबसे तेज आंच पर गरम करें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Verser et griller",
+          "en": "Pour and Broil",
+          "te": "కాల్చండి",
+          "hi": "बेक करें"
+        },
+        "instruction": {
+          "fr": "Huilez la poêle, versez une fine couche de pâte de 3 mm et enfournez sous le grill 6 à 8 minutes jusqu'à cloquage doré.",
+          "en": "Carefully coat the skillet with 2 tbsp olive oil, pour batter to form a 1/8-inch thin layer, and broil 6-8 minutes until golden with dark charred blisters.",
+          "te": "పాన్‌పై ఆయిల్ రాసి పిండి పోసి 6-8 నిమిషాలు బంగారు రంగు వచ్చే వరకు కాల్చండి.",
+          "hi": "तवे पर तेल लगाकर पतला बैटर डालें और 6-8 मिनट सुनहरा होने तक ग्रिल करें।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Assaisonner et savourer",
+          "en": "Season and Serve",
+          "te": "సర్వ్ చేయండి",
+          "hi": "गरमा-गरम परोसें"
+        },
+        "instruction": {
+          "fr": "Glissez sur une planche, donnez plusieurs tours généreux de moulin à poivre, parsemez de fleur de sel et dégustez brûlant.",
+          "en": "Slide onto a wooden board, shower generously with freshly cracked black pepper and flaky sea salt, and tear into irregular pieces to enjoy hot.",
+          "te": "బోర్డుపైకి తీసి నల్ల మిరియాల పొడి మరియు ఉప్పు చల్లి వేడివేడిగా ఆస్వాదించండి.",
+          "hi": "काली मिर्च और नमक छिड़क कर तुरंत गरमा-गरम परोसें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: daube_provencale
+  "daube_provencale": {
+    "title": {
+      "fr": "Daube Provençale Traditionnelle",
+      "en": "Slow-Braised Provençal Beef & Orange Stew",
+      "te": "దాబ్ ప్రొవెన్సాల్ (ఎరుపు వైన్ మరియు ఆరెంజ్ బీఫ్ స్టీవ్)",
+      "hi": "दाब प्रोवेनसाल (रेड वाइन और संतरे के छिलके वाला बीफ स्टू)"
+    },
+    "subtitle": {
+      "fr": "Bœuf fondant mariné et mijoté au vin rouge, zeste d'orange et herbes de Provence.",
+      "en": "Melt-in-mouth beef braised with robust red wine, orange peel & wild herbs.",
+      "te": "ఎరుపు వైన్, వెల్లుల్లి మరియు ఆరెంజ్ తొక్కతో మగ్గించిన మెత్తని సంప్రదాయ స్టీవ్.",
+      "hi": "रेड वाइन, लहसुन और संतरे के छिलके की खुशबूदार ग्रेवी में पका स्वादिष्ट फ्रेंच स्टू।"
+    },
+    "categoryLabel": {
+      "fr": "Plat Mijoté Provençal",
+      "en": "Provençal Slow Stew",
+      "te": "ప్రొవెన్సల్ స్టీవ్",
+      "hi": "धीमी आंच पर पका स्टू"
+    },
+    "description": {
+      "fr": "Le chef-d'œuvre de la cuisine provençale des dimanches d'hiver : de beaux morceaux de paleron et de gîte marinés 24 heures dans un vin rouge corsé avec zeste d'orange, clous de girofle et thym sauvage, puis mijotés lentement en daubière pendant 4 heures jusqu'à tendreté absolue.",
+      "en": "A monumental heirloom stew from Provence: succulent chunks of beef chuck and shank marinated overnight in full-bodied red wine with orange peel, cloves, garlic, and thyme, then slow-simmered in an earthenware daubière until collapsing into rich gravy.",
+      "te": "ప్రోవెన్స్ సంప్రదాయ స్టీవ్: ఎరుపు వైన్, ఆరెంజ్ తొక్క మరియు సుగంధ ద్రవ్యాలలో రాత్రంతా నానబెట్టి, 4 గంటలు నెమ్మదిగా ఉడికించిన అత్యంత రుచికరమైన వంటకం.",
+      "hi": "प्रोवेंस का एक ऐतिहासिक व्यंजन: रेड वाइन, संतरे के छिलके, लौंग और थाइम में 24 घंटे मैरीनेट किया हुआ बीफ, जिसे 4 घंटे धीमी आंच पर गाढ़ी ग्रेवी में पकाया जाता है।"
+    },
+    "wine": {
+      "fr": "Bandol Rouge (Mourvèdre) ou Gigondas",
+      "en": "Bandol Rouge (Mourvèdre) or Gigondas",
+      "te": "బాండోల్ రెడ్ వైన్",
+      "hi": "बांडोल रेड वाइन"
+    },
+    "wineNotes": {
+      "fr": "Un rouge puissant et épicé aux arômes de garrigue et de mûre sauvage qui s'accorde magistralement au parfum d'orange de la daube.",
+      "en": "A powerful, spicy southern Rhône or Bandol red with notes of dark blackberry and garrigue herbs elevates the orange-infused braise.",
+      "te": "గాఢమైన రెడ్ వైన్ ఆరెంజ్ సువాసనతో కూడిన గ్రేవీకి చక్కటి జత.",
+      "hi": "एक गाढ़ी मसालेदार रेड वाइन जो संतरे की सुगंध वाले इस स्टू के स्वाद को दोगुना कर देती है।"
+    },
+    "chefTip": {
+      "fr": "Ne négligez surtout pas le ruban d'écorce d'orange fraîche dans la marinade : en cuisant 4 heures, il apporte cette subtilité aromatique inimitable propre à la véritable daube provençale.",
+      "en": "Do not omit the strip of fresh orange peel! As it simmers for 4 hours, it dissolves and cuts through the intense meat richness with pure Provencal elegance.",
+      "te": "తాజా ఆరెంజ్ తొక్కను తప్పకుండా వేయండి. 4 గంటల పాటు ఉడికినప్పుడు ఇది అద్భుతమైన సువాసనను ఇస్తుంది.",
+      "hi": "संतरे के छिलके को बिल्कुल न भूलें! 4 घंटे पकने पर यह ग्रेवी को एक लाजवाब खुशबू और हल्का खट्टापन देता है।"
+    },
+    "ingredients": [
+      {
+        "fr": "Paleron ou gîte de bœuf en gros cubes",
+        "en": "Braeburn beef chuck or shank, cut in 2-inch chunks",
+        "te": "బీఫ్ ముక్కలు",
+        "hi": "बीफ के टुकड़े"
+      },
+      {
+        "fr": "Vin rouge corsé des Côtes du Rhône",
+        "en": "Full-bodied red wine (Côtes du Rhône)",
+        "te": "రెడ్ వైన్",
+        "hi": "रेड वाइन"
+      },
+      {
+        "fr": "Rubans de zeste d'orange biologique",
+        "en": "Fresh organic orange zest peel strips",
+        "te": "ఆరెంజ్ తొక్క ముక్కలు",
+        "hi": "संतरे के छिलके की पट्टी"
+      },
+      {
+        "fr": "Carottes coupées en rondelles",
+        "en": "Carrots, sliced in rounds",
+        "te": "క్యారెట్ ముక్కలు",
+        "hi": "गाजर के गोल टुकड़े"
+      },
+      {
+        "fr": "Lardons fumés fermiers",
+        "en": "Smoked bacon lardons",
+        "te": "స్మోక్డ్ బేకన్",
+        "hi": "स्मोक्ड बेकन"
+      },
+      {
+        "fr": "Gousses d'ail écrasées",
+        "en": "Garlic cloves, crushed",
+        "te": "వెల్లుల్లి రెబ్బలు",
+        "hi": "लहसुन की कलियां"
+      },
+      {
+        "fr": "Bouquet garni et thym frais",
+        "en": "Fresh Herbes de Provence & bay leaf",
+        "te": "థైమ్ మరియు బిర్యానీ ఆకులు",
+        "hi": "थाइम और तेजपत्ता"
+      },
+      {
+        "fr": "Olives noires dénoyautées",
+        "en": "Pitted black olives",
+        "te": "నల్ల ఆలివ్‌లు",
+        "hi": "काले जैतून"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Mariner 24 heures",
+          "en": "Marinate Overnight",
+          "te": "రాత్రంతా నానబెట్టండి",
+          "hi": "मैरीनेट करें"
+        },
+        "instruction": {
+          "fr": "Placez la viande, les légumes, l'ail, le thym et le zeste d'orange dans le vin rouge. Réservez 24 heures au frais.",
+          "en": "Submerge beef chunks in red wine with carrots, onions, garlic, thyme, and orange peel. Marinate in refrigerator for 12 to 24 hours.",
+          "te": "మాంసం, కూరగాయలు, ఆరెంజ్ తొక్క మరియు సుగంధ ద్రవ్యాలను వైన్‌లో 24 గంటలు నానబెట్టండి.",
+          "hi": "रेड वाइन में मीट, गाजर, लहसुन, थाइम और संतरे का छिलका डालकर 24 घंटे रखें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Rissoler la viande",
+          "en": "Brown Bacon and Meat",
+          "te": "మాంసాన్ని వేయించండి",
+          "hi": "मीट को भूनें"
+        },
+        "instruction": {
+          "fr": "Faites dorer les lardons, égouttez la viande et saisissez-la vivement dans la cocotte sur toutes les faces.",
+          "en": "Render lardons in a heavy Dutch oven. Pat marinated beef dry and sear in batches over high heat until deeply crusty.",
+          "te": "బేకన్ వేయించి, మాంసం ముక్కలను వేడి పాత్రలో అన్ని వైపులా గోధుమ రంగు వచ్చే వరకు వేయించండి.",
+          "hi": "बर्तन में बेकन भूनें, फिर मीट के टुकड़ों को तेज आंच पर अच्छी तरह लाल होने तक भूनें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Mijoter lentement",
+          "en": "Deglaze and Simmer",
+          "te": "నెమ్మదిగా ఉడికించండి",
+          "hi": "धीमी आंच पर पकाएं"
+        },
+        "instruction": {
+          "fr": "Versez la marinade filtrée et les légumes. Couvrez hermétiquement et enfournez à 140°C pendant 3h30 à 4h.",
+          "en": "Pour marinade, vegetables, and beef broth over the meat. Bring to a simmer, cover tightly, and braise in oven at 140°C (285°F) for 3.5 to 4 hours.",
+          "te": "వైన్ మరియు కూరగాయలను పోసి మూతపెట్టి 140°C వద్ద 3.5 నుండి 4 గంటలు ఉడికించండి.",
+          "hi": "मैरिनेड और सब्जियों को डालकर ढक दें और 140 डिग्री पर 4 घंटे धीमी आंच पर पकने दें।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Ajouter les olives",
+          "en": "Finish with Olives",
+          "te": "ఆలివ్‌లు వేసి సర్వ్ చేయండి",
+          "hi": "जैतून डालकर परोसें"
+        },
+        "instruction": {
+          "fr": "Ajoutez les olives 15 minutes avant la fin. Servez fumant avec des tagliatelles fraîches au beurre.",
+          "en": "Stir in black olives for the final 15 minutes. Serve hot over buttered fresh tagliatelle or crusty country bread.",
+          "te": "చివరి 15 నిమిషాల్లో ఆలివ్‌లు కలపండి. తాజా పాస్తా లేదా బ్రెడ్‌తో వేడిగా వడ్డించండి.",
+          "hi": "आखिरी 15 मिनट में जैतून डालें और गरमा-गरम पास्ता या ब्रेड के साथ परोसें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: camembert_roti
+  "camembert_roti": {
+    "title": {
+      "fr": "Camembert Rôti au Four",
+      "en": "Baked Normandy Camembert with Honey & Herbs",
+      "te": "బేక్డ్ కేమెంబర్ట్ చీజ్ (తేనె మరియు రోజ్మేరీతో)",
+      "hi": "बेक्ड कैमेम्बर्ट चीज (शहद और हर्ब्स के साथ)"
+    },
+    "subtitle": {
+      "fr": "Camembert de Normandie coulant au miel sauvage, romarin frais et toasts croustillants.",
+      "en": "Molten baked Normandy Camembert with wild honey, garlic & rosemary.",
+      "te": "కరిగిన వెన్న లాంటి ఫ్రెంచ్ నార్మండీ చీజ్ వంటకం.",
+      "hi": "पिघला हुआ गरम कैमेम्बर्ट चीज, जिसे शहद और गार्लिक ब्रेड के साथ खाया जाता है।"
+    },
+    "categoryLabel": {
+      "fr": "Classique Normand",
+      "en": "Normandy Classic",
+      "te": "నార్మండీ క్లాసిక్",
+      "hi": "नॉर्मंडी क्लासिक"
+    },
+    "description": {
+      "fr": "Le plaisir gourmand par excellence de Normandie : une boîte en bois de Camembert AOP au lait cru cuite au four jusqu'à devenir onctueuse et coulante, parfumée de fines lamelles d'ail, de brins de romarin et d'un filet de miel de fleurs sauvages.",
+      "en": "Normandy's most decadent comfort food: an entire wheel of raw-milk Camembert cheese baked in its wooden box until molten and bubbling, infused with garlic slivers, fresh rosemary sprigs, and a drizzle of lavender honey.",
+      "te": "ఫ్రెంచ్ నార్మండీ అత్యంత రుచికరమైన చీజ్ వంటకం: చెక్క పెట్టెలో ఉంచి ఓవెన్‌లో కాల్చిన కరిగే చీజ్, వెల్లుల్లి, తేనె మరియు రోజ్మేరీ సువాసనలతో.",
+      "hi": "नॉर्मंडी का सबसे प्रसिद्ध आरामदायक भोजन: लकड़ी के डिब्बे में बेक किया हुआ मलाईदार कैमेम्बर्ट चीज, जिसमें शहद, लहसुन और रोजमेरी का अनोखा स्वाद होता है।"
+    },
+    "wine": {
+      "fr": "Cidre Brut de Normandie ou Chenin Blanc",
+      "en": "Cidre Brut de Normandie or Chenin Blanc",
+      "te": "నార్మండీ యాపిల్ సైడర్",
+      "hi": "नॉर्मंडी ड्राई एप्पल साइडर"
+    },
+    "wineNotes": {
+      "fr": "Un cidre fermier normand pétillant et sec dont la fraîcheur acidulée coupe admirablement l'onctuosité riche du fromage fondu.",
+      "en": "Crisp sparkling Normandy dry apple cider cuts cleanly through the unctuous, rich creaminess of melted Camembert.",
+      "te": "చల్లని ఆపిల్ సైడర్ కరిగిన చీజ్ యొక్క క్రీమీ రుచిని మరింత ఆహ్లాదకరంగా మారుస్తుంది.",
+      "hi": "स्पार्कलिंग ड्राई एप्पल साइडर पिघले हुए चीज के भारीपन को काटकर एक ताज़ा अहसास देता है।"
+    },
+    "chefTip": {
+      "fr": "Entaillez délicatement la croûte supérieure en croisillons avant cuisson et insérez-y les éclats d'ail et le romarin. Emballez le fond de la boîte de papier d'aluminium pour éviter tout débordement.",
+      "en": "Score the top rind in a diamond pattern before baking and wrap the base of the wooden box in foil to catch any bubbling molten cheese.",
+      "te": "చీజ్ పైభాగాన్ని డైమండ్ ఆకారంలో కోసి వెల్లుల్లి, రోజ్మేరీ ముక్కలను ఉంచండి. కింద అల్యూమినియం ఫాయిల్ పెట్టండి.",
+      "hi": "चीज के ऊपरी हिस्से पर चीरे लगाकर लहसुन और रोजमेरी भरें और डिब्बे के नीचे फॉयल लगाएं ताकि चीज बाहर न बहे।"
+    },
+    "ingredients": [
+      {
+        "fr": "Véritable Camembert de Normandie AOP en boîte",
+        "en": "Whole wheel of authentic Normandy Camembert (in wooden box)",
+        "te": "నార్మండీ కేమెంబర్ట్ చీజ్",
+        "hi": "कैमेम्बर्ट चीज का पूरा डिब्बा"
+      },
+      {
+        "fr": "Gousses d'ail émincées en lamelles",
+        "en": "Garlic cloves, thinly sliced",
+        "te": "వెల్లుల్లి ముక్కలు",
+        "hi": "बारीक कटी लहसुन की कलियां"
+      },
+      {
+        "fr": "Brins de romarin frais",
+        "en": "Fresh rosemary needles",
+        "te": "రోజ్మేరీ ఆకులు",
+        "hi": "ताजा रोजमेरी"
+      },
+      {
+        "fr": "Miel sauvage de lavande ou de fleurs",
+        "en": "Wild wildflower or lavender honey",
+        "te": "స్వచ్ఛమైన తేనె",
+        "hi": "शुद्ध शहद"
+      },
+      {
+        "fr": "Baguette de tradition française tranchée",
+        "en": "Crusty French baguette, sliced",
+        "te": "ఫ్రెంచ్ బాకెట్ బ్రెడ్",
+        "hi": "फ्रेंच बैगेट ब्रेड"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Préparer la boîte",
+          "en": "Unwrap and Score",
+          "te": "చీజ్‌ను సిద్ధం చేయండి",
+          "hi": "चीज तैयार करें"
+        },
+        "instruction": {
+          "fr": "Ôtez le papier protecteur, replacez le fromage dans sa boîte en bois et entaillez la croûte en losanges.",
+          "en": "Remove plastic wrapping and place cheese back in its bottom wooden box. Score top rind in a diamond pattern.",
+          "te": "ప్లాస్టిక్ తీసి చీజ్‌ను చెక్క బాక్స్‌లో ఉంచండి. పైభాగాన్ని డైమండ్ ఆకారంలో కట్ చేయండి.",
+          "hi": "प्लास्टिक हटाकर चीज को लकड़ी के डिब्बे में रखें और ऊपर से चीरा लगाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Garnir d'aromates",
+          "en": "Stud and Drizzle",
+          "te": "తేనె మరియు మూలికలు వేయండి",
+          "hi": "शहद और लहसुन डालें"
+        },
+        "instruction": {
+          "fr": "Insérez les lamelles d'ail et le romarin dans les fentes. Nappez de miel et d'une goutte de vin blanc.",
+          "en": "Tuck garlic slivers and rosemary needles into the cuts. Drizzle with honey and a splash of white wine.",
+          "te": "వెల్లుల్లి, రోజ్మేరీ ఉంచి తేనె చల్లండి.",
+          "hi": "चीरों में लहसुन और रोजमेरी डालें और ऊपर से शहद डालें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Cuire au four",
+          "en": "Bake Molten",
+          "te": "ఓవెన్‌లో బేక్ చేయండి",
+          "hi": "बेक करें"
+        },
+        "instruction": {
+          "fr": "Enfournez à 190°C pendant 15 à 18 minutes jusqu'à ce que le centre soit chaud et totalement liquide.",
+          "en": "Bake at 190°C (375°F) for 15-18 minutes until puffed, golden, and liquid in the center.",
+          "te": "190°C వద్ద 15-18 నిమిషాలు చీజ్ కరిగే వరకు బేక్ చేయండి.",
+          "hi": "190 डिग्री पर 15-18 मिनट बेक करें जब तक चीज पूरी तरह पिघल न जाए।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Déguster à la baguette",
+          "en": "Dip and Enjoy",
+          "te": "బ్రెడ్‌తో ఆస్వాదించండి",
+          "hi": "ब्रेड के साथ खाएं"
+        },
+        "instruction": {
+          "fr": "Servez immédiatement au centre de la table avec des tranches de baguette chaude croustillante.",
+          "en": "Serve immediately with warm toasted baguette slices, crisp apple wedges, and cornichons.",
+          "te": "వేడి బ్రెడ్ ముక్కలతో ముంచి వెంటనే ఆస్వాదించండి.",
+          "hi": "गरमा-गरम टोस्टेड ब्रेड के साथ डिप करके तुरंत परोसें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: poulet_vallee_d_auge
+  "poulet_vallee_d_auge": {
+    "title": {
+      "fr": "Poulet Vallée d'Auge",
+      "en": "Normandy Chicken in Cider, Calvados & Cream",
+      "te": "నార్మండీ చికెన్ (యాపిల్ సైడర్ మరియు క్రీమ్‌తో)",
+      "hi": "नॉर्मंडी चिकन (सेब साइडर, क्रीम और कैल्वाडोस ग्रेवी)"
+    },
+    "subtitle": {
+      "fr": "Poulet fermier doré flambé au Calvados, mijoté au cidre brut et crème fraîche d'Isigny.",
+      "en": "Farmhouse chicken braised in crisp apple cider, Calvados & velvety cream.",
+      "te": "ఫ్రెంచ్ నార్మండీ శైలిలో యాపిల్స్ మరియు క్రీమ్‌తో వండిన జ్యుసి చికెన్.",
+      "hi": "सेब के टुकड़ों, ताजे मक्खन और रिच क्रीम में बना फ्रांस का पारंपरिक चिकन।"
+    },
+    "categoryLabel": {
+      "fr": "Spécialité du Bocage Normand",
+      "en": "Normandy Country Classic",
+      "te": "నార్మండీ స్పెషాలిటీ",
+      "hi": "नॉर्मंडी की पारंपरिक डिश"
+    },
+    "description": {
+      "fr": "L'âme des vergers de pommiers normands : des morceaux de poulet fermier dorés au beurre doux, flambés au vieux Calvados, braisés avec du cidre fermier acidulé, puis nappés d'une sauce veloutée à la crème d'Isigny et accompagnés de quartiers de pommes caramélisées.",
+      "en": "The essence of Normandy's apple orchard valley: tender golden chicken seared in butter, flambéed with Calvados apple brandy, simmered with tart crisp cider and shallots, then enriched with heavy Normandy cream and caramelized apple quarters.",
+      "te": "నార్మండీ యాపిల్ తోటల ప్రత్యేకత: వెన్నలో వేయించిన చికెన్, యాపిల్ బ్రాందీతో ఫ్లేమ్ చేసి, సైడర్ మరియు ఫ్రెంచ్ క్రీమ్‌తో ఉడికించిన అద్భుతమైన వంటకం.",
+      "hi": "नॉर्मंडी के सेब के बागानों का स्वाद: मक्खन में तला चिकन, कैल्वाडोस ब्रांडी में फ्लेम्ब्ड, खट्टे सेब साइडर और गाढ़ी क्रीम की ग्रेवी में पकाया गया स्वादिष्ट व्यंजन।"
+    },
+    "wine": {
+      "fr": "Cidre Fermier de Normandie ou Meursault",
+      "en": "Cidre Fermier de Normandie or Meursault Chardonnay",
+      "te": "నార్మండీ సైడర్ లేదా షార్డోనే వైన్",
+      "hi": "नॉर्मंडी साइडर या मीरसॉल्ट वाइन"
+    },
+    "wineNotes": {
+      "fr": "Un cidre bouché brut ou un grand Chardonnay blanc de Bourgogne sublime la douceur fruitée des pommes et la richesse de la crème.",
+      "en": "Traditional sparkling dry farmhouse cider or an oaky white Burgundy brings harmony to the sweet-tart apples and lush velvety sauce.",
+      "te": "యాపిల్ సైడర్ లేదా వైట్ వైన్ ఈ క్రీమీ చికెన్ గ్రేవీకి ఎంతో రుచినిస్తుంది.",
+      "hi": "पारंपरिक एप्पल साइडर या व्हाइट वाइन सेब के खट्टे-मीठे स्वाद और मलाईदार ग्रेवी से पूरी तरह मेल खाती है।"
+    },
+    "chefTip": {
+      "fr": "Faites caraméliser les quartiers de pommes séparément dans du beurre moussant avec une pincée de sucre, et ajoutez-les dans la cocotte seulement au moment de servir pour qu'elles restent entières.",
+      "en": "Sauté the apple quarters separately in foaming butter until golden and caramelized, then gently fold them into the creamy sauce right before plating.",
+      "te": "యాపిల్ ముక్కలను విడిగా వెన్నలో వేయించి, వడ్డించే ముందు మాత్రమే గ్రేవీలో కలపండి.",
+      "hi": "सेब के टुकड़ों को मक्खन में अलग से सुनहरा होने तक भूनें और परोसने से ठीक पहले ग्रेवी में मिलाएं ताकि वे टूटें नहीं।"
+    },
+    "ingredients": [
+      {
+        "fr": "Morceaux de poulet fermier de qualité",
+        "en": "Bone-in chicken thighs and drumsticks",
+        "te": "చికెన్ ముక్కలు",
+        "hi": "चिकन के टुकड़े"
+      },
+      {
+        "fr": "Cidre de pomme brut de Normandie",
+        "en": "Dry sparkling Normandy apple cider",
+        "te": "నార్మండీ యాపిల్ సైడర్",
+        "hi": "ड्राई एप्पल साइडर"
+      },
+      {
+        "fr": "Calvados (eau-de-vie de cidre)",
+        "en": "Calvados apple brandy",
+        "te": "కాల్వాడోస్ యాపిల్ బ్రాందీ",
+        "hi": "कैल्वाडोस एप्पल ब्रांडी"
+      },
+      {
+        "fr": "Crème fraîche épaisse d'Isigny AOP",
+        "en": "Heavy Normandy cream (crème fraîche)",
+        "te": "ఫ్రెంచ్ క్రీమ్",
+        "hi": "ताजा गाढ़ी क्रीम"
+      },
+      {
+        "fr": "Pommes reinettes acidulées en quartiers",
+        "en": "Tart crisp apples (Cox or Reinette), quartered",
+        "te": "యాపిల్ ముక్కలు",
+        "hi": "खट्टे-मीठे सेब के टुकड़े"
+      },
+      {
+        "fr": "Beurre de Normandie doux",
+        "en": "Normandy salted butter",
+        "te": "నార్మండీ వెన్న",
+        "hi": "नॉर्मंडी मक्खन"
+      },
+      {
+        "fr": "Échalotes françaises ciselées",
+        "en": "French shallots, finely minced",
+        "te": "ఉల్లిపాయలు",
+        "hi": "कटे हुए प्याज"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Dorer le poulet",
+          "en": "Sear Chicken",
+          "te": "చికెన్ వేయించండి",
+          "hi": "चिकन भूनें"
+        },
+        "instruction": {
+          "fr": "Colorez les morceaux de poulet au beurre jusqu'à ce que la peau soit bien croustillante. Réservez sur une assiette.",
+          "en": "Brown seasoned chicken in butter over medium-high heat until skin is crisp and deep golden. Transfer to a plate.",
+          "te": "చికెన్‌ను వెన్నలో గోధుమ రంగు వచ్చే వరకు వేయించి పక్కన పెట్టండి.",
+          "hi": "चिकन को मक्खन में त्वचा सुनहरी और कुरकुरी होने तक भूनें और अलग निकाल लें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Flamber au Calvados",
+          "en": "Flambé with Calvados",
+          "te": "కాల్వాడోస్‌తో ఫ్లేమ్ చేయండి",
+          "hi": "कैल्वाडोस से फ्लेम्ब्ड करें"
+        },
+        "instruction": {
+          "fr": "Faites suer les échalotes dans la poêle. Versez le Calvados et flambez soigneusement.",
+          "en": "Sauté shallots in the pan. Pour in Calvados and carefully ignite with a long match to flambé the alcohol.",
+          "te": "ఉల్లిపాయలను వేయించి, కాల్వాడోస్ పోసి జాగ్రత్తగా మంట వెలిగించండి.",
+          "hi": "प्याज भूनें, फिर कैल्वाडोस डालकर सावधानी से माचिस से फ्लेम्ब्ड करें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Mijoter au cidre",
+          "en": "Braise in Cider",
+          "te": "సైడర్‌లో ఉడికించండి",
+          "hi": "साइडर में पकाएं"
+        },
+        "instruction": {
+          "fr": "Mouillez au cidre, replacez le poulet, couvrez et laissez mijoter 30 minutes à feu doux.",
+          "en": "Pour in cider, return chicken, cover and simmer gently for 30 minutes until meat is cooked through and tender.",
+          "te": "సైడర్ పోసి, చికెన్ వేసి మూతపెట్టి 30 నిమిషాలు ఉడికించండి.",
+          "hi": "साइडर डालें, चिकन वापस रखें और 30 मिनट ढककर धीमी आंच पर पकाएं।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Crémer et garnir de pommes",
+          "en": "Finish Sauce and Apples",
+          "te": "క్రీమ్ మరియు యాపిల్స్ కలపండి",
+          "hi": "क्रीम और सेब मिलाएं"
+        },
+        "instruction": {
+          "fr": "Incorporez la crème fraîche dans la sauce. Dorez les quartiers de pommes au beurre et disposez harmonieusement sur le plat.",
+          "en": "Sauté apple wedges in butter until golden. Stir crème fraîche into the pan sauce, reduce until glossy, and serve over chicken and apples.",
+          "te": "గ్రేవీలో క్రీమ్ కలపండి. వేయించిన యాపిల్స్ చికెన్ పైన ఉంచి సర్వ్ చేయండి.",
+          "hi": "सॉस में क्रीम मिलाएं। सेब के टुकड़ों को मक्खन में भूनकर चिकन के ऊपर सजाएं।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: sole_meuniere
+  "sole_meuniere": {
+    "title": {
+      "fr": "Sole Meunière Traditionnelle",
+      "en": "Classic Dover Sole in Brown Butter & Lemon",
+      "te": "సోల్ మెనియర్ (వెన్న మరియు నిమ్మరసంతో కాల్చిన చేప)",
+      "hi": "सोल मेनिएर (ब्राउन बटर और नींबू की सॉस वाली मछली)"
+    },
+    "subtitle": {
+      "fr": "Sole entière farinée dorée au beurre noisette moussant, citron jaune et persil plat.",
+      "en": "Pan-fried Channel Dover sole in nutty brown butter, lemon & fresh parsley.",
+      "te": "వెన్నలో కాల్చిన సున్నితమైన ఫ్రెంచ్ సముద్ర చేప వంటకం.",
+      "hi": "हल्के मक्खन और नींबू के रस में तली हुई प्रसिद्ध फ्रेंच मछली।"
+    },
+    "categoryLabel": {
+      "fr": "Haute Gastronomie Côtière",
+      "en": "Normandy Coastal Classic",
+      "te": "నార్మండీ సీఫుడ్ క్లాసిక్",
+      "hi": "नॉर्मंडी कोस्टल क्लासिक"
+    },
+    "description": {
+      "fr": "Le chef-d'œuvre marin immortalisé par la cuisine française : une sole de Manche fraîchement pêchée, légèrement farinée façon meunière, dorée avec précision et arrosée à la table d'un beurre noisette fumant au parfum de noisette grillée, relevé de jus de citron et de persil ciselé.",
+      "en": "The immortal dish that inspired Julia Child's culinary passion: whole Dover sole dredged lightly in flour, pan-seared in clarified butter, and bathed at the table in foaming hazelnut-colored brown butter (beurre noisette) with fresh lemon and parsley.",
+      "te": "జూలియా చైల్డ్‌ను ప్రేరేపించిన అమర వంటకం: పిండి పూసిన సోల్ చేపను వెన్నలో వేయించి, టేబుల్ వద్ద వేడి నట్టి బ్రౌన్ బట్టర్, నిమ్మరసం మరియు పార్స్లీతో వడ్డిస్తారు.",
+      "hi": "जूलिया चाइल्ड को प्रेरित करने वाला ऐतिहासिक व्यंजन: मैदे में हल्की लिपटी मछली, मक्खन में तली हुई और ऊपर से गरमा-गरम ब्राउन बटर और नींबू का रस डालकर परोसी जाती है।"
+    },
+    "wine": {
+      "fr": "Chablis Premier Cru ou Sancerre Blanc",
+      "en": "Chablis Premier Cru or Sancerre",
+      "te": "షాబ్లిస్ లేదా సాన్సెర్ వైన్",
+      "hi": "शाब्लिस या सांसर वाइन"
+    },
+    "wineNotes": {
+      "fr": "La minéralité tranchante et l'acidité ciselée d'un Chablis traversent avec une grâce infinie la richesse du beurre noisette.",
+      "en": "Crisp chalky limestone acidity and citrus minerality in Chablis cuts like a knife through foaming brown butter.",
+      "te": "షాబ్లిస్ వైన్ యొక్క తాజా నిమ్మ సువాసన వేడి బ్రౌన్ బట్టర్ రిచ్‌నెస్‌ను అద్భుతంగా బ్యాలెన్స్ చేస్తుంది.",
+      "hi": "शाब्लिस की ताजी खटास और मिनरल्स ब्राउन बटर के भारी स्वाद को बहुत ही खूबसूरती से संतुलित करते हैं।"
+    },
+    "chefTip": {
+      "fr": "Dès que le beurre cesse de mousser et commence à dégager un enivrant parfum de noisette avec de petits grains dorés, retirez immédiatement du feu et jetez-y le jus de citron frais pour stopper la cuisson.",
+      "en": "Watch the butter closely: as soon as the foam subsides and tiny brown flecks appear with a hazelnut aroma, immediately take off the heat and splash in fresh lemon juice.",
+      "te": "వెన్న గోధుమ రంగులోకి వచ్చి మంచి సువాసన రాగానే మంట ఆపి వెంటనే నిమ్మరసం పిండండి.",
+      "hi": "मक्खन पर नजर रखें: जैसे ही झाग कम हो और अखरोट जैसी खुशबू आने लगे, तुरंत आंच से उतारकर नींबू का रस डालें।"
+    },
+    "ingredients": [
+      {
+        "fr": "Sole de Manche entière dépouillée",
+        "en": "Fresh Dover sole fillets or whole sole, skinned",
+        "te": "సోల్ చేప",
+        "hi": "डोवर सोल मछली"
+      },
+      {
+        "fr": "Farine blanche pour enrober",
+        "en": "All-purpose flour for dusting",
+        "te": "మైదా పిండి",
+        "hi": "मैदा"
+      },
+      {
+        "fr": "Beurre frais de Normandie",
+        "en": "Unsalted Normandy butter",
+        "te": "నార్మండీ వెన్న",
+        "hi": "नॉर्मंडी मक्खन"
+      },
+      {
+        "fr": "Jus de citron jaune frais",
+        "en": "Freshly squeezed lemon juice",
+        "te": "నిమ్మరసం",
+        "hi": "नींबू का रस"
+      },
+      {
+        "fr": "Persil plat finement haché",
+        "en": "Flat-leaf French parsley, finely chopped",
+        "te": "పార్స్లీ ఆకులు",
+        "hi": "बारीक कटा हरा धनिया/पार्सले"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Fariner la sole",
+          "en": "Dredge Sole",
+          "te": "చేపకు పిండి పట్టించండి",
+          "hi": "मछली पर मैदा लगाएं"
+        },
+        "instruction": {
+          "fr": "Assaisonnez la sole de sel et poivre. Farinez-la légèrement et tapotez pour retirer l'excédent.",
+          "en": "Pat sole dry with paper towels. Season with salt and pepper, then lightly dredge in flour, shaking off all excess.",
+          "te": "చేపను పొడిగా తుడిచి ఉప్పు, మిరియాలు మరియు కొద్దిగా మైదా పిండి రాయండి.",
+          "hi": "मछली को पोंछकर नमक, काली मिर्च और हल्का मैदा लगाकर अतिरिक्त मैदा झाड़ दें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Dorer au beurre",
+          "en": "Pan-Sear in Butter",
+          "te": "వెన్నలో వేయించండి",
+          "hi": "मक्खन में तलें"
+        },
+        "instruction": {
+          "fr": "Chauffez 30g de beurre dans une grande poêle ovale. Cuisez la sole 4 minutes par face jusqu'à coloration dorée.",
+          "en": "Melt 30g butter in a large oval skillet over medium-high heat. Fry sole for 4 minutes per side until golden and flakey. Transfer to warm platter.",
+          "te": "పాన్‌లో 30 గ్రా వెన్న కరిగించి రెండు వైపులా 4 నిమిషాలు వేయించండి.",
+          "hi": "तवे पर 30 ग्राम मक्खन गरम करके दोनों तरफ 4 मिनट तक सुनहरा होने तक तलें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Réaliser le beurre noisette",
+          "en": "Make Beurre Noisette",
+          "te": "బ్రౌన్ బట్టర్ చేయండి",
+          "hi": "ब्राउन बटर बनाएं"
+        },
+        "instruction": {
+          "fr": "Ajoutez le restant de beurre dans la poêle essuyée et laissez mousser jusqu'à obtenir une belle couleur noisette.",
+          "en": "Wipe pan clean, add remaining 50g butter. Cook until foaming subsides and butter turns a fragrant golden-brown hazelnut color.",
+          "te": "పాన్ శుభ్రం చేసి మిగిలిన వెన్న వేసి మంచి సువాసన వచ్చే వరకు కరిగించండి.",
+          "hi": "तवा साफ करके बाकी मक्खन डालें और सुनहरा भूरा होने तक पकाएं।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Napper et servir",
+          "en": "Sauce and Garnish",
+          "te": "వడ్డించండి",
+          "hi": "सॉस डालकर परोसें"
+        },
+        "instruction": {
+          "fr": "Ajoutez le jus de citron et le persil, et nappez immédiatement la sole fumante de ce beurre noisette crépitant.",
+          "en": "Add lemon juice and chopped parsley (it will foam vigorously!). Immediately spoon sizzling brown butter over fish and serve.",
+          "te": "నిమ్మరసం మరియు పార్స్లీ వేసి వెంటనే చేపపై పోసి వేడిగా వడ్డించండి.",
+          "hi": "नींबू का रस और पार्सले डालें और गरमा-गरम मक्खन मछली पर डालकर तुरंत परोसें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: tarte_flambee
+  "tarte_flambee": {
+    "title": {
+      "fr": "Tarte Flambée Alsacienne (Flammekueche)",
+      "en": "Alsatian Wood-Fired Bacon & Cream Flatbread",
+      "te": "టార్ట్ ఫ్లాంబే (అల్సాస్ బేకన్ మరియు క్రీమ్ పిజ్జా)",
+      "hi": "टार्ट फ्लेम्बे (खस्ता बेकन और क्रीम वाली फ्लैटब्रेड)"
+    },
+    "subtitle": {
+      "fr": "Pâte extra-fine croustillante, fromage blanc onctueux, lardons fumés et oignons doux.",
+      "en": "Paper-thin dough spread with fromage blanc, smoked lardons & sweet onions.",
+      "te": "కరకరలాడే అల్సాటియన్ బేకన్ మరియు చీజ్ ఫ్లాట్‌బ్రెడ్.",
+      "hi": "पतली और कुरकुरी बेस पर स्मोक्ड बेकन, प्याज और ताजी क्रीम से बनी फ्रेंच फ्लैटब्रेड।"
+    },
+    "categoryLabel": {
+      "fr": "Spécialité Traditionnelle d'Alsace",
+      "en": "Alsatian Specialty",
+      "te": "అల్సాస్ స్పెషాలిటీ",
+      "hi": "अल्सास की प्रसिद्ध डिश"
+    },
+    "description": {
+      "fr": "L'incontournable fête paysanne des fermes alsaciennes : une pâte abaissée d'une finesse absolue, recouverte d'un mélange onctueux de fromage blanc et de crème fraîche parfumée à la muscade, généreusement parsemée de lardons fumés paysans et d'oignons blancs émincés, cuite à la flamme vive.",
+      "en": "Alsace's beloved wood-fired specialty: an ultra-thin rolled dough spread with a seasoned blend of tangy fromage blanc and rich crème fraîche, topped generously with smoked pork lardons and thinly sliced sweet onions, baked blistering hot.",
+      "te": "అల్సాస్ సంప్రదాయ ఫ్లాట్‌బ్రెడ్: చాలా పల్చగా ఉండే క్రస్ట్‌పై క్రీమ్, జున్ను, స్మోక్డ్ బేకన్ మరియు ఉల్లిపాయలను ఉంచి అత్యధిక వేడి వద్ద కాల్చి కరకరలాడేలా చేస్తారు.",
+      "hi": "अल्सास की पसंदीदा वुड-फायर्ड फ्लैटब्रेड: बेहद पतले आटे पर खट्टी क्रीम, पनीर, स्मोक्ड बेकन और पतले कटे प्याज डालकर तेज आंच में बेक की जाती है।"
+    },
+    "wine": {
+      "fr": "Pinot Blanc d'Alsace ou Riesling sec",
+      "en": "Alsace Pinot Blanc or Riesling",
+      "te": "అల్సాస్ పినోట్ బ్లాంక్ వైన్",
+      "hi": "अल्सास पिनोट ब्लैंक वाइन"
+    },
+    "wineNotes": {
+      "fr": "Un Pinot Blanc d'Alsace fruité, vif et gouleyant qui désaltère face au sel des lardons et à la douceur de la crème.",
+      "en": "A vibrant, refreshing Alsace Pinot Blanc cuts through the smoky bacon lardons and luscious crème fraîche.",
+      "te": "తాజా అల్సాస్ వైట్ వైన్ బేకన్ మరియు క్రీమ్ యొక్క రిచ్ రుచికి చక్కటి జోడింపు.",
+      "hi": "ताजा पिनोट ब्लैंक वाइन स्मोक्ड बेकन और मलाईदार क्रीम के स्वाद को बेहतरीन ताजगी देती है।"
+    },
+    "chefTip": {
+      "fr": "Étalez la pâte le plus finement possible (moins de 2 mm) et cuisez sur une pierre à pizza préalablement chauffée à la température maximale de votre four pour obtenir ce craquant incomparable.",
+      "en": "Roll the dough as paper-thin as possible (less than 2mm) and bake on a preheated pizza stone at your oven's maximum temperature for authentic charred cracker crust.",
+      "te": "పిండిని 2 మి.మీ కన్నా తక్కువ మందంతో చాలా పల్చగా రోల్ చేయండి. పిజ్జా స్టోన్‌పై కాల్చండి.",
+      "hi": "आटे को 2 मिमी से भी कम पतला बेलें और पहले से गरम पिज्जा स्टोन पर तेज आंच में बेक करें।"
+    },
+    "ingredients": [
+      {
+        "fr": "Farine de blé T55",
+        "en": "Unbleached flour for dough",
+        "te": "గోధుమ పిండి",
+        "hi": "मैदा/गेहूं का आटा"
+      },
+      {
+        "fr": "Fromage blanc fermier égoutté",
+        "en": "Fromage blanc or whole milk ricotta",
+        "te": "ఫ్రెంచ్ చీజ్ లేదా రికోటా",
+        "hi": "ताजा पनीर/रिकोटा"
+      },
+      {
+        "fr": "Crème fraîche épaisse d'Alsace",
+        "en": "Heavy crème fraîche",
+        "te": "ఫ్రెంచ్ క్రీమ్",
+        "hi": "गाढ़ी मलाईदार क्रीम"
+      },
+      {
+        "fr": "Lardons fumés paysans",
+        "en": "Smoked bacon lardons",
+        "te": "స్మోక్డ్ బేకన్ ముక్కలు",
+        "hi": "स्मोक्ड बेकन"
+      },
+      {
+        "fr": "Oignons blancs coupés en lamelles fines",
+        "en": "Sweet white onions, razor-thin sliced",
+        "te": "సన్నగా తరిగిన తెల్ల ఉల్లిపాయలు",
+        "hi": "पतले कटे प्याज"
+      },
+      {
+        "fr": "Noix de muscade râpée et poivre",
+        "en": "Fresh ground nutmeg & sea salt",
+        "te": "జాజికాయ పొడి మరియు ఉప్పు",
+        "hi": "जायफल और नमक"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Abaisser la pâte",
+          "en": "Roll Dough Ultra-Thin",
+          "te": "పిండిని పల్చగా చేయండి",
+          "hi": "आटा पतला बेलें"
+        },
+        "instruction": {
+          "fr": "Pétrissez farine, eau, huile et sel. Étalez la pâte le plus finement possible sur du papier cuisson.",
+          "en": "Knead flour, water, oil, and salt into a smooth dough. Roll out paper-thin on parchment paper into an oblong oval.",
+          "te": "పిండి ముద్దను బేకింగ్ పేపర్‌పై చాలా పల్చగా రోల్ చేయండి.",
+          "hi": "आटे को चिकना गूंथ लें और पार्चमेंट पेपर पर जितना हो सके पतला बेलें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Napper de crème",
+          "en": "Spread Cream Base",
+          "te": "క్రీమ్ పూయండి",
+          "hi": "क्रीम फैलाएं"
+        },
+        "instruction": {
+          "fr": "Mélangez le fromage blanc et la crème avec la muscade, le sel et le poivre. Étalez sur la pâte.",
+          "en": "Whisk fromage blanc and crème fraîche with salt, pepper, and freshly grated nutmeg. Spread thinly over the dough to within 1/2 inch of edges.",
+          "te": "క్రీమ్, చీజ్, జాజికాయ పొడి కలిపి పిండిపై సమానంగా పూయండి.",
+          "hi": "क्रीम, चीज, नमक और जायफल मिलाकर आटे पर फैलाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Garnir généreusement",
+          "en": "Scatter Toppings",
+          "te": "టాపింగ్స్ చల్లండి",
+          "hi": "टॉपिंग्स डालें"
+        },
+        "instruction": {
+          "fr": "Répartissez uniformément les lamelles d'oignons crus et les lardons fumés.",
+          "en": "Scatter thinly sliced raw onions and smoky lardons evenly across the cream layer.",
+          "te": "ఉల్లిపాయలు మరియు బేకన్ ముక్కలను చల్లండి.",
+          "hi": "ऊपर से कटे प्याज और बेकन के टुकड़े फैलाएं।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Cuire au four brûlant",
+          "en": "Bake at Max Heat",
+          "te": "బేక్ చేయండి",
+          "hi": "तेज आंच पर बेक करें"
+        },
+        "instruction": {
+          "fr": "Glissez au four à 250°C sur plaque brûlante pendant 10 à 12 minutes jusqu'à ce que les bords soient croustillants et dorés.",
+          "en": "Slide onto a preheated baking stone at 250°C (480°F). Bake 10-12 minutes until edges are blistered, dark, and shatteringly crisp.",
+          "te": "250°C వద్ద 10-12 నిమిషాలు అంచులు కరకరలాడే వరకు బేక్ చేయండి.",
+          "hi": "250 डिग्री पर 10-12 मिनट किनारों के कुरकुरे होने तक बेक करें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: choucroute_garnie
+  "choucroute_garnie": {
+    "title": {
+      "fr": "Choucroute Garnie Traditionnelle",
+      "en": "Alsatian Riesling Sauerkraut with Sausages & Pork",
+      "te": "షూక్రూట్ గార్నీ (వైట్ వైన్ క్యాబేజీ మరియు సాసేజ్ వంటకం)",
+      "hi": "शुक्रूट गार्नी (सफेद वाइन में पकी गोभी और सॉसेज)"
+    },
+    "subtitle": {
+      "fr": "Chou fermenté braisé au Riesling, saucisses de Montbéliard, lard fumé et pommes de terre.",
+      "en": "Riesling-braised sauerkraut heaped with Montbéliard sausages & smoked pork.",
+      "te": "అల్సాస్ సంప్రదాయ వైన్ స్టీవ్డ్ క్యాబేజీ మరియు స్మోక్డ్ మీట్ డిష్.",
+      "hi": "अल्सास का राष्ट्रीय व्यंजन - वाइन में पकी खट्टी गोभी, फ्रेंच सॉसेज और आलू।"
+    },
+    "categoryLabel": {
+      "fr": "Patrimoine Gastronomique d'Alsace",
+      "en": "Alsatian Heritage",
+      "te": "అల్సాస్ సంప్రదాయం",
+      "hi": "अल्सास का पारंपरिक भोजन"
+    },
+    "description": {
+      "fr": "Le monument de la gastronomie alsacienne : chou blanc finement fermenté et mijoté de longues heures avec un Riesling sec d'Alsace, de la graisse d'oie, des baies de genièvre et des oignons, couronné de saucisses de Strasbourg, de Montbéliard fumées, de lard paysan et de pommes de terre fondantes.",
+      "en": "The crown jewel of Alsatian gastronomy: silky fermented cabbage braised for hours with Alsace Riesling, goose fat, juniper berries, and onions, topped with smoked pork loin, Strasbourg and Montbéliard sausages, and boiled yellow potatoes.",
+      "te": "అల్సాస్ రాయల్ డిష్: పులియబెట్టిన క్యాబేజీని వైట్ వైన్, సుగంధ ద్రవ్యాలతో గంటల తరబడి ఉడికించి, పొగబెట్టిన సాసేజ్‌లు, బంగాళాదుంపలతో కలిపి వడ్డిస్తారు.",
+      "hi": "अल्सास का प्रसिद्ध व्यंजन: बारीक कटी खट्टी गोभी को वाइन और मसालों के साथ धीमी आंच में पकाकर सॉसेज, आलू और स्मोक्ड पोर्क के साथ परोसा जाता है।"
+    },
+    "wine": {
+      "fr": "Riesling Grand Cru d'Alsace ou Pinot Gris",
+      "en": "Alsace Grand Cru Riesling or Pinot Gris",
+      "te": "అల్సాస్ రీస్లింగ్ వైన్",
+      "hi": "अल्सास रीसलिंग वाइन"
+    },
+    "wineNotes": {
+      "fr": "La fraîcheur vive et minérale d'un grand Riesling sec d'Alsace traverse sans faillir la richesse des viandes fumées.",
+      "en": "A dry, petrol-mineral Alsace Riesling has the piercing acidity needed to cut through smoked pork and rich duck fat.",
+      "te": "రీస్లింగ్ వైన్ యొక్క అసిడిటీ స్మోక్డ్ మాంసం మరియు క్యాబేజీ రుచిని అద్భుతంగా నిలబెడుతుంది.",
+      "hi": "सूखी रीसलिंग वाइन स्मोक्ड मीट और वसा के भारी स्वाद को बहुत ही शानदार संतुलन देती है।"
+    },
+    "chefTip": {
+      "fr": "Rincez le chou fermenté sous l'eau froide pour enlever l'excès d'acidité avant de le presser. Mijotez avec des baies de genièvre concassées pour la touche d'authenticité.",
+      "en": "Rinse raw fermented sauerkraut in cold water and squeeze dry before cooking. Simmer with dried juniper berries and whole cloves for traditional aroma.",
+      "te": "క్యాబేజీని చల్లని నీటిలో కడిగి పిండండి. జూనిపర్ బెర్రీస్ వేసి ఉడికించండి.",
+      "hi": "पकाने से पहले खट्टी गोभी को ठंडे पानी से धोकर निचोड़ लें ताकि अतिरिक्त खटास निकल जाए।"
+    },
+    "ingredients": [
+      {
+        "fr": "Chou à choucroute cru fermenté",
+        "en": "Fermented raw sauerkraut, gently rinsed",
+        "te": "పులియబెట్టిన క్యాబేజీ",
+        "hi": "किण्वित पत्ता गोभी"
+      },
+      {
+        "fr": "Riesling sec d'Alsace",
+        "en": "Dry Alsace Riesling wine",
+        "te": "రీస్లింగ్ వైట్ వైన్",
+        "hi": "सफेद वाइन"
+      },
+      {
+        "fr": "Saucisses fumées de Montbéliard",
+        "en": "Smoked Montbéliard or Kielbasa sausages",
+        "te": "స్మోక్డ్ సాసేజ్‌లు",
+        "hi": "स्मोक्ड सॉसेज"
+      },
+      {
+        "fr": "Saucisses de Strasbourg ou Francfort",
+        "en": "Strasbourg / Frankfurter sausages",
+        "te": "ఫ్రాంక్‌ఫర్టర్ సాసేజ్‌లు",
+        "hi": "फ्रैंकफर्टर सॉसेज"
+      },
+      {
+        "fr": "Lard paysan fumé en tranches épaisses",
+        "en": "Smoked pork belly or thick bacon slab",
+        "te": "స్మోక్డ్ బేకన్ ముక్క",
+        "hi": "स्मोक्ड पोर्क बेली"
+      },
+      {
+        "fr": "Baies de genièvre et clous de girofle",
+        "en": "Juniper berries, crushed & cloves",
+        "te": "లవంగాలు మరియు జూనిపర్ బెర్రీలు",
+        "hi": "लौंग और जुनिपर बेरीज"
+      },
+      {
+        "fr": "Pommes de terre à chair ferme",
+        "en": "Yellow waxy potatoes, peeled",
+        "te": "బంగాళాదుంపలు",
+        "hi": "उबले आलू"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Rincer et suer",
+          "en": "Rinse and Layer",
+          "te": "క్యాబేజీ కడగండి",
+          "hi": "गोभी धोएं और परत लगाएं"
+        },
+        "instruction": {
+          "fr": "Rincez le chou à l'eau froide et pressez bien. Faites revenir un oignon émincé dans une cocotte.",
+          "en": "Rinse sauerkraut in cold water and squeeze dry. Sauté sliced onions in duck fat, then add half the sauerkraut.",
+          "te": "క్యాబేజీని కడిగి నీరు పిండండి. ఉల్లిపాయలను వేయించి సగం క్యాబేజీ వేయండి.",
+          "hi": "गोभी को धोकर निचोड़ें। प्याज भूनकर आधी गोभी बर्तन में फैलाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Assaisonner et mouiller",
+          "en": "Add Spices and Meats",
+          "te": "సుగంధ ద్రవ్యాలు మరియు వైన్ కలపండి",
+          "hi": "मसाले और वाइन डालें"
+        },
+        "instruction": {
+          "fr": "Ajoutez le lard fumé, genièvre et clous de girofle. Versez le Riesling et couvrez du reste de chou.",
+          "en": "Tuck in juniper berries, cloves, bay leaf, and smoked pork slab. Pour in Riesling and chicken broth.",
+          "te": "మసాలాలు, బేకన్ వేసి వైట్ వైన్ పోయండి.",
+          "hi": "मसाले, बेकन और बाकी गोभी डालकर ऊपर से सफेद वाइन डालें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Mijoter longuement",
+          "en": "Simmer Gently",
+          "te": "నెమ్మదిగా ఉడికించండి",
+          "hi": "धीमी आंच पर पकाएं"
+        },
+        "instruction": {
+          "fr": "Laissez mijoter à couvert à feu très doux pendant 1h30.",
+          "en": "Top with remaining cabbage. Cover tightly and simmer on low for 1.5 hours until meltingly tender.",
+          "te": "మూతపెట్టి 1.5 గంటల పాటు తక్కువ మంటపై ఉడికించండి.",
+          "hi": "ढककर 1.5 घंटे तक धीमी आंच पर गोभी के गलने तक पकाएं।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Pocher les saucisses",
+          "en": "Add Sausages and Potatoes",
+          "te": "సాసేజ్‌లు వేసి ఉడికించండి",
+          "hi": "सॉसेज और आलू डालकर परोसें"
+        },
+        "instruction": {
+          "fr": "Déposez les saucisses et les pommes de terre cuites 20 minutes avant de servir. Dressez sur grand plat avec moutarde forte.",
+          "en": "Nestle sausages and boiled potatoes on top for the final 20 minutes to heat through. Serve on a grand platter with spicy Dijon.",
+          "te": "చివరి 20 నిమిషాల్లో సాసేజ్‌లు, ఆలు వేసి వేడి చేసి ఆవాల పేస్ట్‌తో వడ్డించండి.",
+          "hi": "आखिरी 20 मिनट में सॉसेज और उबले आलू रखकर गरम करें और सरसों के साथ परोसें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: kouglof_alsacien
+  "kouglof_alsacien": {
+    "title": {
+      "fr": "Kouglof Alsacien Traditionnel",
+      "en": "Traditional Alsatian Fluted Brioche with Rum Raisins",
+      "te": "కూగ్లోఫ్ అల్సాసియన్ (రమ్ కిస్మిస్ మరియు బాదం బ్రెడ్)",
+      "hi": "कूग्लॉफ अल्सासियन (किशमिश और बादाम वाला फ्रेंच केक)"
+    },
+    "subtitle": {
+      "fr": "Brioche dorée cannelée aux raisins marinés au rhum et amandes effilées.",
+      "en": "Golden fluted brioche crown studded with rum raisins & toasted sliced almonds.",
+      "te": "ప్రత్యేకమైన ఆకారంలో బేక్ చేసిన సంప్రదాయ ఫ్రెంచ్ స్వీట్ బ్రెడ్.",
+      "hi": "फ्रांस का पारंपरिक बादाम और किशमिश से सजा हुआ शानदार ताज जैसा केक।"
+    },
+    "categoryLabel": {
+      "fr": "Pâtisserie Emblématique d'Alsace",
+      "en": "Alsatian Patisserie",
+      "te": "అల్సాస్ పేస్ట్రీ",
+      "hi": "अल्सास की पेस्ट्री"
+    },
+    "description": {
+      "fr": "Le symbole des dimanches en Alsace : une brioche aérée et beurrée cuite dans un moule traditionnel en terre cuite émaillée de Soufflenheim, garnie d'amandes entières torréfiées et de raisins secs dorés préalablement macérés dans du rhum ambré.",
+      "en": "The architectural symbol of Alsace bakeries: a tall, turban-shaped fluted brioche crowned with toasted whole almonds, made with an enriched yeast dough laced with golden sultana raisins macerated in dark rum or Kirsch.",
+      "te": "అల్సాస్ సంప్రదాయ రాయల్ బ్రెడ్: సువాసనగల ఈస్ట్ పిండితో, రమ్‌లో నానబెట్టిన కిస్మిస్‌లు మరియు బాదంపప్పులతో ప్రత్యేకమైన కుండీ లాంటి అచ్చులో కాల్చుతారు.",
+      "hi": "अल्सास की बेकरी की शान: बादाम और डार्क रम में भीगी किशमिश से बना ताज के आकार का मुलायम और मक्खनदार फ्रेंच बन केक।"
+    },
+    "wine": {
+      "fr": "Gewurztraminer Vendanges Tardives ou Café au Lait",
+      "en": "Alsace Gewurztraminer or Café au Lait",
+      "te": "గేవుర్జ్‌ట్రామినర్ లేదా కాఫీ",
+      "hi": "गेवुर्ज़ट्रामिनर वाइन या कॉफी"
+    },
+    "wineNotes": {
+      "fr": "Les notes exotiques de litchi et de rose d'un Gewurztraminer moelleux subliment les raisins au rhum et la mie beurrée.",
+      "en": "The exotic floral and lychee sweetness of late-harvest Gewurztraminer complements rum-soaked raisins and buttery brioche crumb.",
+      "te": "తీపి గేవుర్జ్‌ట్రామినర్ వైన్ లేదా కాఫీ ఈ స్వీట్ బ్రెడ్‌తో ఎంతో బాగుంటుంది.",
+      "hi": "मीठी व्हाइट वाइन या गरमा-गरम कॉफी इस मक्खनदार केक के साथ बहुत स्वादिष्ट लगती है।"
+    },
+    "chefTip": {
+      "fr": "Beurrez soigneusement chaque cannelure du moule en terre cuite et insérez une amande entière au fond de chaque rainure avant d'y déposer la pâte.",
+      "en": "Butter every flute of an authentic ceramic Soufflenheim mold thoroughly, and place a whole almond in each groove before dropping in the dough.",
+      "te": "మోల్డ్ యొక్క ప్రతి గాడిలో వెన్న రాసి ఒక బాదం పప్పును ఉంచిన తర్వాత పిండిని పోయండి.",
+      "hi": "मोल्ड के हर खांचे में मक्खन लगाकर एक-एक बादाम रखें, फिर आटा डालकर बेक करें।"
+    },
+    "ingredients": [
+      {
+        "fr": "Farine de blé tamisée",
+        "en": "French bread flour (T45)",
+        "te": "గోధుమ/మైదా పిండి",
+        "hi": "मैदा"
+      },
+      {
+        "fr": "Beurre fin ramolli",
+        "en": "High-fat unsalted butter, softened",
+        "te": "మెత్తని వెన్న",
+        "hi": "नरम मक्खन"
+      },
+      {
+        "fr": "Raisins secs blonds marinés",
+        "en": "Golden sultana raisins",
+        "te": "కిస్మిస్‌లు",
+        "hi": "किशमिश"
+      },
+      {
+        "fr": "Rhum ambré de qualité",
+        "en": "Dark Caribbean rum or Kirschwasser",
+        "te": "రమ్ లేదా కిర్ష్",
+        "hi": "डार्क रम"
+      },
+      {
+        "fr": "Amandes entières émondées",
+        "en": "Whole blanched almonds",
+        "te": "బాదంపప్పులు",
+        "hi": "बादाम"
+      },
+      {
+        "fr": "Œufs entiers frais",
+        "en": "Fresh whole eggs",
+        "te": "కోడిగుడ్లు",
+        "hi": "अंडे"
+      },
+      {
+        "fr": "Levure de boulanger",
+        "en": "Active baker's yeast",
+        "te": "ఈస్ట్",
+        "hi": "बेकर्स यीस्ट"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Macérer les raisins",
+          "en": "Macerate Raisins",
+          "te": "కిస్మిస్‌లు నానబెట్టండి",
+          "hi": "किशमिश भिगोएं"
+        },
+        "instruction": {
+          "fr": "Faites tremper les raisins dans le rhum chaud 30 minutes. Beurrez le moule et déposez une amande par cannelure.",
+          "en": "Soak raisins in warm rum for 30 minutes. Butter a fluted Kouglof mold generously and place an almond in each groove.",
+          "te": "కిస్మిస్‌లను రమ్‌లో 30 నిమిషాలు నానబెట్టండి. మోల్డ్‌లో బాదం ఉంచండి.",
+          "hi": "किशमिश को गरम रम में 30 मिनट भिगोएं। मोल्ड में मक्खन लगाकर बादाम सजाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Pétrir la brioche",
+          "en": "Knead Enriched Dough",
+          "te": "పిండి ముద్ద చేయండి",
+          "hi": "आटा गूंथें"
+        },
+        "instruction": {
+          "fr": "Pétrissez farine, levure, lait, œufs et sucre 10 minutes. Incorporez le beurre puis les raisins égouttés.",
+          "en": "Knead flour, yeast, milk, eggs, and sugar for 10 minutes until elastic. Gradually incorporate softened butter until glossy, then fold in drained raisins.",
+          "te": "పిండి, ఈస్ట్, పాలు, గుడ్లు కలిపి కలపండి. వెన్న మరియు కిస్మిస్‌లు చేర్చండి.",
+          "hi": "आटा, दूध, अंडे और चीनी को 10 मिनट गूंथें। मक्खन और किशमिश मिला लें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Lever dans le moule",
+          "en": "First and Second Rise",
+          "te": "పిండిని పొంగనివ్వండి",
+          "hi": "आटा फूलने दें"
+        },
+        "instruction": {
+          "fr": "Laissez lever 1h30. Déposez dans le moule et laissez lever à nouveau jusqu'au bord.",
+          "en": "Let dough rise 1.5 hours until doubled. Punch down, place into prepared mold, and let rise until dough reaches the rim.",
+          "te": "పిండిని 1.5 గంటల పాటు రెట్టింపు అయ్యే వరకు ఉంచండి.",
+          "hi": "आटे को 1.5 घंटे फूलने दें। मोल्ड में रखकर ऊपर तक आने दें।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Cuire et saupoudrer",
+          "en": "Bake and Dust",
+          "te": "బేక్ చేసి సర్వ్ చేయండి",
+          "hi": "बेक करके चीनी छिड़कें"
+        },
+        "instruction": {
+          "fr": "Cuisez à 180°C pendant 35 à 40 minutes. Démoulez tiède et poudrez de sucre glace.",
+          "en": "Bake at 180°C (350°F) for 35-40 minutes until deep mahogany. Invert warm onto a rack and dust with confectioners' sugar.",
+          "te": "180°C వద్ద 35-40 నిమిషాలు బేక్ చేసి చక్కెర పొడి చల్లండి.",
+          "hi": "180 डिग्री पर 35-40 मिनट बेक करें और ऊपर से पिसी चीनी छिड़कें।"
+        }
+      }
+    ]
+  },
+
+  // Recipe: baeckeoffe
+  "baeckeoffe": {
+    "title": {
+      "fr": "Baeckeoffe Alsacien Traditionnel",
+      "en": "Three-Meat Alsatian Wine & Potato Casserole",
+      "te": "బెక్-ఆఫ్ అల్సాసియన్ (మూడు రకాల మాంసం మరియు బంగాళాదుంప స్టీవ్)",
+      "hi": "बेकऑफ अल्सासियन (तीन प्रकार के मीट और आलू का शाही फ्रेंच स्टू)"
+    },
+    "subtitle": {
+      "fr": "Bœuf, porc et agneau marinés au vin blanc, mijotés sous luth avec pommes de terre et poireaux.",
+      "en": "Beef, pork & lamb layered with sliced potatoes, sealed in white wine.",
+      "te": "వైట్ వైన్‌తో కాల్చిన అల్సాస్ మూడు రకాల మాంసాల రాయల్ స్టీవ్.",
+      "hi": "मिट्टी के बर्तन में धीमी आंच पर पका हुआ फ्रांस का शाही तीन-मीट व्यंजन।"
+    },
+    "categoryLabel": {
+      "fr": "Plat Festif Alsacien",
+      "en": "Alsatian Sunday Feast",
+      "te": "అల్సాస్ విందు వంటకం",
+      "hi": "अल्सास का दावत वाला व्यंजन"
+    },
+    "description": {
+      "fr": "Le chef-d'œuvre du dimanche alsacien : trois viandes tendres (paleron de bœuf, échine de porc, épaule d'agneau) marinées au vin blanc d'Alsace, superposées entre des couches de pommes de terre émincées et de poireaux dans une terrine scellée à la pâte et cuite 3h30 à l'étouffée.",
+      "en": "The historical bakers' oven feast of Alsace: layers of marinated beef chuck, pork shoulder, and lamb shoulder nestled between sliced waxy potatoes and leeks, sealed inside an oval ceramic terrine with a rope of dough and slow-baked for 3.5 hours.",
+      "te": "అల్సాస్ బేకర్ల ఓవెన్ విందు: బీఫ్, పోర్క్ మరియు లాంబ్ మాంసాలను బంగాళాదుంపలు, ఉల్లిపాయలతో పొరలుగా పేర్చి, కుండ మూతను పిండితో సీల్ చేసి 3.5 గంటలు నెమ్మదిగా ఉడికిస్తారు.",
+      "hi": "अल्सास की सदियों पुरानी शाही डिश: वाइन में मैरीनेट किए गए बीफ, पोर्क और लैम्ब मीट को आलू और प्याज की परतों के बीच मिट्टी के बर्तन में रखकर आटे से सील करके 3.5 घंटे पकाया जाता है।"
+    },
+    "wine": {
+      "fr": "Pinot Noir d'Alsace ou Sylvaner",
+      "en": "Alsace Pinot Noir or Sylvaner",
+      "te": "అల్సాస్ పినోట్ నోయిర్ వైన్",
+      "hi": "अल्सास पिनोट नॉयर वाइन"
+    },
+    "wineNotes": {
+      "fr": "Un Pinot Noir d'Alsace frais et fruité accompagne avec élégance le fondant des viandes marinées au vin blanc.",
+      "en": "A chilled, light-bodied Alsace Pinot Noir matches the earthy slow-baked root vegetables and trio of tender braised meats.",
+      "te": "చల్లని పినోట్ నోయిర్ వైన్ మూడు రకాల మాంసాల రుచికి అద్భుతంగా సరిపోతుంది.",
+      "hi": "हल्की पिनोट नॉयर रेड वाइन आलू और तीनों प्रकार के रसीले मीट के स्वाद को निखारती है।"
+    },
+    "chefTip": {
+      "fr": "Scellez le couvercle de la terrine avec un cordon de pâte (farine et eau) pour créer un joint hermétique qui emprisonne toutes les saveurs et vapeurs de vin pendant la longue cuisson.",
+      "en": "Seal the lid of the ceramic terrine with a flour-and-water dough paste to prevent any steam from escaping during the long 3.5-hour bake.",
+      "te": "ఆవిరి బయటకు పోకుండా మూత చుట్టూ పిండి ముద్దతో సీల్ చేయండి.",
+      "hi": "बर्तन के ढक्कन को आटे की लोई से अच्छी तरह सील करें ताकि 3.5 घंटे तक भाप बिल्कुल बाहर न निकले।"
+    },
+    "ingredients": [
+      {
+        "fr": "Échine de porc coupée en morceaux",
+        "en": "Pork shoulder, cut into cubes",
+        "te": "పోర్క్ ముక్కలు",
+        "hi": "पोर्क के टुकड़े"
+      },
+      {
+        "fr": "Paleron de bœuf en cubes",
+        "en": "Beef chuck, cut into cubes",
+        "te": "బీఫ్ ముక్కలు",
+        "hi": "बीफ के टुकड़े"
+      },
+      {
+        "fr": "Épaule d'agneau désossée en morceaux",
+        "en": "Lamb shoulder, cut into cubes",
+        "te": "లాంబ్ ముక్కలు",
+        "hi": "लैम्ब के टुकड़े"
+      },
+      {
+        "fr": "Pinot Blanc sec d'Alsace",
+        "en": "Dry Alsace Pinot Blanc or Sylvaner",
+        "te": "అల్సాస్ వైట్ వైన్",
+        "hi": "सफेद वाइन"
+      },
+      {
+        "fr": "Pommes de terre coupées en rondelles",
+        "en": "Waxy yellow potatoes, sliced 1/4-inch",
+        "te": "బంగాళాదుంప చక్రాలు",
+        "hi": "आलू के गोल स्लाइस"
+      },
+      {
+        "fr": "Poireaux émincés",
+        "en": "Leeks, cleaned and sliced",
+        "te": "లీక్స్ ముక్కలు",
+        "hi": "लीक्स (हरी प्याज)"
+      },
+      {
+        "fr": "Ail, thym frais, clous de girofle et laurier",
+        "en": "Garlic, thyme, bay leaves & cloves",
+        "te": "వెల్లుల్లి మరియు సుగంధ ద్రవ్యాలు",
+        "hi": "लहसुन, थाइम और तेजपत्ता"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Mariner les viandes",
+          "en": "Marinate Meats",
+          "te": "మాంసాన్ని నానబెట్టండి",
+          "hi": "मीट मैरीनेट करें"
+        },
+        "instruction": {
+          "fr": "Faites mariner les 3 viandes 24 heures dans le vin blanc avec oignons, poireaux, ail et épices.",
+          "en": "Marinate beef, pork, and lamb chunks in white wine with onions, leeks, garlic, and herbs for 24 hours.",
+          "te": "మూడు రకాల మాంసాలను వైట్ వైన్ మరియు మసాలాలలో 24 గంటలు నానబెట్టండి.",
+          "hi": "तीनों प्रकार के मीट को वाइन, प्याज, लहसुन और मसालों के साथ 24 घंटे मैरीनेट करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Monter la terrine",
+          "en": "Layer Terrine",
+          "te": "పొరలుగా పేర్చండి",
+          "hi": "बर्तन में परतें लगाएं"
+        },
+        "instruction": {
+          "fr": "Beurrez la terrine. Déposez une couche de pommes de terre, puis les viandes égouttées, et terminez par les pommes de terre et poireaux.",
+          "en": "Butter an oval ceramic terrine. Place a layer of sliced potatoes, then drained marinated meats, and top with remaining potatoes and leeks.",
+          "te": "కుండలో బంగాళాదుంపలు, మాంసం మరియు లీక్స్ పొరలుగా పేర్చండి.",
+          "hi": "बर्तन में पहले आलू, फिर मीट और ऊपर से फिर आलू व प्याज की परत लगाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Arroser et luter",
+          "en": "Pour Wine and Seal",
+          "te": "వైన్ పోసి సీల్ చేయండి",
+          "hi": "वाइन डालें और सील करें"
+        },
+        "instruction": {
+          "fr": "Versez la marinade filtrée. Scellez le couvercle avec un cordon de pâte (farine + eau).",
+          "en": "Pour strained wine marinade over. Roll flour and water into a dough rope and press around rim to hermetically seal the lid.",
+          "te": "వైన్ పోసి మూత చుట్టూ పిండితో గట్టిగా సీల్ చేయండి.",
+          "hi": "मैरिनेड की वाइन डालें और ढक्कन के चारों तरफ गीले आटे से सील कर दें।"
+        }
+      },
+      {
+        "step": 4,
+        "title": {
+          "fr": "Cuire lentement",
+          "en": "Slow Bake",
+          "te": "నెమ్మదిగా బేక్ చేయండి",
+          "hi": "धीमी आंच पर बेक करें"
+        },
+        "instruction": {
+          "fr": "Cuisez à 150°C pendant 3h30. Brisez le cordon de pâte à table et servez fumant.",
+          "en": "Bake at 150°C (300°F) for 3.5 hours. Break dough seal at the table and serve bubbling hot.",
+          "te": "150°C వద్ద 3.5 గంటలు బేక్ చేయండి. టేబుల్ వద్ద సీల్ తీసి వేడిగా వడ్డించండి.",
+          "hi": "150 डिग्री पर 3.5 घंटे बेक करें। मेज पर सील तोड़कर गरमा-गरम परोसें।"
+        }
+      }
+    ]
   }
 };
 
@@ -2087,3 +3734,4 @@ if (typeof window !== "undefined") {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { RECIPE_TRANSLATIONS };
 }
+

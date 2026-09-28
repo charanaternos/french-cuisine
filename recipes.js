@@ -588,8 +588,1133 @@ const RECIPES_DATA = [
       { step: 4, title: "Bake and Rise", instruction: "Fill ramekins to the brim and smooth with palette knife. Bake at 190°C (375°F) for 12-14 minutes without opening the oven door. Dust with powdered sugar and serve immediately.", timerSeconds: 780 }
     ]
   }
+,
+  {
+    "id": "salade_nicoise",
+    "title": "Salade Niçoise",
+    "titleEn": "Classic Niçoise Salad",
+    "titleTe": "సలాడ్ నిస్వోయిస్ (రివేరా ఫ్రెష్ సలాడ్)",
+    "titleHi": "सलाद निकोइस (क्लासिक फ्रेंच रिवेरा सलाद)",
+    "region": "Provence",
+    "category": "main-course",
+    "categoryLabel": "Riviera Classic",
+    "difficulty": "Easy",
+    "rating": 4.9,
+    "reviews": "1.8k",
+    "prepTime": 20,
+    "cookTime": 10,
+    "calories": 380,
+    "servingsBase": 4,
+    "image": "assets/images/salade_nicoise.jpg",
+    "tags": [
+      "Provence",
+      "Salad",
+      "Tuna",
+      "Healthy",
+      "Riviera"
+    ],
+    "subtitle": "Fresh seared tuna, haricots verts, Niçoise olives, tomatoes & soft eggs.",
+    "subtitleEn": "Fresh seared tuna, haricots verts, Niçoise olives, tomatoes & soft eggs.",
+    "subtitleTe": "తాజా ట్యూనా, ఆలివ్‌లు మరియు ఉడికించిన గుడ్లతో చేసిన ఫ్రెంచ్ రివేరా సలాడ్.",
+    "subtitleHi": "ताजा टूना, बीन्स, जैतून और उबले अंडे वाला क्लासिक फ्रेंच रिवेरा सलाद।",
+    "description": "The pride of Nice and the Côte d'Azur: crisp mixed greens, tender blanched haricots verts, baby potatoes, sun-ripened tomatoes, tiny black Niçoise cailletier olives, anchovy fillets, and seared rare ahi tuna drizzled with a bright lemon-herb vinaigrette.",
+    "winePairing": {
+      "wine": "Côtes de Provence Rosé or Bandol Blanc",
+      "notes": "A pale, dry Provencal rosé with crisp minerality cuts through the rich tuna and anchors the salty, savory olives and anchovies."
+    },
+    "chefTip": "Use authentic tiny black Niçoise olives (cailletier). Sear the tuna on scorching heat for just 45 seconds per side to leave a delicate ruby center.",
+    "nutrition": {
+      "protein": "32g",
+      "carbs": "18g",
+      "fat": "20g",
+      "fiber": "5g"
+    },
+    "ingredients": [
+      {
+        "name": "Fresh yellowfin or ahi tuna steak",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Tender French green beans (haricots verts)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Baby new potatoes, boiled and halved",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Ripe vine-ripened tomatoes, wedged",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Farm-fresh eggs, soft-boiled (6.5 min)",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Authentic Niçoise black olives",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Salt-cured Mediterranean anchovy fillets",
+        "amount": 8,
+        "unit": "pcs"
+      },
+      {
+        "name": "Extra virgin Provencal olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fresh lemon juice & Dijon mustard",
+        "amount": 2,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Boil Vegetables and Eggs",
+        "instruction": "Boil baby potatoes until tender (12 min). Blanch haricots verts for 3 minutes and shock in ice water. Soft-boil eggs for 6.5 minutes and peel.",
+        "timerSeconds": 720
+      },
+      {
+        "step": 2,
+        "title": "Whisk Vinaigrette",
+        "instruction": "Whisk extra virgin olive oil, lemon juice, Dijon mustard, minced shallot, sea salt, and black pepper until emulsified.",
+        "timerSeconds": 180
+      },
+      {
+        "step": 3,
+        "title": "Flash-Sear Tuna",
+        "instruction": "Rub tuna steaks with olive oil, salt, and pepper. Sear in a screaming-hot skillet for 45 seconds per side. Slice into thick medallions.",
+        "timerSeconds": 90
+      },
+      {
+        "step": 4,
+        "title": "Compose and Dress",
+        "instruction": "Arrange crisp greens, potatoes, beans, tomatoes, halved soft-boiled eggs, olives, and anchovies on a wide platter. Crown with sliced tuna and drizzle vinaigrette.",
+        "timerSeconds": 240
+      }
+    ]
+  },
+  {
+    "id": "pissaladiere",
+    "title": "Pissaladière Provençale",
+    "titleEn": "Riviera Onion & Anchovy Tart",
+    "titleTe": "పిస్సాలదియర్ (ఫ్రెంచ్ ఉల్లిపాయ మరియు ఆలివ్ టార్ట్)",
+    "titleHi": "पिसालादिएर (कारमेलाइज्ड प्याज और जैतून वाली फ्रेंच टार्ट)",
+    "region": "Provence",
+    "category": "pastry",
+    "categoryLabel": "Riviera Specialty",
+    "difficulty": "Medium",
+    "rating": 4.8,
+    "reviews": "950",
+    "prepTime": 30,
+    "cookTime": 45,
+    "calories": 340,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Provence",
+      "Pastry",
+      "Baking",
+      "Riviera",
+      "Onion"
+    ],
+    "subtitle": "Olive oil dough topped with caramelized onions, black olives & anchovy lattice.",
+    "subtitleEn": "Olive oil dough topped with caramelized onions, black olives & anchovy lattice.",
+    "subtitleTe": "నెమ్మదిగా వేయించిన ఉల్లిపాయలు మరియు ఆలివ్‌లతో చేసిన ఫ్రెంచ్ టార్ట్.",
+    "subtitleHi": "धीमी आंच पर भूने मीठे प्याज और काले जैतून से बनी क्लासिक फ्रेंच टार्ट।",
+    "description": "Nice's legendary savory tart: a fragrant olive-oil-scented bread dough blanketed with sweet, jammy slow-caramelized onions infused with thyme, arranged in a signature diamond lattice of salted anchovies and plump Niçoise olives.",
+    "winePairing": {
+      "wine": "Bellet Blanc or Cassis Blanc",
+      "notes": "Crisp white wines from the Riviera coastal limestone hills deliver citrus zest that contrasts the deep natural sweetness of caramelized onions."
+    },
+    "chefTip": "Cook the onions very slowly over low heat with olive oil and thyme for at least 45 minutes without rushing. They should melt into sweet golden jam without browning.",
+    "nutrition": {
+      "protein": "12g",
+      "carbs": "42g",
+      "fat": "16g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {
+        "name": "Unbleached flour for olive oil dough",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Sweet yellow onions, thinly sliced",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Extra virgin olive oil",
+        "amount": 5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fresh thyme sprigs and bay leaf",
+        "amount": 4,
+        "unit": "sprigs"
+      },
+      {
+        "name": "Mediterranean salted anchovy fillets",
+        "amount": 16,
+        "unit": "pcs"
+      },
+      {
+        "name": "Small black Niçoise cailletier olives",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh active dry yeast",
+        "amount": 7,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Prepare Dough",
+        "instruction": "Mix flour, yeast, warm water, salt, and 2 tbsp olive oil into a supple dough. Knead 8 minutes and let rise for 1 hour until doubled.",
+        "timerSeconds": 3600
+      },
+      {
+        "step": 2,
+        "title": "Slow-Melt Onions",
+        "instruction": "Heat remaining olive oil in a wide pan over low heat. Add sliced onions, thyme, and bay leaf. Cook gently for 45 minutes until soft and caramelized.",
+        "timerSeconds": 2700
+      },
+      {
+        "step": 3,
+        "title": "Roll and Top",
+        "instruction": "Roll dough into a 1/4-inch rectangle on a baking sheet. Spread cooled onions evenly to the edges. Arrange anchovies in a crisscross diamond lattice and place an olive in each center.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 4,
+        "title": "Bake Golden",
+        "instruction": "Bake at 220°C (425°F) for 20-25 minutes until the crust is deeply golden and blistered underneath.",
+        "timerSeconds": 1300
+      }
+    ]
+  },
+  {
+    "id": "socca_nicoise",
+    "title": "Socca Niçoise",
+    "titleEn": "Crisp Chickpea Street Flatbread",
+    "titleTe": "సొక్కా నిస్వోయిస్ (శనగపిండి క్రిస్పీ బ్రెడ్)",
+    "titleHi": "सोका निकोइस (कुरकुरी बेसन फ्रेंच ब्रेड)",
+    "region": "Provence",
+    "category": "breakfast",
+    "categoryLabel": "Riviera Street Food",
+    "difficulty": "Easy",
+    "rating": 4.9,
+    "reviews": "1.1k",
+    "prepTime": 10,
+    "cookTime": 12,
+    "calories": 220,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Provence",
+      "Breakfast",
+      "Gluten-Free",
+      "Vegan",
+      "Riviera"
+    ],
+    "subtitle": "Blistered, paper-thin chickpea flatbread with sea salt & crushed pepper.",
+    "subtitleEn": "Blistered, paper-thin chickpea flatbread with sea salt & crushed pepper.",
+    "subtitleTe": "కరకరలాడే ఫ్రెంచ్ రివేరా శనగపిండి ఫ్లాట్‌బ్రెడ్.",
+    "subtitleHi": "फ्रांस के नीस शहर की मशहूर कुरकुरी और गरमा-गरम बेसन ब्रेड।",
+    "description": "The iconic street food of Old Nice: made from simply chickpea flour, water, fruity olive oil, and rosemary, poured into a blisteringly hot pan and baked until the edges are shattered-crisp and the center remains soft and creamy.",
+    "winePairing": {
+      "wine": "Chilled Pastis de Marseille or Bandol Rosé",
+      "notes": "An anise-scented Pastis with cold water or a mineral-driven Rosé matches the earthy nuttiness of roasted chickpea and peppery olive oil."
+    },
+    "chefTip": "Preheat your cast iron skillet under the oven broiler until smoking hot before pouring in the batter. This ensures rapid blistering and authentic charred crust.",
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "28g",
+      "fat": "8g",
+      "fiber": "5g"
+    },
+    "ingredients": [
+      {
+        "name": "Fine chickpea flour (farine de pois chiches)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Lukewarm filtered water",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Extra virgin Provencal olive oil",
+        "amount": 4,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Flaky fleur de sel sea salt",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Coarsely ground black pepper",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Whisk Batter",
+        "instruction": "Whisk chickpea flour and water until completely lump-free. Stir in 2 tbsp olive oil and salt. Let rest at room temperature for 1 hour.",
+        "timerSeconds": 3600
+      },
+      {
+        "step": 2,
+        "title": "Preheat Skillet",
+        "instruction": "Place a 12-inch cast iron skillet on the highest rack of your oven and turn broiler to MAX for 10 minutes until sizzling hot.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Pour and Broil",
+        "instruction": "Carefully coat the skillet with 2 tbsp olive oil, pour batter to form a 1/8-inch thin layer, and broil 6-8 minutes until golden with dark charred blisters.",
+        "timerSeconds": 450
+      },
+      {
+        "step": 4,
+        "title": "Season and Serve",
+        "instruction": "Slide onto a wooden board, shower generously with freshly cracked black pepper and flaky sea salt, and tear into irregular pieces to enjoy hot.",
+        "timerSeconds": 60
+      }
+    ]
+  },
+  {
+    "id": "daube_provencale",
+    "title": "Daube Provençale",
+    "titleEn": "Slow-Braised Provençal Beef & Orange Stew",
+    "titleTe": "దాబ్ ప్రొవెన్సాల్ (ఎరుపు వైన్ మరియు ఆరెంజ్ బీఫ్ స్టీవ్)",
+    "titleHi": "दाब प्रोवेनसाल (रेड वाइन और संतरे के छिलके वाला धीमी आंच पर पका बीफ स्टू)",
+    "region": "Provence",
+    "category": "main-course",
+    "categoryLabel": "Provençal Slow Stew",
+    "difficulty": "Advanced",
+    "rating": 5,
+    "reviews": "1.6k",
+    "prepTime": 30,
+    "cookTime": 240,
+    "calories": 590,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Provence",
+      "Main Course",
+      "Beef",
+      "Slow-Cooked",
+      "Wine"
+    ],
+    "subtitle": "Melt-in-mouth beef braised with robust red wine, orange peel & wild herbs.",
+    "subtitleEn": "Melt-in-mouth beef braised with robust red wine, orange peel & wild herbs.",
+    "subtitleTe": "ఎరుపు వైన్, వెల్లుల్లి మరియు ఆరెంజ్ తొక్కతో మగ్గించిన మెత్తని సంప్రదాయ స్టీవ్.",
+    "subtitleHi": "रेड वाइन, लहसुन और संतरे के छिलके की खुशबूदार ग्रेवी में पका स्वादिष्ट फ्रेंच स्टू।",
+    "description": "A monumental heirloom stew from Provence: succulent chunks of beef chuck and shank marinated overnight in full-bodied red wine with orange peel, cloves, garlic, and thyme, then slow-simmered in an earthenware daubière until collapsing into rich gravy.",
+    "winePairing": {
+      "wine": "Bandol Rouge (Mourvèdre) or Gigondas",
+      "notes": "A powerful, spicy southern Rhône or Bandol red with notes of dark blackberry and garrigue herbs elevates the orange-infused braise."
+    },
+    "chefTip": "Do not omit the strip of fresh orange peel! As it simmers for 4 hours, it dissolves and cuts through the intense meat richness with pure Provencal elegance.",
+    "nutrition": {
+      "protein": "46g",
+      "carbs": "14g",
+      "fat": "28g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "Braeburn beef chuck or shank, cut in 2-inch chunks",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Full-bodied red wine (Côtes du Rhône)",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "Fresh organic orange zest peel strips",
+        "amount": 2,
+        "unit": "strips"
+      },
+      {
+        "name": "Carrots, sliced in rounds",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Smoked bacon lardons",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic cloves, crushed",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "Fresh Herbes de Provence & bay leaf",
+        "amount": 3,
+        "unit": "sprigs"
+      },
+      {
+        "name": "Pitted black olives",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Marinate Overnight",
+        "instruction": "Submerge beef chunks in red wine with carrots, onions, garlic, thyme, and orange peel. Marinate in refrigerator for 12 to 24 hours.",
+        "timerSeconds": 0
+      },
+      {
+        "step": 2,
+        "title": "Brown Bacon and Meat",
+        "instruction": "Render lardons in a heavy Dutch oven. Pat marinated beef dry and sear in batches over high heat until deeply crusty.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Deglaze and Simmer",
+        "instruction": "Pour marinade, vegetables, and beef broth over the meat. Bring to a simmer, cover tightly, and braise in oven at 140°C (285°F) for 3.5 to 4 hours.",
+        "timerSeconds": 12600
+      },
+      {
+        "step": 4,
+        "title": "Finish with Olives",
+        "instruction": "Stir in black olives for the final 15 minutes. Serve hot over buttered fresh tagliatelle or crusty country bread.",
+        "timerSeconds": 900
+      }
+    ]
+  },
+  {
+    "id": "camembert_roti",
+    "title": "Camembert Rôti au Four",
+    "titleEn": "Baked Normandy Camembert with Honey & Herbs",
+    "titleTe": "బేక్డ్ కేమెంబర్ట్ చీజ్ (తేనె మరియు రోజ్మేరీతో)",
+    "titleHi": "बेक्ड कैमेम्बर्ट चीज (शहद, लहसुन और जड़ी-बूटियों के साथ)",
+    "region": "Normandy",
+    "category": "main-course",
+    "categoryLabel": "Normandy Classic",
+    "difficulty": "Easy",
+    "rating": 5,
+    "reviews": "2.3k",
+    "prepTime": 5,
+    "cookTime": 18,
+    "calories": 420,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Normandy",
+      "Cheese",
+      "Bistro",
+      "Comfort Food"
+    ],
+    "subtitle": "Molten baked Normandy Camembert with wild honey, garlic & rosemary.",
+    "subtitleEn": "Molten baked Normandy Camembert with wild honey, garlic & rosemary.",
+    "subtitleTe": "కరిగిన వెన్న లాంటి ఫ్రెంచ్ నార్మండీ చీజ్ వంటకం.",
+    "subtitleHi": "पिघला हुआ गरम कैमेम्बर्ट चीज, जिसे शहद और गार्लिक ब्रेड के साथ खाया जाता है।",
+    "description": "Normandy's most decadent comfort food: an entire wheel of raw-milk Camembert cheese baked in its wooden box until molten and bubbling, infused with garlic slivers, fresh rosemary sprigs, and a drizzle of lavender honey.",
+    "winePairing": {
+      "wine": "Cidre Brut de Normandie or Chenin Blanc",
+      "notes": "Crisp sparkling Normandy dry apple cider cuts cleanly through the unctuous, rich creaminess of melted Camembert."
+    },
+    "chefTip": "Score the top rind in a diamond pattern before baking and wrap the base of the wooden box in foil to catch any bubbling molten cheese.",
+    "nutrition": {
+      "protein": "22g",
+      "carbs": "12g",
+      "fat": "32g",
+      "fiber": "0.5g"
+    },
+    "ingredients": [
+      {
+        "name": "Whole wheel of authentic Normandy Camembert (in wooden box)",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic cloves, thinly sliced",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "Fresh rosemary needles",
+        "amount": 2,
+        "unit": "sprigs"
+      },
+      {
+        "name": "Wild wildflower or lavender honey",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Crusty French baguette, sliced",
+        "amount": 1,
+        "unit": "loaf"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Unwrap and Score",
+        "instruction": "Remove plastic wrapping and place cheese back in its bottom wooden box. Score top rind in a diamond pattern.",
+        "timerSeconds": 120
+      },
+      {
+        "step": 2,
+        "title": "Stud and Drizzle",
+        "instruction": "Tuck garlic slivers and rosemary needles into the cuts. Drizzle with honey and a splash of white wine.",
+        "timerSeconds": 120
+      },
+      {
+        "step": 3,
+        "title": "Bake Molten",
+        "instruction": "Bake at 190°C (375°F) for 15-18 minutes until puffed, golden, and liquid in the center.",
+        "timerSeconds": 1000
+      },
+      {
+        "step": 4,
+        "title": "Dip and Enjoy",
+        "instruction": "Serve immediately with warm toasted baguette slices, crisp apple wedges, and cornichons.",
+        "timerSeconds": 60
+      }
+    ]
+  },
+  {
+    "id": "poulet_vallee_d_auge",
+    "title": "Poulet Vallée d'Auge",
+    "titleEn": "Normandy Chicken in Cider, Calvados & Cream",
+    "titleTe": "నార్మండీ చికెన్ (యాపిల్ సైడర్ మరియు క్రీమ్‌తో)",
+    "titleHi": "नॉर्मंडी चिकन (सेब साइडर, क्रीम और कैल्वाडोस ग्रेवी में पका चिकन)",
+    "region": "Normandy",
+    "category": "main-course",
+    "categoryLabel": "Normandy Country Classic",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "1.5k",
+    "prepTime": 25,
+    "cookTime": 45,
+    "calories": 540,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Normandy",
+      "Main Course",
+      "Chicken",
+      "Cider",
+      "Cream"
+    ],
+    "subtitle": "Farmhouse chicken braised in crisp apple cider, Calvados & velvety cream.",
+    "subtitleEn": "Farmhouse chicken braised in crisp apple cider, Calvados & velvety cream.",
+    "subtitleTe": "ఫ్రెంచ్ నార్మండీ శైలిలో యాపిల్స్ మరియు క్రీమ్‌తో వండిన జ్యుసి చికెన్.",
+    "subtitleHi": "सेब के टुकड़ों, ताजे मक्खन और रिच क्रीम में बना फ्रांस का पारंपरिक चिकन।",
+    "description": "The essence of Normandy's apple orchard valley: tender golden chicken seared in butter, flambéed with Calvados apple brandy, simmered with tart crisp cider and shallots, then enriched with heavy Normandy cream and caramelized apple quarters.",
+    "winePairing": {
+      "wine": "Cidre Fermier de Normandie or Meursault Chardonnay",
+      "notes": "Traditional sparkling dry farmhouse cider or an oaky white Burgundy brings harmony to the sweet-tart apples and lush velvety sauce."
+    },
+    "chefTip": "Sauté the apple quarters separately in foaming butter until golden and caramelized, then gently fold them into the creamy sauce right before plating.",
+    "nutrition": {
+      "protein": "42g",
+      "carbs": "16g",
+      "fat": "32g",
+      "fiber": "2g"
+    },
+    "ingredients": [
+      {
+        "name": "Bone-in chicken thighs and drumsticks",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Dry sparkling Normandy apple cider",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "Calvados apple brandy",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Heavy Normandy cream (crème fraîche)",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Tart crisp apples (Cox or Reinette), quartered",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Normandy salted butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "French shallots, finely minced",
+        "amount": 3,
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Sear Chicken",
+        "instruction": "Brown seasoned chicken in butter over medium-high heat until skin is crisp and deep golden. Transfer to a plate.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 2,
+        "title": "Flambé with Calvados",
+        "instruction": "Sauté shallots in the pan. Pour in Calvados and carefully ignite with a long match to flambé the alcohol.",
+        "timerSeconds": 60
+      },
+      {
+        "step": 3,
+        "title": "Braise in Cider",
+        "instruction": "Pour in cider, return chicken, cover and simmer gently for 30 minutes until meat is cooked through and tender.",
+        "timerSeconds": 1800
+      },
+      {
+        "step": 4,
+        "title": "Finish Sauce and Apples",
+        "instruction": "Sauté apple wedges in butter until golden. Stir crème fraîche into the pan sauce, reduce until glossy, and serve over chicken and apples.",
+        "timerSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "sole_meuniere",
+    "title": "Sole Meunière",
+    "titleEn": "Classic Dover Sole in Brown Butter & Lemon",
+    "titleTe": "సోల్ మెనియర్ (వెన్న మరియు నిమ్మరసంతో కాల్చిన చేప)",
+    "titleHi": "सोल मेनिएर (ब्राउन बटर और नींबू की सॉस में बनी डोवर सोल मछली)",
+    "region": "Normandy",
+    "category": "main-course",
+    "categoryLabel": "Normandy Coastal Classic",
+    "difficulty": "Medium",
+    "rating": 5,
+    "reviews": "1.7k",
+    "prepTime": 15,
+    "cookTime": 10,
+    "calories": 360,
+    "servingsBase": 2,
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Normandy",
+      "Fish",
+      "Seafood",
+      "Fine Dining",
+      "Butter"
+    ],
+    "subtitle": "Pan-fried Channel Dover sole in nutty brown butter, lemon & fresh parsley.",
+    "subtitleEn": "Pan-fried Channel Dover sole in nutty brown butter, lemon & fresh parsley.",
+    "subtitleTe": "వెన్నలో కాల్చిన సున్నితమైన ఫ్రెంచ్ సముద్ర చేప వంటకం.",
+    "subtitleHi": "हल्के मक्खन और नींबू के रस में तली हुई प्रसिद्ध फ्रेंच मछली।",
+    "description": "The immortal dish that inspired Julia Child's culinary passion: whole Dover sole dredged lightly in flour, pan-seared in clarified butter, and bathed at the table in foaming hazelnut-colored brown butter (beurre noisette) with fresh lemon and parsley.",
+    "winePairing": {
+      "wine": "Chablis Premier Cru or Sancerre",
+      "notes": "Crisp chalky limestone acidity and citrus minerality in Chablis cuts like a knife through foaming brown butter."
+    },
+    "chefTip": "Watch the butter closely: as soon as the foam subsides and tiny brown flecks appear with a hazelnut aroma, immediately take off the heat and splash in fresh lemon juice.",
+    "nutrition": {
+      "protein": "34g",
+      "carbs": "8g",
+      "fat": "22g",
+      "fiber": "0.5g"
+    },
+    "ingredients": [
+      {
+        "name": "Fresh Dover sole fillets or whole sole, skinned",
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "All-purpose flour for dusting",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Unsalted Normandy butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Freshly squeezed lemon juice",
+        "amount": 3,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Flat-leaf French parsley, finely chopped",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Dredge Sole",
+        "instruction": "Pat sole dry with paper towels. Season with salt and pepper, then lightly dredge in flour, shaking off all excess.",
+        "timerSeconds": 120
+      },
+      {
+        "step": 2,
+        "title": "Pan-Sear in Butter",
+        "instruction": "Melt 30g butter in a large oval skillet over medium-high heat. Fry sole for 4 minutes per side until golden and flakey. Transfer to warm platter.",
+        "timerSeconds": 480
+      },
+      {
+        "step": 3,
+        "title": "Make Beurre Noisette",
+        "instruction": "Wipe pan clean, add remaining 50g butter. Cook until foaming subsides and butter turns a fragrant golden-brown hazelnut color.",
+        "timerSeconds": 150
+      },
+      {
+        "step": 4,
+        "title": "Sauce and Garnish",
+        "instruction": "Add lemon juice and chopped parsley (it will foam vigorously!). Immediately spoon sizzling brown butter over fish and serve.",
+        "timerSeconds": 60
+      }
+    ]
+  },
+  {
+    "id": "tarte_flambee",
+    "title": "Tarte Flambée (Flammekueche)",
+    "titleEn": "Alsatian Wood-Fired Bacon & Cream Flatbread",
+    "titleTe": "టార్ట్ ఫ్లాంబే (అల్సాస్ బేకన్ మరియు క్రీమ్ పిజ్జా)",
+    "titleHi": "टार्ट फ्लेम्बे (फ्लेमकुचे - खस्ता बेकन और क्रीम वाली फ्रेंच फ्लैटब्रेड)",
+    "region": "Alsace",
+    "category": "main-course",
+    "categoryLabel": "Alsatian Specialty",
+    "difficulty": "Easy",
+    "rating": 4.9,
+    "reviews": "1.9k",
+    "prepTime": 20,
+    "cookTime": 12,
+    "calories": 410,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Alsace",
+      "Main Course",
+      "Pizza",
+      "Bacon",
+      "Comfort Food"
+    ],
+    "subtitle": "Paper-thin dough spread with fromage blanc, smoked lardons & sweet onions.",
+    "subtitleEn": "Paper-thin dough spread with fromage blanc, smoked lardons & sweet onions.",
+    "subtitleTe": "కరకరలాడే అల్సాటియన్ బేకన్ మరియు చీజ్ ఫ్లాట్‌బ్రెడ్.",
+    "subtitleHi": "पतली और कुरकुरी बेस पर स्मोक्ड बेकन, प्याज और ताजी क्रीम से बनी फ्रेंच फ्लैटब्रेड।",
+    "description": "Alsace's beloved wood-fired specialty: an ultra-thin rolled dough spread with a seasoned blend of tangy fromage blanc and rich crème fraîche, topped generously with smoked pork lardons and thinly sliced sweet onions, baked blistering hot.",
+    "winePairing": {
+      "wine": "Alsace Pinot Blanc or Riesling",
+      "notes": "A vibrant, refreshing Alsace Pinot Blanc cuts through the smoky bacon lardons and luscious crème fraîche."
+    },
+    "chefTip": "Roll the dough as paper-thin as possible (less than 2mm) and bake on a preheated pizza stone at your oven's maximum temperature for authentic charred cracker crust.",
+    "nutrition": {
+      "protein": "16g",
+      "carbs": "44g",
+      "fat": "20g",
+      "fiber": "2.5g"
+    },
+    "ingredients": [
+      {
+        "name": "Unbleached flour for dough",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Fromage blanc or whole milk ricotta",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Heavy crème fraîche",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Smoked bacon lardons",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "Sweet white onions, razor-thin sliced",
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fresh ground nutmeg & sea salt",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Roll Dough Ultra-Thin",
+        "instruction": "Knead flour, water, oil, and salt into a smooth dough. Roll out paper-thin on parchment paper into an oblong oval.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 2,
+        "title": "Spread Cream Base",
+        "instruction": "Whisk fromage blanc and crème fraîche with salt, pepper, and freshly grated nutmeg. Spread thinly over the dough to within 1/2 inch of edges.",
+        "timerSeconds": 120
+      },
+      {
+        "step": 3,
+        "title": "Scatter Toppings",
+        "instruction": "Scatter thinly sliced raw onions and smoky lardons evenly across the cream layer.",
+        "timerSeconds": 120
+      },
+      {
+        "step": 4,
+        "title": "Bake at Max Heat",
+        "instruction": "Slide onto a preheated baking stone at 250°C (480°F). Bake 10-12 minutes until edges are blistered, dark, and shatteringly crisp.",
+        "timerSeconds": 650
+      }
+    ]
+  },
+  {
+    "id": "choucroute_garnie",
+    "title": "Choucroute Garnie Traditionnelle",
+    "titleEn": "Alsatian Riesling Sauerkraut with Sausages & Pork",
+    "titleTe": "షూక్రూట్ గార్నీ (వైట్ వైన్ క్యాబేజీ మరియు సాసేజ్ వంటకం)",
+    "titleHi": "शुक्रूट गार्नी (सफेद वाइन में पकी गोभी और फ्रेंच सॉसेज का शाही व्यंजन)",
+    "region": "Alsace",
+    "category": "main-course",
+    "categoryLabel": "Alsatian Heritage",
+    "difficulty": "Medium",
+    "rating": 5,
+    "reviews": "2.1k",
+    "prepTime": 25,
+    "cookTime": 120,
+    "calories": 680,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Alsace",
+      "Main Course",
+      "Pork",
+      "Sausage",
+      "Winter Feast"
+    ],
+    "subtitle": "Riesling-braised sauerkraut heaped with Montbéliard sausages & smoked pork.",
+    "subtitleEn": "Riesling-braised sauerkraut heaped with Montbéliard sausages & smoked pork.",
+    "subtitleTe": "అల్సాస్ సంప్రదాయ వైన్ స్టీవ్డ్ క్యాబేజీ మరియు స్మోక్డ్ మీట్ డిష్.",
+    "subtitleHi": "अल्सास का राष्ट्रीय व्यंजन - वाइन में पकी खट्टी गोभी, फ्रेंच सॉसेज और आलू।",
+    "description": "The crown jewel of Alsatian gastronomy: silky fermented cabbage braised for hours with Alsace Riesling, goose fat, juniper berries, and onions, topped with smoked pork loin, Strasbourg and Montbéliard sausages, and boiled yellow potatoes.",
+    "winePairing": {
+      "wine": "Alsace Grand Cru Riesling or Pinot Gris",
+      "notes": "A dry, petrol-mineral Alsace Riesling has the piercing acidity needed to cut through smoked pork and rich duck fat."
+    },
+    "chefTip": "Rinse raw fermented sauerkraut in cold water and squeeze dry before cooking. Simmer with dried juniper berries and whole cloves for traditional aroma.",
+    "nutrition": {
+      "protein": "48g",
+      "carbs": "26g",
+      "fat": "42g",
+      "fiber": "8g"
+    },
+    "ingredients": [
+      {
+        "name": "Fermented raw sauerkraut, gently rinsed",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Dry Alsace Riesling wine",
+        "amount": 350,
+        "unit": "ml"
+      },
+      {
+        "name": "Smoked Montbéliard or Kielbasa sausages",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Strasbourg / Frankfurter sausages",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Smoked pork belly or thick bacon slab",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Juniper berries, crushed & cloves",
+        "amount": 10,
+        "unit": "pcs"
+      },
+      {
+        "name": "Yellow waxy potatoes, peeled",
+        "amount": 6,
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Rinse and Layer",
+        "instruction": "Rinse sauerkraut in cold water and squeeze dry. Sauté sliced onions in duck fat, then add half the sauerkraut.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 2,
+        "title": "Add Spices and Meats",
+        "instruction": "Tuck in juniper berries, cloves, bay leaf, and smoked pork slab. Pour in Riesling and chicken broth.",
+        "timerSeconds": 180
+      },
+      {
+        "step": 3,
+        "title": "Simmer Gently",
+        "instruction": "Top with remaining cabbage. Cover tightly and simmer on low for 1.5 hours until meltingly tender.",
+        "timerSeconds": 5400
+      },
+      {
+        "step": 4,
+        "title": "Add Sausages and Potatoes",
+        "instruction": "Nestle sausages and boiled potatoes on top for the final 20 minutes to heat through. Serve on a grand platter with spicy Dijon.",
+        "timerSeconds": 1200
+      }
+    ]
+  },
+  {
+    "id": "kouglof_alsacien",
+    "title": "Kouglof Alsacien",
+    "titleEn": "Traditional Alsatian Fluted Brioche with Rum Raisins",
+    "titleTe": "కూగ్లోఫ్ అల్సాసియన్ (రమ్ కిస్మిస్ మరియు బాదం బ్రెడ్)",
+    "titleHi": "कूग्लॉफ अल्सासियन (किशमिश और बादाम वाली पारंपरिक फ्रेंच बन केक)",
+    "region": "Alsace",
+    "category": "pastry",
+    "categoryLabel": "Alsatian Patisserie",
+    "difficulty": "Advanced",
+    "rating": 4.8,
+    "reviews": "820",
+    "prepTime": 40,
+    "cookTime": 40,
+    "calories": 320,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Alsace",
+      "Pastry",
+      "Breakfast",
+      "Baking",
+      "Brioche"
+    ],
+    "subtitle": "Golden fluted brioche crown studded with rum raisins & toasted sliced almonds.",
+    "subtitleEn": "Golden fluted brioche crown studded with rum raisins & toasted sliced almonds.",
+    "subtitleTe": "ప్రత్యేకమైన ఆకారంలో బేక్ చేసిన సంప్రదాయ ఫ్రెంచ్ స్వీట్ బ్రెడ్.",
+    "subtitleHi": "फ्रांस का पारंपरिक बादाम और किशमिश से सजा हुआ शानदार ताज जैसा केक।",
+    "description": "The architectural symbol of Alsace bakeries: a tall, turban-shaped fluted brioche crowned with toasted whole almonds, made with an enriched yeast dough laced with golden sultana raisins macerated in dark rum or Kirsch.",
+    "winePairing": {
+      "wine": "Alsace Gewurztraminer or Café au Lait",
+      "notes": "The exotic floral and lychee sweetness of late-harvest Gewurztraminer complements rum-soaked raisins and buttery brioche crumb."
+    },
+    "chefTip": "Butter every flute of an authentic ceramic Soufflenheim mold thoroughly, and place a whole almond in each groove before dropping in the dough.",
+    "nutrition": {
+      "protein": "8g",
+      "carbs": "42g",
+      "fat": "14g",
+      "fiber": "2g"
+    },
+    "ingredients": [
+      {
+        "name": "French bread flour (T45)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "High-fat unsalted butter, softened",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Golden sultana raisins",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Dark Caribbean rum or Kirschwasser",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Whole blanched almonds",
+        "amount": 20,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fresh whole eggs",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Active baker's yeast",
+        "amount": 15,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Macerate Raisins",
+        "instruction": "Soak raisins in warm rum for 30 minutes. Butter a fluted Kouglof mold generously and place an almond in each groove.",
+        "timerSeconds": 1800
+      },
+      {
+        "step": 2,
+        "title": "Knead Enriched Dough",
+        "instruction": "Knead flour, yeast, milk, eggs, and sugar for 10 minutes until elastic. Gradually incorporate softened butter until glossy, then fold in drained raisins.",
+        "timerSeconds": 900
+      },
+      {
+        "step": 3,
+        "title": "First and Second Rise",
+        "instruction": "Let dough rise 1.5 hours until doubled. Punch down, place into prepared mold, and let rise until dough reaches the rim.",
+        "timerSeconds": 5400
+      },
+      {
+        "step": 4,
+        "title": "Bake and Dust",
+        "instruction": "Bake at 180°C (350°F) for 35-40 minutes until deep mahogany. Invert warm onto a rack and dust with confectioners' sugar.",
+        "timerSeconds": 2400
+      }
+    ]
+  },
+  {
+    "id": "baeckeoffe",
+    "title": "Baeckeoffe Alsacien",
+    "titleEn": "Three-Meat Alsatian Wine & Potato Casserole",
+    "titleTe": "బెక్-ఆఫ్ అల్సాసియన్ (మూడు రకాల మాంసం మరియు బంగాళాదుంప స్టీవ్)",
+    "titleHi": "बेकऑफ अल्सासियन (वाइन, तीन प्रकार के मीट और आलू से बना पारंपरिक फ्रेंच स्टू)",
+    "region": "Alsace",
+    "category": "main-course",
+    "categoryLabel": "Alsatian Sunday Feast",
+    "difficulty": "Advanced",
+    "rating": 5,
+    "reviews": "1.4k",
+    "prepTime": 35,
+    "cookTime": 210,
+    "calories": 620,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Alsace",
+      "Main Course",
+      "Pork",
+      "Beef",
+      "Slow-Cooked"
+    ],
+    "subtitle": "Beef, pork & lamb layered with sliced potatoes, sealed in white wine.",
+    "subtitleEn": "Beef, pork & lamb layered with sliced potatoes, sealed in white wine.",
+    "subtitleTe": "వైట్ వైన్‌తో కాల్చిన అల్సాస్ మూడు రకాల మాంసాల రాయల్ స్టీవ్.",
+    "subtitleHi": "मिट्टी के बर्तन में धीमी आंच पर पका हुआ फ्रांस का शाही तीन-मीट व्यंजन।",
+    "description": "The historical bakers' oven feast of Alsace: layers of marinated beef chuck, pork shoulder, and lamb shoulder nestled between sliced waxy potatoes and leeks, sealed inside an oval ceramic terrine with a rope of dough and slow-baked for 3.5 hours.",
+    "winePairing": {
+      "wine": "Alsace Pinot Noir or Sylvaner",
+      "notes": "A chilled, light-bodied Alsace Pinot Noir matches the earthy slow-baked root vegetables and trio of tender braised meats."
+    },
+    "chefTip": "Seal the lid of the ceramic terrine with a flour-and-water dough paste to prevent any steam from escaping during the long 3.5-hour bake.",
+    "nutrition": {
+      "protein": "48g",
+      "carbs": "32g",
+      "fat": "30g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {
+        "name": "Pork shoulder, cut into cubes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Beef chuck, cut into cubes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Lamb shoulder, cut into cubes",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Dry Alsace Pinot Blanc or Sylvaner",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "Waxy yellow potatoes, sliced 1/4-inch",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Leeks, cleaned and sliced",
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic, thyme, bay leaves & cloves",
+        "amount": 4,
+        "unit": "sprigs"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Marinate Meats",
+        "instruction": "Marinate beef, pork, and lamb chunks in white wine with onions, leeks, garlic, and herbs for 24 hours.",
+        "timerSeconds": 0
+      },
+      {
+        "step": 2,
+        "title": "Layer Terrine",
+        "instruction": "Butter an oval ceramic terrine. Place a layer of sliced potatoes, then drained marinated meats, and top with remaining potatoes and leeks.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Pour Wine and Seal",
+        "instruction": "Pour strained wine marinade over. Roll flour and water into a dough rope and press around rim to hermetically seal the lid.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 4,
+        "title": "Slow Bake",
+        "instruction": "Bake at 150°C (300°F) for 3.5 hours. Break dough seal at the table and serve bubbling hot.",
+        "timerSeconds": 12600
+      }
+    ]
+  }
 ];
 
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { RECIPES_DATA };
 }
+
