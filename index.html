@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>La Table Française | Authentic French Food & Recipes</title>
+  <meta name="description" content="Discover authentic French dishes, traditional recipes and the rich flavors of France's culinary heritage.">
+  
+  <!-- Clear any old Service Worker or Cache Storage from previous projects -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(registrations => {
+        for (let reg of registrations) reg.unregister();
+      });
+    }
+    if ('caches' in window) {
+      caches.keys().then(names => {
+        for (let name of names) caches.delete(name);
+      });
+    }
+  </script>
+
+  <!-- Google Fonts: Playfair Display + Plus Jakarta Sans + Caveat (for handwritten 'Bon appétit !') -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=13">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%200%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>👨‍🍳</text></svg>">
+</head>
+<body class="light-theme">
+
+  <!-- ========================================================================
+       Top Navigation Bar
+       ======================================================================== -->
+  <header class="navbar" id="top-navbar">
+    <div class="nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="brand-logo">
+        <svg class="brand-chef-hat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/>
+          <line x1="6" y1="17" x2="18" y2="17"/>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-title">La Table Française</span>
+          <span class="brand-subtitle" data-i18n="brandTagline">Authentic French Food & Recipes</span>
+        </div>
+      </a>
+
+      <!-- Center Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#" class="nav-item active" data-i18n="navHome">Home</a>
+        <a href="#recipes-section" class="nav-item" data-i18n="navRecipes">Recipes</a>
+        
+        <div class="nav-dropdown-item">
+          <button class="nav-item nav-dropdown-btn">
+            <span data-i18n="navCategories">Categories</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="nav-dropdown-content">
+            <a href="#recipes-section" data-cat="all" data-i18n="catAll">All Recipes</a>
+            <a href="#recipes-section" data-cat="breakfast" data-i18n="catBreakfast">Breakfast</a>
+            <a href="#recipes-section" data-cat="main-course" data-i18n="catMainCourse">Main Course</a>
+            <a href="#recipes-section" data-cat="dessert" data-i18n="catDessert">Dessert</a>
+            <a href="#recipes-section" data-cat="pastry" data-i18n="catPastry">Pastry</a>
+          </div>
+        </div>
+
+        <div class="nav-dropdown-item">
+          <button class="nav-item nav-dropdown-btn">
+            <span data-i18n="navRegions">Regions</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="nav-dropdown-content">
+            <a href="#region-section" data-region="Paris" data-i18n="regionParis">Paris & Île-de-France</a>
+            <a href="#region-section" data-region="Provence" data-i18n="regionProvence">Provence & Riviera</a>
+            <a href="#region-section" data-region="Bourgogne" data-i18n="regionBurgundy">Bourgogne (Burgundy)</a>
+            <a href="#region-section" data-region="Normandy" data-i18n="regionNormandy">Normandy</a>
+            <a href="#region-section" data-region="Alsace" data-i18n="regionAlsace">Alsace</a>
+            <a href="#region-section" data-region="Lyon" data-i18n="regionLyon">Lyon & Rhône-Alpes</a>
+          </div>
+        </div>
+
+        <a href="#ingredients-section" class="nav-item" data-i18n="navAbout">About</a>
+      </nav>
+
+      <!-- Right Action Controls -->
+      <div class="nav-actions">
+        <!-- Search trigger -->
+        <button class="icon-btn" id="nav-search-trigger" title="Search">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- Favorites button with badge -->
+        <button class="icon-btn" id="nav-favorites-btn" title="Saved Favorites">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="fav-count-dot" id="fav-count-badge">0</span>
+        </button>
+
+        <!-- Dark / Light Mode Switch -->
+        <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme">
+          <div class="toggle-slider">
+            <span class="toggle-sun">☀️</span>
+            <span class="toggle-moon">🌙</span>
+          </div>
+        </button>
+
+        <!-- Top Language Selector: English, Telugu, Hindi, French -->
+        <div class="lang-selector-dropdown" id="lang-selector-dropdown">
+          <button class="lang-current-btn" id="lang-menu-btn" aria-haspopup="true" aria-expanded="false">
+            <span class="lang-flag" id="current-lang-flag">🇬🇧</span>
+            <span class="lang-text" id="current-lang-text">English</span>
+            <svg class="dropdown-chevron" viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="lang-menu-list" id="lang-menu-list">
+            <button class="lang-menu-item active" data-lang="en">
+              <span class="item-flag">🇬🇧</span>
+              <span class="item-label">English</span>
+            </button>
+            <button class="lang-menu-item" data-lang="te">
+              <span class="item-flag">🇮🇳</span>
+              <span class="item-label">తెలుగు (Telugu)</span>
+            </button>
+            <button class="lang-menu-item" data-lang="hi">
+              <span class="item-flag">🇮🇳</span>
+              <span class="item-label">हिंदी (Hindi)</span>
+            </button>
+            <button class="lang-menu-item" data-lang="fr">
+              <span class="item-flag">🇫🇷</span>
+              <span class="item-label">Français</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       Hero Section (Paris Balcony View with Eiffel Tower)
+       ======================================================================== -->
+  <section class="hero-banner" id="hero-banner">
+    <div class="hero-bg-wrapper">
+      <img src="assets/images/hero_paris.jpg" alt="Parisian balcony dining with Eiffel Tower view" class="hero-bg-img">
+      <div class="hero-gradient-overlay"></div>
+    </div>
+
+    <div class="hero-inner-container">
+      <div class="hero-text-block">
+        <span class="hero-eyebrow" data-i18n="heroEyebrow">BIENVENUE À</span>
+        <h1 class="hero-main-title">La Table Française</h1>
+        <p class="hero-desc-text" data-i18n="heroSubtitle">
+          Discover authentic French dishes, traditional recipes and the rich flavors of France's culinary heritage.
+        </p>
+
+        <!-- Hero CTA Buttons -->
+        <div class="hero-actions-row">
+          <a href="#recipes-section" class="btn btn-primary-dark" id="hero-explore-btn">
+            <span data-i18n="heroCta">Explore Recipes</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+
+          <a href="#region-section" class="btn btn-outline-white" id="hero-discover-btn">
+            <span data-i18n="heroDiscover">Discover France</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Top Right 'Bon appétit !' Handwritten Badge with French Tricolor Dash -->
+      <div class="bon-appetit-badge">
+        <span class="script-text">Bon appétit !</span>
+        <div class="french-tricolor-line">
+          <span class="flag-blue"></span>
+          <span class="flag-white"></span>
+          <span class="flag-red"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Search & Category Filter Bar
+       ======================================================================== -->
+  <section class="filter-toolbar-section" id="filter-toolbar">
+    <div class="container toolbar-container">
+      
+      <!-- Search Input -->
+      <div class="search-input-box">
+        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="recipe-search" placeholder="Search for recipes... (e.g. croissant, coq au vin, ratatouille)" data-i18n-attr="placeholder:searchPlaceholder">
+        <button class="clear-search-btn" id="clear-search-btn" title="Clear">✕</button>
+      </div>
+
+      <!-- Category Filter Pills (Exact 5 Categories as in reference image) -->
+      <div class="category-pills" id="category-pills">
+        <button class="cat-pill active" data-category="all">
+          <span data-i18n="catAll">All</span>
+        </button>
+        <button class="cat-pill" data-category="breakfast">
+          <span class="pill-icon">🍳</span>
+          <span data-i18n="catBreakfast">Breakfast</span>
+        </button>
+        <button class="cat-pill" data-category="main-course">
+          <span class="pill-icon">🍲</span>
+          <span data-i18n="catMainCourse">Main Course</span>
+        </button>
+        <button class="cat-pill" data-category="dessert">
+          <span class="pill-icon">🧁</span>
+          <span data-i18n="catDessert">Dessert</span>
+        </button>
+        <button class="cat-pill" data-category="pastry">
+          <span class="pill-icon">🥐</span>
+          <span data-i18n="catPastry">Pastry</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Section: Popular Recipes - "Loved by Food Enthusiasts"
+       ======================================================================== -->
+  <section class="popular-recipes-section" id="recipes-section">
+    <div class="container">
+      
+      <div class="section-title-row">
+        <div>
+          <span class="section-subtitle-tag" data-i18n="eyebrowPopular">— POPULAR RECIPES</span>
+          <h2 class="section-main-heading" data-i18n="titlePopular">Loved by Food Enthusiasts</h2>
+        </div>
+        <a href="#recipes-section" class="view-all-link" id="view-all-recipes-btn">
+          <span data-i18n="btnViewAll">View All Recipes</span> →
+        </a>
+      </div>
+
+      <!-- 4-Column Recipe Grid matching reference image -->
+      <div class="recipe-cards-grid" id="recipes-grid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Section: Explore by Region - "Taste the Flavors of France"
+       ======================================================================== -->
+  <section class="regions-section" id="region-section">
+    <div class="container">
+      
+      <div class="regions-header">
+        <span class="regions-eyebrow" data-i18n="eyebrowRegions">EXPLORE BY REGION</span>
+        <h2 class="regions-title" data-i18n="titleRegions">Taste the Flavors of France</h2>
+      </div>
+
+      <div class="regions-grid" id="regions-grid">
+        
+        <!-- Paris -->
+        <div class="region-card" data-region="Paris">
+          <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80" alt="Paris" loading="lazy">
+          <div class="region-overlay">
+            <span class="region-name" data-i18n="regionParis">Paris</span>
+            <span class="region-arrow">→</span>
+          </div>
+        </div>
+
+        <!-- Provence -->
+        <div class="region-card" data-region="Provence">
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=600&q=80" alt="Provence" loading="lazy">
+          <div class="region-overlay">
+            <span class="region-name" data-i18n="regionProvence">Provence</span>
+            <span class="region-arrow">→</span>
+          </div>
+        </div>
+
+        <!-- Normandy -->
+        <div class="region-card" data-region="Normandy">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Normandy" loading="lazy">
+          <div class="region-overlay">
+            <span class="region-name" data-i18n="regionNormandy">Normandy</span>
+            <span class="region-arrow">→</span>
+          </div>
+        </div>
+
+        <!-- Lyon -->
+        <div class="region-card" data-region="Lyon">
+          <img src="assets/images/lyon.jpg" alt="Lyon" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=600&q=80'">
+          <div class="region-overlay">
+            <span class="region-name" data-i18n="regionLyon">Lyon</span>
+            <span class="region-arrow">→</span>
+          </div>
+        </div>
+
+        <!-- Alsace -->
+        <div class="region-card" data-region="Alsace">
+          <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=600&q=80" alt="Alsace" loading="lazy">
+          <div class="region-overlay">
+            <span class="region-name" data-i18n="regionAlsace">Alsace</span>
+            <span class="region-arrow">→</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Section: French Ingredients - "The Heart of French Cuisine"
+       ======================================================================== -->
+  <section class="ingredients-section" id="ingredients-section">
+    <div class="container">
+      
+      <span class="section-subtitle-tag" data-i18n="eyebrowIngredients">— FRENCH INGREDIENTS</span>
+      <h2 class="section-main-heading" data-i18n="titleIngredients">The Heart of French Cuisine</h2>
+
+      <div class="ingredients-showcase-row">
+        
+        <!-- 5 Circular Ingredients -->
+        <div class="ingredients-circle-list">
+          
+          <div class="ingredient-circle-item">
+            <div class="ingredient-icon-bubble">🧀</div>
+            <h4 class="ing-name" data-i18n="ingCheese">Cheese</h4>
+            <p class="ing-sub" data-i18n="ingCheeseSub">Rich & creamy</p>
+          </div>
+
+          <div class="ingredient-circle-item">
+            <div class="ingredient-icon-bubble">🧈</div>
+            <h4 class="ing-name" data-i18n="ingButter">Butter</h4>
+            <p class="ing-sub" data-i18n="ingButterSub">Pure perfection</p>
+          </div>
+
+          <div class="ingredient-circle-item">
+            <div class="ingredient-icon-bubble">🥖</div>
+            <h4 class="ing-name" data-i18n="ingBread">Bread</h4>
+            <p class="ing-sub" data-i18n="ingBreadSub">A daily essential</p>
+          </div>
+
+          <div class="ingredient-circle-item">
+            <div class="ingredient-icon-bubble">🍷</div>
+            <h4 class="ing-name" data-i18n="ingWine">Wine</h4>
+            <p class="ing-sub" data-i18n="ingWineSub">A way of life</p>
+          </div>
+
+          <div class="ingredient-circle-item">
+            <div class="ingredient-icon-bubble">🌿</div>
+            <h4 class="ing-name" data-i18n="ingHerbs">Herbs</h4>
+            <p class="ing-sub" data-i18n="ingHerbsSub">Fresh & aromatic</p>
+          </div>
+
+        </div>
+
+        <!-- Right Callout Card with Baguette & French Ribbon -->
+        <div class="ingredients-quote-card">
+          <div class="quote-card-image">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Fresh French Baguette" loading="lazy">
+          </div>
+          <div class="quote-card-content">
+            <h3 class="quote-text" data-i18n="quoteSimple">
+              Simple ingredients.<br>Extraordinary flavors.
+            </h3>
+            <div class="french-tricolor-line">
+              <span class="flag-blue"></span>
+              <span class="flag-white"></span>
+              <span class="flag-red"></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Section: Featured Recipe Banner (Ratatouille Spotlight)
+       ======================================================================== -->
+  <section class="featured-recipe-section" id="featured-recipe-spotlight">
+    <div class="container">
+      <div class="featured-banner-card">
+        
+        <!-- Left Dish Image -->
+        <div class="featured-banner-media">
+          <img src="assets/images/ratatouille.jpg" alt="Ratatouille in cast-iron skillet" class="featured-dish-img">
+        </div>
+
+        <!-- Center Recipe Details -->
+        <div class="featured-banner-info">
+          <span class="featured-eyebrow" data-i18n="featEyebrow">FEATURED RECIPE</span>
+          <h2 class="featured-title" id="featured-dish-title" data-i18n="featTitle">Ratatouille Provençale</h2>
+          <p class="featured-desc" id="featured-dish-desc" data-i18n="featDesc">
+            A colorful and healthy dish from the south of France, full of fresh vegetables and Mediterranean herbs.
+          </p>
+
+          <div class="featured-meta-row">
+            <span class="featured-meta-item">⏱ 40 <span data-i18n="timeMin">min</span></span>
+            <span class="featured-meta-item">🎚 <span data-i18n="diffEasy">Easy</span></span>
+            <span class="featured-meta-item">👤 4 <span data-i18n="unitServes">serves</span></span>
+          </div>
+
+          <button class="btn btn-primary-dark" id="featured-view-recipe-btn">
+            <span data-i18n="btnViewFull">View Full Recipe</span>
+            <svg class="btn-arrow" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Right Quick Features Checklist -->
+        <div class="featured-banner-checklist">
+          <ul class="checklist-items">
+            <li class="checklist-item">
+              <span class="check-icon">📖</span>
+              <span data-i18n="chkHistory">History of the Dish</span>
+            </li>
+            <li class="checklist-item">
+              <span class="check-icon">📋</span>
+              <span data-i18n="chkIngredients">Ingredients Checklist</span>
+            </li>
+            <li class="checklist-item">
+              <span class="check-icon">📝</span>
+              <span data-i18n="chkGuide">Step-by-Step Guide</span>
+            </li>
+            <li class="checklist-item">
+              <span class="check-icon">⏱</span>
+              <span data-i18n="chkTimer">Cooking Timer</span>
+            </li>
+            <li class="checklist-item">
+              <span class="check-icon">🤍</span>
+              <span data-i18n="chkFav">Save to Favorites</span>
+            </li>
+            <li class="checklist-item">
+              <span class="check-icon">🔗</span>
+              <span data-i18n="chkShare">Share Recipe</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <!-- Top Row -->
+      <div class="footer-top-row">
+        <!-- Logo -->
+        <div class="footer-brand">
+          <svg class="footer-chef-hat" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/>
+            <line x1="6" y1="17" x2="18" y2="17"/>
+          </svg>
+          <div>
+            <div class="footer-brand-title">La Table Française</div>
+            <div class="footer-brand-sub" data-i18n="brandTagline">Authentic French Food & Recipes</div>
+          </div>
+        </div>
+
+        <!-- Links -->
+        <nav class="footer-nav">
+          <a href="#" data-i18n="navHome">Home</a>
+          <a href="#recipes-section" data-i18n="navRecipes">Recipes</a>
+          <a href="#recipes-section" data-i18n="navCategories">Categories</a>
+          <a href="#region-section" data-i18n="navRegions">Regions</a>
+          <a href="#ingredients-section" data-i18n="navAbout">About</a>
+          <a href="#featured-recipe-spotlight" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <!-- Social Icons -->
+        <div class="footer-social-icons">
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
+          </a>
+          <a href="#" class="social-icon" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4c0 2-1.5 3.6-3.4 3.9-.2-.7-.4-1.7-.1-2.5l.6-2.5s-.2-.3-.2-.8c0-.8.5-1.4 1-1.4.5 0 .8.4.8.8 0 .5-.3 1.3-.5 2-.1.6.3 1.1.9 1.1 1.1 0 1.9-1.2 1.9-2.9 0-1.5-1.1-2.6-2.7-2.6-1.9 0-3 1.4-3 2.9 0 .6.2 1.2.5 1.6-.1.3-.2.9-.3 1-.3-.3-.8-.9-.8-2.1z" fill="#fff"/></svg>
+          </a>
+        </div>
+
+        <!-- Footer Language Selector -->
+        <div class="footer-lang-dropdown">
+          <select id="footer-lang-select" aria-label="Select Language">
+            <option value="en">🇬🇧 English</option>
+            <option value="te">🇮🇳 తెలుగు (Telugu)</option>
+            <option value="hi">🇮🇳 हिंदी (Hindi)</option>
+            <option value="fr">🇫🇷 Français</option>
+          </select>
+        </div>
+
+      </div>
+
+      <!-- Bottom Row -->
+      <div class="footer-bottom-row">
+        <div class="footer-copyright" data-i18n="footerCopyright">
+          © 2025 La Table Française. All rights reserved.
+        </div>
+        <div class="footer-art-signature">
+          <span class="calligraphy-text" data-i18n="artQuote">La cuisine est une forme d'art</span>
+          <div class="french-tricolor-line">
+            <span class="flag-blue"></span>
+            <span class="flag-white"></span>
+            <span class="flag-red"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       Interactive Recipe Modal Dialog
+       ======================================================================== -->
+  <div class="modal-overlay" id="recipe-modal" aria-hidden="true" role="dialog">
+    <div class="modal-box">
+      <button class="modal-close-x" id="modal-close-btn" aria-label="Close">✕</button>
+      <div id="modal-content-area">
+        <!-- Injected dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-area" id="toast-area" aria-live="polite"></div>
+
+  <!-- Scripts -->
+  <script src="recipes.js?v=13"></script>
+  <script src="translations.js?v=13"></script>
+  <script src="recipeTranslations.js?v=13"></script>
+  <script src="script.js?v=13"></script>
+  <script src="backgroundFoodEngine.js?v=13"></script>
+</body>
+</html>
