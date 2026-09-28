@@ -1,0 +1,19 @@
+{
+  "name": "french-cuisine",
+  "version": "1.0.0",
+  "description": "La Table Française - Authentic French Culinary Masterpiece",
+  "scripts": {
+    "add-dish": "node autoRecipeAiUpdater.js --generate",
+    "add-dishes": "node autoRecipeAiUpdater.js --count=3",
+    "ai-daemon": "node autoRecipeAiUpdater.js --daemon --interval=3600",
+    "dry-run": "node autoRecipeAiUpdater.js --dry-run"
+  },
+  "keywords": [
+    "french-cuisine",
+    "gastronomy",
+    "recipes",
+    "multilingual"
+  ],
+  "author": "La Table Française",
+  "license": "MIT"
+}
