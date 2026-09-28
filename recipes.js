@@ -1711,6 +1711,104 @@ const RECIPES_DATA = [
         "timerSeconds": 12600
       }
     ]
+  },
+  {
+    "id": "piperade_basquaise",
+    "title": "Piperade Basquaise",
+    "titleEn": "Basque Country Pepper & Egg Skillet",
+    "titleTe": "పైపరేడ్ బాస్క్వైజ్ (బాస్క్ పెప్పర్ మరియు ఎగ్ స్కిల్లెట్)",
+    "titleHi": "पाइप्रेड बास्क (शिमला मिर्च और अंडों से बना बास्क व्यंजन)",
+    "region": "Basque",
+    "category": "breakfast",
+    "categoryLabel": "Basque Morning Classic",
+    "difficulty": "Easy",
+    "rating": 4.9,
+    "reviews": "950",
+    "prepTime": 15,
+    "cookTime": 25,
+    "calories": 280,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Basque",
+      "Breakfast",
+      "Eggs",
+      "Peppers",
+      "Traditional"
+    ],
+    "subtitle": "Sweet peppers, tomatoes & Espelette pepper softly scrambled with eggs & Bayonne ham.",
+    "subtitleEn": "Sweet peppers, tomatoes & Espelette pepper softly scrambled with eggs & Bayonne ham.",
+    "subtitleTe": "తీపి మిరపకాయలు, టమోటాలు మరియు బాస్క్ మసాలాతో చేసిన గుడ్ల వంటకం.",
+    "subtitleHi": "मीठी मिर्च, टमाटर और बास्क मसालों से बना अंडों का पारंपरिक नाश्ता।",
+    "description": "The vibrant colors of the Basque flag in a skillet: red and green sweet peppers, ripe tomatoes, and onions gently stewed with aromatic Piment d'Espelette, finished with softly folded farm eggs and crisped slices of Jambon de Bayonne.",
+    "winePairing": {
+      "wine": "Irouléguy Rosé or Basque Cider",
+      "notes": "A mineral-rich, structured Basque rosé cuts through the gentle heat of Espelette pepper and rich cured ham."
+    },
+    "chefTip": "Cook the peppers very slowly over low heat until they melt into sweet jam-like tenderness before folding in the beaten eggs.",
+    "nutrition": {
+      "protein": "18g",
+      "carbs": "12g",
+      "fat": "18g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {
+        "name": "Red and green bell peppers, thinly sliced",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ripe vine tomatoes, peeled and chopped",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Farm-fresh eggs, lightly beaten",
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Authentic Jambon de Bayonne or Prosciutto",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "Garlic cloves, minced",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "Piment d'Espelette (Basque chili powder)",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Extra virgin olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Stew Peppers and Aromatics",
+        "instruction": "Warm olive oil in a skillet. Sauté onions and peppers over medium-low heat for 15 minutes until meltingly tender.",
+        "timerSeconds": 900
+      },
+      {
+        "step": 2,
+        "title": "Add Tomatoes and Espelette",
+        "instruction": "Stir in tomatoes, garlic, and Piment d'Espelette. Simmer for 10 minutes until excess moisture evaporates into a thick sauce.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Fold Eggs and Sear Ham",
+        "instruction": "Pour in beaten eggs and stir gently over low heat until soft curds form. In a separate pan, flash-sear Bayonne ham slices for 30 seconds and serve on top.",
+        "timerSeconds": 240
+      }
+    ]
   }
 ];
 

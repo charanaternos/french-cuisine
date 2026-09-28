@@ -3724,6 +3724,171 @@ const RECIPE_TRANSLATIONS = {
         }
       }
     ]
+  },
+  "piperade_basquaise": {
+    "title": {
+      "fr": "Piperade Basquaise Traditionnelle",
+      "en": "Basque Country Pepper & Egg Skillet",
+      "te": "పైపరేడ్ బాస్క్వైజ్ (బాస్క్ పెప్పర్ మరియు ఎగ్ స్కిల్లెట్)",
+      "hi": "पाइप्रेड बास्क (शिमला मिर्च और अंडों से बना बास्क व्यंजन)"
+    },
+    "subtitle": {
+      "fr": "Poivrons doux, tomates mûres au piment d'Espelette et œufs brouillés au jambon de Bayonne.",
+      "en": "Sweet peppers, tomatoes & Espelette pepper softly scrambled with eggs & Bayonne ham.",
+      "te": "తీపి మిరపకాయలు, టమోటాలు మరియు బాస్క్ మసాలాతో చేసిన గుడ్ల వంటకం.",
+      "hi": "मीठी मिर्च, टमाटर और बास्क मसालों से बना अंडों का पारंपरिक नाश्ता।"
+    },
+    "categoryLabel": {
+      "fr": "Classique du Pays Basque",
+      "en": "Basque Morning Classic",
+      "te": "బాస్క్ మార్నింగ్ క్లాసిక్",
+      "hi": "बास्क क्लासिक नाश्ता"
+    },
+    "description": {
+      "fr": "L'emblème culinaire du Pays Basque : poivrons rouges et verts confits à feu doux avec tomates, ail et piment d'Espelette, liés aux œufs frais et accompagnés de jambon de Bayonne poêlé.",
+      "en": "The vibrant colors of the Basque flag in a skillet: red and green sweet peppers, ripe tomatoes, and onions gently stewed with aromatic Piment d'Espelette, finished with softly folded farm eggs and crisped slices of Jambon de Bayonne.",
+      "te": "ఎరుపు, ఆకుపచ్చ బెల్ పెప్పర్స్ మరియు టమోటాలను బాస్క్ సుగంధ ద్రవ్యాలతో ఉడికించి, తాజా గుడ్లు మరియు క్రిస్పీ హామ్‌తో వడ్డించే ప్రసిద్ధ ఫ్రెంచ్ వంటకం.",
+      "hi": "लाल-हरी शिमला मिर्च, रसीले टमाटर और बास्क मसालों को धीमी आंच पर पकाकर, अंडों और बेयोन हैम के साथ परोसा जाने वाला पारंपरिक फ्रेंच व्यंजन।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Irouléguy Rosé ou Cidre Basque",
+        "en": "Irouléguy Rosé or Basque Cider",
+        "te": "ఇరౌలెగై రోస్ లేదా బాస్క్ సైడర్",
+        "hi": "इरोलेगी रोज़े या बास्क साइडर"
+      },
+      "notes": {
+        "fr": "Un rosé de caractère aux notes de fruits rouges et d'épices douces qui équilibre parfaitement le piment d'Espelette.",
+        "en": "A mineral-rich, structured Basque rosé cuts through the gentle heat of Espelette pepper and rich cured ham.",
+        "te": "మసాలా ఘాటును సమతుల్యం చేసే మినరల్-రిచ్ బాస్క్ వైన్.",
+        "hi": "मसालेदार मिर्च और नमकीन हैम के स्वाद को संतुलित करने वाली विशेष फ्रेंच रोज़े वाइन।"
+      }
+    },
+    "chefTip": {
+      "fr": "Ne pressez jamais la cuisson des poivrons : ils doivent confire dans l'huile d'olive sans colorer pour libérer toute leur sucrosité naturelle.",
+      "en": "Cook the peppers very slowly over low heat until they melt into sweet jam-like tenderness before folding in the beaten eggs.",
+      "te": "మిరపకాయలను తక్కువ మంటపై నెమ్మదిగా ఉడికించండి, తద్వారా వాటి సహజ తీపి బయటకు వస్తుంది.",
+      "hi": "शिमला मिर्च को धीमी आंच पर तब तक पकाएं जब तक वे पूरी तरह से नरम और मीठी न हो जाएं।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Poivrons rouges et verts émincés",
+          "en": "Red and green bell peppers, thinly sliced",
+          "te": "ఎరుపు మరియు ఆకుపచ్చ బెల్ పెప్పర్స్",
+          "hi": "लाल और हरी शिमला मिर्च"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Tomates mûres mondées et concassées",
+          "en": "Ripe vine tomatoes, peeled and chopped",
+          "te": "తాజా టమోటాలు ముక్కలు",
+          "hi": "पके हुए टमाटर"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Œufs frais battus en omelette",
+          "en": "Farm-fresh eggs, lightly beaten",
+          "te": "తాజా కోడిగుడ్లు",
+          "hi": "ताजे अंडे"
+        },
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Tranches de jambon de Bayonne",
+          "en": "Authentic Jambon de Bayonne or Prosciutto",
+          "te": "బేయోన్ హామ్ ముక్కలు",
+          "hi": "बेयोन हैम स्लाइस"
+        },
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": {
+          "fr": "Gousses d'ail hachées",
+          "en": "Garlic cloves, minced",
+          "te": "వెల్లుల్లి రెబ్బలు",
+          "hi": "लहसुन की कलियां"
+        },
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": {
+          "fr": "Piment d'Espelette AOP",
+          "en": "Piment d'Espelette (Basque chili powder)",
+          "te": "బాస్క్ చిల్లీ పౌడర్",
+          "hi": "बास्क चिली पाउडर"
+        },
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": {
+          "fr": "Huile d'olive vierge extra",
+          "en": "Extra virgin olive oil",
+          "te": "ఆలివ్ ఆయిల్",
+          "hi": "ऑलिव ऑयल"
+        },
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Confire les poivrons",
+          "en": "Stew Peppers and Aromatics",
+          "te": "మిరపకాయలను ఉడికించండి",
+          "hi": "शिमला मिर्च धीमी आंच पर पकाएं"
+        },
+        "instruction": {
+          "fr": "Chauffez l'huile d'olive et faites suer oignons et poivrons à feu doux 15 minutes sans coloration.",
+          "en": "Warm olive oil in a skillet. Sauté onions and peppers over medium-low heat for 15 minutes until meltingly tender.",
+          "te": "పాన్‌లో ఆలివ్ ఆయిల్ వేసి, ఉల్లిపాయలు మరియు మిరపకాయలను 15 నిమిషాలు వేయించండి.",
+          "hi": "पैन में ऑलिव ऑयल गर्म करें और प्याज व मिर्च को 15 मिनट तक धीमी आंच पर भूनें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Mijoter la sauce",
+          "en": "Add Tomatoes and Espelette",
+          "te": "టమోటాలు మరియు మసాలాలు కలపండి",
+          "hi": "टमाटर और मसाले मिलाएं"
+        },
+        "instruction": {
+          "fr": "Ajoutez tomates, ail et piment d'Espelette. Laissez compoter 10 minutes jusqu'à réduction du jus.",
+          "en": "Stir in tomatoes, garlic, and Piment d'Espelette. Simmer for 10 minutes until excess moisture evaporates into a thick sauce.",
+          "te": "టమోటాలు, వెల్లుల్లి మరియు మసాలా వేసి 10 నిమిషాలు సాస్ చిక్కబడే వరకు ఉడికించండి.",
+          "hi": "टमाटर, लहसुन और बास्क मसाला डालें और 10 मिनट तक गाढ़ा होने तक पकाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Lier aux œufs",
+          "en": "Fold Eggs and Sear Ham",
+          "te": "గుడ్లను కలపండి మరియు వడ్డించండి",
+          "hi": "अंडे मिलाएं और परोसें"
+        },
+        "instruction": {
+          "fr": "Versez les œufs battus et remuez doucement hors du feu pour obtenir une texture crémeuse. Poêlez le jambon 30 secondes et déposez dessus.",
+          "en": "Pour in beaten eggs and stir gently over low heat until soft curds form. In a separate pan, flash-sear Bayonne ham slices for 30 seconds and serve on top.",
+          "te": "గుడ్లను నెమ్మదిగా కలిపి క్రీమీగా అయ్యే వరకు ఉడికించండి. పక్కన వేయించిన హామ్‌తో వేడిగా వడ్డించండి.",
+          "hi": "अंडे डालकर धीमी आंच पर मखमली होने तक चलाएं और ऊपर से हल्का सिका हुआ हैम रखकर परोसें।"
+        }
+      }
+    ]
   }
 };
 
