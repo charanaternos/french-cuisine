@@ -20,10 +20,35 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const readline = require('readline');
 const { execSync } = require('child_process');
 
 const RECIPES_FILE = path.join(__dirname, 'recipes.js');
 const TRANSLATIONS_FILE = path.join(__dirname, 'recipeTranslations.js');
+
+function promptApproval(dish) {
+  return new Promise((resolve) => {
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+    console.log(`\n📋 [Recipe Proposed for Menu Addition]:`);
+    console.log(`   • Title:       ${dish.title} (${dish.titleEn})`);
+    console.log(`   • Region:      ${dish.region}`);
+    console.log(`   • Course:      ${dish.categoryLabel} (${dish.category})`);
+    console.log(`   • Calories:    ${dish.calories} kcal | Prep: ${dish.prepTime}m | Cook: ${dish.cookTime}m`);
+    console.log(`   • Rating:      ⭐ ${dish.rating} (${dish.reviews} reviews)`);
+    console.log(`   • Ingredients: ${dish.ingredients.map(i => i.name).slice(0, 3).join(', ')}...`);
+    console.log(`   • Wine:        ${dish.winePairing.wine}`);
+    console.log(`   • Chef Tip:    ${dish.chefTip}`);
+    console.log(`   • Translations: French, English, Telugu (తెలుగు), Hindi (हिंदी)`);
+
+    rl.question(`\n❓ Do you approve adding "${dish.title}" to the menu and pushing to GitHub? (y/N): `, (ans) => {
+      rl.close();
+      resolve(ans.trim().toLowerCase() === 'y' || ans.trim().toLowerCase() === 'yes');
+    });
+  });
+}
 
 // ============================================================================
 // Authentic Regional French Culinary AI Knowledge Base
@@ -566,6 +591,7 @@ async function run() {
   const args = process.argv.slice(2);
   const isDryRun = args.includes('--dry-run');
   const isDaemon = args.includes('--daemon');
+  const autoApprove = args.includes('--auto') || args.includes('-y') || isDaemon || isDryRun;
   const countArg = args.find(a => a.startsWith('--count='));
   const intervalArg = args.find(a => a.startsWith('--interval='));
 
@@ -576,7 +602,7 @@ async function run() {
   console.log("⚜️ La Table Française - AI Background Menu & Git Auto-Sync Engine");
   console.log("==================================================================");
 
-  function executeBatch(batchCount) {
+  async function executeBatch(batchCount) {
     let addedCount = 0;
     for (let i = 0; i < batchCount; i++) {
       const { existingRecipes } = loadExistingDatabase();
@@ -585,6 +611,15 @@ async function run() {
       if (!candidate) {
         console.log("🌟 All candidate dishes from current AI catalog have already been integrated.");
         break;
+      }
+
+      // If interactive mode, prompt user for approval first
+      if (!autoApprove) {
+        const approved = await promptApproval(candidate);
+        if (!approved) {
+          console.log(`\n🛑 [Approval Denied] Addition of "${candidate.title}" was cancelled by user.`);
+          continue;
+        }
       }
 
       console.log(`\n🍳 [AI Synthesizing] New authentic dish: "${candidate.title}" (${candidate.region} - ${candidate.categoryLabel})...`);
@@ -602,13 +637,13 @@ async function run() {
 
   if (isDaemon) {
     console.log(`🔄 [Daemon Mode Active] Running in background every ${intervalSeconds} seconds... (Press Ctrl+C to stop)`);
-    executeBatch(1);
-    setInterval(() => {
+    await executeBatch(1);
+    setInterval(async () => {
       console.log(`\n⏰ [Daemon Scheduled Run] Checking for AI recipe synthesis...`);
-      executeBatch(1);
+      await executeBatch(1);
     }, intervalSeconds * 1000);
   } else {
-    executeBatch(count);
+    await executeBatch(count);
   }
 }
 
