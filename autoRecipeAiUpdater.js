@@ -22,6 +22,7 @@ const path = require('path');
 const vm = require('vm');
 const readline = require('readline');
 const { execSync } = require('child_process');
+const crypto = require('crypto');
 
 const RECIPES_FILE = path.join(__dirname, 'recipes.js');
 const TRANSLATIONS_FILE = path.join(__dirname, 'recipeTranslations.js');
@@ -602,8 +603,12 @@ async function run() {
   console.log("⚜️ La Table Française - AI Background Menu & Git Auto-Sync Engine");
   console.log("==================================================================");
 
+const { sendApprovalEmail, startApprovalServer, loadPendingApprovals, savePendingApprovals } = require('./emailApprovalService');
+
   async function executeBatch(batchCount) {
     let addedCount = 0;
+    const useEmail = args.includes('--email') || (!autoApprove && process.env.SMTP_EMAIL && process.env.SMTP_APP_PASSWORD);
+
     for (let i = 0; i < batchCount; i++) {
       const { existingRecipes } = loadExistingDatabase();
       const candidate = selectCandidateRecipe(existingRecipes);
@@ -613,7 +618,55 @@ async function run() {
         break;
       }
 
-      // If interactive mode, prompt user for approval first
+      // 1. Email Verification Flow (One-Click Approval / Rejection in Email)
+      if (useEmail) {
+        const token = crypto.randomBytes(24).toString('hex');
+        const store = loadPendingApprovals();
+        store[token] = {
+          token,
+          dish: candidate,
+          status: 'PENDING',
+          createdAt: new Date().toISOString()
+        };
+        savePendingApprovals(store);
+
+        const port = process.env.APPROVAL_SERVER_PORT || 3005;
+        const baseUrl = process.env.APPROVAL_BASE_URL || `http://localhost:${port}`;
+
+        const server = startApprovalServer(port, async (dish) => {
+          updateFilesWithRecipe(dish, isDryRun);
+          if (!isDryRun) {
+            pushChangesToGitHub(dish.title);
+          }
+          return { success: true };
+        });
+
+        const emailResult = await sendApprovalEmail(candidate, token, baseUrl);
+        console.log(`\n📧 [Verification Email Sent] Preview sent to ${process.env.RECIPIENT_EMAIL || process.env.SMTP_EMAIL || 'your email'} with One-Click [Approve] & [Reject] buttons.`);
+        console.log(`🔗 Direct Approval URL: ${emailResult.approveUrl}`);
+        console.log(`⏳ [Waiting for Email Approval] Check your inbox and click [APPROUVER ET PUBLIER SUR GITHUB]...`);
+
+        await new Promise((resolve) => {
+          const checkInterval = setInterval(() => {
+            const currentStore = loadPendingApprovals();
+            if (currentStore[token] && currentStore[token].status !== 'PENDING') {
+              clearInterval(checkInterval);
+              server.close();
+              if (currentStore[token].status === 'APPROVED') {
+                console.log(`\n✨ [Approved via Email] "${candidate.title}" was verified and published to GitHub!`);
+                addedCount++;
+              } else {
+                console.log(`\n🛑 [Rejected via Email] "${candidate.title}" addition was cancelled.`);
+              }
+              resolve();
+            }
+          }, 1500);
+        });
+
+        continue;
+      }
+
+      // 2. Terminal Interactive Prompt Fallback (if email credentials not yet configured)
       if (!autoApprove) {
         const approved = await promptApproval(candidate);
         if (!approved) {

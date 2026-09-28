@@ -2,11 +2,16 @@
   "name": "french-cuisine",
   "version": "1.0.0",
   "description": "La Table Française - Authentic French Culinary Masterpiece",
+  "main": "autoRecipeAiUpdater.js",
   "scripts": {
-    "add-dish": "node autoRecipeAiUpdater.js --generate",
-    "add-dishes": "node autoRecipeAiUpdater.js --count=3",
+    "add-dish": "node autoRecipeAiUpdater.js",
+    "add-dish-email": "node autoRecipeAiUpdater.js --email",
+    "add-dish-auto": "node autoRecipeAiUpdater.js --auto",
     "ai-daemon": "node autoRecipeAiUpdater.js --daemon --interval=3600",
     "dry-run": "node autoRecipeAiUpdater.js --dry-run"
+  },
+  "dependencies": {
+    "nodemailer": "^6.10.0"
   },
   "keywords": [
     "french-cuisine",

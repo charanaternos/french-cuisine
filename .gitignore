@@ -4,3 +4,4 @@ cloudflared.exe
 node_modules/
 scratch/
 .env
+pending_approvals.json
