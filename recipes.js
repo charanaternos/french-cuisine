@@ -1809,6 +1809,99 @@ const RECIPES_DATA = [
         "timerSeconds": 240
       }
     ]
+  },
+  {
+    "id": "galette_bretonne",
+    "title": "Galette Bretonne Complète",
+    "titleEn": "Brittany Buckwheat Galette Complète",
+    "titleTe": "గ్యాలెట్ బ్రిటన్ (బక్‌వీట్ ఫ్రెంచ్ క్రేప్)",
+    "titleHi": "गैलेट ब्रेटोन (कुट्टू के आटे से बना क्लासिक फ्रेंच क्रेप)",
+    "region": "Brittany",
+    "category": "breakfast",
+    "categoryLabel": "Brittany Crêperie Icon",
+    "difficulty": "Medium",
+    "rating": 5,
+    "reviews": "2.3k",
+    "prepTime": 20,
+    "cookTime": 10,
+    "calories": 420,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Brittany",
+      "Breakfast",
+      "Buckwheat",
+      "Gluten-Free",
+      "Crêpe"
+    ],
+    "subtitle": "Lacy buckwheat crêpe folded around French ham, melting Gruyère & a sunny egg.",
+    "subtitleEn": "Lacy buckwheat crêpe folded around French ham, melting Gruyère & a sunny egg.",
+    "subtitleTe": "ఫ్రెంచ్ హామ్, చీజ్ మరియు గుడ్డుతో కూడిన సాంప్రదాయ బక్‌వీట్ క్రేప్.",
+    "subtitleHi": "हैम, पिघली हुई ग्रुयेर चीज़ और आधे तले अंडे से बना स्वादिष्ट फ्रेंच क्रेप।",
+    "description": "The crown jewel of Brittany's seaside crêperies: an ultra-crisp, nutty 100% buckwheat flour galette crisped on a sizzling billig griddle with salted French butter, filled with artisanal cooked ham, grated Gruyère cheese, and crowned with a golden runny egg yolk.",
+    "winePairing": {
+      "wine": "Brut Breton Artisanal Cider",
+      "notes": "Crisp, effervescent dry Brittany apple cider pairs harmoniously with nutty roasted buckwheat and savory melted cheese."
+    },
+    "chefTip": "Rest the buckwheat batter overnight in the refrigerator; the cold rest creates the signature micro-lacework holes ('krampouz') when batter hits the smoking-hot griddle.",
+    "nutrition": {
+      "protein": "22g",
+      "carbs": "34g",
+      "fat": "22g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {
+        "name": "Organic buckwheat flour (Farine de Blé Noir)",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Cold water & pinch of Brittany coarse sea salt",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Artisanal salted French butter (Demi-sel)",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "French cooked ham (Jambon de Paris)",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "Grated aged Gruyère or Emmental cheese",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Farm egg per galette",
+        "amount": 4,
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Whisk Aerated Batter",
+        "instruction": "Vigorously beat buckwheat flour, salt, and cold water with a wooden spoon until glossy and bubbling. Rest chilled for at least 2 hours.",
+        "timerSeconds": 7200
+      },
+      {
+        "step": 2,
+        "title": "Spread on Scorching Griddle",
+        "instruction": "Melt salted butter on a 220°C (425°F) griddle. Pour a ladle of batter and spread into a razor-thin circle using a rosette spreader. Cook 2 minutes until lacy and crisp.",
+        "timerSeconds": 120
+      },
+      {
+        "step": 3,
+        "title": "Fill and Square-Fold",
+        "instruction": "Crack an egg in the center, spread egg white over galette. Sprinkle Gruyère, lay ham slice, and fold four edges inward into a classic square leaving the golden yolk exposed.",
+        "timerSeconds": 180
+      }
+    ]
   }
 ];
 

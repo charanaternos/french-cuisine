@@ -3889,6 +3889,161 @@ const RECIPE_TRANSLATIONS = {
         }
       }
     ]
+  },
+  "galette_bretonne": {
+    "title": {
+      "fr": "Galette Bretonne Complète",
+      "en": "Brittany Buckwheat Galette Complète",
+      "te": "గ్యాలెట్ బ్రిటన్ (బక్‌వీట్ ఫ్రెంచ్ క్రేప్)",
+      "hi": "गैलेट ब्रेटोन (कुट्टू के आटे से बना क्लासिक फ्रेंच क्रेप)"
+    },
+    "subtitle": {
+      "fr": "Galette de sarrasin croustillante au beurre demi-sel, jambon blanc, emmental et œuf miroir.",
+      "en": "Lacy buckwheat crêpe folded around French ham, melting Gruyère & a sunny egg.",
+      "te": "ఫ్రెంచ్ హామ్, చీజ్ మరియు గుడ్డుతో కూడిన సాంప్రదాయ బక్‌వీట్ క్రేప్.",
+      "hi": "हैम, पिघली हुई ग्रुयेर चीज़ और आधे तले अंडे से बना स्वादिष्ट फ्रेंच क्रेप।"
+    },
+    "categoryLabel": {
+      "fr": "Institution Bretonne",
+      "en": "Brittany Crêperie Icon",
+      "te": "బ్రిటనీ క్రేప్ ఐకాన్",
+      "hi": "ब्रिटनी क्लासिक डिश"
+    },
+    "description": {
+      "fr": "L'incontournable des crêperies bretonnes : une pâte 100% blé noir tournée sur bilig au beurre demi-sel, garnie d'un œuf au jaune coulant, de fromage râpé fondant et d'une tranche de jambon artisanal.",
+      "en": "The crown jewel of Brittany's seaside crêperies: an ultra-crisp, nutty 100% buckwheat flour galette crisped on a sizzling billig griddle with salted French butter, filled with artisanal cooked ham, grated Gruyère cheese, and crowned with a golden runny egg yolk.",
+      "te": "సహజ సిద్ధమైన బక్‌వీట్ పిండితో తయారు చేసిన క్రిస్పీ ఫ్రెంచ్ క్రేప్. దీని మధ్యలో చీజ్, హామ్ మరియు గుడ్డు వేసి మడతపెడతారు.",
+      "hi": "कुट्टू के आटे से बना खस्ता फ्रेंच नमकीन क्रेप, जिसमें मक्खन, पिघला हुआ पनीर, स्वादिष्ट हैम और बीच में अंडा रखकर चौकोर मोड़ा जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Cidre Brut Fermier de Bretagne",
+        "en": "Brut Breton Artisanal Cider",
+        "te": "బ్రూట్ బ్రిటన్ ఆపిల్ సైడర్",
+        "hi": "पारंपरिक ब्रूट ब्रिटनी साइडर"
+      },
+      "notes": {
+        "fr": "L'effervescence vive et les notes de pomme acidulée nettoient le palais entre chaque bouchée beurrée.",
+        "en": "Crisp, effervescent dry Brittany apple cider pairs harmoniously with nutty roasted buckwheat and savory melted cheese.",
+        "te": "బట్టర్ మరియు చీజ్ రుచులకు సరిపోయే ఫ్రెష్ ఆపిల్ సైడర్.",
+        "hi": "मक्खन और चीज़ के समृद्ध स्वाद के साथ ताज़ा सेब का साइडर एकदम सही जोड़ी बनाता है।"
+      }
+    },
+    "chefTip": {
+      "fr": "N'ajoutez pas d'œuf dans la pâte : le vrai secret breton réside dans le battage vigoureux pour incorporer l'air et le repos au frais.",
+      "en": "Rest the buckwheat batter overnight in the refrigerator; the cold rest creates the signature micro-lacework holes ('krampouz') when batter hits the smoking-hot griddle.",
+      "te": "పిండిని కనీసం 2 గంటలు ఫ్రిజ్‌లో ఉంచండి, ఇది పెనం మీద సన్నని క్రిస్పీ హోల్స్ ఏర్పడటానికి సహాయపడుతుంది.",
+      "hi": "घोल को 2 घंटे फ्रिज में रखें, जिससे गर्म तवे पर डालते ही जालीदार खस्तापन बनता है।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Farine de blé noir de Bretagne IGP",
+          "en": "Organic buckwheat flour (Farine de Blé Noir)",
+          "te": "బక్‌వీట్ పిండి",
+          "hi": "कुट्टू का आटा"
+        },
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Eau froide et fleur de sel de Guérande",
+          "en": "Cold water & pinch of Brittany coarse sea salt",
+          "te": "చల్లటి నీరు మరియు ఉప్పు",
+          "hi": "ठंडा पानी और समुद्री नमक"
+        },
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Beurre demi-sel artisanal",
+          "en": "Artisanal salted French butter (Demi-sel)",
+          "te": "ఫ్రెంచ్ సాల్టెడ్ బటర్",
+          "hi": "नमकीन फ्रेंच मक्खन"
+        },
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Jambon blanc supérieur",
+          "en": "French cooked ham (Jambon de Paris)",
+          "te": "ఫ్రెంచ్ కుక్డ్ హామ్",
+          "hi": "फ्रेंच कुक्ड हैम"
+        },
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": {
+          "fr": "Gruyère ou Emmental râpé",
+          "en": "Grated aged Gruyère or Emmental cheese",
+          "te": "తురిమిన గ్రేయర్ చీజ్",
+          "hi": "कद्दूकस की हुई ग्रुयेर चीज़"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Œufs frais de ferme",
+          "en": "Farm egg per galette",
+          "te": "తాజా కోడిగుడ్లు",
+          "hi": "ताजे अंडे"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Battre la pâte",
+          "en": "Whisk Aerated Batter",
+          "te": "పిండిని కలపండి",
+          "hi": "घोल तैयार करें"
+        },
+        "instruction": {
+          "fr": "Battez énergiquement la farine, le sel et l'eau jusqu'à formation de bulles d'air. Laissez reposer 2 heures au frais.",
+          "en": "Vigorously beat buckwheat flour, salt, and cold water with a wooden spoon until glossy and bubbling. Rest chilled for at least 2 hours.",
+          "te": "పిండి, ఉప్పు మరియు నీటిని బాగా కలిపి 2 గంటల పాటు నానబెట్టండి.",
+          "hi": "आटा, नमक और पानी को अच्छी तरह फेंटें और 2 घंटे के लिए ठंडा होने रख दें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Cuire sur bilig",
+          "en": "Spread on Scorching Griddle",
+          "te": "పెనం మీద వేయండి",
+          "hi": "तवे पर फैलाएं"
+        },
+        "instruction": {
+          "fr": "Étalez une louche de pâte d'un geste circulaire sur le bilig très chaud graissé au beurre demi-sel. Cuisez 2 minutes.",
+          "en": "Melt salted butter on a 220°C (425°F) griddle. Pour a ladle of batter and spread into a razor-thin circle using a rosette spreader. Cook 2 minutes until lacy and crisp.",
+          "te": "వేడి పెనంపై బటర్ రాసి, సన్నని పొరలా పిండిని వేసి 2 నిమిషాలు కాల్చండి.",
+          "hi": "तवे पर मक्खन लगाएं और पतली जालीदार परत बनाकर 2 मिनट तक सेकें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Garnir et plier",
+          "en": "Fill and Square-Fold",
+          "te": "చీజ్, గుడ్డు వేసి మడతపెట్టండి",
+          "hi": "चीज़ और अंडा डालकर मोड़ें"
+        },
+        "instruction": {
+          "fr": "Cassez l'œuf au centre, étalez le blanc, parsemez de fromage et déposez le jambon. Rabattez les 4 côtés en carré.",
+          "en": "Crack an egg in the center, spread egg white over galette. Sprinkle Gruyère, lay ham slice, and fold four edges inward into a classic square leaving the golden yolk exposed.",
+          "te": "మధ్యలో గుడ్డు వేసి, పైన చీజ్ మరియు హామ్ వేసి నాలుగు వైపులా చతురస్రాకారంలో మడతపెట్టండి.",
+          "hi": "बीच में अंडा तोड़ें, चीज़ और हैम डालें और चारों कोनों को मोड़कर चौकोर आकार दें।"
+        }
+      }
+    ]
   }
 };
 
