@@ -388,7 +388,9 @@ const CULINARY_LEXICON = {
     "Bourgogne": { fr: "Bourgogne Viticole", te: "బర్గండీ వైన్ ప్రాంతం", hi: "बरगंडी वाइन क्षेत्र", en: "Bourgogne (Burgundy)" },
     "Normandy": { fr: "Normandie Bocagère", te: "నార్మాండీ", hi: "नॉर्मैंडी", en: "Normandy" },
     "Lyon": { fr: "Lyon & Rhône-Alpes", te: "లియోన్ & రోన్-ఆల్ప్స్", hi: "ल्योन और रोन-आल्प्स", en: "Lyon & Rhône-Alpes" },
-    "Alsace": { fr: "Alsace Gastronomique", te: "అల్సాస్", hi: "अलसैस", en: "Alsace" }
+    "Alsace": { fr: "Alsace Gastronomique", te: "అల్సాస్", hi: "अलसैस", en: "Alsace" },
+    "Basque": { fr: "Pays Basque", te: "బాస్క్ ప్రాంతం", hi: "बास्क क्षेत्र", en: "Basque Country" },
+    "Brittany": { fr: "Bretagne", te: "బ్రిటనీ", hi: "ब्रिटनी", en: "Brittany" }
   },
   units: {
     "pcs": { fr: "pièces", te: "ముక్కలు", hi: "नग", en: "pcs" },

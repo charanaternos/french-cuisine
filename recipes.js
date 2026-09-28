@@ -2000,6 +2000,1662 @@ const RECIPES_DATA = [
         "timerSeconds": 900
       }
     ]
+  },
+  {
+    "id": "brioche_parisienne",
+    "title": "Brioche à Tête Parisienne",
+    "titleEn": "Parisian Fluted Butter Brioche",
+    "titleTe": "పారిసియన్ బటర్ బ్రియోష్ (ఫ్రెంచ్ వెన్న రొట్టె)",
+    "titleHi": "पेरिसियन बटर ब्रियोश (मक्खन से बना फ्रेंच मीठा बन)",
+    "region": "Paris",
+    "category": "breakfast",
+    "categoryLabel": "Parisian Viennoiserie",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "1.7k",
+    "prepTime": 30,
+    "cookTime": 25,
+    "calories": 310,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Paris",
+      "Breakfast",
+      "Brioche",
+      "Baking",
+      "Viennoiserie"
+    ],
+    "subtitle": "Golden fluted dome crowned with a petit head, enriched with creamy Charentes butter.",
+    "subtitleEn": "Golden fluted dome crowned with a petit head, enriched with creamy Charentes butter.",
+    "subtitleTe": "ఫ్రెంచ్ స్వచ్ఛమైన వెన్నతో బేక్ చేసిన మృదువైన పారిస్ మార్నింగ్ బ్రెడ్.",
+    "subtitleHi": "फ्रांस के शुद्ध मक्खन से बना सुनहरा और बेहद मुलायम पारंपरिक पेरिसियन बन।",
+    "description": "The quintessential Parisian breakfast masterpiece: a rich, featherlight enriched yeast bread with a delicate golden fluted base and signature crown knot, baked until shimmering deep amber and perfumed with cultured French butter.",
+    "winePairing": {
+      "wine": "Café Crème or Champagne Brut",
+      "notes": "A rich morning café crème or a crisp glass of dry Champagne elevates the tender, buttery crumb and subtle sweetness."
+    },
+    "chefTip": "Incorporate the softened butter very slowly in three stages only after the dough has developed strong gluten elasticity.",
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "38g",
+      "fat": "16g",
+      "fiber": "1g"
+    },
+    "ingredients": [
+      {
+        "name": "French bread flour (T45)",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "High-fat unsalted French butter, softened",
+        "amount": 175,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh whole eggs",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Whole milk, lukewarm",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Active baker's yeast",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "name": "Fine granulated sugar",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Fleur de sel",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Knead Enriched Dough",
+        "instruction": "Knead flour, yeast, milk, sugar, and eggs for 10 minutes until elastic. Gradually beat in butter until dough pulls clean from the bowl.",
+        "timerSeconds": 900
+      },
+      {
+        "step": 2,
+        "title": "First Rise & Cold Retard",
+        "instruction": "Let dough rise 1 hour at room temperature, then chill for 4 hours to firm the butter for easy shaping.",
+        "timerSeconds": 14400
+      },
+      {
+        "step": 3,
+        "title": "Shape Brioche à Tête & Bake",
+        "instruction": "Shape into fluted molds with a small topknot. Proof until doubled. Egg-wash and bake at 190°C (375°F) for 22-25 minutes until golden.",
+        "timerSeconds": 1500
+      }
+    ]
+  },
+  {
+    "id": "kouign_amann",
+    "title": "Kouign-Amann de Douarnenez",
+    "titleEn": "Brittany Caramelized Butter Pastry",
+    "titleTe": "క్విన్-అమాన్ (కారమెలైజ్డ్ బటర్ పేస్ట్రీ)",
+    "titleHi": "क्वीन-अमान (कैरमेलाइज्ड मक्खन और चीनी वाला फ्रेंच केक)",
+    "region": "Brittany",
+    "category": "breakfast",
+    "categoryLabel": "Brittany Artisan Viennoiserie",
+    "difficulty": "Advanced",
+    "rating": 5,
+    "reviews": "2.8k",
+    "prepTime": 45,
+    "cookTime": 35,
+    "calories": 440,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Brittany",
+      "Breakfast",
+      "Butter",
+      "Caramel",
+      "Pastry"
+    ],
+    "subtitle": "Layers of yeasted dough laminated with salted butter & sugar, baked into crisp amber caramel.",
+    "subtitleEn": "Layers of yeasted dough laminated with salted butter & sugar, baked into crisp amber caramel.",
+    "subtitleTe": "సాల్టెడ్ బటర్ మరియు చక్కెర పొరలతో కాల్చిన ప్రసిద్ధ కరకరలాడే ఫ్రెంచ్ బ్రెడ్.",
+    "subtitleHi": "नमकीन मक्खन और चीनी की कई परतों से बना, शीशे जैसा कुरकुरा पारंपरिक फ्रेंच केक।",
+    "description": "The crowning glory of Douarnenez: an artisan laminated cake meaning 'butter cake' in Breton, featuring dozens of micro-layers of salted French butter and crystallized sugar that melt during baking into a crackling toffee crust encasing a pillow-soft center.",
+    "winePairing": {
+      "wine": "Artisanal Brittany Apple Cider or Earl Grey Tea",
+      "notes": "The sparkling tartness of rustic dry Breton cider cleanses the palate between rich bites of melting caramelized butter."
+    },
+    "chefTip": "Use true Brittany semi-salted butter (demi-sel); the coarse salt grains prevent the sugar caramel from tasting cloying.",
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "52g",
+      "fat": "24g",
+      "fiber": "2g"
+    },
+    "ingredients": [
+      {
+        "name": "Unbleached bread flour (T55)",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Authentic Breton salted butter (demi-sel), cold",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Granulated cane sugar",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Active dry yeast dissolved in warm water",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Fine sea salt",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Roll Base Dough",
+        "instruction": "Knead flour, water, and yeast into a supple dough. Rest 1 hour until relaxed.",
+        "timerSeconds": 3600
+      },
+      {
+        "step": 2,
+        "title": "Laminate with Butter & Sugar",
+        "instruction": "Encase cold salted butter slab in dough. Perform three letter folds, sprinkling generous cane sugar on every turn.",
+        "timerSeconds": 1200
+      },
+      {
+        "step": 3,
+        "title": "Bake into Amber Caramel",
+        "instruction": "Place in buttered sugared round pan. Bake at 190°C (375°F) for 35 minutes until caramel is bubbling mahogany. Invert warm immediately.",
+        "timerSeconds": 2100
+      }
+    ]
+  },
+  {
+    "id": "pain_depices",
+    "title": "Pain d'Épices Dijonnais au Miel",
+    "titleEn": "Burgundy Spiced Honey Rye Bread",
+    "titleTe": "పెయిన్ డి'ఎపిసెస్ (బర్గండీ హనీ స్పైస్ బ్రెడ్)",
+    "titleHi": "पैन देपिस (शहद और मसालों से बना बरगंडी ब्रेड)",
+    "region": "Bourgogne",
+    "category": "breakfast",
+    "categoryLabel": "Burgundy Morning Classic",
+    "difficulty": "Easy",
+    "rating": 4.8,
+    "reviews": "1.1k",
+    "prepTime": 20,
+    "cookTime": 50,
+    "calories": 270,
+    "servingsBase": 10,
+    "image": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Bourgogne",
+      "Breakfast",
+      "Honey",
+      "Spices",
+      "Bread"
+    ],
+    "subtitle": "Dark chestnut honey loaf fragrant with star anise, cinnamon, ginger & candied orange peel.",
+    "subtitleEn": "Dark chestnut honey loaf fragrant with star anise, cinnamon, ginger & candied orange peel.",
+    "subtitleTe": "స్వచ్ఛమైన తేనె, దాల్చిన చెక్క మరియు నారింజ తొక్కలతో చేసిన సాంప్రదాయ ఫ్రెంచ్ కేక్.",
+    "subtitleHi": "शहद, दालचीनी, अदरक और संतरे के छिलके से बना खुशबूदार पारंपरिक फ्रेंच ब्रेड।",
+    "description": "The historical medieval spice bread of Dijon: made without eggs or refined white sugar, featuring 50% raw honey melted into stone-ground rye flour with star anise, cinnamon, cloves, nutmeg, and candied orange peel, developing complex flavors after resting 24 hours.",
+    "winePairing": {
+      "wine": "Hot Spiced Tea or Crémant de Bourgogne",
+      "notes": "Pair with black Ceylon tea or a sparkling Crémant for a festive French holiday morning."
+    },
+    "chefTip": "Wait at least 24 hours before slicing; the honey needs time to migrate and develop an intensely moist, sticky crumb.",
+    "nutrition": {
+      "protein": "5g",
+      "carbs": "54g",
+      "fat": "4g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "Artisanal dark forest honey",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Fine whole-grain rye flour",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "French wheat flour",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Warm whole milk",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "French 4-spice blend (anise, cinnamon, clove, ginger)",
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": "Baking powder and baking soda",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Diced candied orange peel",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Warm Honey and Milk",
+        "instruction": "Gently warm honey and milk until fluid and fragrant without boiling.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 2,
+        "title": "Whisk Spiced Batter",
+        "instruction": "Whisk flours, spices, baking powder, and soda. Stream in warm honey milk and fold in candied orange peel until thick and glossy.",
+        "timerSeconds": 420
+      },
+      {
+        "step": 3,
+        "title": "Slow Bake in Loaf Pan",
+        "instruction": "Pour into lined loaf pan. Bake at 160°C (325°F) for 50-55 minutes until a skewer emerges clean. Wrap tightly and rest 24 hours before serving.",
+        "timerSeconds": 3000
+      }
+    ]
+  },
+  {
+    "id": "fougasse_provencale",
+    "title": "Fougasse Provençale aux Olives",
+    "titleEn": "Provençal Olive & Rosemary Hearth Bread",
+    "titleTe": "ఫౌగాస్ ప్రొవెన్సాల్ (ఆలివ్ ఫ్రెంచ్ హెర్త్ బ్రెడ్)",
+    "titleHi": "फूगास प्रोवेनसाल (जैतून और मेंहदी वाली पारंपरिक फ्रेंच रोटी)",
+    "region": "Provence",
+    "category": "breakfast",
+    "categoryLabel": "Provençal Hearth Baker",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "1.3k",
+    "prepTime": 25,
+    "cookTime": 18,
+    "calories": 260,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Provence",
+      "Breakfast",
+      "Olives",
+      "Bread",
+      "Mediterranean"
+    ],
+    "subtitle": "Leaf-slashed golden crusty flatbread studded with black olives, rosemary & olive oil.",
+    "subtitleEn": "Leaf-slashed golden crusty flatbread studded with black olives, rosemary & olive oil.",
+    "subtitleTe": "నల్ల ఆలివ్‌లు, రోజ్‌మేరీ మరియు ఆలివ్ ఆయిల్‌తో కాల్చిన ఆకు ఆకారపు ఫ్రెంచ్ బ్రెడ్.",
+    "subtitleHi": "पत्ते के आकार में कटी, काले जैतून और ऑलिव ऑयल से सिकी हुई कुरकुरी फ्रेंच रोटी।",
+    "description": "The historical bakers' morning bread of Provence: a rustic sourdough flatbread shaped like a stylized leaf or ear of wheat with open lattice cuts, studded with aromatic Niçoise olives, fresh wild rosemary, and sea salt, baked directly on baking stones.",
+    "winePairing": {
+      "wine": "Côtes de Provence Rosé or Chilled Mineral Water",
+      "notes": "Crisp dry rosé complements the fruity black olives and herbal fragrance of wild rosemary."
+    },
+    "chefTip": "Pull the open slashes wide apart with your fingers right before sliding onto the stone to create dramatic crunchy bridges.",
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "42g",
+      "fat": "8g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "French bread flour (T65)",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Lukewarm water",
+        "amount": 260,
+        "unit": "ml"
+      },
+      {
+        "name": "Extra virgin olive oil",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Active dry baker's yeast",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "Pitted black Niçoise or Kalamata olives, sliced",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh rosemary leaves, chopped",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Fleur de sel",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Knead Olive Dough",
+        "instruction": "Knead flour, water, yeast, olive oil, and salt until elastic. Knead in sliced olives and rosemary. Rise 1.5 hours until doubled.",
+        "timerSeconds": 5400
+      },
+      {
+        "step": 2,
+        "title": "Shape Leaf Slashes",
+        "instruction": "Roll into an oval flatbread. Cut a central slash and diagonal cuts like an ear of wheat. Pull holes open wide.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Bake on Scorching Stone",
+        "instruction": "Brush with olive oil, sprinkle sea salt. Bake at 230°C (450°F) for 16-18 minutes until deep golden and blistered.",
+        "timerSeconds": 1080
+      }
+    ]
+  },
+  {
+    "id": "gougeres_bourguignonnes",
+    "title": "Gougères Bourguignonnes au Comté",
+    "titleEn": "Burgundy Aged Comté Cheese Puffs",
+    "titleTe": "గూజెర్స్ బౌర్గుయిగ్నాన్స్ (ఫ్రెంచ్ చీజ్ పఫ్స్)",
+    "titleHi": "गूजेर्स बोरगुइगोन (फ्रेंच चीज़ पफ्स)",
+    "region": "Bourgogne",
+    "category": "pastry",
+    "categoryLabel": "Burgundy Wine Pastry",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "1.9k",
+    "prepTime": 20,
+    "cookTime": 25,
+    "calories": 220,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Bourgogne",
+      "Pastry",
+      "Cheese",
+      "Comté",
+      "Appetizer"
+    ],
+    "subtitle": "Warm, airy golden choux pastry puffs infused with cave-aged Comté cheese & fresh nutmeg.",
+    "subtitleEn": "Warm, airy golden choux pastry puffs infused with cave-aged Comté cheese & fresh nutmeg.",
+    "subtitleTe": "గ్రేట్ చేసిన ఫ్రెంచ్ కాంటే చీజ్ మరియు జాజికాయతో బేక్ చేసిన వేడి వేడి గాలి పఫ్స్.",
+    "subtitleHi": "फ्रेंच कॉम्टे चीज़ और जायफल से बने सुनहरे और हवादार स्वादिष्ट नमकीन पफ्स।",
+    "description": "The pride of Burgundy wine cellars: featherlight golden spheres of French choux pastry enriched with bubbling melted aged Comté cheese and fragrant freshly grated nutmeg, served warm alongside fine Pinot Noir or Chablis.",
+    "winePairing": {
+      "wine": "Chablis Premier Cru or Bourgogne Aligoté",
+      "notes": "Crisp chalky minerality and citrus notes of Chablis pierce through the rich, buttery melted Comté cheese."
+    },
+    "chefTip": "Grate the Comté on the fine side of the grater so it melts seamlessly into the warm choux batter without weighing it down.",
+    "nutrition": {
+      "protein": "9g",
+      "carbs": "14g",
+      "fat": "15g",
+      "fiber": "1g"
+    },
+    "ingredients": [
+      {
+        "name": "Cave-aged Comté or Gruyère cheese, finely grated",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Unsalted French butter",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "All-purpose wheat flour",
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh farm eggs",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Whole milk & water blend",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Freshly grated nutmeg and sea salt",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Cook Panade",
+        "instruction": "Bring butter, milk, water, and salt to a boil. Dump flour in all at once, beating vigorously over medium heat for 2 minutes until dough leaves a white film on pan bottom.",
+        "timerSeconds": 240
+      },
+      {
+        "step": 2,
+        "title": "Beat in Eggs & Cheese",
+        "instruction": "Cool 3 minutes. Beat in eggs one by one until glossy and dropping off spoon. Fold in grated Comté and fresh nutmeg.",
+        "timerSeconds": 360
+      },
+      {
+        "step": 3,
+        "title": "Pipe & Bake Golden",
+        "instruction": "Pipe walnut-sized rounds onto parchment. Top with extra shredded Comté. Bake at 200°C (400°F) for 22-25 minutes without opening oven door.",
+        "timerSeconds": 1500
+      }
+    ]
+  },
+  {
+    "id": "mille_feuille",
+    "title": "Mille-Feuille Classique à la Vanille",
+    "titleEn": "Classic Parisian Bourbon Vanilla Napoleon",
+    "titleTe": "మిల్-ఫెయిల్లె (వెనిల్లా లేయర్డ్ ఫ్రెంచ్ పేస్ట్రీ)",
+    "titleHi": "मिल-फेई (वेनिला क्रीम वाली फ्रेंच परतदार पेस्ट्री)",
+    "region": "Paris",
+    "category": "pastry",
+    "categoryLabel": "Haute Pâtisserie Parisienne",
+    "difficulty": "Advanced",
+    "rating": 5,
+    "reviews": "3.4k",
+    "prepTime": 60,
+    "cookTime": 30,
+    "calories": 480,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Paris",
+      "Pastry",
+      "Vanilla",
+      "Caramelized",
+      "Iconic"
+    ],
+    "subtitle": "Three sheets of crisp caramelized puff pastry layered with silky Madagascar vanilla diplomat cream.",
+    "subtitleEn": "Three sheets of crisp caramelized puff pastry layered with silky Madagascar vanilla diplomat cream.",
+    "subtitleTe": "కారమెలైజ్ చేసిన పఫ్ పేస్ట్రీ పొరల మధ్య వెనిల్లా క్రీమ్ నింపిన పారిస్ ప్రసిద్ధ పేస్ట్రీ.",
+    "subtitleHi": "कुरकुरी पफ पेस्ट्री की तीन परतों के बीच मखमली वेनिला क्रीम से भरी पेरिस की प्रसिद्ध पेस्ट्री।",
+    "description": "The legendary 'thousand layers' invented in Paris: three ultra-thin sheets of caramelized inverted puff pastry layered with clouds of Madagascar Bourbon vanilla diplomat cream, topped with traditional marbled chocolate chevron glaze.",
+    "winePairing": {
+      "wine": "Champagne Demi-Sec or Sauternes",
+      "notes": "The golden honeyed notes and fine bubbles elevate the crisp caramel pastry layers and fragrant vanilla cream."
+    },
+    "chefTip": "Bake the puff pastry between two baking sheets weighted down with a tray so it bakes razor-thin and shatteringly crisp.",
+    "nutrition": {
+      "protein": "8g",
+      "carbs": "50g",
+      "fat": "28g",
+      "fiber": "1g"
+    },
+    "ingredients": [
+      {
+        "name": "Inverted all-butter puff pastry (Pâte Feuilletée Inversée)",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Powdered sugar for pastry caramelization",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Whole milk infused with 2 Madagascar vanilla beans",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "Egg yolks",
+        "amount": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Cornstarch (Fécule)",
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": "Chilled heavy whipping cream 35%",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Fondant icing and dark chocolate for marbling",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Bake Weighted Puff Pastry",
+        "instruction": "Roll puff pastry 2mm thin. Place between two parchment sheets weighted with baking trays. Bake at 190°C for 25 min. Dust with powdered sugar and broil 2 min until shiny caramel.",
+        "timerSeconds": 1620
+      },
+      {
+        "step": 2,
+        "title": "Whisk Vanilla Diplomat",
+        "instruction": "Cook rich pastry cream with vanilla bean. Cool completely, then fold in softly whipped heavy cream until silky and pipeable.",
+        "timerSeconds": 900
+      },
+      {
+        "step": 3,
+        "title": "Assemble and Chevron Glaze",
+        "instruction": "Trim pastry into three neat rectangles. Pipe rows of cream between layers. Glaze top rectangle with white fondant, pipe thin chocolate lines and feather with a toothpick.",
+        "timerSeconds": 900
+      }
+    ]
+  },
+  {
+    "id": "gateau_basque",
+    "title": "Gâteau Basque Traditionnel",
+    "titleEn": "Basque Country Black Cherry Tart",
+    "titleTe": "గెటో బాస్క్ (నల్ల చెర్రీల ఫ్రెంచ్ టార్ట్)",
+    "titleHi": "गेटू बास्क (काली चेरी से बना पारंपरिक बास्क केक)",
+    "region": "Basque",
+    "category": "pastry",
+    "categoryLabel": "Basque Artisan Heritage",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "2.1k",
+    "prepTime": 35,
+    "cookTime": 40,
+    "calories": 390,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Basque",
+      "Pastry",
+      "Cherries",
+      "Butter",
+      "Traditional"
+    ],
+    "subtitle": "Golden crumbly butter shortcrust filled with luscious Itxassou black cherry confiture.",
+    "subtitleEn": "Golden crumbly butter shortcrust filled with luscious Itxassou black cherry confiture.",
+    "subtitleTe": "వెన్న షార్ట్‌క్రస్ట్ పేస్ట్రీ మధ్యలో నల్ల చెర్రీల జామ్ నింపి కాల్చిన బాస్క్ కేక్.",
+    "subtitleHi": "मक्खनदार खस्ता पेस्ट्री के अंदर रसीली काली चेरी का जैम भरकर बेक किया गया केक।",
+    "description": "The culinary soul of the French Basque country: a crumbly, rich butter shortcrust embossed with the traditional Basque Lauburu cross, concealing a dense ruby filling of wild black cherry confiture from the village of Itxassou.",
+    "winePairing": {
+      "wine": "Irouléguy Rouge or Basque Patxaran Liqueur",
+      "notes": "The deep red fruit aromatics and wild spices of Basque Irouléguy wine mirror the dark cherry filling."
+    },
+    "chefTip": "Chill the filled, unbaked tart for 1 hour before baking so the butter dough keeps its crisp defined crumb around the cherry jam.",
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "48g",
+      "fat": "20g",
+      "fiber": "2g"
+    },
+    "ingredients": [
+      {
+        "name": "Unsalted butter, softened",
+        "amount": 175,
+        "unit": "g"
+      },
+      {
+        "name": "Granulated sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Egg yolks and whole egg",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "All-purpose wheat flour",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Authentic Basque black cherry jam (Confiture de Cerises Noires)",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Pinch of salt and grated lemon zest",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Cream Dough",
+        "instruction": "Cream butter and sugar until pale. Beat in eggs, lemon zest, and flour until a rich cookie-like dough forms. Chill 2 hours.",
+        "timerSeconds": 7200
+      },
+      {
+        "step": 2,
+        "title": "Fill with Black Cherry Jam",
+        "instruction": "Divide dough 60/40. Roll larger half to line an 8-inch tart pan. Spread black cherry jam in an even layer.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Seal and Score Lauburu Cross",
+        "instruction": "Roll top crust, crimp edges to seal. Brush with egg yolk and score with a fork. Bake at 180°C (350°F) for 40 minutes until deep golden.",
+        "timerSeconds": 2400
+      }
+    ]
+  },
+  {
+    "id": "eclair_chocolat",
+    "title": "Éclair au Chocolat Noir Grand Cru",
+    "titleEn": "Parisian Dark Chocolate Éclair",
+    "titleTe": "ఎక్లెయిర్ చాక్లెట్ (ఫ్రెంచ్ డార్క్ చాక్లెట్ పేస్ట్రీ)",
+    "titleHi": "एक्लेयर चॉकलेट (डार्क चॉकलेट से भरी फ्रेंच पेस्ट्री)",
+    "region": "Paris",
+    "category": "pastry",
+    "categoryLabel": "Classic Parisian Patisserie",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "3.2k",
+    "prepTime": 40,
+    "cookTime": 25,
+    "calories": 290,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Paris",
+      "Pastry",
+      "Chocolate",
+      "Choux",
+      "Dessert"
+    ],
+    "subtitle": "Crisp choux finger filled with 70% Valrhona dark chocolate crème pâtissière & mirror glaze.",
+    "subtitleEn": "Crisp choux finger filled with 70% Valrhona dark chocolate crème pâtissière & mirror glaze.",
+    "subtitleTe": "కరకరలాడే షూ పేస్ట్రీ లోపల డార్క్ చాక్లెట్ క్రీమ్ నింపి, పైన మెరిసే చాక్లెట్ గ్లేజ్ వేసిన పారిస్ పేస్ట్రీ.",
+    "subtitleHi": "खस्ता शू पेस्ट्री के अंदर 70% डार्क चॉकलेट क्रीम और ऊपर चमकदार चॉकलेट की परत।",
+    "description": "The timeless jewel of Paris display windows: an elongated golden choux pastry baked to crisp hollow perfection, packed end-to-end with intense 70% French dark chocolate pastry cream, dipped in shimmering mirror dark chocolate glaze.",
+    "winePairing": {
+      "wine": "Espresso or Banyuls Grand Cru",
+      "notes": "A rich double espresso or sweet fortified Banyuls wine accentuates the bittersweet notes of French dark chocolate."
+    },
+    "chefTip": "Poke three small holes in the base and pipe the chocolate cream until the éclair feels heavy in your hand.",
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "32g",
+      "fat": "16g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "French choux pastry batter",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Whole milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "French dark chocolate 70% Guanaja, chopped",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Egg yolks",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Granulated sugar",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Cornstarch",
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "name": "Dark chocolate glaze fondant",
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pipe & Bake Choux Fingers",
+        "instruction": "Pipe 12cm straight fingers onto parchment with a fluted star tip. Bake at 190°C (375°F) for 25 minutes without opening door until crisp and hollow.",
+        "timerSeconds": 1500
+      },
+      {
+        "step": 2,
+        "title": "Whisk Dark Chocolate Cream",
+        "instruction": "Whisk hot milk, egg yolks, sugar, and starch until thick. Whisk in 70% dark chocolate until velvety. Chill completely.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Fill and Mirror Glaze",
+        "instruction": "Pierce three holes in base of éclairs. Pipe chocolate cream generously. Dip top in warm dark chocolate glaze and wipe edges cleanly with finger.",
+        "timerSeconds": 600
+      }
+    ]
+  },
+  {
+    "id": "far_breton",
+    "title": "Far Breton aux Pruneaux d'Agen",
+    "titleEn": "Brittany Custard Cake with Agen Prunes",
+    "titleTe": "ఫార్ బ్రిటన్ (ప్లమ్స్ ఫ్రెంచ్ కస్టర్డ్ కేక్)",
+    "titleHi": "फार ब्रेटोन (आलूबुखारा और वेनिला कस्टर्ड केक)",
+    "region": "Brittany",
+    "category": "dessert",
+    "categoryLabel": "Brittany Rustic Dessert",
+    "difficulty": "Easy",
+    "rating": 4.8,
+    "reviews": "1.4k",
+    "prepTime": 15,
+    "cookTime": 50,
+    "calories": 290,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Brittany",
+      "Dessert",
+      "Custard",
+      "Prunes",
+      "Traditional"
+    ],
+    "subtitle": "Dense, flan-like golden custard batter baked with rum-soaked Agen prunes & salted butter.",
+    "subtitleEn": "Dense, flan-like golden custard batter baked with rum-soaked Agen prunes & salted butter.",
+    "subtitleTe": "రం-నానబెట్టిన ప్లమ్స్ మరియు వెన్నతో కాల్చిన సాంప్రదాయ బ్రిటనీ కస్టర్డ్ కేక్.",
+    "subtitleHi": "रम में भीगे आलूबुखारे और मक्खन से बना मखमली पारंपरिक फ्रेंच कस्टर्ड केक।",
+    "description": "The ancestral family dessert of maritime Brittany: a dense, pudding-like flan batter made with farm-fresh milk, eggs, and flour, generously studded with tender sweet Agen prunes plumped in dark amber rum, baked with dots of salted butter until golden brown.",
+    "winePairing": {
+      "wine": "Pommeau de Bretagne or Sweet Loire Chenin",
+      "notes": "The baked apple and caramel notes of Breton Pommeau harmonize with dark rum and caramelized prunes."
+    },
+    "chefTip": "Soak the prunes in warm rum and tea for 30 minutes before baking to keep them plump and juicy in the custard.",
+    "nutrition": {
+      "protein": "7g",
+      "carbs": "44g",
+      "fat": "10g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "Pitted sweet Agen prunes",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Dark Caribbean rum",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "Whole farm milk",
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": "All-purpose flour",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Granulated sugar",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh eggs",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Salted Brittany butter (demi-sel), melted",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Madagascar vanilla extract",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Macerate Prunes",
+        "instruction": "Soak pitted prunes in warm dark rum for 30 minutes. Butter a ceramic baking dish generously with salted butter.",
+        "timerSeconds": 1800
+      },
+      {
+        "step": 2,
+        "title": "Whisk Velvety Batter",
+        "instruction": "Whisk eggs and sugar until pale. Whisk in flour, then gradually stream in warm milk, melted butter, vanilla, and the rum marinade until smooth like crêpe batter.",
+        "timerSeconds": 420
+      },
+      {
+        "step": 3,
+        "title": "Scatter Prunes and Bake",
+        "instruction": "Scatter soaked prunes across the dish bottom. Pour batter over. Bake at 180°C (350°F) for 50 minutes until golden and set with a slight wobble.",
+        "timerSeconds": 3000
+      }
+    ]
+  },
+  {
+    "id": "tarte_normande_pommes",
+    "title": "Tarte Fine Normande aux Pommes et Calvados",
+    "titleEn": "Normandy Caramelized Apple Tart with Calvados",
+    "titleTe": "నార్మాండీ ఆపిల్ టార్ట్ (కాల్వాడోస్ ఆపిల్ పై)",
+    "titleHi": "नॉर्मैंडी एप्पल टार्ट (सेब और मक्खन वाला फ्रेंच केक)",
+    "region": "Normandy",
+    "category": "dessert",
+    "categoryLabel": "Normandy Orchard Dessert",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "2.5k",
+    "prepTime": 25,
+    "cookTime": 35,
+    "calories": 320,
+    "servingsBase": 8,
+    "image": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Normandy",
+      "Dessert",
+      "Apples",
+      "Calvados",
+      "Classic"
+    ],
+    "subtitle": "Paper-thin caramelized apple spirals over crisp butter pastry glazed with Normandy Calvados cider brandy.",
+    "subtitleEn": "Paper-thin caramelized apple spirals over crisp butter pastry glazed with Normandy Calvados cider brandy.",
+    "subtitleTe": "సన్నని ఆపిల్ ముక్కలు, వెన్న మరియు నార్మాండీ కాల్వాడోస్ బ్రాందీతో కాల్చిన అద్భుత టార్ట్.",
+    "subtitleHi": "पतले कटे सेब, शुद्ध मक्खन और नॉर्मैंडी की सेब वाली ब्रांडी से बनी कुरकुरी फ्रेंच पेस्ट्री।",
+    "description": "The pride of Normandy apple orchards: crisp puff pastry rolled wafer-thin, tiled with paper-thin slices of tart Reine des Reinettes apples, dotted with sweet Normandy butter, baked until caramelized, and flambéed or glazed with fragrant aged Calvados.",
+    "winePairing": {
+      "wine": "Cidre Bouché Brut de Normandie or Calvados Hors d'Âge",
+      "notes": "A chilled sparkling Normandy dry cider echoes the fresh orchard fruit and crisp caramelized pastry."
+    },
+    "chefTip": "Slice apples uniformly paper-thin with a mandoline; overlap them tightly like roof shingles so they steam into tender ribbons while the edges caramelize.",
+    "nutrition": {
+      "protein": "4g",
+      "carbs": "46g",
+      "fat": "14g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "Puff pastry disc (all-butter)",
+        "amount": 1,
+        "unit": "roll"
+      },
+      {
+        "name": "Crisp Normandy apples (Reine des Reinettes or Honeycrisp)",
+        "amount": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": "Normandy salted butter, diced",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "Cane sugar with vanilla",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Aged Calvados apple brandy",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "Smooth apricot glaze (nappage)",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Roll Thin & Prick Pastry",
+        "instruction": "Roll puff pastry 2mm thin onto parchment. Prick all over with a fork to keep it flat and crisp.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 2,
+        "title": "Tile Apple Rosette",
+        "instruction": "Peel and slice apples paper-thin. Arrange in tight concentric overlapping circles. Dot with cold butter cubes and sprinkle vanilla sugar.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Bake & Calvados Glaze",
+        "instruction": "Bake at 200°C (400°F) for 30-35 minutes until apple edges curl and caramelize. Brush hot with warm apricot jam whisked with Calvados.",
+        "timerSeconds": 2100
+      }
+    ]
+  },
+  {
+    "id": "ile_flottante_lyon",
+    "title": "Île Flottante aux Pralines Roses de Lyon",
+    "titleEn": "Lyonnaise Floating Island with Pink Pralines",
+    "titleTe": "ఐల్ ఫ్లోటాంట్ (కస్టర్డ్‌పై తేలియాడే మెరింగ్ డెజర్ట్)",
+    "titleHi": "आईल फ्लोटेंट (वेनिला कस्टर्ड पर तैरता हुआ मखमली डेसर्ट)",
+    "region": "Lyon",
+    "category": "dessert",
+    "categoryLabel": "Bistrot Lyonnais Classic",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "1.8k",
+    "prepTime": 25,
+    "cookTime": 10,
+    "calories": 230,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Lyon",
+      "Dessert",
+      "Meringue",
+      "Custard",
+      "Pralines"
+    ],
+    "subtitle": "Cloud-like poached meringues floating on vanilla crème anglaise, crowned with crushed pink Lyon pralines.",
+    "subtitleEn": "Cloud-like poached meringues floating on vanilla crème anglaise, crowned with crushed pink Lyon pralines.",
+    "subtitleTe": "వెనిల్లా కస్టర్డ్ సాగరంపై తేలియాడే దూదిలాంటి మెరింగ్, పైన పింక్ ప్రాలైన్ నట్స్ చల్లిన డెజర్ట్.",
+    "subtitleHi": "वेनिला कस्टर्ड पर तैरता हुआ बर्फ जैसा सफेद मखमली केक, ऊपर से गुलाबी बादाम की खस्ता परत।",
+    "description": "The poetic centerpiece of Lyon bouchons: pillows of featherlight poached egg white meringues floating upon a chilled lake of silky Madagascar Bourbon vanilla crème anglaise, drizzled with golden amber caramel and showered with vibrant crushed pink candied almond pralines from Lyon.",
+    "winePairing": {
+      "wine": "Muscat de Beaumes-de-Venise or Coteaux du Layon",
+      "notes": "The floral orange-blossom and apricot aromatics of Muscat elevate the delicate cloud-like poached meringue."
+    },
+    "chefTip": "Poach the meringue quenelles gently in barely simmering milk (85°C / 185°F) for 2 minutes per side so they remain cloud-soft without deflating.",
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "30g",
+      "fat": "9g",
+      "fiber": "1g"
+    },
+    "ingredients": [
+      {
+        "name": "Egg whites at room temperature",
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Egg yolks for crème anglaise",
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Granulated superfine sugar",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "Whole milk infused with vanilla bean",
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": "Authentic crushed pink Lyon pralines (Pralines Roses)",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Amber spun caramel syrup",
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Whisk Vanilla Crème Anglaise",
+        "instruction": "Simmer milk with vanilla. Whisk yolks and sugar until pale. Stream milk into yolks, return to gentle heat until sauce coats back of a spoon (82°C). Chill completely.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 2,
+        "title": "Whip and Poach Meringue Islands",
+        "instruction": "Whip egg whites to stiff peaks, adding sugar gradually. Shape large oval quenelles and poach 2 minutes per side in warm milk. Drain on paper towels.",
+        "timerSeconds": 360
+      },
+      {
+        "step": 3,
+        "title": "Assemble Floating Islands",
+        "instruction": "Pour chilled crème anglaise into shallow crystal bowls. Float delicate meringue clouds on top. Drizzle amber caramel and crown with crushed ruby Lyon pralines.",
+        "timerSeconds": 300
+      }
+    ]
+  },
+  {
+    "id": "mousse_chocolat",
+    "title": "Mousse au Chocolat Noir Valrhona",
+    "titleEn": "Parisian Dark Chocolate Mousse",
+    "titleTe": "మూస్ ఓ చాక్లెట్ (ఫ్రెంచ్ డార్క్ చాక్లెట్ మూస్)",
+    "titleHi": "मूस ओ चॉकलेट (डार्क चॉकलेट का फ्रेंच मखमली डेसर्ट)",
+    "region": "Paris",
+    "category": "dessert",
+    "categoryLabel": "Classic French Bistro",
+    "difficulty": "Easy",
+    "rating": 5,
+    "reviews": "3.7k",
+    "prepTime": 20,
+    "cookTime": 5,
+    "calories": 280,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Paris",
+      "Dessert",
+      "Chocolate",
+      "Bistro",
+      "Gluten-Free"
+    ],
+    "subtitle": "Airy, velvety 70% dark French chocolate mousse whipped with egg whites & a hint of fleur de sel.",
+    "subtitleEn": "Airy, velvety 70% dark French chocolate mousse whipped with egg whites & a hint of fleur de sel.",
+    "subtitleTe": "70% డార్క్ చాక్లెట్, వెన్న మరియు గుడ్లతో చేసిన గాలిలాంటి మృదువైన ఫ్రెంచ్ డెసర్ట్.",
+    "subtitleHi": "70% डार्क चॉकलेट और ताजे अंडों से बना बेहद हल्का और मखमली पारंपरिक फ्रेंच डेसर्ट।",
+    "description": "The undisputed royal dessert of French bistros: pure 70% dark chocolate melted with French butter, gently folded into whipped egg whites without any cream or gelatin, resulting in a cloud-like, intensely cocoa-rich mousse that melts on the tongue.",
+    "winePairing": {
+      "wine": "Banyuls Rimage or Maury Grand Cru",
+      "notes": "The deep notes of stewed blackberries and cocoa in French Roussillon fortified wines enhance the velvety chocolate."
+    },
+    "chefTip": "Fold the whipped egg whites into the lukewarm chocolate in three gentle rotations using a rubber spatula so you do not knock out the air bubbles.",
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "24g",
+      "fat": "18g",
+      "fiber": "3g"
+    },
+    "ingredients": [
+      {
+        "name": "French dark chocolate 70% (Valrhona or Cacao Barry)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Unsalted French butter",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh eggs, separated",
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Superfine caster sugar",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Fleur de sel de Guérande",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Melt Chocolate and Butter",
+        "instruction": "Gently melt dark chocolate and butter over a warm water bath (bain-marie). Cool to lukewarm (40°C). Whisk in egg yolks one by one.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 2,
+        "title": "Whip Airy Egg Whites",
+        "instruction": "Whip egg whites with a pinch of sea salt until soft peaks form. Sprinkle sugar and whip until firm and glossy.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 3,
+        "title": "Gently Fold and Chill",
+        "instruction": "Fold one-third of whites vigorously into chocolate to lighten it. Gently fold in remaining whites in slow circular motions. Chill for at least 4 hours.",
+        "timerSeconds": 14400
+      }
+    ]
+  },
+  {
+    "id": "quenelles_nantua",
+    "title": "Quenelles de Brochet Sauce Nantua",
+    "titleEn": "Lyonnaise Pike Soufflé Dumplings in Crayfish Sauce",
+    "titleTe": "క్వెనెల్లెస్ డి బ్రోచెట్ (లియోన్ ఫిష్ డంప్లింగ్స్ ఇన్ క్రేఫిష్ సాస్)",
+    "titleHi": "क्वेनेल द ब्रोशे (ल्योन की मछली और झींगा सॉस डिश)",
+    "region": "Lyon",
+    "category": "main-course",
+    "categoryLabel": "Gastronomie Lyonnaise",
+    "difficulty": "Advanced",
+    "rating": 5,
+    "reviews": "2.2k",
+    "prepTime": 40,
+    "cookTime": 25,
+    "calories": 520,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Lyon",
+      "Main Course",
+      "Seafood",
+      "Michelin",
+      "Haute Cuisine"
+    ],
+    "subtitle": "Pillow-soft poached freshwater pike dumplings baked in velvety crayfish butter Nantua cream sauce.",
+    "subtitleEn": "Pillow-soft poached freshwater pike dumplings baked in velvety crayfish butter Nantua cream sauce.",
+    "subtitleTe": "లియోన్ నగరపు రాజ వంటకం: మృదువైన చేపల డంప్లింగ్స్ పై క్రేఫిష్ క్రీమీ సాస్ వేసి బేక్ చేస్తారు.",
+    "subtitleHi": "फ्रांस के ल्योन शहर का शाही व्यंजन: झींगा बटर और मलाईदार सॉस में पकी हुई मछली की मखमली गोलियां।",
+    "description": "The historical triumph of Lyon gastronomy: cloud-like dumplings made from fresh wild pike fish, panade, and cultured butter, poached gently then baked under a rich, coral-red Sauce Nantua made from simmered freshwater crayfish butter and heavy cream.",
+    "winePairing": {
+      "wine": "Pouilly-Fuissé or Condrieu (Viognier)",
+      "notes": "The floral, honeyed stone-fruit aromatics of northern Rhône Viognier match the sumptuous richness of crayfish butter cream."
+    },
+    "chefTip": "Keep all ingredients ice-cold when grinding the fish paste so the protein emulsion does not break.",
+    "nutrition": {
+      "protein": "32g",
+      "carbs": "22g",
+      "fat": "34g",
+      "fiber": "1g"
+    },
+    "ingredients": [
+      {
+        "name": "Fresh pike fish fillet (Brochet), chilled & puréed",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Traditional panade (flour, butter, milk paste)",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh eggs and whites",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Chilled heavy cream",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "Freshwater crayfish tails and shells for sauce",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Cognac for flambéing sauce",
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": "Fish stock and heavy cream for Nantua sauce",
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Purée Chilled Quenelle Paste",
+        "instruction": "Process pike fillets in a food processor with chilled panade, eggs, and cold cream until silky. Season with nutmeg and sea salt.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 2,
+        "title": "Shape and Poach Quenelles",
+        "instruction": "Shape into elongated football dumplings with two large soup spoons. Poach in barely simmering salted water for 15 minutes. Drain carefully.",
+        "timerSeconds": 900
+      },
+      {
+        "step": 3,
+        "title": "Nantua Sauce and Bake",
+        "instruction": "Sauté crayfish in butter, flambé with Cognac, simmer with cream and stock until thick coral red. Pour over quenelles in a gratin dish and bake at 200°C for 20 minutes until puffed and bubbling.",
+        "timerSeconds": 1200
+      }
+    ]
+  },
+  {
+    "id": "soupe_au_pistou",
+    "title": "Soupe au Pistou Provençale",
+    "titleEn": "Provençal Summer Bean & Basil Stew",
+    "titleTe": "సూప్ ఓ పిస్టౌ (ప్రోవెన్స్ సమ్మర్ బీన్ & బేసిల్ సూప్)",
+    "titleHi": "सूप ओ पिस्तो (सब्जियों और तुलसी वाला प्रोवेनसाल सूप)",
+    "region": "Provence",
+    "category": "main-course",
+    "categoryLabel": "Provençal Summer Classic",
+    "difficulty": "Medium",
+    "rating": 4.8,
+    "reviews": "1.6k",
+    "prepTime": 30,
+    "cookTime": 45,
+    "calories": 310,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Provence",
+      "Main Course",
+      "Vegetarian",
+      "Healthy",
+      "Soup"
+    ],
+    "subtitle": "Sun-drenched summer vegetable soup with white coco beans, zucchini, tomatoes & fragrant mortar-pounded basil paste.",
+    "subtitleEn": "Sun-drenched summer vegetable soup with white coco beans, zucchini, tomatoes & fragrant mortar-pounded basil paste.",
+    "subtitleTe": "తాజా కూరగాయలు, బీన్స్ మరియు చేతితో నూరిన తులసి-వెల్లుల్లి పేస్ట్‌తో చేసిన సాంప్రదాయ ప్రోవెన్స్ సూప్.",
+    "subtitleHi": "ताजी हरी सब्जियां, बीन्स और ओखली में कुटी हुई तुलसी-लहसुन की चटनी वाला स्वादिष्ट फ्रेंच सूप।",
+    "description": "The summer culinary anthem of Provence: a hearty pot of fresh white and red coco beans, green beans, tender zucchini, potatoes, and tomatoes simmered with pasta, crowned tableside with a vibrant 'pistou' paste of fresh wild basil, garlic, and extra virgin olive oil pounded in a marble mortar.",
+    "winePairing": {
+      "wine": "Bandol Blanc or Cassis Blanc",
+      "notes": "Crisp dry Provençal white wine with herbal salinity cuts through garlic-rich pistou and creamy white beans."
+    },
+    "chefTip": "Never boil the pistou paste! Stir it into the hot soup right before serving at the table to preserve the volatile basil aromatics.",
+    "nutrition": {
+      "protein": "14g",
+      "carbs": "48g",
+      "fat": "9g",
+      "fiber": "11g"
+    },
+    "ingredients": [
+      {
+        "name": "Fresh shelled white coco beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Fresh shelled red kidney or cranberry beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Small tender zucchini, cubed",
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Potatoes, peeled and cubed",
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Fresh green beans (haricots verts), cut in 2cm pieces",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Small pasta (coquillettes)",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Large bunch fresh basil leaves",
+        "amount": 2,
+        "unit": "bunch"
+      },
+      {
+        "name": "Garlic cloves, crushed",
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": "Provencal extra virgin olive oil",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": "Finely grated aged Parmesan or Gruyère",
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Simmer Bean and Veggie Broth",
+        "instruction": "Simmer coco beans in water for 25 minutes. Add cubed potatoes, zucchini, green beans, and tomatoes. Cook 15 minutes.",
+        "timerSeconds": 2400
+      },
+      {
+        "step": 2,
+        "title": "Cook Small Pasta",
+        "instruction": "Add coquillette pasta directly to the bubbling soup. Cook 8-10 minutes until pasta is al dente.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Pound Pistou and Swirl",
+        "instruction": "In a mortar, crush garlic with sea salt, then pound basil leaves into a paste. Stream in olive oil and cheese. Swirl into steaming soup bowls right at the table.",
+        "timerSeconds": 420
+      }
+    ]
+  },
+  {
+    "id": "poulet_vinaigre_lyon",
+    "title": "Poulet au Vinaigre de Vin de Lyon",
+    "titleEn": "Lyonnaise Braised Chicken in Wine Vinegar Glaze",
+    "titleTe": "పౌలెట్ ఓ వినెగ్రై (లియోన్ చికెన్ ఇన్ రెడ్ వైన్ వెనిగర్ సాస్)",
+    "titleHi": "पोले ओ विनेगर (रेड वाइन सिरका और क्रीम वाला चिकन)",
+    "region": "Lyon",
+    "category": "main-course",
+    "categoryLabel": "Bistrot Lyonnais Classic",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "1.9k",
+    "prepTime": 20,
+    "cookTime": 35,
+    "calories": 490,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Lyon",
+      "Main Course",
+      "Chicken",
+      "Bistro",
+      "Comfort Food"
+    ],
+    "subtitle": "Pan-roasted chicken thighs braised with caramelized shallots, aged red wine vinegar, tomatoes & crème fraîche.",
+    "subtitleEn": "Pan-roasted chicken thighs braised with caramelized shallots, aged red wine vinegar, tomatoes & crème fraîche.",
+    "subtitleTe": "వేయించిన చికెన్ ముక్కలను వెనిగర్, టమోటాలు మరియు తాజా ఫ్రెంచ్ క్రీమ్‌తో ఉడికించిన ప్రసిద్ధ లియోన్ వంటకం.",
+    "subtitleHi": "फ्रांस के ल्योन शहर का प्रसिद्ध चिकन, जिसे वाइन के सिरके, टमाटर और मलाई की गाढ़ी ग्रेवी में पकाया जाता है।",
+    "description": "The bistro legend of Lyon's famous 'Mères': tender bone-in chicken thighs seared in butter, deglazed with a generous splash of pungent aged red wine vinegar, then simmered with sweet shallots, tomatoes, garlic, and finished with a swirl of rich crème fraîche into a velvety sweet-and-sour glaze.",
+    "winePairing": {
+      "wine": "Beaujolais-Villages or Morgon (Gamay)",
+      "notes": "The crunchy red currant fruit and gentle acidity of Cru Beaujolais echo the tangy vinegar pan sauce."
+    },
+    "chefTip": "Let the red wine vinegar boil down until completely syrupy before adding tomatoes and stock; this concentrates acidity into rounded sweetness.",
+    "nutrition": {
+      "protein": "38g",
+      "carbs": "12g",
+      "fat": "26g",
+      "fiber": "2g"
+    },
+    "ingredients": [
+      {
+        "name": "Free-range bone-in chicken thighs and drumsticks",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "Aged red wine vinegar",
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": "French grey shallots, quartered",
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": "Garlic cloves, crushed",
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": "Ripe tomatoes, peeled and chopped",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Rich chicken bone broth",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": "French crème fraîche",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "Unsalted butter and fresh tarragon",
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Brown Chicken Pieces",
+        "instruction": "Season chicken with salt and pepper. Brown deeply in foaming butter in a Dutch oven for 10 minutes. Set aside.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 2,
+        "title": "Deglaze with Red Wine Vinegar",
+        "instruction": "Sauté shallots and garlic in pan drippings. Pour in red wine vinegar, scraping up brown bits, and reduce by half until syrupy.",
+        "timerSeconds": 300
+      },
+      {
+        "step": 3,
+        "title": "Simmer with Cream and Tarragon",
+        "instruction": "Stir in tomatoes and chicken stock. Return chicken, cover, and braise 25 minutes. Swirl in crème fraîche and fresh chopped tarragon before serving.",
+        "timerSeconds": 1500
+      }
+    ]
+  },
+  {
+    "id": "poulet_basquaise",
+    "title": "Poulet Basquaise Traditionnel",
+    "titleEn": "Basque Braised Chicken with Sweet Peppers & Ham",
+    "titleTe": "పౌలెట్ బాస్క్వైజ్ (బాస్క్ చికెన్ విత్ పెప్పర్స్ & హామ్)",
+    "titleHi": "पोले बास्क (शिमला मिर्च, टमाटर और चिकन की बास्क डिश)",
+    "region": "Basque",
+    "category": "main-course",
+    "categoryLabel": "Classique du Sud-Ouest",
+    "difficulty": "Medium",
+    "rating": 4.9,
+    "reviews": "2.7k",
+    "prepTime": 25,
+    "cookTime": 40,
+    "calories": 460,
+    "servingsBase": 4,
+    "image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Basque",
+      "Main Course",
+      "Chicken",
+      "Peppers",
+      "Traditional"
+    ],
+    "subtitle": "Golden chicken simmered in Basque piperade sauce of sweet peppers, tomatoes, garlic & Espelette pepper.",
+    "subtitleEn": "Golden chicken simmered in Basque piperade sauce of sweet peppers, tomatoes, garlic & Espelette pepper.",
+    "subtitleTe": "తీపి మిరపకాయలు, టమోటాలు మరియు బాస్క్ మసాలా సాస్‌లో ఉడికించిన చికెన్.",
+    "subtitleHi": "लाल-हरी शिमला मिर्च, रसीले टमाटर और बास्क मसालों की ग्रेवी में धीमी आंच पर पका हुआ चिकन।",
+    "description": "The radiant gastronomic symbol of the Pyrenees-Atlantiques: bone-in farm chicken pieces seared in olive oil, braised slowly in a vibrant stew of sweet red and green bell peppers, ripe plum tomatoes, dry white wine, strips of cured Bayonne ham, and smoky Piment d'Espelette.",
+    "winePairing": {
+      "wine": "Irouléguy Rouge or Madiran",
+      "notes": "The bold tannins, dark plum fruit, and peppery finish of Southwest French reds stand up to the robust Basque piperade."
+    },
+    "chefTip": "Peel the peppers with a vegetable peeler before slicing; it ensures they melt into a silky, luscious sauce.",
+    "nutrition": {
+      "protein": "42g",
+      "carbs": "16g",
+      "fat": "22g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {
+        "name": "Farm-raised chicken cut into pieces",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Sweet red bell peppers, sliced into strips",
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": "Sweet green bell peppers, sliced into strips",
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "Ripe vine tomatoes, peeled and chopped",
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": "Bayonne ham or Prosciutto, cut into thick strips",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic cloves, sliced",
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": "Dry white wine",
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Piment d'Espelette AOP powder",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "Extra virgin olive oil",
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Sear Chicken and Bayonne Ham",
+        "instruction": "Heat olive oil in a heavy Dutch oven. Sear chicken pieces and ham strips until golden brown on all sides (8-10 min). Set aside.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 2,
+        "title": "Stew Piperade Veggies",
+        "instruction": "In the same pan, sauté peppers, onions, and garlic for 10 minutes. Add tomatoes, white wine, thyme, and Piment d'Espelette.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Braise Together until Tender",
+        "instruction": "Nestle chicken pieces into the piperade sauce. Cover and simmer gently over low heat for 30 minutes until meat is tender and juicy.",
+        "timerSeconds": 1800
+      }
+    ]
+  },
+  {
+    "id": "gratin_dauphinois",
+    "title": "Gratin Dauphinois Traditionnel",
+    "titleEn": "Classic French Cream & Garlic Potato Gratin",
+    "titleTe": "గ్రాటిన్ డౌఫినోయిస్ (ఫ్రెంచ్ క్రీమీ పొటాటో బేక్)",
+    "titleHi": "ग्रैटिन डौफिनोइस (आलू, मलाई और लहसुन से बना फ्रेंच बेक)",
+    "region": "Lyon",
+    "category": "main-course",
+    "categoryLabel": "Rhône-Alpes Specialty",
+    "difficulty": "Easy",
+    "rating": 5,
+    "reviews": "3.5k",
+    "prepTime": 20,
+    "cookTime": 75,
+    "calories": 380,
+    "servingsBase": 6,
+    "image": "https://images.unsplash.com/photo-1584776296944-ab6fb57b0bdd?auto=format&fit=crop&w=800&q=80",
+    "tags": [
+      "Lyon",
+      "Main Course",
+      "Potatoes",
+      "Comfort Food",
+      "Vegetarian"
+    ],
+    "subtitle": "Thinly sliced waxy potatoes slow-baked in heavy cream, garlic & milk until meltingly tender with a golden crust.",
+    "subtitleEn": "Thinly sliced waxy potatoes slow-baked in heavy cream, garlic & milk until meltingly tender with a golden crust.",
+    "subtitleTe": "సన్నగా తరిగిన బంగాళాదుంపలను వెల్లుల్లి మరియు ఫ్రెష్ క్రీమ్‌లో నెమ్మదిగా కాల్చి చేసిన ఫ్రెంచ్ క్లాసిక్.",
+    "subtitleHi": "पतले कटे आलू, लहसुन और ताजी मलाई से धीमी आंच पर बेक किया गया फ्रांस का शाही व्यंजन।",
+    "description": "The historical alpine masterpiece of Dauphiné: thinly sliced yellow potatoes layered in a garlic-rubbed gratin dish, bathed in seasoned whole milk and heavy cream with nutmeg, slow-baked for 75 minutes without cheese until the natural potato starches form a melting center beneath a golden bubbly crust.",
+    "winePairing": {
+      "wine": "Crozes-Hermitage Rouge or Saint-Joseph",
+      "notes": "The silky Syrah black pepper and violet aromatics match the garlic cream and earthy roasted potato starches."
+    },
+    "chefTip": "Never rinse the sliced potatoes in water! The natural surface starch is essential to thicken the milk and cream into a velvety liaison.",
+    "nutrition": {
+      "protein": "6g",
+      "carbs": "38g",
+      "fat": "22g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {
+        "name": "Yellow waxy potatoes (Charlotte or Yukon Gold), peeled",
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Heavy whipping cream 35%",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Whole farm milk",
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": "Garlic cloves, halved for rubbing dish",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "Unsalted French butter for dish",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Freshly grated nutmeg, salt and black pepper",
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": "Slice Potatoes Paper-Thin",
+        "instruction": "Peel potatoes and slice 3mm thin on a mandoline. Do NOT rinse. Rub a gratin dish thoroughly with cut garlic cloves, then butter generously.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 2,
+        "title": "Infuse Cream and Layer",
+        "instruction": "Simmer milk, cream, crushed garlic, nutmeg, salt, and pepper. Layer sliced potatoes tightly in gratin dish and pour warm cream over.",
+        "timerSeconds": 600
+      },
+      {
+        "step": 3,
+        "title": "Slow Bake to Golden Crust",
+        "instruction": "Bake at 160°C (325°F) for 1 hour 15 minutes until potatoes are meltingly tender when pierced with a knife and top is deeply golden.",
+        "timerSeconds": 4500
+      }
+    ]
   }
 ];
 

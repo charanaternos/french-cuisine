@@ -4209,6 +4209,2791 @@ const RECIPE_TRANSLATIONS = {
         }
       }
     ]
+  },
+  "brioche_parisienne": {
+    "title": {
+      "fr": "Brioche à Tête Parisienne Pur Beurre",
+      "en": "Parisian Fluted Butter Brioche",
+      "te": "పారిసియన్ బటర్ బ్రియోష్ (ఫ్రెంచ్ వెన్న రొట్టె)",
+      "hi": "पेरिसियन बटर ब्रियोश (मक्खन से बना फ्रेंच मीठा बन)"
+    },
+    "subtitle": {
+      "fr": "Dôme cannelé doré surmonté d'une tête, riche en beurre de baratte français.",
+      "en": "Golden fluted dome crowned with a petit head, enriched with creamy Charentes butter.",
+      "te": "ఫ్రెంచ్ స్వచ్ఛమైన వెన్నతో బేక్ చేసిన మృదువైన పారిస్ మార్నింగ్ బ్రెడ్.",
+      "hi": "फ्रांस के शुद्ध मक्खन से बना सुनहरा और बेहद मुलायम पारंपरिक पेरिसियन बन।"
+    },
+    "categoryLabel": {
+      "fr": "Viennoiserie Parisienne",
+      "en": "Parisian Viennoiserie",
+      "te": "పారిసియన్ వియెనోయిసరీ",
+      "hi": "पेरिसियन बेकरी नाश्ता"
+    },
+    "description": {
+      "fr": "Le sommet du petit-déjeuner parisien : une pâte levée pur beurre à la mie filante et aérienne, cuite dans un moule cannelé traditionnel jusqu'à obtenir une robe acajou brillante.",
+      "en": "The quintessential Parisian breakfast masterpiece: a rich, featherlight enriched yeast bread with a delicate golden fluted base and signature crown knot, baked until shimmering deep amber and perfumed with cultured French butter.",
+      "te": "స్వచ్ఛమైన ఫ్రెంచ్ వెన్న మరియు గుడ్లతో తయారు చేయబడిన పారిస్ నగరపు సంప్రదాయ ఉదయపు రొట్టె.",
+      "hi": "शुद्ध फ्रेंच मक्खन और अंडों से तैयार किया गया पेरिस का सबसे प्रसिद्ध और सुगंधित नाश्ता बन।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Café Crème ou Champagne Brut",
+        "en": "Café Crème or Champagne Brut",
+        "te": "కేఫ్ క్రీమ్ లేదా షాంపైన్",
+        "hi": "कैफे क्रीम या शैम्पेन"
+      },
+      "notes": {
+        "fr": "L'onctuosité d'un café crème matinal souligne la délicatesse beurrée de la mie.",
+        "en": "A rich morning café crème or a crisp glass of dry Champagne elevates the tender, buttery crumb and subtle sweetness.",
+        "te": "ఉదయపు కాఫీతో తింటే వెన్న రుచి మరింత అద్భుతంగా అనిపిస్తుంది.",
+        "hi": "सुबह की ताजा मखमली कॉफी इस मक्खनदार बन के साथ अद्भुत स्वाद देती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Incorporez le beurre pommade très progressivement par petits morceaux afin d'obtenir un réseau glutineux soyeux.",
+      "en": "Incorporate the softened butter very slowly in three stages only after the dough has developed strong gluten elasticity.",
+      "te": "వెన్నను నెమ్మదిగా మూడు విడతలలో పిండిలో కలపండి, రొట్టె దూదిలా మృదువుగా వస్తుంది.",
+      "hi": "मक्खन को धीरे-धीरे तीन बार में मिलाएं जिससे आटा खिंचावदार और रेशमी बने।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Farine de gruau de blé (T45)",
+          "en": "French bread flour (T45)",
+          "te": "ఫ్రెంచ్ గోధుమ పిండి",
+          "hi": "फ्रेंच मैदा"
+        },
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Beurre doux AOP de Charentes, ramolli",
+          "en": "High-fat unsalted French butter, softened",
+          "te": "స్వచ్ఛమైన అన్‌సాల్టెడ్ వెన్న",
+          "hi": "बिना नमक का फ्रेंच मक्खन"
+        },
+        "amount": 175,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Œufs entiers frais de ferme",
+          "en": "Fresh whole eggs",
+          "te": "తాజా కోడిగుడ్లు",
+          "hi": "ताजे अंडे"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Lait tiède entier",
+          "en": "Whole milk, lukewarm",
+          "te": "గోరువెచ్చని పాలు",
+          "hi": "हल्का गर्म दूध"
+        },
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Levure fraîche de boulanger",
+          "en": "Active baker's yeast",
+          "te": "బేకర్స్ ఈస్ట్",
+          "hi": "ताजा यीस्ट"
+        },
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre semoule fin",
+          "en": "Fine granulated sugar",
+          "te": "చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Fleur de sel de Guérande",
+          "en": "Fleur de sel",
+          "te": "సముద్రపు ఉప్పు",
+          "hi": "समुद्री नमक"
+        },
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Pétrir la pâte",
+          "en": "Knead Enriched Dough",
+          "te": "పిండిని కలపండి",
+          "hi": "आटा गूंथें"
+        },
+        "instruction": {
+          "fr": "Pétrissez la farine, les œufs, le sucre et la levure pendant 10 minutes. Ajoutez le beurre pommade petit à petit jusqu'au décollement.",
+          "en": "Knead flour, yeast, milk, sugar, and eggs for 10 minutes until elastic. Gradually beat in butter until dough pulls clean from the bowl.",
+          "te": "పిండి, గుడ్లు, చక్కెర మరియు ఈస్ట్‌ను 10 నిమిషాలు కలిపి, వెన్న వేసి మెత్తగా అయ్యే వరకు కలపండి.",
+          "hi": "मैदा, अंडे, चीनी और यीस्ट को 10 मिनट तक गूंथें और धीरे-धीरे मक्खन मिलाकर चिकना आटा तैयार करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Repos au frais",
+          "en": "First Rise & Cold Retard",
+          "te": "పిండిని ఫ్రిజ్‌లో ఉంచండి",
+          "hi": "आटा ठंडा होने रखें"
+        },
+        "instruction": {
+          "fr": "Laissez lever 1h à température ambiante, puis réservez 4h au réfrigérateur pour figer le beurre.",
+          "en": "Let dough rise 1 hour at room temperature, then chill for 4 hours to firm the butter for easy shaping.",
+          "te": "గది ఉష్ణోగ్రత వద్ద 1 గంట ఉంచి, ఆపై 4 గంటలు ఫ్రిజ్‌లో చల్లబరచండి.",
+          "hi": "1 घंटे सामान्य तापमान पर और फिर 4 घंटे फ्रिज में रखें ताकि मक्खन जम जाए।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Façonnage et cuisson",
+          "en": "Shape Brioche à Tête & Bake",
+          "te": "ఆకారం ఇచ్చి బేక్ చేయండి",
+          "hi": "आकार दें और बेक करें"
+        },
+        "instruction": {
+          "fr": "Façonnez la boule et la tête, déposez en moule cannelé, dorez à l'œuf et cuisez 25 minutes à 190°C.",
+          "en": "Shape into fluted molds with a small topknot. Proof until doubled. Egg-wash and bake at 190°C (375°F) for 22-25 minutes until golden.",
+          "te": "మౌల్డ్‌లలో వేసి పైభాగంలో చిన్న ముడి ఆకారం ఇచ్చి, 190°C వద్ద 25 నిమిషాలు బేక్ చేయండి.",
+          "hi": "सांचे में डालकर ऊपर छोटा बन बनाएं और 190°C पर 25 मिनट सुनहरा होने तक बेक करें।"
+        }
+      }
+    ]
+  },
+  "kouign_amann": {
+    "title": {
+      "fr": "Kouign-Amann Traditionnel de Douarnenez",
+      "en": "Brittany Caramelized Butter Pastry",
+      "te": "క్విన్-అమాన్ (కారమెలైజ్డ్ బటర్ పేస్ట్రీ)",
+      "hi": "क्वीन-अमान (कैरमेलाइज्ड मक्खन और चीनी वाला फ्रेंच केक)"
+    },
+    "subtitle": {
+      "fr": "Feuilletage caramélisé croustillant au beurre demi-sel breton et sucre de canne.",
+      "en": "Layers of yeasted dough laminated with salted butter & sugar, baked into crisp amber caramel.",
+      "te": "సాల్టెడ్ బటర్ మరియు చక్కెర పొరలతో కాల్చిన ప్రసిద్ధ కరకరలాడే ఫ్రెంచ్ బ్రెడ్.",
+      "hi": "नमकीन मक्खन और चीनी की कई परतों से बना, शीशे जैसा कुरकुरा पारंपरिक फ्रेंच केक।"
+    },
+    "categoryLabel": {
+      "fr": "Viennoiserie Bretonne",
+      "en": "Brittany Artisan Viennoiserie",
+      "te": "బ్రిటనీ ఆర్టిసానల్ పేస్ట్రీ",
+      "hi": "ब्रिटनी क्लासिक पेस्ट्री"
+    },
+    "description": {
+      "fr": "Le joyau gastronomique du Finistère : une pâte à pain tourée avec du beurre demi-sel et du sucre, caramélisant à la cuisson pour offrir une croûte croustillante et un cœur fondant.",
+      "en": "The crowning glory of Douarnenez: an artisan laminated cake meaning 'butter cake' in Breton, featuring dozens of micro-layers of salted French butter and crystallized sugar that melt during baking into a crackling toffee crust encasing a pillow-soft center.",
+      "te": "బ్రిటానీ ప్రాంతానికి చెందిన ప్రపంచ ప్రసిద్ధ స్వీట్ బ్రెడ్. క్యారమెల్ మరియు వెన్నల అద్భుత కలయిక.",
+      "hi": "ब्रिटनी का सबसे प्रसिद्ध मीठा व्यंजन, जिसमें मक्खन और चीनी की कई परतें कैरमेल बनकर खस्ता हो जाती हैं।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Cidre Fermier de Cornouaille",
+        "en": "Artisanal Brittany Apple Cider",
+        "te": "బ్రిటనీ ఆపిల్ సైడర్",
+        "hi": "पारंपरिक सेब का साइडर"
+      },
+      "notes": {
+        "fr": "L'acidité rafraîchissante des pommes à cidre équilibre la richesse du beurre et du caramel.",
+        "en": "The sparkling tartness of rustic dry Breton cider cleanses the palate between rich bites of melting caramelized butter.",
+        "te": "క్యారమెల్ తియ్యదనాన్ని ఆపిల్ సైడర్ చక్కగా సమతుల్యం చేస్తుంది.",
+        "hi": "सेब के साइडर का हल्का खट्टापन कैरमेल की मिठास के साथ शानदार तालमेल बनाता है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Démoulez impérativement dès la sortie du four pendant que le caramel est encore liquide, sinon il collera irréversiblement.",
+      "en": "Use true Brittany semi-salted butter (demi-sel); the coarse salt grains prevent the sugar caramel from tasting cloying.",
+      "te": "ఓవెన్ నుండి తీసిన వెంటనే మౌల్డ్ నుండి తీయండి, లేకపోతే క్యారమెల్ గట్టిపడుతుంది.",
+      "hi": "ओवन से निकालते ही इसे सांचे से निकाल लें, वरना कैरमेल जम जाएगा।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Farine de blé de tradition (T55)",
+          "en": "Unbleached bread flour (T55)",
+          "te": "గోధుమ పిండి",
+          "hi": "मैदा"
+        },
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Beurre demi-sel breton au sel de Guérande",
+          "en": "Authentic Breton salted butter (demi-sel), cold",
+          "te": "బ్రిటనీ సాల్టెడ్ బటర్",
+          "hi": "नमकीन फ्रेंच मक्खन"
+        },
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre semoule de canne",
+          "en": "Granulated cane sugar",
+          "te": "చెరకు చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Levure de boulanger fraîche",
+          "en": "Active dry yeast dissolved in warm water",
+          "te": "ఈస్ట్",
+          "hi": "यीस्ट"
+        },
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Fleur de sel",
+          "en": "Fine sea salt",
+          "te": "ఉప్పు",
+          "hi": "नमक"
+        },
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Préparer la détrempe",
+          "en": "Roll Base Dough",
+          "te": "పిండి ముద్ద చేయండి",
+          "hi": "आटा तैयार करें"
+        },
+        "instruction": {
+          "fr": "Pétrissez la farine, l'eau et la levure en boule souple. Laissez pointer 1 heure.",
+          "en": "Knead flour, water, and yeast into a supple dough. Rest 1 hour until relaxed.",
+          "te": "పిండి, నీరు మరియు ఈస్ట్‌ను కలిపి 1 గంట నానబెట్టండి.",
+          "hi": "मैदा, पानी और यीस्ट को मिलाकर 1 घंटे के लिए रख दें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Tourer avec beurre et sucre",
+          "en": "Laminate with Butter & Sugar",
+          "te": "వెన్న, చక్కెర పొరలు వేయండి",
+          "hi": "मक्खन और चीनी की परतें बनाएं"
+        },
+        "instruction": {
+          "fr": "Enfermez le beurre demi-sel froid et donnez trois tours simples en saupoudrant généreusement de sucre à chaque pliage.",
+          "en": "Encase cold salted butter slab in dough. Perform three letter folds, sprinkling generous cane sugar on every turn.",
+          "te": "పిండి మధ్యలో వెన్న ఉంచి, ప్రతి మడతలో చక్కెర చల్లుతూ మూడుసార్లు మడతపెట్టండి.",
+          "hi": "आटे के बीच मक्खन रखें और हर मोड़ पर चीनी छिड़कते हुए तीन बार मोड़ें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Caraméliser au four",
+          "en": "Bake into Amber Caramel",
+          "te": "బేక్ చేసి క్యారమెల్ చేయండి",
+          "hi": "बेक करके कैरमेल बनाएं"
+        },
+        "instruction": {
+          "fr": "Déposez en moule beurré et sucré. Cuisez 35 min à 190°C jusqu'à caramélisation ambrée. Démoulez brûlant.",
+          "en": "Place in buttered sugared round pan. Bake at 190°C (375°F) for 35 minutes until caramel is bubbling mahogany. Invert warm immediately.",
+          "te": "మౌల్డ్‌లో వేసి 190°C వద్ద 35 నిమిషాలు బేక్ చేయండి. వేడిగా ఉన్నప్పుడే బయటకు తీయండి.",
+          "hi": "सांचे में डालकर 190°C पर 35 मिनट बेक करें और तुरंत बाहर निकालें।"
+        }
+      }
+    ]
+  },
+  "pain_depices": {
+    "title": {
+      "fr": "Pain d'Épices Artisanal de Dijon",
+      "en": "Burgundy Spiced Honey Rye Bread",
+      "te": "పెయిన్ డి'ఎపిసెస్ (బర్గండీ హనీ స్పైస్ బ్రెడ్)",
+      "hi": "पैन देपिस (शहद और मसालों से बना बरगंडी ब्रेड)"
+    },
+    "subtitle": {
+      "fr": "Moelleux traditionnel au miel de châtaignier, farine de seigle et épices douces.",
+      "en": "Dark chestnut honey loaf fragrant with star anise, cinnamon, ginger & candied orange peel.",
+      "te": "స్వచ్ఛమైన తేనె, దాల్చిన చెక్క మరియు నారింజ తొక్కలతో చేసిన సాంప్రదాయ ఫ్రెంచ్ కేక్.",
+      "hi": "शहद, दालचीनी, अदरक और संतरे के छिलके से बना खुशबूदार पारंपरिक फ्रेंच ब्रेड।"
+    },
+    "categoryLabel": {
+      "fr": "Tradition Bourguignonne",
+      "en": "Burgundy Morning Classic",
+      "te": "బర్గండీ మార్నింగ్ క్లాసిక్",
+      "hi": "बरगंडी पारंपरिक नाश्ता"
+    },
+    "description": {
+      "fr": "Le grand classique de Dijon : un gâteau sans œuf ni matière grasse ajoutée, pétri avec moitié de miel pur, farine de seigle, anis étoilé, cannelle et écorces d'orange confites.",
+      "en": "The historical medieval spice bread of Dijon: made without eggs or refined white sugar, featuring 50% raw honey melted into stone-ground rye flour with star anise, cinnamon, cloves, nutmeg, and candied orange peel, developing complex flavors after resting 24 hours.",
+      "te": "గుడ్లు లేకుండా కేవలం స్వచ్ఛమైన తేనె మరియు సుగంధ ద్రవ్యాలతో చేసిన చారిత్రక ఫ్రెంచ్ బ్రెడ్.",
+      "hi": "अंडे के बिना केवल शुद्ध शहद और खड़े मसालों से बना फ्रांस का ऐतिहासिक और सेहतमंद ब्रेड।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Thé Noir Ceylan ou Crémant de Bourgogne",
+        "en": "Hot Spiced Tea or Crémant de Bourgogne",
+        "te": "హాట్ స్పైస్డ్ టీ",
+        "hi": "मसाला चाय या स्पार्कलिंग वाइन"
+      },
+      "notes": {
+        "fr": "Les tanins d'un thé noir d'origine complètent les arômes boisés du miel de forêt.",
+        "en": "Pair with black Ceylon tea or a sparkling Crémant for a festive French holiday morning.",
+        "te": "మసాలా టీతో కలిపి తింటే రుచి రెట్టింపు అవుతుంది.",
+        "hi": "काली चाय या मसाला चाय के साथ यह ब्रेड बेहतरीन नाश्ता बनता है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Emballez-le dans du film alimentaire et attendez 24 heures avant dégustation : le miel diffuse ses arômes et attendrit la mie.",
+      "en": "Wait at least 24 hours before slicing; the honey needs time to migrate and develop an intensely moist, sticky crumb.",
+      "te": "బేక్ చేసిన వెంటనే కాకుండా 24 గంటల తర్వాత తింటే రుచి అద్భుతంగా ఉంటుంది.",
+      "hi": "बेक करने के 24 घंटे बाद काटें, जिससे शहद की नमी पूरे ब्रेड में समा जाए।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Miel liquide de châtaignier ou forêt",
+          "en": "Artisanal dark forest honey",
+          "te": "స్వచ్ఛమైన తేనె",
+          "hi": "शुद्ध शहद"
+        },
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Farine de seigle fine (T130)",
+          "en": "Fine whole-grain rye flour",
+          "te": "రై పిండి",
+          "hi": "राई का आटा"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Farine de blé",
+          "en": "French wheat flour",
+          "te": "గోధుమ పిండి",
+          "hi": "गेहूं का आटा"
+        },
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Lait entier tiède",
+          "en": "Warm whole milk",
+          "te": "పాలు",
+          "hi": "दूध"
+        },
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Mélange 4 épices (anis, cannelle, girofle, gingembre)",
+          "en": "French 4-spice blend (anise, cinnamon, clove, ginger)",
+          "te": "సుగంధ ద్రవ్యాల మిశ్రమం",
+          "hi": "दालचीनी, लौंग और अदरक मसाला"
+        },
+        "amount": 2,
+        "unit": "tsp"
+      },
+      {
+        "name": {
+          "fr": "Levure chimique et bicarbonate",
+          "en": "Baking powder and baking soda",
+          "te": "బేకింగ్ పౌడర్",
+          "hi": "बेकिंग पाउडर"
+        },
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": {
+          "fr": "Écorces d'orange confites en dés",
+          "en": "Diced candied orange peel",
+          "te": "నారింజ తొక్క ముక్కలు",
+          "hi": "संतरे के छिलके"
+        },
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Chauffer miel et lait",
+          "en": "Warm Honey and Milk",
+          "te": "తేనె, పాలు వేడి చేయండి",
+          "hi": "शहद और दूध गर्म करें"
+        },
+        "instruction": {
+          "fr": "Chauffez doucement le miel et le lait à 50°C jusqu'à fluidité.",
+          "en": "Gently warm honey and milk until fluid and fragrant without boiling.",
+          "te": "తేనె మరియు పాలను గోరువెచ్చగా వేడి చేయండి.",
+          "hi": "शहद और दूध को हल्का गर्म करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Mélanger l'appareil",
+          "en": "Whisk Spiced Batter",
+          "te": "పిండి, మసాలాలు కలపండి",
+          "hi": "मसाले और आटा मिलाएं"
+        },
+        "instruction": {
+          "fr": "Tamisez les farines et épices, versez le miel tiède en fouettant et incorporez les écorces d'oranges.",
+          "en": "Whisk flours, spices, baking powder, and soda. Stream in warm honey milk and fold in candied orange peel until thick and glossy.",
+          "te": "పిండి, మసాలాలు మరియు నారింజ తొక్కలను బాగా కలపండి.",
+          "hi": "आटा, मसाले और संतरे के छिलके डालकर गाढ़ा घोल बनाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Cuisson douce au four",
+          "en": "Slow Bake in Loaf Pan",
+          "te": "ఓవెన్‌లో బేక్ చేయండి",
+          "hi": "धीमी आंच पर बेक करें"
+        },
+        "instruction": {
+          "fr": "Versez en moule à cake et cuisez 50 minutes à 160°C. Laissez reposer 24h avant de trancher.",
+          "en": "Pour into lined loaf pan. Bake at 160°C (325°F) for 50-55 minutes until a skewer emerges clean. Wrap tightly and rest 24 hours before serving.",
+          "te": "మౌల్డ్‌లో పోసి 160°C వద్ద 50 నిమిషాలు బేక్ చేయండి.",
+          "hi": "सांचे में डालकर 160°C पर 50 मिनट तक बेक करें।"
+        }
+      }
+    ]
+  },
+  "fougasse_provencale": {
+    "title": {
+      "fr": "Fougasse Provençale aux Olives Noires",
+      "en": "Provençal Olive & Rosemary Hearth Bread",
+      "te": "ఫౌగాస్ ప్రొవెన్సాల్ (ఆలివ్ ఫ్రెంచ్ హెర్త్ బ్రెడ్)",
+      "hi": "फूगास प्रोवेनसाल (जैतून और मेंहदी वाली पारंपरिक फ्रेंच रोटी)"
+    },
+    "subtitle": {
+      "fr": "Pain plat traditionnel sculpté en feuille, garni d'olives de pays, romarin et huile d'olive.",
+      "en": "Leaf-slashed golden crusty flatbread studded with black olives, rosemary & olive oil.",
+      "te": "నల్ల ఆలివ్‌లు, రోజ్‌మేరీ మరియు ఆలివ్ ఆయిల్‌తో కాల్చిన ఆకు ఆకారపు ఫ్రెంచ్ బ్రెడ్.",
+      "hi": "पत्ते के आकार में कटी, काले जैतून और ऑलिव ऑयल से सिकी हुई कुरकुरी फ्रेंच रोटी।"
+    },
+    "categoryLabel": {
+      "fr": "Boulangerie Provençale",
+      "en": "Provençal Hearth Baker",
+      "te": "ప్రోవెన్స్ బేకరీ ఐకాన్",
+      "hi": "प्रोवेंस बेकरी क्लासिक"
+    },
+    "description": {
+      "fr": "Le pain matinal emblématique des fournils de Provence : une pâte aérée fendue en épi de blé, croustillante et dorée, gorgée d'huile d'olive vierge et d'olives noires charnues.",
+      "en": "The historical bakers' morning bread of Provence: a rustic sourdough flatbread shaped like a stylized leaf or ear of wheat with open lattice cuts, studded with aromatic Niçoise olives, fresh wild rosemary, and sea salt, baked directly on baking stones.",
+      "te": "ఆకు ఆకారపు ఫ్రెంచ్ బ్రెడ్. మధ్యధరా సముద్ర తీరపు తాజా ఆలివ్ ఆయిల్ మరియు మూలికలతో తయారు చేస్తారు.",
+      "hi": "जैतून और मेंहदी की खुशबू वाली फ्रांस की पारंपरिक चपटी रोटी जिसे सुबह ताजा बेक किया जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Côtes de Provence Rosé",
+        "en": "Côtes de Provence Rosé",
+        "te": "కోట్స్ డి ప్రోవెన్స్ రోస్",
+        "hi": "प्रोवेंस रोज़े वाइन"
+      },
+      "notes": {
+        "fr": "Un rosé sec et minéral qui épouse parfaitement le goût fruité des olives noires.",
+        "en": "Crisp dry rosé complements the fruity black olives and herbal fragrance of wild rosemary.",
+        "te": "నల్ల ఆలివ్ రుచికి తగిన డ్రై రోస్ వైన్.",
+        "hi": "जैतून और जड़ी-बूटियों के साथ यह वाइन शानदार जोड़ी बनाती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Écartez bien les fentes avec vos doigts pour créer des ponts de croûte ultra-croustillants à la cuisson.",
+      "en": "Pull the open slashes wide apart with your fingers right before sliding onto the stone to create dramatic crunchy bridges.",
+      "te": "బేక్ చేసే ముందు రంధ్రాలను వేళ్ళతో వెడల్పు చేయండి, అంచులు కరకరలాడతాయి.",
+      "hi": "बेक करने से पहले छेदों को चौड़ा करें जिससे किनारे कुरकुरे बनें।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Farine de tradition française (T65)",
+          "en": "French bread flour (T65)",
+          "te": "గోధుమ పిండి",
+          "hi": "मैदा"
+        },
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Eau tiède",
+          "en": "Lukewarm water",
+          "te": "నీరు",
+          "hi": "पानी"
+        },
+        "amount": 260,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Huile d'olive vierge extra AOP",
+          "en": "Extra virgin olive oil",
+          "te": "ఆలివ్ ఆయిల్",
+          "hi": "ऑलिव ऑयल"
+        },
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Levure boulangère déshydratée",
+          "en": "Active dry baker's yeast",
+          "te": "ఈస్ట్",
+          "hi": "यीस्ट"
+        },
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Olives noires dénoyautées",
+          "en": "Pitted black Niçoise or Kalamata olives, sliced",
+          "te": "నల్ల ఆలివ్‌లు",
+          "hi": "काले जैतून"
+        },
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Romarin frais haché",
+          "en": "Fresh rosemary leaves, chopped",
+          "te": "రోజ్‌మేరీ",
+          "hi": "मेंहदी की पत्तियां"
+        },
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": {
+          "fr": "Fleur de sel de Camargue",
+          "en": "Fleur de sel",
+          "te": "ఉప్పు",
+          "hi": "नमक"
+        },
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Pétrir la pâte",
+          "en": "Knead Olive Dough",
+          "te": "పిండి కలపండి",
+          "hi": "आटा तैयार करें"
+        },
+        "instruction": {
+          "fr": "Pétrissez farine, eau, levure, huile et sel. Incorporez les olives et romarin. Laissez doubler 1h30.",
+          "en": "Knead flour, water, yeast, olive oil, and salt until elastic. Knead in sliced olives and rosemary. Rise 1.5 hours until doubled.",
+          "te": "పిండి, ఆలివ్ ఆయిల్ మరియు మూలికలు కలిపి 1.5 గంటలు నానబెట్టండి.",
+          "hi": "आटा, ऑलिव ऑयल और जैतून मिलाकर 1.5 घंटे तक फूलने दें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Fendre en épi",
+          "en": "Shape Leaf Slashes",
+          "te": "ఆకు ఆకారంలో కోయండి",
+          "hi": "पत्ते का आकार दें"
+        },
+        "instruction": {
+          "fr": "Étalez en ovale, entaillez en épi au coupe-pâte et écartez les trous pour former la dentelle.",
+          "en": "Roll into an oval flatbread. Cut a central slash and diagonal cuts like an ear of wheat. Pull holes open wide.",
+          "te": "అండాకారంలో పరచి, ఆకులా కట్ చేసి రంధ్రాలను వెడల్పు చేయండి.",
+          "hi": "गोल बेलकर बीच में कट लगाएं और जालीदार आकार दें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Cuisson sur pierre",
+          "en": "Bake on Scorching Stone",
+          "te": "వేడి ఓవెన్‌లో బేక్ చేయండి",
+          "hi": "गरम ओवन में बेक करें"
+        },
+        "instruction": {
+          "fr": "Badigeonnez d'huile d'olive et cuisez 18 min à 230°C jusqu'à belle couleur dorée.",
+          "en": "Brush with olive oil, sprinkle sea salt. Bake at 230°C (450°F) for 16-18 minutes until deep golden and blistered.",
+          "te": "ఆలివ్ ఆయిల్ రాసి 230°C వద్ద 18 నిమిషాలు కాల్చండి.",
+          "hi": "ऑलिव ऑयल लगाकर 230°C पर 18 मिनट सुनहरा होने तक बेक करें।"
+        }
+      }
+    ]
+  },
+  "gougeres_bourguignonnes": {
+    "title": {
+      "fr": "Gougères Bourguignonnes au Comté Affiné",
+      "en": "Burgundy Aged Comté Cheese Puffs",
+      "te": "గూజెర్స్ బౌర్గుయిగ్నాన్స్ (ఫ్రెంచ్ చీజ్ పఫ్స్)",
+      "hi": "गूजेर्स बोरगुइगोन (फ्रेंच चीज़ पफ्स)"
+    },
+    "subtitle": {
+      "fr": "Choux dorés soufflés au fromage Comté AOP et râpée de muscade fraîche.",
+      "en": "Warm, airy golden choux pastry puffs infused with cave-aged Comté cheese & fresh nutmeg.",
+      "te": "గ్రేట్ చేసిన ఫ్రెంచ్ కాంటే చీజ్ మరియు జాజికాయతో బేక్ చేసిన వేడి వేడి గాలి పఫ్స్.",
+      "hi": "फ्रेंच कॉम्टे चीज़ और जायफल से बने सुनहरे और हवादार स्वादिष्ट नमकीन पफ्स।"
+    },
+    "categoryLabel": {
+      "fr": "Pâtisserie Salée Bourguignonne",
+      "en": "Burgundy Wine Pastry",
+      "te": "బర్గండీ చీజ్ పేస్ట్రీ",
+      "hi": "बरगंडी नमकीन पेस्ट्री"
+    },
+    "description": {
+      "fr": "L'incontournable des dégustations de vins en Bourgogne : des bouchées de pâte à choux croustillantes à l'extérieur et fondantes au cœur, parfumées au Comté fruité et à la muscade.",
+      "en": "The pride of Burgundy wine cellars: featherlight golden spheres of French choux pastry enriched with bubbling melted aged Comté cheese and fragrant freshly grated nutmeg, served warm alongside fine Pinot Noir or Chablis.",
+      "te": "బర్గండీ వైన్ సెల్లార్లలో ప్రసిద్ధి చెందిన ఫ్రెంచ్ చీజ్ పఫ్స్. గాలిలా తేలికగా ఉంటాయి.",
+      "hi": "बरगंडी के वाइन सेलर में परोसा जाने वाला बेहद लोकप्रिय और मखमली चीज़ पफ।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Chablis Premier Cru",
+        "en": "Chablis Premier Cru",
+        "te": "షాబ్లి వైన్",
+        "hi": "शाबली फ्रेंच वाइन"
+      },
+      "notes": {
+        "fr": "La minéralité vive et tendue du Chablis tranche parfaitement avec le gras noble du Comté.",
+        "en": "Crisp chalky minerality and citrus notes of Chablis pierce through the rich, buttery melted Comté cheese.",
+        "te": "చీజ్ రుచిని మరింత పెంచే ఫ్రెంచ్ వైన్.",
+        "hi": "चीज़ के भारीपन को संतुलित करने वाली विशेष फ्रेंच वाइन।"
+      }
+    },
+    "chefTip": {
+      "fr": "N'ouvrez surtout pas la porte du four pendant les 20 premières minutes sous peine de voir retomber vos choux.",
+      "en": "Grate the Comté on the fine side of the grater so it melts seamlessly into the warm choux batter without weighing it down.",
+      "te": "మొదటి 20 నిమిషాలు ఓవెన్ డోర్ తెరవకండి, లేకపోతే పఫ్స్ అణిగిపోతాయి.",
+      "hi": "शुरुआती 20 मिनट ओवन न खोलें, वरना पफ्स बैठ जाएंगे।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Comté AOP 18 mois râpé",
+          "en": "Cave-aged Comté or Gruyère cheese, finely grated",
+          "te": "ఫ్రెంచ్ కాంటే చీజ్",
+          "hi": "कॉम्टे चीज़"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Beurre doux français",
+          "en": "Unsalted French butter",
+          "te": "వెన్న",
+          "hi": "मक्खन"
+        },
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Farine de blé",
+          "en": "All-purpose wheat flour",
+          "te": "మైదా",
+          "hi": "मैदा"
+        },
+        "amount": 125,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Œufs frais",
+          "en": "Fresh farm eggs",
+          "te": "కోడిగుడ్లు",
+          "hi": "अंडे"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Lait et eau",
+          "en": "Whole milk & water blend",
+          "te": "పాలు & నీరు",
+          "hi": "दूध और पानी"
+        },
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Noix de muscade et sel",
+          "en": "Freshly grated nutmeg and sea salt",
+          "te": "జాజికాయ, ఉప్పు",
+          "hi": "जायफल और नमक"
+        },
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Dessécher la panade",
+          "en": "Cook Panade",
+          "te": "పిండిని ఉడికించండి",
+          "hi": "पैन में आटा सुखाएं"
+        },
+        "instruction": {
+          "fr": "Portez beurre, eau, lait et sel à ébullition. Versez la farine d'un coup et desséchez 2 min sur le feu.",
+          "en": "Bring butter, milk, water, and salt to a boil. Dump flour in all at once, beating vigorously over medium heat for 2 minutes until dough leaves a white film on pan bottom.",
+          "te": "నీరు, పాలు, వెన్న మరిగించి, పిండి వేసి 2 నిమిషాలు గరిటెతో తిప్పండి.",
+          "hi": "दूध, पानी और मक्खन उबालकर आटा डालें और 2 मिनट तक सुखाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Incorporer les œufs et le fromage",
+          "en": "Beat in Eggs & Cheese",
+          "te": "గుడ్లు, చీజ్ కలపండి",
+          "hi": "अंडे और चीज़ मिलाएं"
+        },
+        "instruction": {
+          "fr": "Hors du feu, ajoutez les œufs un à un puis incorporez les 3/4 du Comté et la muscade.",
+          "en": "Cool 3 minutes. Beat in eggs one by one until glossy and dropping off spoon. Fold in grated Comté and fresh nutmeg.",
+          "te": "ఒక్కొక్క గుడ్డు వేస్తూ కలిపి, చీజ్ మరియు జాజికాయ పొడి వేయండి.",
+          "hi": "एक-एक करके अंडे मिलाएं और कद्दूकस की हुई चीज़ डालें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Dresser et dorer",
+          "en": "Pipe & Bake Golden",
+          "te": "ఓవెన్‌లో బేక్ చేయండి",
+          "hi": "सांचे में बेक करें"
+        },
+        "instruction": {
+          "fr": "Pochez des boules sur plaque, parsemez du reste de fromage et cuisez 25 min à 200°C sans ouvrir le four.",
+          "en": "Pipe walnut-sized rounds onto parchment. Top with extra shredded Comté. Bake at 200°C (400°F) for 22-25 minutes without opening oven door.",
+          "te": "బేకింగ్ షీట్‌పై చిన్న ఉండలుగా వేసి 200°C వద్ద 25 నిమిషాలు బేక్ చేయండి.",
+          "hi": "बेकिंग शीट पर छोटी गोलियां बनाकर 200°C पर 25 मिनट सुनहरा होने तक बेक करें।"
+        }
+      }
+    ]
+  },
+  "mille_feuille": {
+    "title": {
+      "fr": "Mille-Feuille Traditionnel à la Vanille Bourbon",
+      "en": "Classic Parisian Bourbon Vanilla Napoleon",
+      "te": "మిల్-ఫెయిల్లె (వెనిల్లా లేయర్డ్ ఫ్రెంచ్ పేస్ట్రీ)",
+      "hi": "मिल-फेई (वेनिला क्रीम वाली फ्रेंच परतदार पेस्ट्री)"
+    },
+    "subtitle": {
+      "fr": "Trois abaisses de feuilletage caramélisé croustillant et crème diplomate à la vanille de Madagascar.",
+      "en": "Three sheets of crisp caramelized puff pastry layered with silky Madagascar vanilla diplomat cream.",
+      "te": "కారమెలైజ్ చేసిన పఫ్ పేస్ట్రీ పొరల మధ్య వెనిల్లా క్రీమ్ నింపిన పారిస్ ప్రసిద్ధ పేస్ట్రీ.",
+      "hi": "कुरकुरी पफ पेस्ट्री की तीन परतों के बीच मखमली वेनिला क्रीम से भरी पेरिस की प्रसिद्ध पेस्ट्री।"
+    },
+    "categoryLabel": {
+      "fr": "Haute Pâtisserie Parisienne",
+      "en": "Haute Pâtisserie Parisienne",
+      "te": "హాట్ పాటిస్సేరి",
+      "hi": "शाही फ्रेंच पेस्ट्री"
+    },
+    "description": {
+      "fr": "Le sommet de la pâtisserie parisienne : trois rectangles de pâte feuilletée caramélisée au sucre glace, alternés de crème diplomate soyeuse parfumée aux gousses de vanille de Madagascar, surmontés du glaçage marbré emblématique.",
+      "en": "The legendary 'thousand layers' invented in Paris: three ultra-thin sheets of caramelized inverted puff pastry layered with clouds of Madagascar Bourbon vanilla diplomat cream, topped with traditional marbled chocolate chevron glaze.",
+      "te": "పారిస్ నగరంలో పుట్టిన అద్భుతమైన లేయర్డ్ పేస్ట్రీ. వెనిల్లా క్రీమ్ మరియు చాక్లెట్ గ్లేజ్‌తో అలంకరిస్తారు.",
+      "hi": "पेरिस की प्रसिद्ध परतदार पेस्ट्री, जिसमें वेनिला क्रीम और चॉकलेट का खूबसूरत मार्बल डिजाइन होता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Champagne Demi-Sec",
+        "en": "Champagne Demi-Sec or Sauternes",
+        "te": "షాంపైన్ డెమి-సెక్",
+        "hi": "शैम्पेन या सॉटर्नेस"
+      },
+      "notes": {
+        "fr": "La douceur perlée d'un champagne demi-sec fait écho à la vanille bourbon.",
+        "en": "The golden honeyed notes and fine bubbles elevate the crisp caramel pastry layers and fragrant vanilla cream.",
+        "te": "వెనిల్లా క్రీమ్ రుచికి సరిపోయే ఫ్రెంచ్ షాంపైన్.",
+        "hi": "वेनिला क्रीम की मिठास के साथ यह फ्रेंच वाइन बेहद स्वादिष्ट लगती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Cuisez impérativement sous une grille pour empêcher le feuilletage de trop lever et obtenir ce croustillant serré légendaire.",
+      "en": "Bake the puff pastry between two baking sheets weighted down with a tray so it bakes razor-thin and shatteringly crisp.",
+      "te": "పేస్ట్రీ ఎక్కువగా పొంగకుండా పైన బరువు పెట్టి బేక్ చేయండి, అప్పుడు కరకరలాడుతుంది.",
+      "hi": "पेस्ट्री पर दूसरा सांचा रखकर बेक करें ताकि वह पतली और कुरकुरी बने।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Pâte feuilletée pur beurre inversée",
+          "en": "Inverted all-butter puff pastry (Pâte Feuilletée Inversée)",
+          "te": "పఫ్ పేస్ట్రీ షీట్",
+          "hi": "पफ पेस्ट्री शीट"
+        },
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre glace pour caramélisation",
+          "en": "Powdered sugar for pastry caramelization",
+          "te": "చక్కెర పొడి",
+          "hi": "पिसी हुई चीनी"
+        },
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Lait entier aux gousses de vanille",
+          "en": "Whole milk infused with 2 Madagascar vanilla beans",
+          "te": "వెనిల్లా పాలు",
+          "hi": "वैनिला वाला दूध"
+        },
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Jaunes d'œufs",
+          "en": "Egg yolks",
+          "te": "గుడ్డు సొనలు",
+          "hi": "अंडे की जर्दी"
+        },
+        "amount": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Fécule de maïs",
+          "en": "Cornstarch (Fécule)",
+          "te": "కార్న్‌ఫ్లోర్",
+          "hi": "कॉर्नस्टार्च"
+        },
+        "amount": 45,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Crème liquide entière 35%",
+          "en": "Chilled heavy whipping cream 35%",
+          "te": "విప్పింగ్ క్రీమ్",
+          "hi": "व्हिपिंग क्रीम"
+        },
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Fondant blanc et chocolat noir",
+          "en": "Fondant icing and dark chocolate for marbling",
+          "te": "చాక్లెట్ & వైట్ ఫాండెంట్",
+          "hi": "सफेद और डार्क चॉकलेट"
+        },
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Caraméliser le feuilletage",
+          "en": "Bake Weighted Puff Pastry",
+          "te": "పేస్ట్రీని బేక్ చేయండి",
+          "hi": "पेस्ट्री बेक करें"
+        },
+        "instruction": {
+          "fr": "Étalez le feuilletage à 2mm, cuisez sous plaque à 190°C puis saupoudrez de sucre glace pour caraméliser 2 min.",
+          "en": "Roll puff pastry 2mm thin. Place between two parchment sheets weighted with baking trays. Bake at 190°C for 25 min. Dust with powdered sugar and broil 2 min until shiny caramel.",
+          "te": "సన్నగా పరచి, పైన బరువు పెట్టి 190°C వద్ద బేక్ చేసి చక్కెరతో క్యారమెల్ చేయండి.",
+          "hi": "पतली पेस्ट्री बेलकर दबाकर 190°C पर बेक करें और चीनी से कैरमेल बनाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Préparer la crème diplomate",
+          "en": "Whisk Vanilla Diplomat",
+          "te": "వెనిల్లా క్రీమ్ తయారు చేయండి",
+          "hi": "वेनिला क्रीम तैयार करें"
+        },
+        "instruction": {
+          "fr": "Réalisez une crème pâtissière bien vanillée, laissez refroidir et incorporez délicatement la crème fouettée ferme.",
+          "en": "Cook rich pastry cream with vanilla bean. Cool completely, then fold in softly whipped heavy cream until silky and pipeable.",
+          "te": "వెనిల్లా కస్టర్డ్ తయారు చేసి, చల్లారాక విప్పింగ్ క్రీమ్ కలపండి.",
+          "hi": "कस्टर्ड क्रीम बनाकर ठंडी करें और उसमें फेंटा हुआ मक्खन/क्रीम मिलाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Montage et marbrage",
+          "en": "Assemble and Chevron Glaze",
+          "te": "అసెంబుల్ చేసి గ్లేజ్ వేయండి",
+          "hi": "परतें जोड़ें और सजाएं"
+        },
+        "instruction": {
+          "fr": "Montez les 3 étages à la poche, glacez le dessus au fondant blanc et tirez les marbrures au chocolat à la pointe d'un couteau.",
+          "en": "Trim pastry into three neat rectangles. Pipe rows of cream between layers. Glaze top rectangle with white fondant, pipe thin chocolate lines and feather with a toothpick.",
+          "te": "మూడు పొరల మధ్య క్రీమ్ నింపి, పైన చాక్లెట్ మార్బుల్ డిజైన్ వేయండి.",
+          "hi": "तीनों परतों के बीच क्रीम भरें और ऊपर चॉकलेट से खूबसूरत डिजाइन बनाएं।"
+        }
+      }
+    ]
+  },
+  "gateau_basque": {
+    "title": {
+      "fr": "Gâteau Basque à la Cerise Noire d'Itxassou",
+      "en": "Basque Country Black Cherry Tart",
+      "te": "గెటో బాస్క్ (నల్ల చెర్రీల ఫ్రెంచ్ టార్ట్)",
+      "hi": "गेटू बास्क (काली चेरी से बना पारंपरिक बास्क केक)"
+    },
+    "subtitle": {
+      "fr": "Pâte sablée pur beurre croustillante garnie de confiture de cerises noires du Pays Basque.",
+      "en": "Golden crumbly butter shortcrust filled with luscious Itxassou black cherry confiture.",
+      "te": "వెన్న షార్ట్‌క్రస్ట్ పేస్ట్రీ మధ్యలో నల్ల చెర్రీల జామ్ నింపి కాల్చిన బాస్క్ కేక్.",
+      "hi": "मक्खनदार खस्ता पेस्ट्री के अंदर रसीली काली चेरी का जैम भरकर बेक किया गया केक।"
+    },
+    "categoryLabel": {
+      "fr": "Classique du Pays Basque",
+      "en": "Basque Artisan Heritage",
+      "te": "బాస్క్ ట్రెడిషనల్ కేక్",
+      "hi": "बास्क हेरिटेज पेस्ट्री"
+    },
+    "description": {
+      "fr": "L'emblème sucré des terroirs basques : un gâteau sablé doré et moelleux, orné de stries à la fourchette, renfermant un cœur généreux de cerises noires d'Itxassou acidulées et parfumées.",
+      "en": "The culinary soul of the French Basque country: a crumbly, rich butter shortcrust embossed with the traditional Basque Lauburu cross, concealing a dense ruby filling of wild black cherry confiture from the village of Itxassou.",
+      "te": "బాస్క్ ప్రాంతపు సాంప్రదాయ డెసర్ట్ కేక్. వెన్న పిండి మరియు నల్ల చెర్రీల కలయిక.",
+      "hi": "फ्रांस के बास्क क्षेत्र का प्रसिद्ध केक, जिसमें खस्ता परत के अंदर मीठी काली चेरी का स्वाद समाया होता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Irouléguy Rouge ou Patxaran",
+        "en": "Irouléguy Rouge or Basque Patxaran",
+        "te": "ఇరౌలెగై వైన్",
+        "hi": "इरोलेगी रेड वाइन"
+      },
+      "notes": {
+        "fr": "Les tanins fins et les notes de fruits noirs d'un Irouléguy subliment la cerise confite.",
+        "en": "The deep red fruit aromatics and wild spices of Basque Irouléguy wine mirror the dark cherry filling.",
+        "te": "నల్ల చెర్రీల రుచికి ఈ బాస్క్ వైన్ సరైన జోడి.",
+        "hi": "काली चेरी के स्वाद के साथ यह डार्क रेड वाइन बहुत अच्छी लगती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Laissez complètement refroidir avant de découper : la pâte sablée doit se raffermir pour révéler sa texture friable.",
+      "en": "Chill the filled, unbaked tart for 1 hour before baking so the butter dough keeps its crisp defined crumb around the cherry jam.",
+      "te": "పూర్తిగా చల్లారాక మాత్రమే ముక్కలుగా కోయండి, అప్పుడు షార్ట్‌క్రస్ట్ విరిగిపోదు.",
+      "hi": "केक को पूरी तरह ठंडा होने के बाद ही काटें ताकि इसकी परतें सही रहें।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Beurre doux de baratte",
+          "en": "Unsalted butter, softened",
+          "te": "వెన్న",
+          "hi": "मक्खन"
+        },
+        "amount": 175,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre semoule",
+          "en": "Granulated sugar",
+          "te": "చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Jaunes et œuf entier",
+          "en": "Egg yolks and whole egg",
+          "te": "కోడిగుడ్లు",
+          "hi": "अंडे"
+        },
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Farine de blé",
+          "en": "All-purpose wheat flour",
+          "te": "మైదా",
+          "hi": "मैदा"
+        },
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Confiture de cerises noires d'Itxassou",
+          "en": "Authentic Basque black cherry jam (Confiture de Cerises Noires)",
+          "te": "నల్ల చెర్రీల జామ్",
+          "hi": "काली चेरी का जैम"
+        },
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Fleur de sel et zeste de citron",
+          "en": "Pinch of salt and grated lemon zest",
+          "te": "నిమ్మ తొక్క, ఉప్పు",
+          "hi": "नींबू का छिलका और नमक"
+        },
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Crémer la pâte sablée",
+          "en": "Cream Dough",
+          "te": "పిండి ముద్ద చేయండి",
+          "hi": "आटा तैयार करें"
+        },
+        "instruction": {
+          "fr": "Fouettez beurre et sucre, ajoutez les œufs puis la farine sans trop pétrir. Réservez 2 heures au frais.",
+          "en": "Cream butter and sugar until pale. Beat in eggs, lemon zest, and flour until a rich cookie-like dough forms. Chill 2 hours.",
+          "te": "వెన్న, చక్కెర, గుడ్లు మరియు పిండిని కలిపి 2 గంటలు ఫ్రిజ్‌లో ఉంచండి.",
+          "hi": "मक्खन, चीनी, अंडे और मैदा मिलाकर 2 घंटे ठंडा होने रखें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Garnir de confiture",
+          "en": "Fill with Black Cherry Jam",
+          "te": "చెర్రీ జామ్ నింపండి",
+          "hi": "चेरी जैम भरें"
+        },
+        "instruction": {
+          "fr": "Foncez un moule avec la moitié de la pâte et garnissez généreusement de confiture de cerises noires.",
+          "en": "Divide dough 60/40. Roll larger half to line an 8-inch tart pan. Spread black cherry jam in an even layer.",
+          "te": "మౌల్డ్‌లో సగం పిండిని పరచి, మధ్యలో నల్ల చెర్రీ జామ్ నింపండి.",
+          "hi": "सांचे में आटा फैलाकर बीच में चेरी जैम की परत लगाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Sceller et strier",
+          "en": "Seal and Score Lauburu Cross",
+          "te": "సీల్ చేసి బేక్ చేయండి",
+          "hi": "ऊपर से बंद कर बेक करें"
+        },
+        "instruction": {
+          "fr": "Recouvrez du second disque, soudez les bords, dorez au jaune d'œuf, rayez à la fourchette et cuisez 40 min à 180°C.",
+          "en": "Roll top crust, crimp edges to seal. Brush with egg yolk and score with a fork. Bake at 180°C (350°F) for 40 minutes until deep golden.",
+          "te": "పైభాగం మూసివేసి, ఫోర్క్‌తో గీతలు గీసి 180°C వద్ద 40 నిమిషాలు బేక్ చేయండి.",
+          "hi": "ऊपर की परत से बंद करें, कांटे से डिजाइन बनाएं और 180°C पर 40 मिनट बेक करें।"
+        }
+      }
+    ]
+  },
+  "eclair_chocolat": {
+    "title": {
+      "fr": "Éclair au Chocolat Noir Grand Cru",
+      "en": "Parisian Dark Chocolate Éclair",
+      "te": "ఎక్లెయిర్ చాక్లెట్ (ఫ్రెంచ్ డార్క్ చాక్లెట్ పేస్ట్రీ)",
+      "hi": "एक्लेयर चॉकलेट (डार्क चॉकलेट से भरी फ्रेंच पेस्ट्री)"
+    },
+    "subtitle": {
+      "fr": "Choux allongé croustillant garni de crème pâtissière au chocolat 70% et glaçage miroir.",
+      "en": "Crisp choux finger filled with 70% Valrhona dark chocolate crème pâtissière & mirror glaze.",
+      "te": "కరకరలాడే షూ పేస్ట్రీ లోపల డార్క్ చాక్లెట్ క్రీమ్ నింపి, పైన మెరిసే చాక్లెట్ గ్లేజ్ వేసిన పారిస్ పేస్ట్రీ.",
+      "hi": "खस्ता शू पेस्ट्री के अंदर 70% डार्क चॉकलेट क्रीम और ऊपर चमकदार चॉकलेट की परत।"
+    },
+    "categoryLabel": {
+      "fr": "Pâtisserie Parisienne",
+      "en": "Classic Parisian Patisserie",
+      "te": "పారిసియన్ క్లాసిక్ పేస్ట్రీ",
+      "hi": "पेरिस क्लासिक पेस्ट्री"
+    },
+    "description": {
+      "fr": "Le classique absolu des vitrines parisiennes : une pâte à choux étirée bien dorée, garnie généreusement d'une crème pâtissière intense au chocolat noir et trempée dans un fondant brillant.",
+      "en": "The timeless jewel of Paris display windows: an elongated golden choux pastry baked to crisp hollow perfection, packed end-to-end with intense 70% French dark chocolate pastry cream, dipped in shimmering mirror dark chocolate glaze.",
+      "te": "పారిస్ నగరపు ప్రతి బేకరీలో కనిపించే ప్రసిద్ధ చాక్లెట్ ఎక్లెయిర్.",
+      "hi": "पेरिस का विश्व प्रसिद्ध लंबा पेस्ट्री रोल जिसके अंदर भरपूर डार्क चॉकलेट क्रीम भरी होती है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Banyuls ou Double Espresso",
+        "en": "Espresso or Banyuls Grand Cru",
+        "te": "డబుల్ ఎస్ప్రెస్సో కాఫీ",
+        "hi": "डबल एस्प्रेसो या रेड वाइन"
+      },
+      "notes": {
+        "fr": "L'amertume d'un bon café ou la douceur d'un vin doux naturel sublime le cacao amer.",
+        "en": "A rich double espresso or sweet fortified Banyuls wine accentuates the bittersweet notes of French dark chocolate.",
+        "te": "డార్క్ చాక్లెట్ రుచికి ఎస్ప్రెస్సో కాఫీ అద్భుత కాంబినేషన్.",
+        "hi": "डार्क चॉकलेट के साथ कड़क ब्लैक कॉफी का स्वाद लाजवाब होता है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Pochez avec une douille cannelée : les stries permettent au chou de gonfler régulièrement sans craqueler.",
+      "en": "Poke three small holes in the base and pipe the chocolate cream until the éclair feels heavy in your hand.",
+      "te": "స్టార్ నాజిల్‌తో పిండిని వేస్తే పగుళ్లు రాకుండా సమంగా పొంగుతుంది.",
+      "hi": "स्टार नोजल से आकार दें ताकि पेस्ट्री में दरारें न आएं।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Pâte à choux fraîche",
+          "en": "French choux pastry batter",
+          "te": "షూ పేస్ట్రీ పిండి",
+          "hi": "शू पेस्ट्री का घोल"
+        },
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Lait entier",
+          "en": "Whole milk",
+          "te": "పాలు",
+          "hi": "दूध"
+        },
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Chocolat noir 70% haché",
+          "en": "French dark chocolate 70% Guanaja, chopped",
+          "te": "70% డార్క్ చాక్లెట్",
+          "hi": "70% डार्क चॉकलेट"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Jaunes d'œufs frais",
+          "en": "Egg yolks",
+          "te": "గుడ్డు సొనలు",
+          "hi": "अंडे की जर्दी"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Sucre semoule",
+          "en": "Granulated sugar",
+          "te": "చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Fécule de maïs",
+          "en": "Cornstarch",
+          "te": "కార్న్‌ఫ్లోర్",
+          "hi": "कॉर्नस्टार्च"
+        },
+        "amount": 35,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Glaçage fondant chocolat",
+          "en": "Dark chocolate glaze fondant",
+          "te": "చాక్లెట్ గ్లేజ్",
+          "hi": "चॉकलेट ग्लेज़"
+        },
+        "amount": 150,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Coucher et cuire les éclairs",
+          "en": "Pipe & Bake Choux Fingers",
+          "te": "ఎక్లెయిర్స్ బేక్ చేయండి",
+          "hi": "पेस्ट्री बेक करें"
+        },
+        "instruction": {
+          "fr": "Dressez des bâtons de 12cm à la douille cannelée. Cuisez 25 min à 190°C sans ouvrir le four.",
+          "en": "Pipe 12cm straight fingers onto parchment with a fluted star tip. Bake at 190°C (375°F) for 25 minutes without opening door until crisp and hollow.",
+          "te": "12 సెం.మీ పొడవుగా వేసి, 190°C వద్ద 25 నిమిషాలు బేక్ చేయండి.",
+          "hi": "12 सेमी लंबे रोल बनाकर 190°C पर 25 मिनट बेक करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Crème pâtissière chocolat",
+          "en": "Whisk Dark Chocolate Cream",
+          "te": "చాక్లెట్ క్రీమ్ చేయండి",
+          "hi": "चॉकलेट क्रीम बनाएं"
+        },
+        "instruction": {
+          "fr": "Faites épaissir le lait, jaunes, sucre et fécule. Hors du feu, fondez le chocolat noir en émulsion brillante.",
+          "en": "Whisk hot milk, egg yolks, sugar, and starch until thick. Whisk in 70% dark chocolate until velvety. Chill completely.",
+          "te": "కస్టర్డ్ తయారు చేసి, డార్క్ చాక్లెట్ కలిపి చల్లబరచండి.",
+          "hi": "कस्टर्ड बनाकर डार्क चॉकलेट मिलाएं और ठंडा करें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Garnir et glacer",
+          "en": "Fill and Mirror Glaze",
+          "te": "క్రీమ్ నింపి గ్లేజ్ వేయండి",
+          "hi": "क्रीम भरकर ग्लेज़ लगाएं"
+        },
+        "instruction": {
+          "fr": "Percez 3 trous au fond, garnissez à la poche puis trempez le dessus dans le fondant chocolat tempéré.",
+          "en": "Pierce three holes in base of éclairs. Pipe chocolate cream generously. Dip top in warm dark chocolate glaze and wipe edges cleanly with finger.",
+          "te": "వెనుక మూడు రంధ్రాలు చేసి క్రీమ్ నింపి, పైన చాక్లెట్ గ్లేజ్‌లో ముంచండి.",
+          "hi": "नीचे छेद करके क्रीम भरें और ऊपर चॉकलेट ग्लेज़ लगाएं।"
+        }
+      }
+    ]
+  },
+  "far_breton": {
+    "title": {
+      "fr": "Far Breton Traditionnel aux Pruneaux",
+      "en": "Brittany Custard Cake with Agen Prunes",
+      "te": "ఫార్ బ్రిటన్ (ప్లమ్స్ ఫ్రెంచ్ కస్టర్డ్ కేక్)",
+      "hi": "फार ब्रेटोन (आलूबुखारा और वेनिला कस्टर्ड केक)"
+    },
+    "subtitle": {
+      "fr": "Flan pâtissier dense et fondant aux pruneaux d'Agen macérés au rhum et beurre demi-sel.",
+      "en": "Dense, flan-like golden custard batter baked with rum-soaked Agen prunes & salted butter.",
+      "te": "రం-నానబెట్టిన ప్లమ్స్ మరియు వెన్నతో కాల్చిన సాంప్రదాయ బ్రిటనీ కస్టర్డ్ కేక్.",
+      "hi": "रम में भीगे आलूबुखारे और मक्खन से बना मखमली पारंपरिक फ्रेंच कस्टर्ड केक।"
+    },
+    "categoryLabel": {
+      "fr": "Dessert Traditionnel Breton",
+      "en": "Brittany Rustic Dessert",
+      "te": "బ్రిటనీ ట్రెడిషనల్ డెజర్ట్",
+      "hi": "ब्रिटनी पारंपरिक डेसर्ट"
+    },
+    "description": {
+      "fr": "Le grand dessert familial de Bretagne : une texture unique entre le flan et le clafoutis, dorée au four, parsemée de pruneaux moelleux parfumés au rhum vieux et enrichie au beurre demi-sel.",
+      "en": "The ancestral family dessert of maritime Brittany: a dense, pudding-like flan batter made with farm-fresh milk, eggs, and flour, generously studded with tender sweet Agen prunes plumped in dark amber rum, baked with dots of salted butter until golden brown.",
+      "te": "బ్రిటానీ తీరప్రాంత కుటుంబాల సంప్రదాయ డెజర్ట్ కేక్. రమ్ మరియు ప్లమ్స్ అద్భుత రుచినిస్తాయి.",
+      "hi": "ब्रिटनी का पारंपरिक पारिवारिक केक, जो कस्टर्ड और पुडिंग का बेहतरीन मेल है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Pommeau de Bretagne",
+        "en": "Pommeau de Bretagne",
+        "te": "పోమో డి బ్రిటనీ",
+        "hi": "पोमो डि ब्रिटनी"
+      },
+      "notes": {
+        "fr": "L'eau-de-vie de cidre et le moût de pomme du Pommeau accompagnent les pruneaux avec noblesse.",
+        "en": "The baked apple and caramel notes of Breton Pommeau harmonize with dark rum and caramelized prunes.",
+        "te": "క్యారమెల్ మరియు ప్లమ్స్ రుచికి తగిన ఫ్రెంచ్ ఆపిల్ వైన్.",
+        "hi": "सेब और कैरमेल के स्वाद वाला पारंपरिक फ्रेंच पेय।"
+      }
+    },
+    "chefTip": {
+      "fr": "Faites tiédir le lait avant de l'incorporer : cela évite la formation de grumeaux dans la détrempe.",
+      "en": "Soak the prunes in warm rum and tea for 30 minutes before baking to keep them plump and juicy in the custard.",
+      "te": "పాలను గోరువెచ్చగా చేసి కలపండి, ఉండలు కట్టకుండా పిండి మృదువుగా వస్తుంది.",
+      "hi": "दूध को हल्का गर्म करके मिलाएं ताकि गांठें न पड़ें।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Pruneaux d'Agen dénoyautés moelleux",
+          "en": "Pitted sweet Agen prunes",
+          "te": "ప్లమ్స్ (ఆల్బుఖారా)",
+          "hi": "आलूबुखारा"
+        },
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Rhum ambré des îles",
+          "en": "Dark Caribbean rum",
+          "te": "రమ్",
+          "hi": "रम"
+        },
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Lait entier de ferme",
+          "en": "Whole farm milk",
+          "te": "పాలు",
+          "hi": "दूध"
+        },
+        "amount": 750,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Farine de blé T55",
+          "en": "All-purpose flour",
+          "te": "మైదా",
+          "hi": "मैदा"
+        },
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre en poudre",
+          "en": "Granulated sugar",
+          "te": "చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Œufs entiers frais",
+          "en": "Fresh eggs",
+          "te": "కోడిగుడ్లు",
+          "hi": "अंडे"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Beurre demi-sel fondu",
+          "en": "Salted Brittany butter (demi-sel), melted",
+          "te": "వెన్న",
+          "hi": "मक्खन"
+        },
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Extrait de vanille pure",
+          "en": "Madagascar vanilla extract",
+          "te": "వెనిల్లా",
+          "hi": "वैनिला"
+        },
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Macérer les pruneaux",
+          "en": "Macerate Prunes",
+          "te": "ప్లమ్స్ నానబెట్టండి",
+          "hi": "आलूबुखारा भिगोएँ"
+        },
+        "instruction": {
+          "fr": "Faites macérer les pruneaux dans le rhum chaud pendant 30 min. Beurrez un plat en grès.",
+          "en": "Soak pitted prunes in warm dark rum for 30 minutes. Butter a ceramic baking dish generously with salted butter.",
+          "te": "ప్లమ్స్‌ను రమ్‌లో 30 నిమిషాలు నానబెట్టి, బేకింగ్ డిష్‌కు వెన్న రాయండి.",
+          "hi": "आलूबुखारे को 30 मिनट रम में भिगोएँ और सांचे में मक्खन लगाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Préparer l'appareil",
+          "en": "Whisk Velvety Batter",
+          "te": "కస్టర్డ్ మిశ్రమం చేయండి",
+          "hi": "घोल तैयार करें"
+        },
+        "instruction": {
+          "fr": "Fouettez œufs et sucre, ajoutez farine puis versez le lait tiède, le beurre fondu et le jus de macération.",
+          "en": "Whisk eggs and sugar until pale. Whisk in flour, then gradually stream in warm milk, melted butter, vanilla, and the rum marinade until smooth like crêpe batter.",
+          "te": "గుడ్లు, చక్కెర, పిండి, పాలు మరియు వెన్నను బాగా కలపండి.",
+          "hi": "अंडे, चीनी, मैदा और दूध को मिलाकर चिकना घोल तैयार करें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Disposer et cuire",
+          "en": "Scatter Prunes and Bake",
+          "te": "ఓవెన్‌లో బేక్ చేయండి",
+          "hi": "सांचे में बेक करें"
+        },
+        "instruction": {
+          "fr": "Répartissez les pruneaux au fond, versez l'appareil et cuisez 50 min à 180°C jusqu'à belle coloration ambrée.",
+          "en": "Scatter soaked prunes across the dish bottom. Pour batter over. Bake at 180°C (350°F) for 50 minutes until golden and set with a slight wobble.",
+          "te": "ప్లమ్స్ వేసి పైన మిశ్రమం పోసి 180°C వద్ద 50 నిమిషాలు బేక్ చేయండి.",
+          "hi": "आलूबुखारे डालकर ऊपर से घोल डालें और 180°C पर 50 मिनट बेक करें।"
+        }
+      }
+    ]
+  },
+  "tarte_normande_pommes": {
+    "title": {
+      "fr": "Tarte Fine Normande aux Pommes et Calvados",
+      "en": "Normandy Caramelized Apple Tart with Calvados",
+      "te": "నార్మాండీ ఆపిల్ టార్ట్ (కాల్వాడోస్ ఆపిల్ పై)",
+      "hi": "नॉर्मैंडी एप्पल टार्ट (सेब और मक्खन वाला फ्रेंच केक)"
+    },
+    "subtitle": {
+      "fr": "Rosace de pommes acidulées caramélisées sur pâte fine feuilletée, lustrée au Calvados.",
+      "en": "Paper-thin caramelized apple spirals over crisp butter pastry glazed with Normandy Calvados cider brandy.",
+      "te": "సన్నని ఆపిల్ ముక్కలు, వెన్న మరియు నార్మాండీ కాల్వాడోస్ బ్రాందీతో కాల్చిన అద్భుత టార్ట్.",
+      "hi": "पतले कटे सेब, शुद्ध मक्खन और नॉर्मैंडी की सेब वाली ब्रांडी से बनी कुरकुरी फ्रेंच पेस्ट्री।"
+    },
+    "categoryLabel": {
+      "fr": "Vergers de Normandie",
+      "en": "Normandy Orchard Dessert",
+      "te": "నార్మాండీ ఆర్చర్డ్ డెజర్ట్",
+      "hi": "नॉर्मैंडी क्लासिक डेसर्ट"
+    },
+    "description": {
+      "fr": "L'hommage éclatant aux pommiers de Normandie : une abaisse fine et croustillante recouverte d'une spirale serrée de pommes finement émincées, confites au beurre demi-sel et laquées au Calvados hors d'âge.",
+      "en": "The pride of Normandy apple orchards: crisp puff pastry rolled wafer-thin, tiled with paper-thin slices of tart Reine des Reinettes apples, dotted with sweet Normandy butter, baked until caramelized, and flambéed or glazed with fragrant aged Calvados.",
+      "te": "నార్మాండీ ఆపిల్ తోటల ప్రత్యేకత. కరకరలాడే పేస్ట్రీపై సన్నని ఆపిల్ ముక్కలు పేర్చి బేక్ చేస్తారు.",
+      "hi": "नॉर्मैंडी के सेब के बागानों की पहचान, जिसमें पतले सेबों को मक्खन के साथ कैरमेलाइज किया जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Cidre Bouché Brut de Normandie",
+        "en": "Cidre Bouché Brut de Normandie",
+        "te": "నార్మాండీ ఆపిల్ సైడర్",
+        "hi": "नॉर्मैंडी सेब साइडर"
+      },
+      "notes": {
+        "fr": "Les bulles fines et les tanins de pomme à cidre magnifient le goût du fruit cuit au beurre.",
+        "en": "A chilled sparkling Normandy dry cider echoes the fresh orchard fruit and crisp caramelized pastry.",
+        "te": "బేక్ చేసిన ఆపిల్ రుచికి ఆపిల్ సైడర్ సరైన జోడి.",
+        "hi": "सेब के इस व्यंजन के साथ सेब का साइडर अद्भुत लगता है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Utilisez une mandoline pour obtenir des lamelles d'une régularité absolue qui cuiront uniformément en rubans fondants.",
+      "en": "Slice apples uniformly paper-thin with a mandoline; overlap them tightly like roof shingles so they steam into tender ribbons while the edges caramelize.",
+      "te": "ఆపిల్ ముక్కలను ఒకే మందంలో కోయండి, అప్పుడు అన్నీ సమంగా క్యారమెల్ అవుతాయి.",
+      "hi": "सेब को बहुत पतला काटें ताकि वे एकसमान तरीके से पकें।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Pâte feuilletée pur beurre",
+          "en": "Puff pastry disc (all-butter)",
+          "te": "పఫ్ పేస్ట్రీ బేస్",
+          "hi": "पफ पेस्ट्री शीट"
+        },
+        "amount": 1,
+        "unit": "roll"
+      },
+      {
+        "name": {
+          "fr": "Pommes Reine des Reinettes ou Boskoop",
+          "en": "Crisp Normandy apples (Reine des Reinettes or Honeycrisp)",
+          "te": "తాజా ఆపిల్స్",
+          "hi": "ताजे सेब"
+        },
+        "amount": 5,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Beurre demi-sel d'Isigny AOP",
+          "en": "Normandy salted butter, diced",
+          "te": "నార్మాండీ వెన్న",
+          "hi": "फ्रेंच मक्खन"
+        },
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Sucre de canne vanillé",
+          "en": "Cane sugar with vanilla",
+          "te": "చెరకు చక్కెర",
+          "hi": "वेनिला चीनी"
+        },
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Calvados AOP vieilli en fût",
+          "en": "Aged Calvados apple brandy",
+          "te": "కాల్వాడోస్ బ్రాందీ",
+          "hi": "एप्पल ब्रांडी"
+        },
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": {
+          "fr": "Nappage ou confiture d'abricots",
+          "en": "Smooth apricot glaze (nappage)",
+          "te": "ఆప్రికాట్ జామ్",
+          "hi": "खुबानी का जैम"
+        },
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Abaisser et piquer",
+          "en": "Roll Thin & Prick Pastry",
+          "te": "పేస్ట్రీ పరచండి",
+          "hi": "पेस्ट्री तैयार करें"
+        },
+        "instruction": {
+          "fr": "Étalez la pâte à 2mm d'épaisseur et piquez-la généreusement à la fourchette.",
+          "en": "Roll puff pastry 2mm thin onto parchment. Prick all over with a fork to keep it flat and crisp.",
+          "te": "పేస్ట్రీని సన్నగా పరచి, ఫోర్క్‌తో రంధ్రాలు చేయండి.",
+          "hi": "पेस्ट्री को पतला बेलकर कांटे से छेद करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Dresser les pommes en rosace",
+          "en": "Tile Apple Rosette",
+          "te": "ఆపిల్ ముక్కలు పేర్చండి",
+          "hi": "सेब की परत लगाएं"
+        },
+        "instruction": {
+          "fr": "Émincez les pommes à la mandoline et disposez-les en rosace serrée. Parsemez de beurre et de sucre.",
+          "en": "Peel and slice apples paper-thin. Arrange in tight concentric overlapping circles. Dot with cold butter cubes and sprinkle vanilla sugar.",
+          "te": "ఆపిల్ ముక్కలను అందంగా వలయాకారంలో పేర్చి, వెన్న మరియు చక్కెర చల్లండి.",
+          "hi": "सेब के पतले टुकड़ों को गोल सजाकर ऊपर मक्खन और चीनी डालें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Cuire et napper au Calvados",
+          "en": "Bake & Calvados Glaze",
+          "te": "బేక్ చేసి గ్లేజ్ రాయండి",
+          "hi": "बेक करके ग्लेज़ लगाएं"
+        },
+        "instruction": {
+          "fr": "Cuisez 35 min à 200°C jusqu'à caramélisation des bords, puis lustrez au pinceau avec la confiture tiédie au Calvados.",
+          "en": "Bake at 200°C (400°F) for 30-35 minutes until apple edges curl and caramelize. Brush hot with warm apricot jam whisked with Calvados.",
+          "te": "200°C వద్ద 35 నిమిషాలు బేక్ చేసి, పైన కాల్వాడోస్ గ్లేజ్ రాయండి.",
+          "hi": "200°C पर 35 मिनट बेक करें और ऊपर से ब्रांडी वाला जैम लगाएं।"
+        }
+      }
+    ]
+  },
+  "ile_flottante_lyon": {
+    "title": {
+      "fr": "Île Flottante aux Pralines Roses de Lyon",
+      "en": "Lyonnaise Floating Island with Pink Pralines",
+      "te": "ఐల్ ఫ్లోటాంట్ (కస్టర్డ్‌పై తేలియాడే మెరింగ్ డెజర్ట్)",
+      "hi": "आईल फ्लोटेंट (वेनिला कस्टर्ड पर तैरता हुआ मखमली डेसर्ट)"
+    },
+    "subtitle": {
+      "fr": "Blancs d'œufs pochés vaporeux sur crème anglaise à la vanille, caramel et éclats de pralines de Lyon.",
+      "en": "Cloud-like poached meringues floating on vanilla crème anglaise, crowned with crushed pink Lyon pralines.",
+      "te": "వెనిల్లా కస్టర్డ్ సాగరంపై తేలియాడే దూదిలాంటి మెరింగ్, పైన పింక్ ప్రాలైన్ నట్స్ చల్లిన డెజర్ట్.",
+      "hi": "वेनिला कस्टर्ड पर तैरता हुआ बर्फ जैसा सफेद मखमली केक, ऊपर से गुलाबी बादाम की खस्ता परत।"
+    },
+    "categoryLabel": {
+      "fr": "Bouchon Lyonnais",
+      "en": "Bistrot Lyonnais Classic",
+      "te": "లియోన్ క్లాసిక్ డెజర్ట్",
+      "hi": "ल्योन क्लासिक डेसर्ट"
+    },
+    "description": {
+      "fr": "Le dessert poétique des bouchons lyonnais : des quenelles de meringue aérienne pochées au lait, flottant sur un lit de crème anglaise onctueuse parfumée à la vanille bourbon, parsemées de pralines roses concassées et de filets de caramel blond.",
+      "en": "The poetic centerpiece of Lyon bouchons: pillows of featherlight poached egg white meringues floating upon a chilled lake of silky Madagascar Bourbon vanilla crème anglaise, drizzled with golden amber caramel and showered with vibrant crushed pink candied almond pralines from Lyon.",
+      "te": "లియోన్ నగరపు ప్రసిద్ధ డెజర్ట్. కస్టర్డ్ సాస్‌పై తేలియాడే తెల్లని మెరింగ్ మేఘాలు.",
+      "hi": "ल्योन के पारंपरिक रेस्तरां का सबसे प्रसिद्ध डेसर्ट, जो वेनिला कस्टर्ड और बादाम के साथ परोसा जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Muscat de Beaumes-de-Venise",
+        "en": "Muscat de Beaumes-de-Venise",
+        "te": "మస్కట్ వైన్",
+        "hi": "मस्कट डेसर्ट वाइन"
+      },
+      "notes": {
+        "fr": "Les notes de pêche et de fleurs blanches du Muscat subliment la légèreté de la meringue.",
+        "en": "The floral orange-blossom and apricot aromatics of Muscat elevate the delicate cloud-like poached meringue.",
+        "te": "తేలికపాటి మెరింగ్ రుచికి సరిపోయే ఫ్రూటీ వైన్.",
+        "hi": "वेनिला और कैरमेल के साथ यह मीठी वाइन बहुत अच्छी लगती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Pochez les blancs dans un lait frémissant sans jamais faire bouillir afin qu'ils restent fondants comme un nuage.",
+      "en": "Poach the meringue quenelles gently in barely simmering milk (85°C / 185°F) for 2 minutes per side so they remain cloud-soft without deflating.",
+      "te": "పాలు మరిగించకుండా సిమ్‌లో ఉంచి మెరింగ్‌ను ఉడికించండి, దూదిలా మెత్తగా వస్తుంది.",
+      "hi": "दूध को उबलने न दें, हल्की आंच पर ही अंडे की सफेदी को पकाएं।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Blancs d'œufs frais à température ambiante",
+          "en": "Egg whites at room temperature",
+          "te": "కోడిగుడ్డు తెల్లసొన",
+          "hi": "अंडे की सफेदी"
+        },
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Jaunes d'œufs pour la crème anglaise",
+          "en": "Egg yolks for crème anglaise",
+          "te": "గుడ్డు పచ్చసొన",
+          "hi": "अंडे की जर्दी"
+        },
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Sucre semoule extra-fin",
+          "en": "Granulated superfine sugar",
+          "te": "చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Lait entier infusé à la gousse de vanille",
+          "en": "Whole milk infused with vanilla bean",
+          "te": "వెనిల్లా పాలు",
+          "hi": "वैनिला दूध"
+        },
+        "amount": 600,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Pralines roses de Lyon concassées",
+          "en": "Authentic crushed pink Lyon pralines (Pralines Roses)",
+          "te": "పింక్ ప్రాలైన్ నట్స్",
+          "hi": "गुलाबी बादाम प्रालिन"
+        },
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Caramel ambré liquide",
+          "en": "Amber spun caramel syrup",
+          "te": "క్యారమెల్ సిరప్",
+          "hi": "कैरमेल सिरप"
+        },
+        "amount": 4,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Cuire la crème anglaise",
+          "en": "Whisk Vanilla Crème Anglaise",
+          "te": "కస్టర్డ్ తయారు చేయండి",
+          "hi": "कस्टर्ड सॉस बनाएं"
+        },
+        "instruction": {
+          "fr": "Blanchissez jaunes et sucre, versez le lait vanillé chaud et cuisez à la nappe à 82°C. Réservez au frais.",
+          "en": "Simmer milk with vanilla. Whisk yolks and sugar until pale. Stream milk into yolks, return to gentle heat until sauce coats back of a spoon (82°C). Chill completely.",
+          "te": "పాలు, గుడ్డు పచ్చసొన, చక్కెర కలిపి కస్టర్డ్ చేసి చల్లబరచండి.",
+          "hi": "दूध, अंडे की जर्दी और चीनी को धीमी आंच पर गाढ़ा होने तक पकाएं और ठंडा करें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Monter et pocher les îles",
+          "en": "Whip and Poach Meringue Islands",
+          "te": "మెరింగ్ ఉడికించండి",
+          "hi": "अंडे की सफेदी पकाएं"
+        },
+        "instruction": {
+          "fr": "Montez les blancs en neige ferme en serrant avec le sucre. Formez de grosses quenelles et pochez 2 min par face dans le lait frémissant.",
+          "en": "Whip egg whites to stiff peaks, adding sugar gradually. Shape large oval quenelles and poach 2 minutes per side in warm milk. Drain on paper towels.",
+          "te": "తెల్లసొనను నురుగులా చేసి, వేడి పాలలో 2 నిమిషాలు ఉడికించండి.",
+          "hi": "सफेदी को फेंटकर झाग बनाएं और गरम दूध में 2 मिनट तक पकाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Dresser et décorer",
+          "en": "Assemble Floating Islands",
+          "te": "అలంకరించి వడ్డించండి",
+          "hi": "सजाकर परोसें"
+        },
+        "instruction": {
+          "fr": "Versez la crème anglaise dans des coupes, déposez les îles flottantes, nappez de caramel et saupoudrez de pralines roses.",
+          "en": "Pour chilled crème anglaise into shallow crystal bowls. Float delicate meringue clouds on top. Drizzle amber caramel and crown with crushed ruby Lyon pralines.",
+          "te": "కస్టర్డ్ పోసి, పైన మెరింగ్ ఉంచి, క్యారమెల్ మరియు ప్రాలైన్స్ చల్లండి.",
+          "hi": "कस्टर्ड पर पकी हुई सफेदी रखें और ऊपर से कैरमेल व बादाम डालकर परोसें।"
+        }
+      }
+    ]
+  },
+  "mousse_chocolat": {
+    "title": {
+      "fr": "Mousse au Chocolat Noir Traditionnelle",
+      "en": "Parisian Dark Chocolate Mousse",
+      "te": "మూస్ ఓ చాక్లెట్ (ఫ్రెంచ్ డార్క్ చాక్లెట్ మూస్)",
+      "hi": "मूस ओ चॉकलेट (डार्क चॉकलेट का फ्रेंच मखमली डेसर्ट)"
+    },
+    "subtitle": {
+      "fr": "Mousse aérienne au chocolat 70% pur beurre de cacao et blancs en neige montés à la perfection.",
+      "en": "Airy, velvety 70% dark French chocolate mousse whipped with egg whites & a hint of fleur de sel.",
+      "te": "70% డార్క్ చాక్లెట్, వెన్న మరియు గుడ్లతో చేసిన గాలిలాంటి మృదువైన ఫ్రెంచ్ డెసర్ట్.",
+      "hi": "70% डार्क चॉकलेट और ताजे अंडों से बना बेहद हल्का और मखमली पारंपरिक फ्रेंच डेसर्ट।"
+    },
+    "categoryLabel": {
+      "fr": "Bistrot Parisien",
+      "en": "Classic French Bistro",
+      "te": "పారిసియన్ బిస్ట్రో క్లాసిక్",
+      "hi": "पेरिस बिस्ट्रो क्लासिक"
+    },
+    "description": {
+      "fr": "Le dessert réconfortant préféré des Français : un chocolat noir à 70% fondu au beurre de baratte, délicatement enveloppé de blancs montés serrés pour une texture vaporeuse et une puissance cacaotée incomparable.",
+      "en": "The undisputed royal dessert of French bistros: pure 70% dark chocolate melted with French butter, gently folded into whipped egg whites without any cream or gelatin, resulting in a cloud-like, intensely cocoa-rich mousse that melts on the tongue.",
+      "te": "ఫ్రెంచ్ హోటళ్లలో అత్యంత ప్రజాదరణ పొందిన డెసర్ట్. నోట్లో వేస్తే కరిగిపోయే డార్క్ చాక్లెట్ మౌస్.",
+      "hi": "फ्रांस का सबसे पसंदीदा चॉकलेट डेसर्ट, जो बिना क्रीम के केवल अंडों और चॉकलेट से बनता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Banyuls Rimage",
+        "en": "Banyuls Rimage or Maury Grand Cru",
+        "te": "బన్యుల్స్ వైన్",
+        "hi": "बन्युल्स रेड वाइन"
+      },
+      "notes": {
+        "fr": "Ce vin doux naturel aux arômes de cerise noire et de mûre s'accorde magistralement au chocolat noir.",
+        "en": "The deep notes of stewed blackberries and cocoa in French Roussillon fortified wines enhance the velvety chocolate.",
+        "te": "డార్క్ చాక్లెట్ రుచిని పెంచే ఫ్రెంచ్ స్వీట్ వైన్.",
+        "hi": "डार्क चॉकलेट के स्वाद को बढ़ाने वाली विशेष मीठी फ्रेंच वाइन।"
+      }
+    },
+    "chefTip": {
+      "fr": "Incorporez un tiers des blancs d'abord pour détendre le chocolat, puis soulevez le reste délicatement avec une maryse sans casser l'air.",
+      "en": "Fold the whipped egg whites into the lukewarm chocolate in three gentle rotations using a rubber spatula so you do not knock out the air bubbles.",
+      "te": "మొదట కొద్దిగా తెల్లసొన కలిపి, ఆపై మిగిలినదాన్ని నిదానంగా కలపండి, గాలి బుడగలు పోకుండా ఉంటాయి.",
+      "hi": "अंडे की सफेदी को धीरे-धीरे तीन बार में मिलाएं ताकि घोल हल्का बना रहे।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Chocolat noir 70% de dégustation",
+          "en": "French dark chocolate 70% (Valrhona or Cacao Barry)",
+          "te": "70% డార్క్ చాక్లెట్",
+          "hi": "70% डार्क चॉकलेट"
+        },
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Beurre doux",
+          "en": "Unsalted French butter",
+          "te": "వెన్న",
+          "hi": "मक्खन"
+        },
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Œufs frais clarifiés",
+          "en": "Fresh eggs, separated",
+          "te": "తాజా కోడిగుడ్లు",
+          "hi": "ताजे अंडे"
+        },
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Sucre en poudre",
+          "en": "Superfine caster sugar",
+          "te": "చక్కెర",
+          "hi": "चीनी"
+        },
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Fleur de sel",
+          "en": "Fleur de sel de Guérande",
+          "te": "సముద్రపు ఉప్పు",
+          "hi": "नमक"
+        },
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Fondre le chocolat",
+          "en": "Melt Chocolate and Butter",
+          "te": "చాక్లెట్ కరిగించండి",
+          "hi": "चॉकलेट पिघलाएं"
+        },
+        "instruction": {
+          "fr": "Faites fondre le chocolat et le beurre au bain-marie. Laissez tiédir et incorporez les jaunes d'œufs.",
+          "en": "Gently melt dark chocolate and butter over a warm water bath (bain-marie). Cool to lukewarm (40°C). Whisk in egg yolks one by one.",
+          "te": "చాక్లెట్, వెన్న కరిగించి గుడ్డు పచ్చసొనలు కలపండి.",
+          "hi": "चॉकलेट और मक्खन को पिघलाकर अंडे की जर्दी मिलाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Monter les blancs en neige",
+          "en": "Whip Airy Egg Whites",
+          "te": "తెల్లసొన నురుగు చేయండి",
+          "hi": "सफेदी को फेंटें"
+        },
+        "instruction": {
+          "fr": "Montez les blancs en neige avec une pincée de sel, serrez avec le sucre jusqu'à texture brillante.",
+          "en": "Whip egg whites with a pinch of sea salt until soft peaks form. Sprinkle sugar and whip until firm and glossy.",
+          "te": "తెల్లసొనను చక్కెర వేసి గట్టి నురుగులా అయ్యే వరకు బీట్ చేయండి.",
+          "hi": "अंडे की सफेदी में चुटकी भर नमक और चीनी डालकर गाढ़ा झाग बनाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Incorporer et réfrigérer",
+          "en": "Gently Fold and Chill",
+          "te": "కలిపి ఫ్రిజ్‌లో ఉంచండి",
+          "hi": "मिलाकर ठंडा करें"
+        },
+        "instruction": {
+          "fr": "Détendez le chocolat avec un tiers des blancs, puis incorporez le reste à la maryse. Réservez 4h au frais.",
+          "en": "Fold one-third of whites vigorously into chocolate to lighten it. Gently fold in remaining whites in slow circular motions. Chill for at least 4 hours.",
+          "te": "నెమ్మదిగా చాక్లెట్‌లో కలిపి, 4 గంటలు ఫ్రిజ్‌లో ఉంచండి.",
+          "hi": "हल्के हाथों से मिलाकर 4 घंटे के लिए फ्रिज में ठंडा होने रखें।"
+        }
+      }
+    ]
+  },
+  "quenelles_nantua": {
+    "title": {
+      "fr": "Quenelles de Brochet Soufflées Sauce Nantua",
+      "en": "Lyonnaise Pike Soufflé Dumplings in Crayfish Sauce",
+      "te": "క్వెనెల్లెస్ డి బ్రోచెట్ (లియోన్ ఫిష్ డంప్లింగ్స్ ఇన్ క్రేఫిష్ సాస్)",
+      "hi": "क्वेनेल द ब्रोशे (ल्योन की मछली और झींगा सॉस डिश)"
+    },
+    "subtitle": {
+      "fr": "Quenelles aériennes de brochet des étangs de la Dombes, gratinées à la sauce au beurre d'écrevisses.",
+      "en": "Pillow-soft poached freshwater pike dumplings baked in velvety crayfish butter Nantua cream sauce.",
+      "te": "లియోన్ నగరపు రాజ వంటకం: మృదువైన చేపల డంప్లింగ్స్ పై క్రేఫిష్ క్రీమీ సాస్ వేసి బేక్ చేస్తారు.",
+      "hi": "फ्रांस के ल्योन शहर का शाही व्यंजन: झींगा बटर और मलाईदार सॉस में पकी हुई मछली की मखमली गोलियां।"
+    },
+    "categoryLabel": {
+      "fr": "Gastronomie Lyonnaise",
+      "en": "Gastronomie Lyonnaise",
+      "te": "లియోన్ రాయల్ డిన్నర్",
+      "hi": "ल्योन शाही व्यंजन"
+    },
+    "description": {
+      "fr": "Le chef-d'œuvre de la cuisine des mères lyonnaises : des quenelles légères comme un soufflé faites de chair de brochet et de panade, pochées puis nappées d'une sauce Nantua veloutée au beurre d'écrevisses sauvages.",
+      "en": "The historical triumph of Lyon gastronomy: cloud-like dumplings made from fresh wild pike fish, panade, and cultured butter, poached gently then baked under a rich, coral-red Sauce Nantua made from simmered freshwater crayfish butter and heavy cream.",
+      "te": "ఫ్రాన్స్ గ్యాస్ట్రోనమీ రాజధాని లియోన్ నగరపు అత్యున్నత వంటకం.",
+      "hi": "ल्योन शहर का सबसे प्रसिद्ध पारंपरिक व्यंजन जिसे ताजी मछली और लाल झींगा सॉस से बनाया जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Condrieu ou Pouilly-Fuissé",
+        "en": "Pouilly-Fuissé or Condrieu",
+        "te": "పౌలీ-ఫుయిస్ వైన్",
+        "hi": "कोंद्रियू फ्रेंच वाइन"
+      },
+      "notes": {
+        "fr": "Les arômes d'abricot et la rondeur du viognier de Condrieu répondent magnifiquement à la sauce écrevisse.",
+        "en": "The floral, honeyed stone-fruit aromatics of northern Rhône Viognier match the sumptuous richness of crayfish butter cream.",
+        "te": "క్రేఫిష్ క్రీమ్ సాస్ రుచికి సరిపోయే ఫ్రూటీ వైన్.",
+        "hi": "मलाईदार झींगा सॉस के साथ यह फ्रेंच वाइन बहुत स्वादिष्ट लगती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Tous les ingrédients et le bol du robot doivent être glacés pour que la panade et le poisson s'émulsionnent sans trancher.",
+      "en": "Keep all ingredients ice-cold when grinding the fish paste so the protein emulsion does not break.",
+      "te": "చేప మిశ్రమం చేసేటప్పుడు అన్నీ చల్లగా ఉండేలా చూసుకోండి, లేకపోతే ముద్ద విడిపోతుంది.",
+      "hi": "मछली का पेस्ट बनाते समय सभी सामग्री बहुत ठंडी होनी चाहिए।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Chair de brochet fraîchement levée",
+          "en": "Fresh pike fish fillet (Brochet), chilled & puréed",
+          "te": "తాజా పైక్ చేప ఫిల్లెట్",
+          "hi": "ताजी मछली का पेस्ट"
+        },
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Panade à la farine et au beurre",
+          "en": "Traditional panade (flour, butter, milk paste)",
+          "te": "పనాడే పిండి ముద్ద",
+          "hi": "मैदा और मक्खन का पेस्ट"
+        },
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Œufs entiers et blancs",
+          "en": "Fresh eggs and whites",
+          "te": "కోడిగుడ్లు",
+          "hi": "ताजे अंडे"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Crème fleurette bien froide",
+          "en": "Chilled heavy cream",
+          "te": "ఫ్రెష్ క్రీమ్",
+          "hi": "ताजी मलाई"
+        },
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Écrevisses entières fraîches",
+          "en": "Freshwater crayfish tails and shells for sauce",
+          "te": "క్రేఫిష్ రొయ్యలు",
+          "hi": "ताजा झींगा"
+        },
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Cognac pour flamber",
+          "en": "Cognac for flambéing sauce",
+          "te": "ఫ్రెంచ్ కాన్యాక్",
+          "hi": "कॉग्नैक"
+        },
+        "amount": 30,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Fumet de poisson et crème épaisse",
+          "en": "Fish stock and heavy cream for Nantua sauce",
+          "te": "ఫిష్ స్టాక్ & క్రీమ్",
+          "hi": "मछली का सूप और मलाई"
+        },
+        "amount": 300,
+        "unit": "ml"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Mixer la farce",
+          "en": "Purée Chilled Quenelle Paste",
+          "te": "చేపల ముద్ద చేయండి",
+          "hi": "मछली का पेस्ट बनाएं"
+        },
+        "instruction": {
+          "fr": "Mixez le brochet avec la panade froide, les œufs et la crème jusqu'à texture brillante et lisse.",
+          "en": "Process pike fillets in a food processor with chilled panade, eggs, and cold cream until silky. Season with nutmeg and sea salt.",
+          "te": "చేప ముక్కలు, పనాడే, గుడ్లు మరియు క్రీమ్‌ను మిక్సీలో మెత్తగా రుబ్బండి.",
+          "hi": "मछली, अंडे और मलाई को पीसकर चिकना पेस्ट बना लें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Former et pocher les quenelles",
+          "en": "Shape and Poach Quenelles",
+          "te": "డంప్లింగ్స్ ఉడికించండి",
+          "hi": "गोलियां बनाकर उबालें"
+        },
+        "instruction": {
+          "fr": "Façonnez les quenelles à l'aide de deux cuillères et pochez-les 15 min dans une eau salée frémissante.",
+          "en": "Shape into elongated football dumplings with two large soup spoons. Poach in barely simmering salted water for 15 minutes. Drain carefully.",
+          "te": "రెండు చెంచాలతో ఆకారం ఇచ్చి, వేడి నీటిలో 15 నిమిషాలు ఉడికించండి.",
+          "hi": "चम्मच से गोलियां बनाकर हल्के गरम पानी में 15 मिनट पकाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Sauce Nantua et gratin",
+          "en": "Nantua Sauce and Bake",
+          "te": "సాస్ వేసి బేక్ చేయండి",
+          "hi": "सॉस डालकर बेक करें"
+        },
+        "instruction": {
+          "fr": "Flambez les écrevisses au cognac, montez la sauce au beurre et à la crème. Nappez les quenelles et gratinez 20 min à 200°C.",
+          "en": "Sauté crayfish in butter, flambé with Cognac, simmer with cream and stock until thick coral red. Pour over quenelles in a gratin dish and bake at 200°C for 20 minutes until puffed and bubbling.",
+          "te": "క్రేఫిష్ సాస్ తయారు చేసి, డంప్లింగ్స్ పై పోసి 200°C వద్ద 20 నిమిషాలు బేక్ చేయండి.",
+          "hi": "झींगा सॉस बनाकर ऊपर डालें और 200°C पर 20 मिनट बेक करें।"
+        }
+      }
+    ]
+  },
+  "soupe_au_pistou": {
+    "title": {
+      "fr": "Soupe au Pistou Traditionnelle de Provence",
+      "en": "Provençal Summer Bean & Basil Stew",
+      "te": "సూప్ ఓ పిస్టౌ (ప్రోవెన్స్ సమ్మర్ బీన్ & బేసిల్ సూప్)",
+      "hi": "सूप ओ पिस्तो (सब्जियों और तुलसी वाला प्रोवेनसाल सूप)"
+    },
+    "subtitle": {
+      "fr": "Soupe paysanne d'été aux haricots frais, légumes du potager et pommade au basilic et à l'ail.",
+      "en": "Sun-drenched summer vegetable soup with white coco beans, zucchini, tomatoes & fragrant mortar-pounded basil paste.",
+      "te": "తాజా కూరగాయలు, బీన్స్ మరియు చేతితో నూరిన తులసి-వెల్లుల్లి పేస్ట్‌తో చేసిన సాంప్రదాయ ప్రోవెన్స్ సూప్.",
+      "hi": "ताजी हरी सब्जियां, बीन्स और ओखली में कुटी हुई तुलसी-लहसुन की चटनी वाला स्वादिष्ट फ्रेंच सूप।"
+    },
+    "categoryLabel": {
+      "fr": "Terroir Provençal",
+      "en": "Provençal Summer Classic",
+      "te": "ప్రోవెన్స్ సమ్మర్ క్లాసిక్",
+      "hi": "प्रोवेंस क्लासिक डिश"
+    },
+    "description": {
+      "fr": "Le banquet d'été provençal par excellence : un grand bouillon mijoté de cocos blancs, cocos rouges, courgettes et haricots verts, lié au dernier moment par le pistou – une pommade parfumée de basilic frais, ail pilé au mortier et huile d'olive.",
+      "en": "The summer culinary anthem of Provence: a hearty pot of fresh white and red coco beans, green beans, tender zucchini, potatoes, and tomatoes simmered with pasta, crowned tableside with a vibrant 'pistou' paste of fresh wild basil, garlic, and extra virgin olive oil pounded in a marble mortar.",
+      "te": "దక్షిణ ఫ్రాన్స్ వేసవి కాలపు అత్యంత ప్రసిద్ధ ఆరోగ్యకరమైన సూప్.",
+      "hi": "फ्रांस का लोकप्रिय शाकाहारी सूप, जिसमें हरी सब्जियां और तुलसी-लहसुन की सुगंध समाई होती है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Bandol Blanc ou Cassis",
+        "en": "Bandol Blanc or Cassis Blanc",
+        "te": "బాండోల్ వైన్",
+        "hi": "बैंडोल फ्रेंच व्हाइट वाइन"
+      },
+      "notes": {
+        "fr": "La fraîcheur saline d'un blanc provençal répond superbement aux parfums du basilic et de l'ail.",
+        "en": "Crisp dry Provençal white wine with herbal salinity cuts through garlic-rich pistou and creamy white beans.",
+        "te": "వెల్లుల్లి మరియు తులసి సువాసనలకు ఈ వైన్ గొప్ప రుచినిస్తుంది.",
+        "hi": "तुलसी और लहसुन के स्वाद के साथ यह वाइन बहुत ताजगी देती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Ne cuisez jamais le pistou ! Incorporez-le hors du feu dans les assiettes pour que le basilic conserve toute sa fraîcheur végétale.",
+      "en": "Never boil the pistou paste! Stir it into the hot soup right before serving at the table to preserve the volatile basil aromatics.",
+      "te": "పిస్టౌ పేస్ట్‌ను ఎప్పుడూ ఉడికించకండి! వడ్డించే సమయంలో మాత్రమే కలపండి.",
+      "hi": "तुलसी की चटनी को कभी उबालें नहीं, परोसते समय ही सूप में मिलाएं।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Haricots cocos blancs écossés",
+          "en": "Fresh shelled white coco beans",
+          "te": "తెల్ల బీన్స్",
+          "hi": "सफेद बीन्स"
+        },
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Haricots cocos rouges écossés",
+          "en": "Fresh shelled red kidney or cranberry beans",
+          "te": "ఎరుపు బీన్స్",
+          "hi": "लाल बीन्स"
+        },
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Courgettes tendres en dés",
+          "en": "Small tender zucchini, cubed",
+          "te": "జుకిని ముక్కలు",
+          "hi": "तोरी (जुकिनी)"
+        },
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Pommes de terre en cubes",
+          "en": "Potatoes, peeled and cubed",
+          "te": "బంగాళాదుంపలు",
+          "hi": "आलू"
+        },
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Haricots verts éboutés",
+          "en": "Fresh green beans (haricots verts), cut in 2cm pieces",
+          "te": "బీన్స్",
+          "hi": "हरी बीन्स"
+        },
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Coquillettes ou pâtes courtes",
+          "en": "Small pasta (coquillettes)",
+          "te": "చిన్న పాస్తా",
+          "hi": "छोटा पास्ता"
+        },
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Bottes de basilic frais à grandes feuilles",
+          "en": "Large bunch fresh basil leaves",
+          "te": "తాజా తులసి ఆకులు",
+          "hi": "ताजा तुलसी"
+        },
+        "amount": 2,
+        "unit": "bunch"
+      },
+      {
+        "name": {
+          "fr": "Gousses d'ail nouveau",
+          "en": "Garlic cloves, crushed",
+          "te": "వెల్లుల్లి రెబ్బలు",
+          "hi": "लहसुन"
+        },
+        "amount": 5,
+        "unit": "cloves"
+      },
+      {
+        "name": {
+          "fr": "Huile d'olive de Provence AOP",
+          "en": "Provencal extra virgin olive oil",
+          "te": "ఆలివ్ ఆయిల్",
+          "hi": "ऑलिव ऑयल"
+        },
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Parmesan ou fromage de chèvre sec râpé",
+          "en": "Finely grated aged Parmesan or Gruyère",
+          "te": "తురిమిన చీజ్",
+          "hi": "पनीर (चीज़)"
+        },
+        "amount": 60,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Cuire les légumes",
+          "en": "Simmer Bean and Veggie Broth",
+          "te": "కూరగాయలను ఉడికించండి",
+          "hi": "सब्जियां उबालें"
+        },
+        "instruction": {
+          "fr": "Faites mijoter les cocos 25 min, puis ajoutez pommes de terre, courgettes, haricots verts et tomates pendant 15 min.",
+          "en": "Simmer coco beans in water for 25 minutes. Add cubed potatoes, zucchini, green beans, and tomatoes. Cook 15 minutes.",
+          "te": "బీన్స్, బంగాళాదుంపలు, జుకిని మరియు టమోటాలను 25 నిమిషాలు ఉడికించండి.",
+          "hi": "बीन्स, आलू और जुकिनी को 25 मिनट तक धीमी आंच पर पकाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Ajouter les pâtes",
+          "en": "Cook Small Pasta",
+          "te": "పాస్తా వేయండి",
+          "hi": "पास्ता डालें"
+        },
+        "instruction": {
+          "fr": "Versez les coquillettes directement dans la soupe frémissante et cuisez 8 min al dente.",
+          "en": "Add coquillette pasta directly to the bubbling soup. Cook 8-10 minutes until pasta is al dente.",
+          "te": "పాస్తా వేసి 8 నిమిషాలు ఉడికించండి.",
+          "hi": "पास्ता डालकर 8 मिनट तक पकाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Piler le pistou",
+          "en": "Pound Pistou and Swirl",
+          "te": "పిస్టౌ పేస్ట్ కలపండి",
+          "hi": "तुलसी की चटनी मिलाएं"
+        },
+        "instruction": {
+          "fr": "Pilez l'ail avec du sel dans un mortier, ajoutez le basilic, l'huile d'olive et le fromage. Liez la soupe au moment de servir.",
+          "en": "In a mortar, crush garlic with sea salt, then pound basil leaves into a paste. Stream in olive oil and cheese. Swirl into steaming soup bowls right at the table.",
+          "te": "రోట్లో వెల్లుల్లి, తులసి, ఆలివ్ ఆయిల్ నూరి సూప్‌లో కలిపి వడ్డించండి.",
+          "hi": "ओखली में लहसुन, तुलसी और ऑलिव ऑयल पीसकर सूप में मिलाकर परोसें।"
+        }
+      }
+    ]
+  },
+  "poulet_vinaigre_lyon": {
+    "title": {
+      "fr": "Poulet Sauté au Vinaigre de Vin de Lyon",
+      "en": "Lyonnaise Braised Chicken in Wine Vinegar Glaze",
+      "te": "పౌలెట్ ఓ వినెగ్రై (లియోన్ చికెన్ ఇన్ రెడ్ వైన్ వెనిగర్ సాస్)",
+      "hi": "पोले ओ विनेगर (रेड वाइन सिरका और क्रीम वाला चिकन)"
+    },
+    "subtitle": {
+      "fr": "Morceaux de volaille dorés au beurre, déglaçés au vieux vinaigre de vin, mijotés aux échalotes et crème fraîche.",
+      "en": "Pan-roasted chicken thighs braised with caramelized shallots, aged red wine vinegar, tomatoes & crème fraîche.",
+      "te": "వేయించిన చికెన్ ముక్కలను వెనిగర్, టమోటాలు మరియు తాజా ఫ్రెంచ్ క్రీమ్‌తో ఉడికించిన ప్రసిద్ధ లియోన్ వంటకం.",
+      "hi": "फ्रांस के ल्योन शहर का प्रसिद्ध चिकन, जिसे वाइन के सिरके, टमाटर और मलाई की गाढ़ी ग्रेवी में पकाया जाता है।"
+    },
+    "categoryLabel": {
+      "fr": "Cuisine des Mères Lyonnaises",
+      "en": "Bistrot Lyonnais Classic",
+      "te": "లియోన్ బిస్ట్రో స్పెషల్",
+      "hi": "ल्योन बिस्ट्रो क्लासिक"
+    },
+    "description": {
+      "fr": "Le chef-d'œuvre de la cuisine de bistrot lyonnaise : un poulet fermier doré au beurre, déglacé vivement au vinaigre de vin rouge qui caramélise avec les échalotes, puis lié à la crème fraîche épaisse et à l'estragon.",
+      "en": "The bistro legend of Lyon's famous 'Mères': tender bone-in chicken thighs seared in butter, deglazed with a generous splash of pungent aged red wine vinegar, then simmered with sweet shallots, tomatoes, garlic, and finished with a swirl of rich crème fraîche into a velvety sweet-and-sour glaze.",
+      "te": "లియోన్ నగరపు ప్రసిద్ధ బిస్ట్రో చికెన్ వంటకం. వెనిగర్ మరియు క్రీమ్ సాస్ అద్భుతమైన రుచిని ఇస్తుంది.",
+      "hi": "ल्योन के पारंपरिक होटलों का सबसे मशहूर चिकन व्यंजन, जिसमें सिरके का हल्का खट्टापन और मलाई की मिठास होती है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Morgon ou Fleurie (Cru du Beaujolais)",
+        "en": "Beaujolais-Villages or Morgon",
+        "te": "మోర్గాన్ రెడ్ వైన్",
+        "hi": "मोर्गोन फ्रेंच वाइन"
+      },
+      "notes": {
+        "fr": "Le fruit croquant et l'acidité gourmande du cépage Gamay répondent au peps du vinaigre.",
+        "en": "The crunchy red currant fruit and gentle acidity of Cru Beaujolais echo the tangy vinegar pan sauce.",
+        "te": "వెనిగర్ సాస్ రుచికి బీజోలైస్ రెడ్ వైన్ సరైన ఎంపిక.",
+        "hi": "हल्की खटास वाली ग्रेवी के साथ यह फ्रेंच रेड वाइन बहुत स्वादिष्ट लगती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Faites réduire le vinaigre jusqu'à consistance sirupeuse avant d'ajouter le bouillon pour adoucir son acidité.",
+      "en": "Let the red wine vinegar boil down until completely syrupy before adding tomatoes and stock; this concentrates acidity into rounded sweetness.",
+      "te": "వెనిగర్ సిరప్ లాగా చిక్కబడే వరకు మరిగించండి, అప్పుడే వెనిగర్ ఘాటు తగ్గి తీపి వస్తుంది.",
+      "hi": "सिरके को तब तक पकाएं जब तक वह गाढ़ा न हो जाए, इससे खटास कम होकर मिठास आएगी।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Morceaux de poulet fermier avec os",
+          "en": "Free-range bone-in chicken thighs and drumsticks",
+          "te": "చికెన్ ముక్కలు",
+          "hi": "चिकन के टुकड़े"
+        },
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": {
+          "fr": "Vinaigre de vin rouge vieux",
+          "en": "Aged red wine vinegar",
+          "te": "రెడ్ వైన్ వెనిగర్",
+          "hi": "रेड वाइन सिरका"
+        },
+        "amount": 120,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Échalotes grises émincées",
+          "en": "French grey shallots, quartered",
+          "te": "ఉల్లిపాయలు",
+          "hi": "छोटे प्याज"
+        },
+        "amount": 6,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Gousses d'ail écrasées",
+          "en": "Garlic cloves, crushed",
+          "te": "వెల్లుల్లి రెబ్బలు",
+          "hi": "लहसुन"
+        },
+        "amount": 6,
+        "unit": "cloves"
+      },
+      {
+        "name": {
+          "fr": "Tomates mondées et concassées",
+          "en": "Ripe tomatoes, peeled and chopped",
+          "te": "టమోటాలు",
+          "hi": "टमाटर"
+        },
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Bouillon de volaille corsé",
+          "en": "Rich chicken bone broth",
+          "te": "చికెన్ బ్రోత్",
+          "hi": "चिकन सूप"
+        },
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Crème fraîche épaisse de Bresse AOP",
+          "en": "French crème fraîche",
+          "te": "ఫ్రెష్ క్రీమ్",
+          "hi": "ताजी मलाई"
+        },
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Beurre et estragon frais",
+          "en": "Unsalted butter and fresh tarragon",
+          "te": "వెన్న & టార్రాగాన్",
+          "hi": "मक्खन और जड़ी-बूटी"
+        },
+        "amount": 30,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Dorer la volaille",
+          "en": "Brown Chicken Pieces",
+          "te": "చికెన్ వేయించండి",
+          "hi": "चिकन भूनें"
+        },
+        "instruction": {
+          "fr": "Faites colorer les morceaux de poulet au beurre moussant 10 min de chaque côté. Réservez.",
+          "en": "Season chicken with salt and pepper. Brown deeply in foaming butter in a Dutch oven for 10 minutes. Set aside.",
+          "te": "పాన్‌లో వెన్న వేసి చికెన్‌ను 10 నిమిషాలు ఎర్రగా వేయించండి.",
+          "hi": "मक्खन में चिकन को दोनों तरफ से 10 मिनट तक सुनहरा भूनें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Déglacer au vinaigre",
+          "en": "Deglaze with Red Wine Vinegar",
+          "te": "వెనిగర్ వేసి మరిగించండి",
+          "hi": "सिरका डालकर पकाएं"
+        },
+        "instruction": {
+          "fr": "Faites suer les échalotes, versez le vinaigre de vin rouge et réduisez de moitié en grattant les sucs.",
+          "en": "Sauté shallots and garlic in pan drippings. Pour in red wine vinegar, scraping up brown bits, and reduce by half until syrupy.",
+          "te": "ఉల్లిపాయలు వేయించి, వెనిగర్ పోసి సగం అయ్యే వరకు మరిగించండి.",
+          "hi": "प्याज भूनकर सिरका डालें और आधा रहने तक उबालें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Mijoter et crémer",
+          "en": "Simmer with Cream and Tarragon",
+          "te": "క్రీమ్ వేసి ఉడికించండి",
+          "hi": "मलाई डालकर पकाएं"
+        },
+        "instruction": {
+          "fr": "Ajoutez tomates, bouillon et poulet. Mijotez 25 min à couvert, puis liez à la crème et à l'estragon.",
+          "en": "Stir in tomatoes and chicken stock. Return chicken, cover, and braise 25 minutes. Swirl in crème fraîche and fresh chopped tarragon before serving.",
+          "te": "టమోటాలు, బ్రోత్ మరియు చికెన్ వేసి 25 నిమిషాలు ఉడికించి, చివరగా క్రీమ్ కలపండి.",
+          "hi": "टमाटर, सूप और चिकन डालकर 25 मिनट पकाएं और अंत में मलाई मिलाएं।"
+        }
+      }
+    ]
+  },
+  "poulet_basquaise": {
+    "title": {
+      "fr": "Poulet Basquaise à la Piperade et Jambon de Bayonne",
+      "en": "Basque Braised Chicken with Sweet Peppers & Ham",
+      "te": "పౌలెట్ బాస్క్వైజ్ (బాస్క్ చికెన్ విత్ పెప్పర్స్ & హామ్)",
+      "hi": "पोले बास्क (शिमला मिर्च, टमाटर और चिकन की बास्क डिश)"
+    },
+    "subtitle": {
+      "fr": "Morceaux de poulet fermier mijotés dans une piperade parfumée au piment d'Espelette et jambon de Bayonne.",
+      "en": "Golden chicken simmered in Basque piperade sauce of sweet peppers, tomatoes, garlic & Espelette pepper.",
+      "te": "తీపి మిరపకాయలు, టమోటాలు మరియు బాస్క్ మసాలా సాస్‌లో ఉడికించిన చికెన్.",
+      "hi": "लाल-हरी शिमला मिर्च, रसीले टमाटर और बास्क मसालों की ग्रेवी में धीमी आंच पर पका हुआ चिकन।"
+    },
+    "categoryLabel": {
+      "fr": "Gastronomie du Pays Basque",
+      "en": "Classique du Sud-Ouest",
+      "te": "బాస్క్ ట్రెడిషనల్ డిన్నర్",
+      "hi": "दक्षिण-पश्चिम फ्रांस का भोजन"
+    },
+    "description": {
+      "fr": "L'étendard de la gastronomie basque : un poulet fermier doré à l'huile d'olive, fondant sous une compotée de poivrons doux rouges et verts, tomates mûres, ail, vin blanc sec et lanières de jambon de Bayonne, relevé d'une pointe de piment d'Espelette.",
+      "en": "The radiant gastronomic symbol of the Pyrenees-Atlantiques: bone-in farm chicken pieces seared in olive oil, braised slowly in a vibrant stew of sweet red and green bell peppers, ripe plum tomatoes, dry white wine, strips of cured Bayonne ham, and smoky Piment d'Espelette.",
+      "te": "బాస్క్ ప్రాంతపు అత్యంత ప్రసిద్ధ చికెన్ వంటకం. బెల్ పెప్పర్స్ మరియు టమోటాల సాస్‌లో ఉడికిస్తారు.",
+      "hi": "फ्रांस के बास्क क्षेत्र का राष्ट्रीय व्यंजन, जिसमें चिकन को शिमला मिर्च, टमाटर और बेयोन हैम के साथ पकाया जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Irouléguy Rouge AOP",
+        "en": "Irouléguy Rouge or Madiran",
+        "te": "ఇరౌలెగై రెడ్ వైన్",
+        "hi": "इरोलेगी रेड वाइन"
+      },
+      "notes": {
+        "fr": "Un vin rouge basque structuré aux notes de poivron mûr et d'épices qui fait écho au piment d'Espelette.",
+        "en": "The bold tannins, dark plum fruit, and peppery finish of Southwest French reds stand up to the robust Basque piperade.",
+        "te": "స్పైసీ చికెన్ రుచికి సరిపోయే ఫ్రూటీ రెడ్ వైన్.",
+        "hi": "मसालेदार चिकन ग्रेवी के साथ यह रेड वाइन एकदम सही जोड़ी बनाती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Pelez les poivrons à l'économe avant de les émincer pour une piperade infiniment plus digeste et fondante.",
+      "en": "Peel the peppers with a vegetable peeler before slicing; it ensures they melt into a silky, luscious sauce.",
+      "te": "మిరపకాయల పై తొక్క తీసి ముక్కలు కోయండి, సాస్ పట్టులా మృదువుగా వస్తుంది.",
+      "hi": "शिमला मिर्च का छिलका उतारकर काटें, जिससे ग्रेवी मखमली बनेगी।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Poulet fermier découpé en morceaux",
+          "en": "Farm-raised chicken cut into pieces",
+          "te": "చికెన్ ముక్కలు",
+          "hi": "चिकन के टुकड़े"
+        },
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": {
+          "fr": "Poivrons rouges doux émincés",
+          "en": "Sweet red bell peppers, sliced into strips",
+          "te": "ఎరుపు బెల్ పెప్పర్స్",
+          "hi": "लाल शिमला मिर्च"
+        },
+        "amount": 3,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Poivrons verts doux émincés",
+          "en": "Sweet green bell peppers, sliced into strips",
+          "te": "ఆకుపచ్చ బెల్ పెప్పర్స్",
+          "hi": "हरी शिमला मिर्च"
+        },
+        "amount": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Tomates mûres mondées",
+          "en": "Ripe vine tomatoes, peeled and chopped",
+          "te": "టమోటాలు",
+          "hi": "टमाटर"
+        },
+        "amount": 4,
+        "unit": "pcs"
+      },
+      {
+        "name": {
+          "fr": "Jambon de Bayonne en lanières",
+          "en": "Bayonne ham or Prosciutto, cut into thick strips",
+          "te": "బేయోన్ హామ్",
+          "hi": "बेयोन हैम"
+        },
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Gousses d'ail émincées",
+          "en": "Garlic cloves, sliced",
+          "te": "వెల్లుల్లి రెబ్బలు",
+          "hi": "लहसुन"
+        },
+        "amount": 4,
+        "unit": "cloves"
+      },
+      {
+        "name": {
+          "fr": "Vin blanc sec du Sud-Ouest",
+          "en": "Dry white wine",
+          "te": "డ్రై వైట్ వైన్",
+          "hi": "सफेद वाइन"
+        },
+        "amount": 150,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Piment d'Espelette AOP",
+          "en": "Piment d'Espelette AOP powder",
+          "te": "బాస్క్ చిల్లీ పౌడర్",
+          "hi": "बास्क मिर्च पाउडर"
+        },
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": {
+          "fr": "Huile d'olive vierge extra",
+          "en": "Extra virgin olive oil",
+          "te": "ఆలివ్ ఆయిల్",
+          "hi": "ऑलिव ऑयल"
+        },
+        "amount": 3,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Dorer poulet et jambon",
+          "en": "Sear Chicken and Bayonne Ham",
+          "te": "చికెన్ వేయించండి",
+          "hi": "चिकन भूनें"
+        },
+        "instruction": {
+          "fr": "Faites dorer les morceaux de poulet et le jambon à l'huile d'olive dans une cocotte en fonte 10 min.",
+          "en": "Heat olive oil in a heavy Dutch oven. Sear chicken pieces and ham strips until golden brown on all sides (8-10 min). Set aside.",
+          "te": "ఆలివ్ ఆయిల్‌లో చికెన్ మరియు హామ్‌ను 10 నిమిషాలు వేయించండి.",
+          "hi": "पैन में चिकन और हैम को 10 मिनट सुनहरा होने तक भूनें।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Mijoter la piperade",
+          "en": "Stew Piperade Veggies",
+          "te": "సాస్ ఉడికించండి",
+          "hi": "ग्रेवी तैयार करें"
+        },
+        "instruction": {
+          "fr": "Faites compoter les poivrons, oignons et ail 10 min, mouillez au vin blanc et ajoutez les tomates et le piment.",
+          "en": "In the same pan, sauté peppers, onions, and garlic for 10 minutes. Add tomatoes, white wine, thyme, and Piment d'Espelette.",
+          "te": "మిరపకాయలు, ఉల్లిపాయలు, వైన్ మరియు టమోటాలు వేసి సాస్ ఉడికించండి.",
+          "hi": "शिमला मिर्च, प्याज, वाइन और टमाटर डालकर गाढ़ी ग्रेवी बनाएं।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Braiser l'ensemble",
+          "en": "Braise Together until Tender",
+          "te": "చికెన్ వేసి ఉడికించండి",
+          "hi": "चिकन डालकर पकाएं"
+        },
+        "instruction": {
+          "fr": "Remettez le poulet dans la piperade, couvrez et laissez mijoter 30 min à feu doux jusqu'à viande très tendre.",
+          "en": "Nestle chicken pieces into the piperade sauce. Cover and simmer gently over low heat for 30 minutes until meat is tender and juicy.",
+          "te": "సాస్‌లో చికెన్ వేసి మూతపెట్టి 30 నిమిషాలు నెమ్మదిగా ఉడికించండి.",
+          "hi": "चिकन को ग्रेवी में डालकर ढक दें और 30 मिनट तक धीमी आंच पर पकाएं।"
+        }
+      }
+    ]
+  },
+  "gratin_dauphinois": {
+    "title": {
+      "fr": "Gratin Dauphinois Traditionnel au Lait et Crème",
+      "en": "Classic French Cream & Garlic Potato Gratin",
+      "te": "గ్రాటిన్ డౌఫినోయిస్ (ఫ్రెంచ్ క్రీమీ పొటాటో బేక్)",
+      "hi": "ग्रैटिन डौफिनोइस (आलू, मलाई और लहसुन से बना फ्रेंच बेक)"
+    },
+    "subtitle": {
+      "fr": "Fines lamelles de pommes de terre fondantes cuites longuement dans la crème fleurette et l'ail frotté.",
+      "en": "Thinly sliced waxy potatoes slow-baked in heavy cream, garlic & milk until meltingly tender with a golden crust.",
+      "te": "సన్నగా తరిగిన బంగాళాదుంపలను వెల్లుల్లి మరియు ఫ్రెష్ క్రీమ్‌లో నెమ్మదిగా కాల్చి చేసిన ఫ్రెంచ్ క్లాసిక్.",
+      "hi": "पतले कटे आलू, लहसुन और ताजी मलाई से धीमी आंच पर बेक किया गया फ्रांस का शाही व्यंजन।"
+    },
+    "categoryLabel": {
+      "fr": "Spécialité du Dauphiné",
+      "en": "Rhône-Alpes Specialty",
+      "te": "రోన్-ఆల్ప్స్ క్లాసిక్",
+      "hi": "रोन-आल्प्स की खासियत"
+    },
+    "description": {
+      "fr": "L'institution des montagnes du Dauphiné : pas de fromage dans l'authentique recette, mais des pommes de terre coupées fin qui confisent lentement dans un bain de lait entier et de crème fraîche à la muscade dans un plat frotté à l'ail.",
+      "en": "The historical alpine masterpiece of Dauphiné: thinly sliced yellow potatoes layered in a garlic-rubbed gratin dish, bathed in seasoned whole milk and heavy cream with nutmeg, slow-baked for 75 minutes without cheese until the natural potato starches form a melting center beneath a golden bubbly crust.",
+      "te": "ఫ్రెంచ్ పర్వత ప్రాంతపు సాంప్రదాయ బంగాళాదుంప వంటకం. జున్ను లేకుండా కేవలం వెన్న మరియు పాలతో కాల్చుతారు.",
+      "hi": "फ्रांस का ऐतिहासिक आलू व्यंजन जिसे बिना पनीर के केवल ताजे दूध, मलाई और जायफल में धीमी आंच पर बेक किया जाता है।"
+    },
+    "winePairing": {
+      "wine": {
+        "fr": "Crozes-Hermitage Rouge",
+        "en": "Crozes-Hermitage Rouge or Saint-Joseph",
+        "te": "క్రోజెస్-హెర్మిటేజ్ రెడ్ వైన్",
+        "hi": "फ्रेंच रेड वाइन"
+      },
+      "notes": {
+        "fr": "La texture crémeuse et le parfum de muscade s'accordent merveilleusement aux notes poivrées d'une Syrah.",
+        "en": "The silky Syrah black pepper and violet aromatics match the garlic cream and earthy roasted potato starches.",
+        "te": "క్రీమీ పొటాటో రుచికి పెప్పర్ నోట్స్ ఉన్న రెడ్ వైన్ చాలా బాగుంటుంది.",
+        "hi": "मलाईदार आलू के साथ यह फ्रेंच रेड वाइन बहुत स्वादिष्ट लगती है।"
+      }
+    },
+    "chefTip": {
+      "fr": "Ne lavez jamais les pommes de terre après les avoir coupées : l'amidon naturel est indispensable pour lier la crème et former cette texture veloutée.",
+      "en": "Never rinse the sliced potatoes in water! The natural surface starch is essential to thicken the milk and cream into a velvety liaison.",
+      "te": "తరిగిన తర్వాత బంగాళాదుంపలను కడగవద్దు! వాటిలోని స్టార్చ్ క్రీమ్‌ను చిక్కబరుస్తుంది.",
+      "hi": "काटने के बाद आलू को धोएं नहीं, आलू का स्टार्च ही मलाई को गाढ़ा बनाता है।"
+    },
+    "ingredients": [
+      {
+        "name": {
+          "fr": "Pommes de terre à chair ferme (Charlotte ou Belle de Fontenay)",
+          "en": "Yellow waxy potatoes (Charlotte or Yukon Gold), peeled",
+          "te": "బంగాళాదుంపలు",
+          "hi": "आलू"
+        },
+        "amount": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": {
+          "fr": "Crème fleurette entière 35%",
+          "en": "Heavy whipping cream 35%",
+          "te": "హెవీ క్రీమ్",
+          "hi": "ताजी मलाई"
+        },
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Lait entier de ferme",
+          "en": "Whole farm milk",
+          "te": "పాలు",
+          "hi": "दूध"
+        },
+        "amount": 400,
+        "unit": "ml"
+      },
+      {
+        "name": {
+          "fr": "Gousses d'ail pour frotter le plat",
+          "en": "Garlic cloves, halved for rubbing dish",
+          "te": "వెల్లుల్లి రెబ్బలు",
+          "hi": "लहसुन"
+        },
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": {
+          "fr": "Beurre doux pour le plat",
+          "en": "Unsalted French butter for dish",
+          "te": "వెన్న",
+          "hi": "मक्खन"
+        },
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": {
+          "fr": "Noix de muscade, sel et poivre",
+          "en": "Freshly grated nutmeg, salt and black pepper",
+          "te": "జాజికాయ, ఉప్పు, మిరియాలు",
+          "hi": "जायफल, नमक और काली मिर्च"
+        },
+        "amount": 1,
+        "unit": "pinch"
+      }
+    ],
+    "steps": [
+      {
+        "step": 1,
+        "title": {
+          "fr": "Tailler les pommes de terre",
+          "en": "Slice Potatoes Paper-Thin",
+          "te": "బంగాళాదుంపలు కోయండి",
+          "hi": "आलू के पतले टुकड़े काटें"
+        },
+        "instruction": {
+          "fr": "Épluchez et taillez les pommes de terre à 3mm à la mandoline sans les rincer. Frottez le plat à l'ail et beurrez-le.",
+          "en": "Peel potatoes and slice 3mm thin on a mandoline. Do NOT rinse. Rub a gratin dish thoroughly with cut garlic cloves, then butter generously.",
+          "te": "బంగాళాదుంపలను సన్నగా కోయండి. డిష్‌కు వెల్లుల్లి, వెన్న రాయండి.",
+          "hi": "आलू को बहुत पतला काटें और धोएं नहीं। बर्तन में लहसुन और मक्खन लगाएं।"
+        }
+      },
+      {
+        "step": 2,
+        "title": {
+          "fr": "Chauffer crème et lait",
+          "en": "Infuse Cream and Layer",
+          "te": "క్రీమ్ మరిగించి పోయండి",
+          "hi": "मलाई गर्म करके डालें"
+        },
+        "instruction": {
+          "fr": "Chauffez lait, crème, sel, poivre et muscade. Rangez les pommes de terre en couches serrées et recouvrez du liquide chaud.",
+          "en": "Simmer milk, cream, crushed garlic, nutmeg, salt, and pepper. Layer sliced potatoes tightly in gratin dish and pour warm cream over.",
+          "te": "పాలు, క్రీమ్ మరిగించి బంగాళాదుంపలపై పోయండి.",
+          "hi": "दूध और मलाई को गर्म करके आलू के ऊपर डालें।"
+        }
+      },
+      {
+        "step": 3,
+        "title": {
+          "fr": "Cuisson lente au four",
+          "en": "Slow Bake to Golden Crust",
+          "te": "ఓవెన్‌లో బేక్ చేయండి",
+          "hi": "ओवन में धीमी आंच पर बेक करें"
+        },
+        "instruction": {
+          "fr": "Enfournez 1h15 à 160°C sans fromage jusqu'à ce que la pointe d'un couteau s'enfonce comme dans du beurre.",
+          "en": "Bake at 160°C (325°F) for 1 hour 15 minutes until potatoes are meltingly tender when pierced with a knife and top is deeply golden.",
+          "te": "160°C వద్ద 1 గంట 15 నిమిషాలు మెత్తగా అయ్యే వరకు బేక్ చేయండి.",
+          "hi": "160°C पर 1 घंटा 15 मिनट तक धीमी आंच पर बेक करें।"
+        }
+      }
+    ]
   }
 };
 
