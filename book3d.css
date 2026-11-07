@@ -1,0 +1,344 @@
+/* ==========================================================================
+   La Table Française - 3D Interactive Opening Book Experience
+   Luxury French Culinary Theme with Realistic WebGL / Three.js Shading
+   ========================================================================== */
+
+#book-3d-stage {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  background: #080d1a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.85s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.85s ease;
+}
+
+#book-3d-stage.book-3d-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Background video ambience */
+.book-3d-video-backdrop {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#book-3d-bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  opacity: 0.35;
+  filter: brightness(0.65) saturate(1.3) blur(2px);
+}
+
+/* Atmospheric lighting and vignette */
+.book-3d-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: radial-gradient(circle at 50% 45%, rgba(15, 23, 42, 0.3) 0%, rgba(6, 11, 22, 0.85) 65%, #050811 100%);
+  pointer-events: none;
+}
+
+/* Top bar with branding and skip button */
+.book-3d-topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, rgba(6, 11, 22, 0.85) 0%, rgba(6, 11, 22, 0) 100%);
+}
+
+.book-3d-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.book-3d-brand-hat {
+  width: 32px;
+  height: 32px;
+  color: #d4af37;
+  filter: drop-shadow(0 2px 6px rgba(212, 175, 55, 0.4));
+}
+
+.book-3d-brand-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-3d-brand-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #f8f5f0;
+}
+
+.book-3d-brand-sub {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #d4af37;
+}
+
+.book-3d-skip-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  color: #e5e7eb;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.book-3d-skip-btn:hover {
+  background: rgba(212, 175, 55, 0.2);
+  border-color: #d4af37;
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.3);
+}
+
+/* Three.js canvas container */
+#book-3d-canvas-wrap {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  cursor: grab;
+}
+
+#book-3d-canvas-wrap:active {
+  cursor: grabbing;
+}
+
+#book-3d-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Bottom Control HUD */
+.book-3d-hud {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  pointer-events: auto;
+  text-align: center;
+  width: 90%;
+  max-width: 580px;
+}
+
+.book-3d-hint {
+  font-family: 'Caveat', cursive;
+  font-size: 1.25rem;
+  color: #ffd875;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.5px;
+  opacity: 0.95;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.book-3d-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Primary Opening Button */
+.book-3d-primary-btn {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #0b1220;
+  background: linear-gradient(135deg, #f7df8b 0%, #d4af37 50%, #b8860b 100%);
+  border: 1px solid rgba(255, 240, 180, 0.8);
+  border-radius: 9999px;
+  padding: 15px 36px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.45), 0 2px 8px rgba(0, 0, 0, 0.5);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.book-3d-primary-btn::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, transparent 60%);
+  opacity: 0;
+  transform: scale(0.5);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.book-3d-primary-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 12px 38px rgba(212, 175, 55, 0.6), 0 4px 12px rgba(0, 0, 0, 0.6);
+  background: linear-gradient(135deg, #ffea9f 0%, #e0bd49 50%, #c49419 100%);
+}
+
+.book-3d-primary-btn:hover::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.book-3d-primary-btn:active {
+  transform: translateY(1px) scale(0.98);
+}
+
+/* Secondary Button (Close Book / Back to Cover) */
+.book-3d-secondary-btn {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  border-radius: 9999px;
+  padding: 12px 24px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+.book-3d-secondary-btn:hover {
+  background: rgba(212, 175, 55, 0.18);
+  border-color: #d4af37;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Success transition overlay */
+.book-3d-burst {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  background: radial-gradient(circle, rgba(255, 240, 200, 0.95) 0%, rgba(212, 175, 55, 0.8) 40%, rgba(6, 11, 22, 0.95) 100%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+
+.book-3d-burst.active {
+  opacity: 1;
+}
+
+/* ==========================================================================
+   Navigation Bar Button on the Real Website
+   ========================================================================== */
+.btn-3d-book-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  color: #b58928;
+  padding: 7px 14px;
+  border-radius: 9999px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 0.84rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+body.dark-theme .btn-3d-book-nav {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.25) 0%, rgba(212, 175, 55, 0.1) 100%);
+  border-color: rgba(212, 175, 55, 0.6);
+  color: #e6be57;
+}
+
+.btn-3d-book-nav:hover {
+  background: linear-gradient(135deg, #d4af37 0%, #aa7c11 100%);
+  color: #0b1220 !important;
+  border-color: #ffd875;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.35);
+}
+
+.btn-3d-book-nav .btn-book-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .book-3d-topbar {
+    padding: 14px 18px;
+  }
+  .book-3d-brand-title {
+    font-size: 1rem;
+  }
+  .book-3d-brand-sub {
+    font-size: 0.68rem;
+  }
+  .book-3d-primary-btn {
+    padding: 12px 26px;
+    font-size: 0.98rem;
+  }
+  .book-3d-hint {
+    font-size: 1.05rem;
+  }
+}

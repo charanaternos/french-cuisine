@@ -26,9 +26,72 @@
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css?v=13">
+  <link rel="stylesheet" href="book3d.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%200%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>👨‍🍳</text></svg>">
 </head>
 <body class="light-theme">
+
+  <!-- ========================================================================
+       3D Interactive French Recipe Book Opening Experience
+       ======================================================================== -->
+  <div id="book-3d-stage">
+    <!-- Atmospheric video backdrop -->
+    <div class="book-3d-video-backdrop">
+      <video id="book-3d-bg-video" autoplay muted loop playsinline>
+        <source src="assets/intro.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Vignette & atmospheric lighting overlay -->
+    <div class="book-3d-vignette"></div>
+
+    <!-- Top bar -->
+    <div class="book-3d-topbar">
+      <div class="book-3d-brand">
+        <svg class="book-3d-brand-hat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M6 13.87A4 4 0 0 1 7.41 6a5.11 5.11 0 0 1 1.05-1.54 5 5 0 0 1 7.08 0A5.11 5.11 0 0 1 16.59 6 4 4 0 0 1 18 13.87V21H6Z"/>
+          <line x1="6" y1="17" x2="18" y2="17"/>
+        </svg>
+        <div class="book-3d-brand-text">
+          <span class="book-3d-brand-title">La Table Française</span>
+          <span class="book-3d-brand-sub">Le Grand Livre de Cuisine</span>
+        </div>
+      </div>
+      <button class="book-3d-skip-btn" id="btn-skip-3d">
+        <span>Passer directement aux recettes</span>
+        <span>➔</span>
+      </button>
+    </div>
+
+    <!-- Three.js Canvas container -->
+    <div id="book-3d-canvas-wrap">
+      <canvas id="book-3d-canvas"></canvas>
+    </div>
+
+    <!-- HUD Controls -->
+    <div class="book-3d-hud">
+      <div class="book-3d-hint" id="book-3d-hint">
+        ✨ Déplacez pour admirer en 3D • Cliquez pour ouvrir le livre ✨
+      </div>
+      <div class="book-3d-btn-group">
+        <button class="book-3d-primary-btn" id="btn-open-3d-book">
+          <span>📖</span>
+          <span>Ouvrir le Livre de Recettes</span>
+        </button>
+        <button class="book-3d-primary-btn" id="btn-enter-recipe-book" style="display: none;">
+          <span>🍴</span>
+          <span>Entrer dans la Cuisine • Explorer 30+ Recettes ➔</span>
+        </button>
+        <button class="book-3d-secondary-btn" id="btn-close-3d-book" style="display: none;">
+          <span>✕</span>
+          <span>Fermer le livre</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Golden flash transition burst overlay -->
+    <div class="book-3d-burst" id="book-3d-burst"></div>
+  </div>
 
   <!-- ========================================================================
        Top Navigation Bar
@@ -113,6 +176,12 @@
             <span class="toggle-sun">☀️</span>
             <span class="toggle-moon">🌙</span>
           </div>
+        </button>
+
+        <!-- 3D French Recipe Book trigger -->
+        <button class="btn-3d-book-nav" id="reopen-3d-book-btn" title="Ouvrir le Livre 3D">
+          <span class="btn-book-icon">📖</span>
+          <span class="btn-book-text">Livre 3D</span>
         </button>
 
         <!-- Top Language Selector: English, Telugu, Hindi, French -->
@@ -556,5 +625,9 @@
   <script src="recipeTranslations.js?v=13"></script>
   <script src="script.js?v=13"></script>
   <script src="backgroundFoodEngine.js?v=13"></script>
+
+  <!-- 3D Interactive Opening Recipe Book -->
+  <script src="assets/three.min.js"></script>
+  <script src="book3d.js"></script>
 </body>
 </html>
