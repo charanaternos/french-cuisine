@@ -149,7 +149,7 @@
           </div>
         </div>
 
-        <a href="#ingredients-section" class="nav-item" data-i18n="navAbout">About</a>
+        <a href="#about-section" class="nav-item" data-i18n="navAbout">About</a>
       </nav>
 
       <!-- Right Action Controls -->
@@ -392,68 +392,182 @@
   </section>
 
   <!-- ========================================================================
-       Section: French Ingredients - "The Heart of French Cuisine"
+       Section: About Us & Team AC2
        ======================================================================== -->
-  <section class="ingredients-section" id="ingredients-section">
+  <section class="about-team-section" id="about-section">
+    <div id="ingredients-section" style="position: relative; top: -70px; height: 0; width: 0; overflow: hidden;"></div>
     <div class="container">
       
-      <span class="section-subtitle-tag" data-i18n="eyebrowIngredients">— FRENCH INGREDIENTS</span>
-      <h2 class="section-main-heading" data-i18n="titleIngredients">The Heart of French Cuisine</h2>
+      <!-- Section Header -->
+      <div class="about-header-wrap">
+        <span class="section-subtitle-tag" data-i18n="eyebrowAbout">— NOTRE ÉQUIPE • TEAM AC2 —</span>
+        <h2 class="section-main-heading" data-i18n="titleAbout">Crafted with Passion by Team AC2</h2>
+      </div>
 
-      <div class="ingredients-showcase-row">
-        
-        <!-- 5 Circular Ingredients -->
-        <div class="ingredients-circle-list">
-          
-          <div class="ingredient-circle-item">
-            <div class="ingredient-icon-bubble">🧀</div>
-            <h4 class="ing-name" data-i18n="ingCheese">Cheese</h4>
-            <p class="ing-sub" data-i18n="ingCheeseSub">Rich & creamy</p>
+      <!-- Main Story Card -->
+      <div class="about-story-card">
+        <div class="about-story-content">
+          <div class="about-badge-row">
+            <span class="about-pill-badge">🎓 SRM University</span>
+            <span class="about-pill-badge badge-gold">🏛️ Section AC2</span>
+            <span class="about-pill-badge">✨ Web & 3D Gastronomy Project</span>
           </div>
 
-          <div class="ingredient-circle-item">
-            <div class="ingredient-icon-bubble">🧈</div>
-            <h4 class="ing-name" data-i18n="ingButter">Butter</h4>
-            <p class="ing-sub" data-i18n="ingButterSub">Pure perfection</p>
+          <h3 class="about-story-title">L'Art de Vivre & Digital Culinary Craft</h3>
+
+          <p class="about-story-desc">
+            Welcome to <strong>La Table Française</strong>, an immersive celebration of authentic French cuisine and gastronomic heritage, crafted with care by <strong>Team AC2</strong> at SRM University.
+          </p>
+
+          <p class="about-story-subdesc">
+            Bringing together creative web engineering, rich cultural research, and interactive 3D digital experiences, our team designed this platform to let you explore France's timeless cooking culture, step-by-step techniques, and regional specialties with elegance and ease.
+          </p>
+
+          <!-- Action buttons inside About story -->
+          <div class="about-actions-row">
+            <button class="btn btn-insta-trigger" id="about-open-insta-btn" type="button" title="View Team AC2 Instagram Profiles">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+              <span>Meet Team AC2 on Instagram</span>
+            </button>
+
+            <a href="https://www.facebook.com/SRMUniversityOfficial/" target="_blank" rel="noopener noreferrer" class="btn btn-fb-link" title="Visit SRM University Facebook">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+              <span>SRM University Facebook</span>
+            </a>
           </div>
 
-          <div class="ingredient-circle-item">
-            <div class="ingredient-icon-bubble">🥖</div>
-            <h4 class="ing-name" data-i18n="ingBread">Bread</h4>
-            <p class="ing-sub" data-i18n="ingBreadSub">A daily essential</p>
+          <div class="french-tricolor-line" style="margin-top: 24px;">
+            <span class="flag-blue"></span>
+            <span class="flag-white"></span>
+            <span class="flag-red"></span>
           </div>
-
-          <div class="ingredient-circle-item">
-            <div class="ingredient-icon-bubble">🍷</div>
-            <h4 class="ing-name" data-i18n="ingWine">Wine</h4>
-            <p class="ing-sub" data-i18n="ingWineSub">A way of life</p>
-          </div>
-
-          <div class="ingredient-circle-item">
-            <div class="ingredient-icon-bubble">🌿</div>
-            <h4 class="ing-name" data-i18n="ingHerbs">Herbs</h4>
-            <p class="ing-sub" data-i18n="ingHerbsSub">Fresh & aromatic</p>
-          </div>
-
         </div>
+      </div>
 
-        <!-- Right Callout Card with Baguette & French Ribbon -->
-        <div class="ingredients-quote-card">
-          <div class="quote-card-image">
-            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80" alt="Fresh French Baguette" loading="lazy">
-          </div>
-          <div class="quote-card-content">
-            <h3 class="quote-text" data-i18n="quoteSimple">
-              Simple ingredients.<br>Extraordinary flavors.
-            </h3>
-            <div class="french-tricolor-line">
-              <span class="flag-blue"></span>
-              <span class="flag-white"></span>
-              <span class="flag-red"></span>
+      <!-- Team Members Showcase Grid (5 Members from AC2) -->
+      <div class="team-grid-wrap">
+        <h3 class="team-grid-heading">Team AC2 Members</h3>
+        <p class="team-grid-sub">Connect with the creators from AC2 • Click any Instagram profile</p>
+
+        <div class="team-members-grid">
+
+          <!-- 1. Lokesh -->
+          <div class="team-card">
+            <div class="team-avatar-ring">
+              <span class="team-avatar-letter">L</span>
+            </div>
+            <div class="team-info">
+              <div class="team-name-row">
+                <h4 class="team-name">Lokesh</h4>
+                <span class="team-ac2-tag">AC2</span>
+              </div>
+              <p class="team-role">Frontend & Design</p>
+              <a href="https://www.instagram.com/kondeti_lokesh_royal?psln=OHhjcWRvb2JubXFw" target="_blank" rel="noopener noreferrer" class="team-insta-link" title="Follow Lokesh on Instagram">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                <span>@kondeti_lokesh_royal</span>
+              </a>
             </div>
           </div>
-        </div>
 
+          <!-- 2. Jairam -->
+          <div class="team-card">
+            <div class="team-avatar-ring">
+              <span class="team-avatar-letter">J</span>
+            </div>
+            <div class="team-info">
+              <div class="team-name-row">
+                <h4 class="team-name">Jairam</h4>
+                <span class="team-ac2-tag">AC2</span>
+              </div>
+              <p class="team-role">UI & Curation</p>
+              <a href="https://www.instagram.com/jairam_chowdary_7?vrfl=ZWlrZGY2YmZpczhu" target="_blank" rel="noopener noreferrer" class="team-insta-link" title="Follow Jairam on Instagram">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                <span>@jairam_chowdary_7</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 3. Charan -->
+          <div class="team-card featured-lead">
+            <div class="team-avatar-ring">
+              <span class="team-avatar-letter">C</span>
+            </div>
+            <div class="team-info">
+              <div class="team-name-row">
+                <h4 class="team-name">Charan</h4>
+                <span class="team-ac2-tag">AC2</span>
+              </div>
+              <p class="team-role">Architecture & 3D Web</p>
+              <a href="https://www.instagram.com/_._charan.rxn?rpxt=MWN0bWc5dDB1MXNkMw==" target="_blank" rel="noopener noreferrer" class="team-insta-link" title="Follow Charan on Instagram">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                <span>@_._charan.rxn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 4. Kethan -->
+          <div class="team-card">
+            <div class="team-avatar-ring">
+              <span class="team-avatar-letter">K</span>
+            </div>
+            <div class="team-info">
+              <div class="team-name-row">
+                <h4 class="team-name">Kethan</h4>
+                <span class="team-ac2-tag">AC2</span>
+              </div>
+              <p class="team-role">Frontend & Media</p>
+              <a href="https://www.instagram.com/kethan_17t?mdxt=MXZ4eWhuaHg1NG5oZw==" target="_blank" rel="noopener noreferrer" class="team-insta-link" title="Follow Kethan on Instagram">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                <span>@kethan_17t</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- 5. Lemin -->
+          <div class="team-card">
+            <div class="team-avatar-ring">
+              <span class="team-avatar-letter">L</span>
+            </div>
+            <div class="team-info">
+              <div class="team-name-row">
+                <h4 class="team-name">Lemin</h4>
+                <span class="team-ac2-tag">AC2</span>
+              </div>
+              <p class="team-role">Research & Culinary Data</p>
+              <button type="button" class="team-insta-link team-insta-modal-trigger" title="Connect with Lemin">
+                <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                <span>Team AC2 Profile</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
       </div>
 
     </div>
@@ -554,24 +668,18 @@
           <a href="#recipes-section" data-i18n="navRecipes">Recipes</a>
           <a href="#recipes-section" data-i18n="navCategories">Categories</a>
           <a href="#region-section" data-i18n="navRegions">Regions</a>
-          <a href="#ingredients-section" data-i18n="navAbout">About</a>
+          <a href="#about-section" data-i18n="navAbout">About</a>
           <a href="#featured-recipe-spotlight" data-i18n="navContact">Contact</a>
         </nav>
 
-        <!-- Social Icons -->
+        <!-- Social Icons (YouTube & Pinterest removed per user request) -->
         <div class="footer-social-icons">
-          <a href="#" class="social-icon" aria-label="Facebook">
+          <a href="https://www.facebook.com/SRMUniversityOfficial/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="SRM University Facebook" title="SRM University Facebook">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
           </a>
-          <a href="#" class="social-icon" aria-label="Instagram">
+          <button type="button" class="social-icon" id="footer-insta-btn" aria-label="Team AC2 Instagram Profiles" title="Team AC2 Instagram Profiles">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-          </a>
-          <a href="#" class="social-icon" aria-label="YouTube">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="#fff"/></svg>
-          </a>
-          <a href="#" class="social-icon" aria-label="Pinterest">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><circle cx="12" cy="12" r="10"/><path d="M8 12c0-2.2 1.8-4 4-4s4 1.8 4 4c0 2-1.5 3.6-3.4 3.9-.2-.7-.4-1.7-.1-2.5l.6-2.5s-.2-.3-.2-.8c0-.8.5-1.4 1-1.4.5 0 .8.4.8.8 0 .5-.3 1.3-.5 2-.1.6.3 1.1.9 1.1 1.1 0 1.9-1.2 1.9-2.9 0-1.5-1.1-2.6-2.7-2.6-1.9 0-3 1.4-3 2.9 0 .6.2 1.2.5 1.6-.1.3-.2.9-.3 1-.3-.3-.8-.9-.8-2.1z" fill="#fff"/></svg>
-          </a>
+          </button>
         </div>
 
         <!-- Footer Language Selector -->
@@ -612,6 +720,108 @@
       <button class="modal-close-x" id="modal-close-btn" aria-label="Close">✕</button>
       <div id="modal-content-area">
         <!-- Injected dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       Team AC2 Instagram Profiles Modal
+       ======================================================================== -->
+  <div class="modal-overlay" id="team-insta-modal" aria-hidden="true" role="dialog">
+    <div class="modal-box team-insta-modal-box">
+      <button class="modal-close-x" id="team-insta-close-btn" aria-label="Close">✕</button>
+      
+      <div class="team-insta-modal-header">
+        <div class="insta-gradient-badge">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </div>
+        <div>
+          <h3 class="team-modal-title">Team AC2 — Instagram Profiles</h3>
+          <p class="team-modal-sub">SRM University • Select a profile below to open on Instagram</p>
+        </div>
+      </div>
+
+      <div class="team-insta-list">
+        
+        <!-- 1. Lokesh -->
+        <a href="https://www.instagram.com/kondeti_lokesh_royal?psln=OHhjcWRvb2JubXFw" target="_blank" rel="noopener noreferrer" class="insta-profile-card">
+          <div class="insta-profile-avatar">
+            <span>L</span>
+          </div>
+          <div class="insta-profile-meta">
+            <div class="insta-profile-name-row">
+              <span class="insta-profile-name">Lokesh</span>
+              <span class="insta-badge-ac2">AC2</span>
+            </div>
+            <span class="insta-profile-handle">@kondeti_lokesh_royal</span>
+          </div>
+          <div class="insta-open-arrow">➔</div>
+        </a>
+
+        <!-- 2. Jairam -->
+        <a href="https://www.instagram.com/jairam_chowdary_7?vrfl=ZWlrZGY2YmZpczhu" target="_blank" rel="noopener noreferrer" class="insta-profile-card">
+          <div class="insta-profile-avatar">
+            <span>J</span>
+          </div>
+          <div class="insta-profile-meta">
+            <div class="insta-profile-name-row">
+              <span class="insta-profile-name">Jairam</span>
+              <span class="insta-badge-ac2">AC2</span>
+            </div>
+            <span class="insta-profile-handle">@jairam_chowdary_7</span>
+          </div>
+          <div class="insta-open-arrow">➔</div>
+        </a>
+
+        <!-- 3. Charan -->
+        <a href="https://www.instagram.com/_._charan.rxn?rpxt=MWN0bWc5dDB1MXNkMw==" target="_blank" rel="noopener noreferrer" class="insta-profile-card highlight-card">
+          <div class="insta-profile-avatar">
+            <span>C</span>
+          </div>
+          <div class="insta-profile-meta">
+            <div class="insta-profile-name-row">
+              <span class="insta-profile-name">Charan</span>
+              <span class="insta-badge-ac2">AC2</span>
+            </div>
+            <span class="insta-profile-handle">@_._charan.rxn</span>
+          </div>
+          <div class="insta-open-arrow">➔</div>
+        </a>
+
+        <!-- 4. Kethan -->
+        <a href="https://www.instagram.com/kethan_17t?mdxt=MXZ4eWhuaHg1NG5oZw==" target="_blank" rel="noopener noreferrer" class="insta-profile-card">
+          <div class="insta-profile-avatar">
+            <span>K</span>
+          </div>
+          <div class="insta-profile-meta">
+            <div class="insta-profile-name-row">
+              <span class="insta-profile-name">Kethan</span>
+              <span class="insta-badge-ac2">AC2</span>
+            </div>
+            <span class="insta-profile-handle">@kethan_17t</span>
+          </div>
+          <div class="insta-open-arrow">➔</div>
+        </a>
+
+        <!-- 5. Lemin -->
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="insta-profile-card">
+          <div class="insta-profile-avatar">
+            <span>L</span>
+          </div>
+          <div class="insta-profile-meta">
+            <div class="insta-profile-name-row">
+              <span class="insta-profile-name">Lemin</span>
+              <span class="insta-badge-ac2">AC2</span>
+            </div>
+            <span class="insta-profile-handle">@lemin • AC2</span>
+          </div>
+          <div class="insta-open-arrow">➔</div>
+        </a>
+
       </div>
     </div>
   </div>

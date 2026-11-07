@@ -624,9 +624,55 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // Team AC2 Instagram Modal Handlers
+  const teamInstaModal = document.getElementById('team-insta-modal');
+  const teamInstaCloseBtn = document.getElementById('team-insta-close-btn');
+  const aboutOpenInstaBtn = document.getElementById('about-open-insta-btn');
+  const footerInstaBtn = document.getElementById('footer-insta-btn');
+
+  function openTeamInstaModal() {
+    if (!teamInstaModal) return;
+    teamInstaModal.classList.add('open');
+    teamInstaModal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeTeamInstaModal() {
+    if (!teamInstaModal) return;
+    teamInstaModal.classList.remove('open');
+    teamInstaModal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  if (aboutOpenInstaBtn) {
+    aboutOpenInstaBtn.addEventListener('click', openTeamInstaModal);
+  }
+  if (footerInstaBtn) {
+    footerInstaBtn.addEventListener('click', openTeamInstaModal);
+  }
+  if (teamInstaCloseBtn) {
+    teamInstaCloseBtn.addEventListener('click', closeTeamInstaModal);
+  }
+  if (teamInstaModal) {
+    teamInstaModal.addEventListener('click', (e) => {
+      if (e.target === teamInstaModal) closeTeamInstaModal();
+    });
+  }
+  document.querySelectorAll('.team-insta-modal-trigger').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      openTeamInstaModal();
+    });
+  });
+
   document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && recipeModal && recipeModal.classList.contains('open')) {
-      closeRecipeModal();
+    if (e.key === 'Escape') {
+      if (recipeModal && recipeModal.classList.contains('open')) {
+        closeRecipeModal();
+      }
+      if (teamInstaModal && teamInstaModal.classList.contains('open')) {
+        closeTeamInstaModal();
+      }
     }
   });
 
