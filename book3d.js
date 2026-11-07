@@ -181,7 +181,10 @@
     ctx.fillStyle = '#e8c264';
     ctx.fillText('PARIS • DEPUIS 1889', 512, 1240);
 
-    return new THREE.CanvasTexture(c);
+    const tex = new THREE.CanvasTexture(c);
+tex.minFilter = THREE.LinearFilter;
+tex.magFilter = THREE.LinearFilter;
+return tex;
   }
 
   function createInsideLeftTexture() {
@@ -272,7 +275,10 @@
     // French tricolor stamp at bottom
     drawFrenchStamp(ctx, 512, 1140);
 
-    return new THREE.CanvasTexture(c);
+    const tex = new THREE.CanvasTexture(c);
+tex.minFilter = THREE.LinearFilter;
+tex.magFilter = THREE.LinearFilter;
+return tex;
   }
 
   function createInsideRightTexture() {
@@ -372,7 +378,10 @@
     ctx.fillStyle = '#64748b';
     ctx.fillText('Cliquez ci-dessous pour entrer dans le livre de cuisine', 512, 1070);
 
-    return new THREE.CanvasTexture(c);
+    const tex = new THREE.CanvasTexture(c);
+tex.minFilter = THREE.LinearFilter;
+tex.magFilter = THREE.LinearFilter;
+return tex;
   }
 
   function createPageEdgesTexture() {
@@ -394,7 +403,10 @@
       ctx.lineTo(512, y);
       ctx.stroke();
     }
-    return new THREE.CanvasTexture(c);
+    const tex = new THREE.CanvasTexture(c);
+tex.minFilter = THREE.LinearFilter;
+tex.magFilter = THREE.LinearFilter;
+return tex;
   }
 
   // --------------------------------------------------------------------------
@@ -983,3 +995,4 @@
   }
 
 })();
+
