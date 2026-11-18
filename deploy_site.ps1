@@ -13,8 +13,8 @@ git archive -o $backupFile HEAD
 
 # 2. Add and commit all changes
 Write-Host "Staging files..." -ForegroundColor Cyan
-git add index.html style.css script.js translations.js book3d.css book3d.js assets/intro.mp4 assets/three.min.js deploy_site.ps1
-git commit -m "feat: update About section with Team AC2, Instagram profiles modal, Facebook link, and remove extra social buttons"
+git add index.html intro.html style.css script.js translations.js book3d.css book3d.js assets/intro.mp4 assets/three.min.js deploy_site.ps1
+git commit -m "perf: optimize 3D intro to 60fps lag-free rendering, add optical candle halos, pre-compile shaders, and update site navigation"
 
 # 3. Push to GitHub
 Write-Host "Pushing to GitHub (origin main)..." -ForegroundColor Cyan
